@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets (Conforming to AI_NEWS_FACTORY_RULES rule 20)
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+credentials.json
+client_secrets.json
+token.json
+
+# IDE & OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# Large media files and renders (generated video/audio)
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.aac
+*.png
+*.jpg
+*.jpeg
+*.webp
+data/rendered/*
+!data/rendered/.gitkeep
+
+# Temporary / Scratch artifacts
+tmp/
+temp/
+scratch/

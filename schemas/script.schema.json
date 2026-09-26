@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "story_id",
+    "duration_target_seconds",
+    "shots",
+    "spoken_script"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "PASS",
+        "NEEDS_REVIEW",
+        "REJECT"
+      ]
+    },
+    "story_id": {
+      "type": "string"
+    },
+    "duration_target_seconds": {
+      "type": "number"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "spoken_script": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "start",
+          "end",
+          "purpose",
+          "voice",
+          "on_screen_text",
+          "visual_intent"
+        ],
+        "properties": {
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "voice": {
+            "type": "string"
+          },
+          "on_screen_text": {
+            "type": "string"
+          },
+          "visual_intent": {
+            "type": "string"
+          },
+          "source_cue": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "generated_at": "DRY_RUN_SAMPLE",
+  "candidates": [
+    {
+      "story_id": "sample-agent-loop-001",
+      "title": "Sample: AI agent loop explainer",
+      "summary": "Synthetic placeholder used only to validate the workflow.",
+      "sources": [
+        {
+          "url": "https://example.com",
+          "name": "PLACEHOLDER",
+          "type": "placeholder"
+        }
+      ],
+      "published_at": "N/A",
+      "scores": {
+        "freshness": 0,
+        "importance": 0,
+        "novelty": 0,
+        "visual_explainability": 9,
+        "source_quality": 0
+      },
+      "why_it_matters": "Placeholder only. Never publish."
+    }
+  ]
+}

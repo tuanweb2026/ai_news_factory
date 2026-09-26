@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "story_id",
+    "claims",
+    "sources"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "VERIFIED",
+        "NEEDS_REVIEW",
+        "REJECT"
+      ]
+    },
+    "story_id": {
+      "type": "string"
+    },
+    "verified_at": {
+      "type": "string"
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "status",
+          "confidence",
+          "sources"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "SUPPORTED",
+              "PARTIALLY_SUPPORTED",
+              "CONTRADICTED",
+              "UNKNOWN"
+            ]
+          },
+          "confidence": {
+            "type": "number"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

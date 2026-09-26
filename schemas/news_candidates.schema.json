@@ -1,0 +1,91 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "generated_at",
+    "candidates"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "PASS",
+        "NEEDS_REVIEW",
+        "REJECT"
+      ]
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "story_id",
+          "title",
+          "sources",
+          "published_at",
+          "scores"
+        ],
+        "properties": {
+          "story_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "url",
+                "name"
+              ],
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "published_at": {
+            "type": "string"
+          },
+          "scores": {
+            "type": "object",
+            "properties": {
+              "freshness": {
+                "type": "number"
+              },
+              "importance": {
+                "type": "number"
+              },
+              "novelty": {
+                "type": "number"
+              },
+              "visual_explainability": {
+                "type": "number"
+              },
+              "source_quality": {
+                "type": "number"
+              }
+            }
+          },
+          "why_it_matters": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

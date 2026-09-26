@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "story_id",
+    "checks"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "PASS",
+        "NEEDS_REVIEW",
+        "REJECT"
+      ]
+    },
+    "story_id": {
+      "type": "string"
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "status"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "WARN"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "factual": {
+          "type": "number"
+        },
+        "visual": {
+          "type": "number"
+        },
+        "editorial": {
+          "type": "number"
+        },
+        "production": {
+          "type": "number"
+        }
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publish_authorized": {
+      "type": "boolean"
+    }
+  }
+}

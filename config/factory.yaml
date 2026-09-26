@@ -1,0 +1,52 @@
+factory:
+  name: AI NEWS FACTORY
+  version: "1.0"
+  timezone: Asia/Ho_Chi_Minh
+  mode: dry_run
+
+research:
+  freshness_hours: 24
+  minimum_source_confidence: 0.85
+  require_primary_source_when_available: true
+  independent_corroboration: true
+
+video:
+  aspect_ratio: "9:16"
+  width: 1080
+  height: 1920
+  fps: 30
+  target_duration_seconds: 30
+  min_duration_seconds: 20
+  max_duration_seconds: 40
+
+style:
+  bible: AI_NEWS_VISUAL_STYLE_BIBLE_v1.0.md
+  palette:
+    background: "#070A0F"
+    panel: "#0D121A"
+    text: "#F3F7FA"
+    muted: "#8B98A7"
+    cyan: "#4DEBFF"
+    violet: "#9B7CFF"
+    red: "#FF5C70"
+    green: "#54E39A"
+  fonts:
+    primary: "Inter"
+    alternatives:
+      - "Manrope"
+      - "Space Grotesk"
+      - "IBM Plex Sans"
+
+scoring:
+  production_threshold: 8.0
+  material_claim_min_confidence: 0.85
+
+publishing:
+  enabled: false
+  require_qa_pass: true
+  require_explicit_job_authorization: true
+
+security:
+  secrets_in_repo: false
+  destructive_commands: false
+  default_external_write_permission: ask

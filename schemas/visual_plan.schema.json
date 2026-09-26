@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "story_id",
+    "shots"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "PASS",
+        "NEEDS_REVIEW",
+        "REJECT"
+      ]
+    },
+    "story_id": {
+      "type": "string"
+    },
+    "style_bible_version": {
+      "type": "string"
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "shot_id",
+          "start",
+          "end",
+          "shot_type",
+          "visual_goal",
+          "asset_plan"
+        ],
+        "properties": {
+          "shot_id": {
+            "type": "string"
+          },
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          },
+          "shot_type": {
+            "type": "string"
+          },
+          "visual_goal": {
+            "type": "string"
+          },
+          "asset_plan": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "asset_type": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                },
+                "rights_status": {
+                  "type": "string"
+                },
+                "prompt": {
+                  "type": "string"
+                },
+                "attribution": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "animation": {
+            "type": "string"
+          },
+          "sfx": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
