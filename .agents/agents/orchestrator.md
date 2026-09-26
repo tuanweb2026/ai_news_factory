@@ -3,10 +3,10 @@ name: ai-news-orchestrator
 description: Chief orchestrator for the AI NEWS FACTORY. Coordinates five specialized agents, enforces gates, manages artifact state, and never publishes unless QA passes and publishing is explicitly enabled.
 tools:
   - view_file
-  - create_file
-  - edit_file
+  - write_to_file
+  - replace_file_content
   - run_command
-  - start_subagent
+  - invoke_subagent
   - search_web
   - read_url_content
 subagent: false

@@ -1,0 +1,252 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-crispr-art-enzyme-2026",
+  "style_bible_version": "v1.0",
+  "metadata": {
+    "title": "Anthropic Claude Discovers ART Enzyme System",
+    "production_phase": "Phase 11 - Visual Storyboarding & Technical Shot Planning",
+    "target_duration_seconds": 30.0,
+    "total_shots": 6,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "created_at": "2026-09-26T19:06:00+07:00",
+    "verified_claims_mapped": [
+      "claim-01-discovery-nature",
+      "claim-02-host-organism",
+      "claim-03-three-components",
+      "claim-04-crispr-analogy",
+      "claim-05-search-scale-clusters",
+      "claim-06-runtime-hours",
+      "claim-07-agent-sessions",
+      "claim-08-wet-lab-validation",
+      "claim-09-no-human-gene-therapy"
+    ]
+  },
+  "biological_master_design": {
+    "design_id": "BIOLOGICAL_MASTER_DESIGN_ART_v1",
+    "color_palette": {
+      "canvas_background": "#070A0F",
+      "surface_substrate": "#0E131F",
+      "bacteriophage_capsid": "#1F293D",
+      "reverse_transcriptase": "#4DEBFF",
+      "partner_protein": "#9B7CFF",
+      "crispr_like_repeat_arrays": "#54E39A",
+      "short_rna_transcripts": "#FFB84D",
+      "dna_backbone": "#455570",
+      "boundary_alert": "#FF5C70"
+    },
+    "bacteriophage_architecture": {
+      "type": "Jumbo Phage (Icosahedral Capsid with contractile tail)",
+      "capsid_geometry": "Faceted icosahedron in matte titanium-charcoal with glowing cyan genomic core",
+      "tail_assembly": "Central sheath with flexible baseplate and tail fibers gripping bacterial cell wall",
+      "scale_presentation": "Sub-micron molecular level with realistic depth of field"
+    },
+    "art_enzyme_tripartite_system": {
+      "component_1_rt": "Reverse Transcriptase enzyme rendered as an articulated electric-cyan globular protein catalytic domain",
+      "component_2_partner": "Partner protein rendered in deep violet adjacent to RT catalytic groove",
+      "component_3_array": "Linear DNA strand featuring equidistant mint-green rectangular tandem repeat blocks separated by darker spacer sequences"
+    },
+    "wet_lab_validation_elements": {
+      "setting": "San Francisco wet laboratory biological assay",
+      "visual_motif": "Electrophoretic polyacrylamide gel visualization showing fluorescent band illumination of transcribed short RNA",
+      "instrumentation": "Automated precision micropipette and fluorescent imaging sensor interface"
+    },
+    "scientific_boundary_watermark": {
+      "text": "FUNDAMENTAL BIOLOGY • NO GENE EDITING",
+      "badge_color": "#FF5C70",
+      "placement": "Prominent upper safe zone callout card on Shot 05"
+    }
+  },
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 3.0,
+      "shot_type": "MACRO_TECH",
+      "visual_goal": "Deliver maximum first-2-second retention hook: transition from abstract computational code into an ultra-sharp 3D bacteriophage virus landing on a bacterial membrane with luminous cyan protein traces.",
+      "visual_status": "CONCEPTUAL",
+      "fact_ids": [
+        "claim-01-discovery-nature",
+        "claim-02-host-organism"
+      ],
+      "voiceover_segment": "AI didn't just write code—it just discovered new biology.",
+      "text": "AI DISCOVERS NEW BIOLOGY",
+      "camera": "Extreme close-up starting on glowing code tokens that dissolve into molecular protein space, rapidly dollying out to reveal a faceted icosahedral bacteriophage landing on a bacterial surface at 0.8s.",
+      "lighting": "Deep cosmic blackness (#070A0F), sharp rim lighting with electric cyan (#4DEBFF) and violet (#9B7CFF) emissive glows highlighting the virus capsid and tail fibers.",
+      "diagram_elements": "Kinetic typography card: 'AI DISCOVERS NEW BIOLOGY' centered at Y:260; callout label at 1.5s: 'BACTERIOPHAGE VIRUS (NATURAL HOST)'.",
+      "animation": "Code matrix rapidly reassembles into molecular folding animation; viral tail fibers contract against the cell wall, illuminating internal nucleic acid pathways.",
+      "sfx": "Deep sub-bass impact whoosh at 0.0s transitioning into high-frequency digital-to-biological chime at 1.2s.",
+      "veo_prompt": "Vertical 9:16 cinematic molecular biology animation. Starts on floating cyan computer code tokens in dark space that instantly dissolve and fold into a photorealistic 3D bacteriophage virus. The virus has a charcoal-titanium geometric icosahedral head and delicate landing legs that anchor onto a glowing organic bacterial membrane. Luminous electric cyan (#4DEBFF) bioluminescent pathways travel down the viral sheath. High contrast, photorealistic scientific rendering, volumetric lighting, deep dark background (#070A0F). Pacing: rapid, arresting motion in the first 2 seconds. No cartoon textures, no messy noise, clean modern scientific visualization.",
+      "image_prompt": "Vertical 9:16 high-precision scientific render of a bacteriophage virus landing on a bacterial surface, dark charcoal canvas, electric cyan and violet bioluminescent protein highlights, photorealistic, 8k octane render.",
+      "negative_prompt": "cartoon, 2d doodle, messy liquid, dirty lab bench, fake human face, futuristic robot, generic chatbot interface, blurry.",
+      "asset_plan": [
+        {
+          "asset_type": "GENERATED",
+          "visual_truth_mode": "CONCEPTUAL",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "conceptual_disclosure": "CONCEPTUAL SCIENTIFIC VISUALIZATION",
+          "prompt": "Photorealistic 3D bacteriophage virus landing on cell wall with cyan fluorescent protein traces on dark technical canvas",
+          "attribution": "Original procedural visual generated for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 3.0,
+      "end": 8.0,
+      "shot_type": "DATA_FLOW",
+      "visual_goal": "Convey the colossal scale and computational throughput of the search: parallel network diagram showing 1,000 Claude agents screening 1.9 billion protein clusters.",
+      "visual_status": "DIAGRAM",
+      "fact_ids": [
+        "claim-05-search-scale-clusters",
+        "claim-06-runtime-hours",
+        "claim-07-agent-sessions"
+      ],
+      "voiceover_segment": "Anthropic deployed about one thousand Claude agents to scan nearly two billion protein clusters.",
+      "text": "1,000 AGENTS • 1.9B CLUSTERS",
+      "camera": "Wide isometric network view slowly dollying forward into a multi-tiered filtering matrix of protein cluster nodes.",
+      "lighting": "Dark navy grid (#0E131F) with pulse lines in electric cyan (#4DEBFF) and cluster nodes glowing in amber-gold (#FFB84D) and violet (#9B7CFF).",
+      "diagram_elements": "Header card: '1,000 AGENTS • 1.9B CLUSTERS'; central metric display: '1.9 BILLION PROTEIN CLUSTERS FILTERED'; lower telemetry badge: '~1,000 AGENT SESSIONS | ~200,000 CANDIDATE RTs'.",
+      "animation": "High-velocity data streams pulse across parallel agent nodes, rapidly funneling a vast matrix of 1.9 billion protein dots down into a concentrated glowing candidate node.",
+      "sfx": "High-speed data computation hum, subtle rhythmic scanning pulses (3.5s, 5.0s, 6.5s).",
+      "veo_prompt": "Vertical 9:16 technical computational diagram. A dark futuristic data canvas displays a massive multi-layered neural search grid. Thousands of parallel cyan agent rays converge on an immense matrix of glowing microscopic protein cluster nodes labeled 1.9 BILLION. Fast-paced animated filtering pipelines funnel millions of data points into a single refined golden molecular node. Minimalist UI overlays, clean sans-serif telemetry numbers, dark charcoal background (#070A0F), crisp vector lines. Smooth forward push camera.",
+      "image_prompt": "Vertical 9:16 scientific system flowchart showing 1,000 autonomous AI agents screening 1.9 billion protein clusters, dark charcoal background, electric cyan and gold accent nodes, clean technical infographics.",
+      "negative_prompt": "messy clutter, chaotic wires, low resolution, unreadable fonts, cheesy stock charts.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "prompt": "Technical diagram showing 1,000 AI agents filtering 1.9 billion protein clusters into refined candidate biological systems",
+          "attribution": "Original scientific vector diagram designed for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 8.0,
+      "end": 15.0,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Reveal the core discovery (ART architecture): high-precision molecular blueprint showing the Reverse Transcriptase enzyme, the partner gene, and the CRISPR-like repeating tandem DNA array.",
+      "visual_status": "DIAGRAM",
+      "fact_ids": [
+        "claim-01-discovery-nature",
+        "claim-02-host-organism",
+        "claim-03-three-components",
+        "claim-04-crispr-analogy",
+        "claim-06-runtime-hours"
+      ],
+      "voiceover_segment": "In just about twenty-one hours, Claude discovered ART: a novel enzyme system hidden inside viruses with repeating arrays that resemble CRISPR.",
+      "text": "ART • CRISPR-LIKE REPEATS",
+      "camera": "Smooth horizontal tracking pan from the Reverse Transcriptase protein body across to the repeating DNA array, tilting slightly to highlight repeating spacer geometry.",
+      "lighting": "Targeted volumetric studio lighting. Cyan (#4DEBFF) for Reverse Transcriptase, violet (#9B7CFF) for partner gene, mint green (#54E39A) for the tandem repeat DNA blocks.",
+      "diagram_elements": "Header card: 'ART • CRISPR-LIKE REPEATS'; runtime badge at 9.0s: 'SEARCH TIME: ~21.5 HOURS'; callout labels: 'REVERSE TRANSCRIPTASE (RNA -> DNA)', 'PARTNER GENE', and 'TANDEM REPEAT ARRAY (CRISPR-LIKE)'.",
+      "animation": "The three components assemble into locked registration: the RT enzyme locks beside the partner protein, while a glowing DNA double helix extends to the right with evenly spaced mint-green repeat cassettes illuminating sequentially.",
+      "sfx": "Precision mechanical snap sound as components align (9.5s), followed by a rising harmonic crystalline hum across the repeating arrays (12.0s).",
+      "veo_prompt": "Vertical 9:16 3D molecular biology schematic. A glowing genetic system named ART is displayed against a deep black canvas. On the left, an articulated electric-cyan globular enzyme labeled REVERSE TRANSCRIPTASE sits adjacent to a violet PARTNER GENE. Extending to the right, a DNA double helix displays an unannotated array of evenly spaced, glowing mint-green rectangular blocks labeled CRISPR-LIKE TANDEM REPEATS. Smooth lateral pan camera highlighting the rhythmic repeating architecture. High technical clarity, photorealistic biological textures, crisp sans-serif annotations.",
+      "image_prompt": "Vertical 9:16 molecular biology schematic of ART system: Reverse Transcriptase in cyan, partner gene in violet, and repeating CRISPR-like DNA spacer arrays in mint green, dark technical aesthetic, photorealistic 8k render.",
+      "negative_prompt": "cartoon DNA, distorted text, fake human cells, blurry bands, neon oversaturation.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "prompt": "Molecular diagram of Array-associated Reverse Transcriptase (ART) system showing RT enzyme, partner gene, and CRISPR-like repeating arrays",
+          "attribution": "Original biological system diagram designed for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 15.0,
+      "end": 21.0,
+      "shot_type": "EVIDENCE_SCREEN",
+      "visual_goal": "Present empirical experimental validation: human biologists in Anthropic's San Francisco wet lab verifying that the repeat arrays transcribe into discrete short RNA molecules.",
+      "visual_status": "RECONSTRUCTED",
+      "fact_ids": [
+        "claim-08-wet-lab-validation"
+      ],
+      "voiceover_segment": "Human scientists verified it in their San Francisco wet lab, confirming the array produces short RNA molecules.",
+      "text": "WET-LAB VERIFIED • SHORT RNA",
+      "camera": "Direct orthographic technical card view with subtle slow push-in focusing on the fluorescent gel electrophoresis band readout.",
+      "lighting": "Controlled laboratory UV transillumination aesthetic: deep charcoal framing with sharp fluorescent amber-gold (#FFB84D) RNA bands and mint-green verification checkmark (#54E39A).",
+      "diagram_elements": "Header card: 'WET-LAB VERIFIED • SHORT RNA'; location stamp: 'ANTHROPIC BIOLOGY LAB • SAN FRANCISCO, CA'; technical assay readout: 'POLYACRYLAMIDE GEL ASSAY: DISCRETE SHORT RNA MOLECULES CONFIRMED'; disclosure: 'ORIGINAL SCIENTIFIC SIMULATION — NOT ORIGINAL EXPERIMENTAL DATA'.",
+      "animation": "Fluorescent RNA bands illuminate sequentially within the gel lanes, accompanied by a clean green verification checkmark and micro-pulse border confirmation.",
+      "sfx": "Subtle tactile laboratory confirmation chime (16.0s), gentle electronic UV transilluminator hum.",
+      "veo_prompt": "Vertical 9:16 scientific evidence card. Dark technical lab aesthetic showing conceptual procedural reconstruction of wet-lab validation. An illuminated polyacrylamide gel electrophoresis assay displays sharp, fluorescent golden bands representing mature short RNA transcripts. Technical badges in clean modern typography read: 'ANTHROPIC BIOLOGY LAB • SAN FRANCISCO' and 'IN-VITRO TRANSCRIPTION VERIFIED'. A discreet technical disclosure watermark reads: 'ORIGINAL SCIENTIFIC SIMULATION — NOT ORIGINAL EXPERIMENTAL DATA'. A verified badge checkmark illuminates in mint green. Crisp, authoritative, highly scientific.",
+      "image_prompt": "Vertical 9:16 scientific technical vector diagram reconstructing gel electrophoresis RNA band assay from wet-lab verification, dark charcoal background, fluorescent golden RNA bands, mint green verified badge, modern typography, disclosure 'ORIGINAL SCIENTIFIC SIMULATION'.",
+      "negative_prompt": "fake scientist posing with colored beaker, cheesy stock medical photo, distorted fonts, cartoon pills, raw photographic data forgery.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "visual_truth_mode": "RECONSTRUCTED",
+          "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+          "source_name": "Original AI News Factory Scientific Simulation",
+          "source_url": "proprietary://ai_news_factory/render/art/shot-04",
+          "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+          "conceptual_disclosure": "ORIGINAL SCIENTIFIC SIMULATION — NOT ORIGINAL EXPERIMENTAL DATA",
+          "attribution": "Original procedural scientific simulation designed for AI News Factory",
+          "prompt": "Procedural vector diagram reconstructing a polyacrylamide gel assay: dark charcoal slab, distinct lanes with fluorescent amber-gold bands representing short RNA transcription products, and clean technical measurement grid. Explicitly presented as an original conceptual scientific reconstruction."
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.0,
+      "end": 26.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Enforce strict scientific boundary: clearly communicate that ART is fundamental biological architecture, NOT a human gene therapy or clinical editing tool.",
+      "visual_status": "DIAGRAM",
+      "fact_ids": [
+        "claim-04-crispr-analogy",
+        "claim-09-no-human-gene-therapy"
+      ],
+      "voiceover_segment": "This is not a gene therapy or a human gene-editing tool. It's a new biological architecture.",
+      "text": "NOT GENE THERAPY • NEW BIOLOGY",
+      "camera": "Slow cinematic pull-back from a macro DNA strand to an expansive conceptual geometric lattice representing unexplored biological space.",
+      "lighting": "High contrast between alert coral-red (#FF5C70) defining the strict negative boundary and majestic electric cyan (#4DEBFF) / violet (#9B7CFF) representing foundational discovery.",
+      "diagram_elements": "Header card: 'NOT GENE THERAPY • NEW BIOLOGY'; prominent safe-zone boundary badge: 'FUNDAMENTAL BIOLOGY • NO GENE EDITING'; subtext: 'FUNDAMENTAL BIOLOGICAL DISCOVERY'.",
+      "animation": "Red boundary lockup frames the upper card with a definitive shield icon; the underlying biological DNA lattice blooms outward into an interconnected web of discovered enzyme structures.",
+      "sfx": "Low authoritative bass tone establishing gravity (21.5s), resolving into an expansive, forward-looking synth riser (24.0s).",
+      "veo_prompt": "Vertical 9:16 scientific concept visualization. Against a deep space-black canvas, an elegant cyan DNA double helix expands into an expansive crystalline biological lattice. A prominent, elegant technical warning badge in clean coral-red (#FF5C70) typography clearly reads: 'FUNDAMENTAL BIOLOGY • NO GENE EDITING'. Below, typography highlights 'FUNDAMENTAL BIOLOGICAL DISCOVERY'. Restrained, majestic, strictly scientific. Smooth pull-back camera.",
+      "image_prompt": "Vertical 9:16 technical scientific graphic showing expanding molecular DNA lattice with prominent warning badge 'FUNDAMENTAL BIOLOGY • NO GENE EDITING', dark technical canvas, cyan and coral red accents.",
+      "negative_prompt": "hospital bed, syringe, medical injection, sick human patient, cartoon doctor, fantasy mutant, sensationalist text.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "prompt": "Scientific boundary graphic establishing ART as fundamental biological discovery rather than clinical human gene therapy",
+          "attribution": "Original boundary diagram designed for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Deliver clean AI News Factory brand lockup and call to action for verified AI engineering and biology explainers.",
+      "visual_status": "DIAGRAM",
+      "fact_ids": [
+        "claim-01-discovery-nature"
+      ],
+      "voiceover_segment": "If you found this useful, like, share, and subscribe.",
+      "text": "LIKE • SHARE • SUBSCRIBE",
+      "camera": "Static orthographic branded composition with subtle 2D kinetic typography and ambient pulse.",
+      "lighting": "Near-black canvas (#070A0F) with refined electric cyan (#4DEBFF) and violet (#9B7CFF) geometric frame accents.",
+      "diagram_elements": "AI NEWS FACTORY master brand lockup, verified badge checkmark (#54E39A), subtext: 'IF YOU FOUND THIS USEFUL • FOLLOW AI NEWS FACTORY', pill button: 'LIKE • SHARE • SUBSCRIBE'.",
+      "animation": "Brand title 'AI NEWS FACTORY' reveals with crisp kerning expansion; kinetic subtitle and CTA button snap into lockup with micro-scale bounce.",
+      "sfx": "Channel branded audio logo chime + soft tactile confirmation click (27.0s).",
+      "veo_prompt": "Vertical 9:16 brand lockup. Dark technical canvas (#070A0F) with geometric accent lines in restrained electric cyan (#4DEBFF) and violet (#9B7CFF). Center typography displays AI NEWS FACTORY with modern sans-serif letterforms and verified checkmark emblem in mint green. Below, an elegant follow prompt pill button reading LIKE • SHARE • SUBSCRIBE. Static locked-off camera, clean emissive accents. No watermarks, no chaotic confetti.",
+      "image_prompt": "Vertical 9:16 branded end card for AI News Factory, dark charcoal background, electric cyan and violet geometric accent lines, mint green verified badge, typography: 'LIKE • SHARE • SUBSCRIBE', minimalist high-tech aesthetic.",
+      "negative_prompt": "cheesy subscribe arrows, spinning 3D logos, youtube red play buttons, generic social icons, chaotic glitter.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "PROPRIETARY_BRAND_ASSET",
+          "prompt": "AI News Factory brand lockup with dark technical canvas, cyan-violet accents and verified engineering badge",
+          "attribution": "AI News Factory Brand Identity System v1.0"
+        }
+      ]
+    }
+  ]
+}

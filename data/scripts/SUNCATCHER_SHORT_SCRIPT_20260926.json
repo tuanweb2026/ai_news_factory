@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "duration_target_seconds": 35,
+  "hook": "Google's next AI test bed isn't on Earth.",
+  "spoken_script": "Google's next AI test bed isn't on Earth. Project Suncatcher is a research prototype testing if AI chips can run in orbit. Built with Planet Labs, this compact satellite carries four Trillium TPUs and a one-kilowatt solar array. In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth. The catch? A vacuum has no air for cooling, and space radiation triggers memory bit-flips. Using heat pipes and radiators, it runs fifteen-minute bursts, preparing to launch October first on SpaceX. If proven, orbital compute could eventually bypass Earth's strained power grids. If you found this useful, like, share, and subscribe.",
+  "vietnamese_script": "Bàn thử nghiệm AI tiếp theo của Google không nằm trên Trái Đất. Dự án Suncatcher là nguyên mẫu nghiên cứu kiểm tra xem chip AI có thể vận hành trên quỹ đạo hay không. Hợp tác cùng Planet Labs, vệ tinh nhỏ gọn này mang theo bốn chip TPU Trillium cùng dàn pin mặt trời một kilowatt. Nhờ ánh nắng quỹ đạo liên tục, các tấm pin có thể thu năng lượng mặt trời mỗi năm gấp tới 8 lần so với trên mặt đất. Thách thức lớn nhất? Môi trường chân không không có không khí để tản nhiệt, còn bức xạ vũ trụ gây hiện tượng lật bit trong bộ nhớ. Nhờ ống dẫn nhiệt và bộ tản xạ, hệ thống chạy từng đợt mười lăm phút, chuẩn bị phóng vào ngày 1 tháng 10 trên tên lửa SpaceX. Nếu thành công, điện toán quỹ đạo có thể giúp vượt qua giới hạn quá tải của lưới điện Trái Đất. Bấm theo dõi để đón xem các phân tích kỹ thuật AI chuẩn xác.",
+  "cta": "If you found this useful, like, share, and subscribe.",
+  "hook_options": [
+    {
+      "id": "hook-opt-01",
+      "text": "Google's next AI test bed isn't on Earth.",
+      "word_count": 8,
+      "angle": "Surprising Premise / Precision Research Focus",
+      "rationale": "SELECTED. Immediate retention hook creating an information gap while explicitly framing the hardware as a 'test bed' (research prototype), directly mitigating the risk of viewers misinterpreting it as an operational data center.",
+      "selected": true
+    },
+    {
+      "id": "hook-opt-02",
+      "text": "Why is Google launching AI processors into orbit?",
+      "word_count": 8,
+      "angle": "Curiosity Question / Active Problem",
+      "rationale": "Strong and inquisitive, but slightly more generic than leading with the startling 'test bed isn't on Earth' statement.",
+      "selected": false
+    },
+    {
+      "id": "hook-opt-03",
+      "text": "Can AI compute escape Earth's power grid?",
+      "word_count": 7,
+      "angle": "Macro Energy / Grid Bottleneck",
+      "rationale": "High intellectual appeal for infrastructure audiences, but delays the reveal of Google's specific TPU hardware until later in the video.",
+      "selected": false
+    },
+    {
+      "id": "hook-opt-04",
+      "text": "Google is preparing to test AI chips in orbit.",
+      "word_count": 9,
+      "angle": "Direct Factual News Announce",
+      "rationale": "Factually flawless and strictly temporal ('preparing to test'), but sounds more like a traditional news broadcast and has lower immediate curiosity tension.",
+      "selected": false
+    },
+    {
+      "id": "hook-opt-05",
+      "text": "Google is testing if AI hardware can survive space.",
+      "word_count": 9,
+      "angle": "Extreme Hardware Survivability",
+      "rationale": "Highlights the physical physics/radiation challenge well, but less punchy than the stark juxtaposition of 'test bed isn't on Earth'.",
+      "selected": false
+    }
+  ],
+  "cta_options": [
+    {
+      "id": "cta-opt-01",
+      "text": "Follow for verified AI engineering breakdowns.",
+      "word_count": 6,
+      "angle": "Engineering Authority & Rigor",
+      "rationale": "SELECTED. Concise, punchy (6 words), perfectly matches the technical explainer brand identity of AI News Factory, and makes no false promises.",
+      "selected": true
+    },
+    {
+      "id": "cta-opt-02",
+      "text": "Follow to track the next frontier of AI, explained visually.",
+      "word_count": 10,
+      "angle": "Visual Storytelling Focus",
+      "rationale": "Strong alignment with the visual mission, but slightly longer at 10 words, taking more audio runtime in a tight 35-second budget.",
+      "selected": false
+    },
+    {
+      "id": "cta-opt-03",
+      "text": "Save this, and follow for verified AI updates every week.",
+      "word_count": 10,
+      "angle": "Retention & Utility Action",
+      "rationale": "Encourages saving, but dual actions ('Save' and 'Follow') dilute the single, crisp terminal action.",
+      "selected": false
+    }
+  ],
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 2.5,
+      "purpose": "HOOK",
+      "voice": "Google's next AI test bed isn't on Earth.",
+      "on_screen_text": "AI TEST BED IN ORBIT",
+      "visual_intent": "MACRO_TECH to ORBITAL. Dark high-tech data center rack transitions rapidly into an orbital horizon view of Earth with subtle cyan atmospheric rim light.",
+      "source_cue": "Google Research Blog (2026-09-24)",
+      "fact_id": "claim-01-existence, claim-02-research-nature"
+    },
+    {
+      "start": 2.5,
+      "end": 6.5,
+      "purpose": "THE_SURPRISING_IDEA",
+      "voice": "Project Suncatcher is a research prototype testing if AI chips can run in orbit.",
+      "on_screen_text": "PROJECT SUNCATCHER • RESEARCH PROTOTYPE",
+      "visual_intent": "EVIDENCE_SCREEN. Stylized technical card highlighting the Google research announcement, emphasizing 'RESEARCH PROTOTYPE' badge over an exploratory satellite silhouette.",
+      "source_cue": "Google Research / Space.com (2026-09-24)",
+      "fact_id": "claim-01-existence, claim-02-research-nature, claim-03-tpu-in-orbit, claim-19-operational-datacenter-refutation"
+    },
+    {
+      "start": 6.5,
+      "end": 11.5,
+      "purpose": "HOW_IT_WORKS_HARDWARE",
+      "voice": "Built with Planet Labs, this compact satellite carries four Trillium TPUs and a one-kilowatt solar array.",
+      "on_screen_text": "4 TRILLIUM TPUs • 1 kW ARRAY",
+      "visual_intent": "SYSTEM_WIDE exploded callout. 3D technical blueprint of Planet Labs MVP satellite bus highlighting the 4-TPU internal compute block and deployed 1kW photovoltaic wings.",
+      "source_cue": "Planet Labs / Tom's Hardware (2026-09-24)",
+      "fact_id": "claim-06-planet-partnership, claim-07-tpu-quantity, claim-08-tpu-generation, claim-20-numerical-claims"
+    },
+    {
+      "start": 11.5,
+      "end": 16.5,
+      "purpose": "HOW_IT_WORKS_SOLAR",
+      "voice": "In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.",
+      "on_screen_text": "UP TO 8× ANNUAL SOLAR HARVEST",
+      "visual_intent": "DATA_FLOW & ORBITAL TRAJECTORY. Dawn-dusk sun-synchronous orbit along the terminator line; split comparison graphic showing high sunlight availability vs terrestrial mid-latitude solar panel.",
+      "source_cue": "Google Research Blog / Tom's Hardware (2026-09-24)",
+      "fact_id": "claim-09-solar-illumination, claim-10-8x-solar-productivity, claim-20-numerical-claims"
+    },
+    {
+      "start": 16.5,
+      "end": 21.5,
+      "purpose": "THE_ENGINEERING_PROBLEM",
+      "voice": "The catch? A vacuum has no air for cooling, and space radiation triggers memory bit-flips.",
+      "on_screen_text": "VACUUM HEAT TRAP + RADIATION BIT-FLIPS",
+      "visual_intent": "FAILURE_LOOP / MACRO_TECH. TPU die showing heat accumulation (orange thermal gradient without convective airflow) and cosmic proton striking HBM memory creating a 0-to-1 bit-flip.",
+      "source_cue": "UC Davis Crocker Nuclear Lab / Gizmodo (2026-09-24)",
+      "fact_id": "claim-11-radiation-testing, claim-12-bit-flip-risk, claim-14-vacuum-cooling-challenge"
+    },
+    {
+      "start": 21.5,
+      "end": 26.5,
+      "purpose": "WHAT_GOOGLE_IS_TESTING",
+      "voice": "Using heat pipes and radiators, it runs fifteen-minute bursts, preparing to launch October first on SpaceX.",
+      "on_screen_text": "15-MIN BURSTS • LAUNCH OCT 1, 2026",
+      "visual_intent": "SYSTEM_WIDE thermal dissipation flow showing heat pipes transferring heat to external radiative fins radiating infrared into deep space; lower third displays SpaceX Falcon 9 Transporter-18 launch date badge: OCT 1, 2026.",
+      "source_cue": "SpaceX Transporter-18 Manifest / Space.com (2026-09-24)",
+      "fact_id": "claim-04-launch-vehicle, claim-05-launch-date, claim-15-heat-pipes, claim-16-radiators, claim-20-numerical-claims"
+    },
+    {
+      "start": 26.5,
+      "end": 31.5,
+      "purpose": "WHY_THIS_MATTERS",
+      "voice": "If proven, orbital compute could eventually bypass Earth's strained power grids.",
+      "on_screen_text": "ESCAPING EARTH'S POWER GRID",
+      "visual_intent": "SYSTEM_WIDE macro concept. Terrestrial power grid glowing red with overload lines vs orbital constellation illuminated in clean electric cyan, symbolizing scalable clean compute.",
+      "source_cue": "Google Research / Technical Analysis (2026-09-24)",
+      "fact_id": "claim-01-existence, claim-02-research-nature, claim-17-laser-intersatellite"
+    },
+    {
+      "start": 31.5,
+      "end": 35.0,
+      "purpose": "CTA",
+      "voice": "If you found this useful, like, share, and subscribe.",
+      "on_screen_text": "LIKE • SHARE • SUBSCRIBE",
+      "visual_intent": "CTA_LOCKUP. AI NEWS FACTORY branded dark technical canvas with cyan-violet accent lines and clean kinetic typography.",
+      "source_cue": "AI News Factory Standard CTA",
+      "fact_id": "claim-01-existence"
+    }
+  ]
+}

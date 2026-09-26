@@ -1,0 +1,337 @@
+{
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "audit_date": "2026-09-26T10:36:00+07:00",
+  "auditor": "Red-Team QA Editor (AI News Factory Phase 5 Final Re-Audit)",
+  "reference_verification": "data/verified/VERIFIED_SUNCATCHER_20260926.json",
+  "total_script_sentences": 8,
+  "total_storyboard_shots": 9,
+  "traceability_summary": {
+    "supported_sentences": 8,
+    "contested_sentences": 0,
+    "unsupported_sentences": 0,
+    "total_claims_referenced": 18,
+    "excluded_claims_justified": 2
+  },
+  "sentence_level_traceability": [
+    {
+      "sentence_number": 1,
+      "shot_id": "shot-01",
+      "timestamp": "0.0s - 2.5s",
+      "spoken_text": "Google's next AI test bed isn't on Earth.",
+      "on_screen_text": "AI TEST BED IN ORBIT",
+      "fact_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-01-existence",
+          "statement": "Project Suncatcher exists as a legitimate Google research initiative exploring space-based AI computing.",
+          "supporting_context": "Google Research publicly unveiled 'Project Suncatcher', a research initiative exploring the physical and architectural feasibility of deploying machine learning accelerators in low Earth orbit."
+        },
+        {
+          "claim_id": "claim-02-research-nature",
+          "statement": "Project Suncatcher is an exploratory research and experimental project rather than a commercial product or operational data center.",
+          "supporting_context": "Project Suncatcher is a long-term research moonshot investigating hardware resilience, thermal constraints, and communication architectures in space; it is not a commercial service."
+        }
+      ],
+      "primary_source": {
+        "name": "Google Official Blog",
+        "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "published_at": "2026-09-24T14:00:00Z"
+      },
+      "independent_corroboration": [
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Opening hook accurately categorizes the initiative as an 'AI test bed' rather than an operational system. Traceability to claim-01 and claim-02 is verified. Note on-screen text 'AI TEST BED IN ORBIT' has potential minor temporal ambiguity since launch has not occurred (scheduled Oct 1, 2026); recommend adjusting to 'ORBITAL AI TEST BED' or 'AI TEST BED HEADED TO ORBIT'."
+    },
+    {
+      "sentence_number": 2,
+      "shot_id": "shot-02",
+      "timestamp": "2.5s - 6.5s",
+      "spoken_text": "Project Suncatcher is a research prototype testing if AI chips can run in orbit.",
+      "on_screen_text": "RESEARCH PROTOTYPE • NOT DATA CENTER",
+      "fact_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-03-tpu-in-orbit",
+        "claim-19-operational-datacenter-refutation"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-03-tpu-in-orbit",
+          "statement": "Google plans to test its proprietary Tensor Processing Unit (TPU) hardware in low Earth orbit.",
+          "supporting_context": "Google plans to operate datacenter-class TPUs in orbit to gather empirical data on microgravity, vacuum operation, and radiation tolerance during live AI inference."
+        },
+        {
+          "claim_id": "claim-19-operational-datacenter-refutation",
+          "statement": "Project Suncatcher is already an operational orbital AI data center.",
+          "supporting_context": "Project Suncatcher is an early-stage prototype testbed (MVP) scheduled for a first launch on October 1, 2026. It is not an operational data center, does not serve customer workloads, and consists of a single experimental test satellite."
+        }
+      ],
+      "primary_source": {
+        "name": "Google Official Blog",
+        "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "published_at": "2026-09-24T14:00:00Z"
+      },
+      "independent_corroboration": [
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu",
+        "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Exemplary adherence to prototype integrity guardrails. Explicitly terms the hardware a 'research prototype' and reinforces claim-19 refutation on screen."
+    },
+    {
+      "sentence_number": 3,
+      "shot_id": "shot-03",
+      "timestamp": "6.5s - 11.5s",
+      "spoken_text": "Built with Planet Labs, this compact satellite carries four Trillium TPUs and a one-kilowatt solar array.",
+      "on_screen_text": "4 TRILLIUM TPUs • 1 kW ARRAY",
+      "fact_ids": [
+        "claim-06-planet-partnership",
+        "claim-07-tpu-quantity",
+        "claim-08-tpu-generation",
+        "claim-20-numerical-claims"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-06-planet-partnership",
+          "statement": "Earth-imaging company Planet Labs (Planet) is partnering with Google and built the prototype spacecraft.",
+          "supporting_context": "Google partnered with Planet Labs, leveraging Planet's agile satellite bus architecture to manufacture and host the MVP prototype spacecraft."
+        },
+        {
+          "claim_id": "claim-07-tpu-quantity",
+          "statement": "The prototype satellite carries four TPUs.",
+          "supporting_context": "The MVP satellite payload is equipped with four TPUs, structured analogously to a 4-chip compute block."
+        },
+        {
+          "claim_id": "claim-08-tpu-generation",
+          "statement": "The prototype satellite carries Google's sixth-generation Trillium TPUs (TPU v6e).",
+          "supporting_context": "The chips installed in the MVP spacecraft are Google's latest sixth-generation Trillium TPUs (TPU v6e), built for energy-efficient matrix multiplication and ML inference."
+        },
+        {
+          "claim_id": "claim-20-numerical-claims",
+          "statement": "All specific numerical claims in the candidate entry (1kW solar array, 4 TPUs, etc.) are accurate.",
+          "supporting_context": "Every numerical metric in the candidate record is verified: 1 kilowatt solar power, 4 Trillium TPUs."
+        }
+      ],
+      "primary_source": {
+        "name": "Planet Labs Official Announcement",
+        "url": "https://www.planet.com/pulse/google-project-suncatcher-mvp-spacecraft/",
+        "published_at": "2026-09-24T14:30:00Z"
+      },
+      "independent_corroboration": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Hardware details fully verified. Remediated: On-screen text card aligned to 6 words ('4 TRILLIUM TPUs • 1 kW ARRAY'), strictly complying with QA Gate 09."
+    },
+    {
+      "sentence_number": 4,
+      "shot_id": "shot-04",
+      "timestamp": "11.5s - 16.5s",
+      "spoken_text": "In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.",
+      "on_screen_text": "UP TO 8× ANNUAL SOLAR HARVEST",
+      "fact_ids": [
+        "claim-09-solar-illumination",
+        "claim-10-8x-solar-productivity",
+        "claim-20-numerical-claims"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-09-solar-illumination",
+          "statement": "Dawn-dusk sun-synchronous orbit enables nearly continuous solar power generation.",
+          "supporting_context": "Satellites in a dawn-dusk sun-synchronous orbit travel along the terminator line, maintaining near-constant visibility of the Sun without entering Earth's shadow."
+        },
+        {
+          "claim_id": "claim-10-8x-solar-productivity",
+          "statement": "Space-based solar panels can yield up to 8x the annual energy productivity of terrestrial solar panels.",
+          "supporting_context": "Google Research calculated that solar panels in a dawn-dusk sun-synchronous orbit generate up to 8x more electrical energy per year than identical panels at mid-latitudes on Earth."
+        }
+      ],
+      "primary_source": {
+        "name": "Google Official Blog",
+        "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "published_at": "2026-09-24T14:00:00Z"
+      },
+      "independent_corroboration": [
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "REMEDIATED (Phase 5R): Master script, visual direction, and storyboard synchronized to qualified dawn-dusk orbit phrasing ('In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.'). Primary on-screen text card updated to 'UP TO 8× ANNUAL SOLAR HARVEST' (5 words), adhering strictly to QA Gate 04 (no permanent 100% illumination claims) and QA Gate 09 (<= 6 words limit)."
+    },
+    {
+      "sentence_number": 5,
+      "shot_id": "shot-05 & shot-06",
+      "timestamp": "16.5s - 21.5s",
+      "spoken_text": "The catch? A vacuum has no air for cooling, and space radiation triggers memory bit-flips.",
+      "on_screen_text": "VACUUM HEAT TRAP • NO CONVECTION / RADIATION SINGLE-EVENT BIT-FLIP",
+      "fact_ids": [
+        "claim-11-radiation-testing",
+        "claim-12-bit-flip-risk",
+        "claim-14-vacuum-cooling-challenge"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-11-radiation-testing",
+          "statement": "Google conducted extensive pre-launch radiation testing on Trillium TPUs at the Crocker Nuclear Laboratory.",
+          "supporting_context": "Engineers evaluated active Trillium TPUs using a cyclotron proton beam at UC Davis Crocker Nuclear Laboratory, validating survival past 15 krad(Si) against a 750 rad(Si) 5-year mission requirement."
+        },
+        {
+          "claim_id": "claim-12-bit-flip-risk",
+          "statement": "Cosmic radiation induces single-event bit-flips and silent data corruption in orbital TPUs.",
+          "supporting_context": "Beam experiments showed high-energy protons triggered Single-Event Upsets (SEUs) and occasional silent data corruption, with High Bandwidth Memory (HBM) proving most sensitive."
+        },
+        {
+          "claim_id": "claim-14-vacuum-cooling-challenge",
+          "statement": "Operating compute accelerators in space faces severe vacuum thermal dissipation challenges.",
+          "supporting_context": "The vacuum of space eliminates convective airflow cooling, requiring all heat generated by high-power TPUs to be managed strictly through conduction and radiation."
+        }
+      ],
+      "primary_source": {
+        "name": "UC Davis Crocker Nuclear Laboratory / Google Research",
+        "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "published_at": "2026-09-24T14:00:00Z"
+      },
+      "independent_corroboration": [
+        "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Mechanisms are scientifically sound and accurately trace to primary radiation and thermodynamic tests. Zero convective fans depicted; binary SEU (0->1 bit flip) accurately rendered without sci-fi explosions."
+    },
+    {
+      "sentence_number": 6,
+      "shot_id": "shot-07",
+      "timestamp": "21.5s - 26.5s",
+      "spoken_text": "Using heat pipes and radiators, it runs fifteen-minute bursts, preparing to launch October first on SpaceX.",
+      "on_screen_text": "15-MIN BURSTS • LAUNCH OCT 1",
+      "fact_ids": [
+        "claim-04-launch-vehicle",
+        "claim-05-launch-date",
+        "claim-15-heat-pipes",
+        "claim-16-radiators",
+        "claim-20-numerical-claims"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-04-launch-vehicle",
+          "statement": "The prototype satellite is scheduled to launch aboard SpaceX Falcon 9 Transporter-18.",
+          "supporting_context": "The prototype satellite payload is integrated onto SpaceX's Transporter-18 dedicated rideshare mission lifting off from Vandenberg Space Force Base in California."
+        },
+        {
+          "claim_id": "claim-05-launch-date",
+          "statement": "The prototype launch is scheduled for October 1, 2026 (the satellite has not yet launched).",
+          "supporting_context": "The launch is targeted for October 1, 2026. As of today, September 26, 2026, the satellite remains on the ground undergoing pre-flight checkout."
+        },
+        {
+          "claim_id": "claim-15-heat-pipes",
+          "statement": "The prototype satellite employs conductive heat pipes to move heat away from the TPUs.",
+          "supporting_context": "A network of sealed conductive heat pipes with thermal interface materials transfers heat from the TPU chip dies to the external spacecraft structure."
+        },
+        {
+          "claim_id": "claim-16-radiators",
+          "statement": "External radiators reject thermal energy into deep space, constraining operations to 15-minute bursts.",
+          "supporting_context": "Exterior radiator surfaces radiate heat away as infrared radiation into space. Because radiative cooling is slow, the MVP runs AI workloads in ~15-minute bursts followed by cooling cycles."
+        },
+        {
+          "claim_id": "claim-20-numerical-claims",
+          "statement": "All specific numerical claims (15-min bursts, Oct 1 launch) verified.",
+          "supporting_context": "Confirmed 15-minute burst duty cycle and October 1, 2026 launch date."
+        }
+      ],
+      "primary_source": {
+        "name": "SpaceX Transporter-18 Manifest / Google Blog",
+        "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "published_at": "2026-09-24T14:00:00Z"
+      },
+      "independent_corroboration": [
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Temporal accuracy strictly respected ('preparing to launch October first on SpaceX'). Passive conductive and radiative cooling mechanisms accurately stated alongside 15-minute burst operational duty cycle."
+    },
+    {
+      "sentence_number": 7,
+      "shot_id": "shot-08",
+      "timestamp": "26.5s - 31.5s",
+      "spoken_text": "If proven, orbital compute could eventually bypass Earth's strained power grids.",
+      "on_screen_text": "FUTURE CONCEPT • ORBITAL MESH",
+      "fact_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-17-laser-intersatellite"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "claim-17-laser-intersatellite",
+          "statement": "The long-term vision incorporates free-space optical (laser) inter-satellite links.",
+          "supporting_context": "Google's architecture envisions interconnected constellations communicating via high-bandwidth laser cross-links, forming a distributed orbital mesh network."
+        }
+      ],
+      "primary_source": {
+        "name": "Google Official Blog",
+        "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "published_at": "2026-09-24T14:00:00Z"
+      },
+      "independent_corroboration": [
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Properly phrased as an aspirational conditional future ('If proven... could eventually bypass'), avoiding misleading claims of immediate replacement. Storyboard Shot 08 correctly marks this visual state with a prominent 'FUTURE CONCEPT' watermark."
+    },
+    {
+      "sentence_number": 8,
+      "shot_id": "shot-09",
+      "timestamp": "31.5s - 35.0s",
+      "spoken_text": "Follow for verified AI engineering breakdowns.",
+      "on_screen_text": "FOLLOW • VERIFIED AI BREAKDOWNS",
+      "fact_ids": [
+        "brand-cta-standard"
+      ],
+      "verified_facts": [
+        {
+          "claim_id": "brand-cta-standard",
+          "statement": "AI News Factory Standard Branded Call-To-Action.",
+          "supporting_context": "AI News Visual Style Bible v1.0 Section 14 CTA rotation."
+        }
+      ],
+      "primary_source": {
+        "name": "AI News Visual Style Bible v1.0",
+        "url": "INTERNAL://AI_NEWS_VISUAL_STYLE_BIBLE_v1.0.md",
+        "published_at": "2026-09-26"
+      },
+      "independent_corroboration": [],
+      "verification_status": "SUPPORTED",
+      "confidence": 1.0,
+      "editorial_audit_notes": "Concise (6 spoken words, 4 on-screen words), authoritative CTA with no false promises."
+    }
+  ],
+  "excluded_claims_traceability": [
+    {
+      "claim_id": "claim-13-launch-vibration",
+      "statement": "TPU hardware was stress-tested against rocket launch vibration and acceleration forces between 50g and 100g.",
+      "inclusion_decision": "INTENTIONALLY_EXCLUDED_FROM_VOICEOVER",
+      "rationale": "Mechanical shake tests are standard space-qualification steps; omitting from spoken script allows focusing the 35-second runtime on novel thermal and radiological mechanisms."
+    },
+    {
+      "claim_id": "claim-18-2027-two-satellite-mission",
+      "statement": "Google plans a follow-up test mission in 2027 involving two satellites to validate optical cross-links.",
+      "inclusion_decision": "INTENTIONALLY_EXCLUDED_FROM_VOICEOVER_RESERVED_FOR_VISUAL_BACKGROUND",
+      "rationale": "Follow-up mission details would crowd the immediate narrative about the October 1, 2026 flight; reserved for conceptual background laser link graphics in Shot 08."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Radial Depth Glow -->
+    <radialGradient id="bioDepthGlow" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2C" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#080E18" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Glowing Lines -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mintLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#54E39A" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#54E39A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#54E39A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB84D" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#FFB84D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFB84D" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Card Subtle Drop Shadow -->
+    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#bioDepthGlow)"/>
+
+  <!-- Technical Scientific Coordinate Grid -->
+  <g stroke="#141E2C" stroke-width="1" opacity="0.65">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="180" x2="1080" y2="180"/>
+    <line x1="0" y1="360" x2="1080" y2="360"/>
+    <line x1="0" y1="1280" x2="1080" y2="1280"/>
+    <line x1="0" y1="1650" x2="1080" y2="1650"/>
+  </g>
+
+  <!-- Top Header Banner (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      COMPUTATIONAL BIOLOGY • SHORT #2
+    </text>
+    <line x1="0" y1="20" x2="920" y2="20" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill (Y=240-290) -->
+  <g transform="translate(540, 260)">
+    <rect x="-310" y="-24" width="620" height="48" rx="24" fill="#0D121A" stroke="#54E39A" stroke-width="1.8"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="19" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-03 • THE ART ARCHITECTURE
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1240) -->
+  <g id="main-visual-stage">
+    
+    <g transform="translate(0, 0)">
+      <!-- System Title Callout -->
+      <g transform="translate(540, 360)">
+        <rect x="-300" y="-24" width="600" height="48" rx="10" fill="#0D121A" stroke="#54E39A" stroke-width="2"/>
+        <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="800" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+          ART (ARRAY-ASSOCIATED REVERSE TRANSCRIPTASE)
+        </text>
+      </g>
+
+      <!-- Tripartite Molecular Architecture Schematic (Y=440-920) -->
+      <!-- Component 1: Reverse Transcriptase (Electric Cyan) -->
+      <g transform="translate(180, 520)">
+        <rect width="320" height="240" rx="20" fill="#0C1B29" stroke="#4DEBFF" stroke-width="3"/>
+        <!-- Catalytic Cleft Graphic -->
+        <path d="M 60 70 Q 160 40 260 70 Q 280 140 230 190 Q 150 170 90 190 Z" fill="#143048" stroke="#4DEBFF" stroke-width="2"/>
+        <circle cx="160" cy="115" r="16" fill="#4DEBFF" opacity="0.4"/>
+        <circle cx="160" cy="115" r="8" fill="#4DEBFF"/>
+        <!-- Labels -->
+        <text x="160" y="165" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F3F7FA" text-anchor="middle">
+          COMPONENT 1: RT ENZYME
+        </text>
+        <text x="160" y="195" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#4DEBFF" text-anchor="middle">
+          RNA → DNA SYNTHESIS
+        </text>
+      </g>
+
+      <!-- Component 2: Partner Protein / Gene (Violet) -->
+      <g transform="translate(580, 520)">
+        <rect width="320" height="240" rx="20" fill="#181129" stroke="#9B7CFF" stroke-width="3"/>
+        <!-- Globular Partner Protein Graphic -->
+        <circle cx="160" cy="110" r="55" fill="#291A45" stroke="#9B7CFF" stroke-width="2"/>
+        <circle cx="140" cy="95" r="14" fill="#9B7CFF" opacity="0.5"/>
+        <circle cx="180" cy="125" r="18" fill="#9B7CFF" opacity="0.3"/>
+        <!-- Labels -->
+        <text x="160" y="185" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F3F7FA" text-anchor="middle">
+          COMPONENT 2: PARTNER GENE
+        </text>
+        <text x="160" y="212" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#9B7CFF" text-anchor="middle">
+          REGULATORY / TARGETING
+        </text>
+      </g>
+
+      <!-- Component 3: Tandem Repeat DNA Array (CRISPR-Like Architecture) -->
+      <g transform="translate(80, 820)">
+        <rect width="920" height="210" rx="16" fill="#0D121A" stroke="#54E39A" stroke-width="2.5"/>
+
+        <!-- Header -->
+        <text x="40" y="42" font-family="'Inter', sans-serif" font-size="20" font-weight="800" fill="#54E39A" letter-spacing="1">
+          COMPONENT 3: TANDEM REPEAT DNA ARRAY (CRISPR-LIKE ARCHITECTURE)
+        </text>
+        <text x="880" y="42" font-family="'Space Grotesk', monospace" font-size="14" font-weight="600" fill="#8B98A7" text-anchor="end">
+          VIRAL GENOMIC LOCUS
+        </text>
+
+        <!-- Continuous DNA Backbone -->
+        <line x1="40" y1="120" x2="880" y2="120" stroke="#455570" stroke-width="4"/>
+        <line x1="40" y1="132" x2="880" y2="132" stroke="#455570" stroke-width="4"/>
+
+        <!-- Repeating Rectangular Cassettes (Mint Green) + Dark Spacers -->
+        <!-- Repeat 1 -->
+        <g transform="translate(60, 95)">
+          <rect width="110" height="62" rx="8" fill="#123824" stroke="#54E39A" stroke-width="2"/>
+          <text x="55" y="36" font-family="'Space Grotesk', monospace" font-size="14" font-weight="800" fill="#54E39A" text-anchor="middle">REPEAT 1</text>
+        </g>
+        <!-- Spacer 1 -->
+        <rect x="180" y="108" width="60" height="36" rx="4" fill="#0C141F" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="210" y="131" font-family="'Space Grotesk', monospace" font-size="12" fill="#8B98A7" text-anchor="middle">SPACER</text>
+
+        <!-- Repeat 2 -->
+        <g transform="translate(250, 95)">
+          <rect width="110" height="62" rx="8" fill="#123824" stroke="#54E39A" stroke-width="2"/>
+          <text x="55" y="36" font-family="'Space Grotesk', monospace" font-size="14" font-weight="800" fill="#54E39A" text-anchor="middle">REPEAT 2</text>
+        </g>
+        <!-- Spacer 2 -->
+        <rect x="370" y="108" width="60" height="36" rx="4" fill="#0C141F" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="400" y="131" font-family="'Space Grotesk', monospace" font-size="12" fill="#8B98A7" text-anchor="middle">SPACER</text>
+
+        <!-- Repeat 3 -->
+        <g transform="translate(440, 95)">
+          <rect width="110" height="62" rx="8" fill="#123824" stroke="#54E39A" stroke-width="2"/>
+          <text x="55" y="36" font-family="'Space Grotesk', monospace" font-size="14" font-weight="800" fill="#54E39A" text-anchor="middle">REPEAT 3</text>
+        </g>
+        <!-- Spacer 3 -->
+        <rect x="560" y="108" width="60" height="36" rx="4" fill="#0C141F" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="590" y="131" font-family="'Space Grotesk', monospace" font-size="12" fill="#8B98A7" text-anchor="middle">SPACER</text>
+
+        <!-- Repeat 4 -->
+        <g transform="translate(630, 95)">
+          <rect width="110" height="62" rx="8" fill="#123824" stroke="#54E39A" stroke-width="2"/>
+          <text x="55" y="36" font-family="'Space Grotesk', monospace" font-size="14" font-weight="800" fill="#54E39A" text-anchor="middle">REPEAT 4</text>
+        </g>
+        <!-- Spacer 4 -->
+        <rect x="750" y="108" width="60" height="36" rx="4" fill="#0C141F" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="780" y="131" font-family="'Space Grotesk', monospace" font-size="12" fill="#8B98A7" text-anchor="middle">SPACER</text>
+
+        <!-- Repeat 5 (partial) -->
+        <g transform="translate(820, 95)">
+          <rect width="50" height="62" rx="8" fill="#123824" stroke="#54E39A" stroke-width="2"/>
+        </g>
+
+        <!-- Explanatory Guardrail Tag below array -->
+        <text x="460" y="190" font-family="'Space Grotesk', monospace" font-size="14" font-weight="600" fill="#8B98A7" text-anchor="middle" letter-spacing="1.5">
+          STRUCTURAL ANALOGY: REPEATING ARRAYS RESEMBLE CRISPR ARCHITECTURE
+        </text>
+      </g>
+
+      <!-- Non-Cutting Guardrail Pill -->
+      <g transform="translate(540, 1120)">
+        <rect x="-310" y="-22" width="620" height="44" rx="22" fill="#14101A" stroke="#9B7CFF" stroke-width="1.5"/>
+        <text x="0" y="1" font-family="'Space Grotesk', monospace" font-size="16" font-weight="700" fill="#9B7CFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1">
+          NATURAL ENZYME SYSTEM • NO CAS9 CUTTING DEMONSTRATED
+        </text>
+      </g>
+    </g>
+    
+  </g>
+
+  
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1330-1560) -->
+  <g transform="translate(80, 1340)" filter="url(#cardGlow)">
+    <rect width="920" height="220" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 32 L 0 0 L 32 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 32 L 920 0 L 888 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 188 L 0 220 L 32 220" fill="none" stroke="#9B7CFF" stroke-width="3"/>
+    <path d="M 920 188 L 920 220 L 888 220" fill="none" stroke="#9B7CFF" stroke-width="3"/>
+
+    <!-- Primary Headline Card (Strictly <=6 words) -->
+    <text x="460" y="95" font-family="'Inter', sans-serif" font-size="44" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="2">
+      ART • CRISPR-LIKE REPEATS
+    </text>
+
+    <!-- Subtext Explainer -->
+    <line x1="160" y1="130" x2="760" y2="130" stroke="url(#cyanLine)" stroke-width="1.5"/>
+    <text x="460" y="172" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      REVERSE TRANSCRIPTASE + PARTNER GENE + TANDEM ARRAYS
+    </text>
+  </g>
+
+  <!-- Bottom Mandatory Disclosure & Safety Bar (Y=1680-1760) -->
+  <g transform="translate(540, 1720)">
+    <rect x="-380" y="-20" width="760" height="40" rx="8" fill="#0A0F17" stroke="#1B283A" stroke-width="1.2"/>
+    <text x="0" y="1" font-family="'Space Grotesk', monospace" font-size="14" font-weight="600" fill="#8B98A7" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+      ORIGINAL SCIENTIFIC DIAGRAM — MOLECULAR BLUEPRINT
+    </text>
+  </g>
+</svg>

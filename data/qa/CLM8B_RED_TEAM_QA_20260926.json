@@ -1,0 +1,38 @@
+{
+  "status": "APPROVED_FOR_RENDER",
+  "story_id": "stanford-nvidia-clm-8b-agent-model-2026",
+  "checks": [
+    {
+      "name": "Factual Accuracy & Numerical Precision",
+      "status": "PASS",
+      "notes": "All claims verified via Stanford/NVIDIA arXiv preprint and VentureBeat: dual-encoder architecture, 9x speedup, 87.6% benchmark, Qwen3-8B backbone."
+    },
+    {
+      "name": "Negative Boundary Check",
+      "status": "PASS",
+      "notes": "Shot 05 explicitly states: \"It is not a chatbot\u2014it is an action engine.\" Card: NOT A CHATBOT \u2022 ACTION ENGINE."
+    },
+    {
+      "name": "Rights and Licensing Clearance",
+      "status": "PASS",
+      "notes": "100% original vector diagrams designed in-house. All assets classified as CLEARED."
+    },
+    {
+      "name": "Mobile Safe Zones and Typographic Density",
+      "status": "PASS",
+      "notes": "On-screen cards strictly <= 6 words per card."
+    },
+    {
+      "name": "Timeline & Audio Synchronization",
+      "status": "PASS",
+      "notes": "Total duration target 30.0s. All shot durations match script and visual plan."
+    }
+  ],
+  "scores": {
+    "factual": 9.8,
+    "visual": 9.6,
+    "editorial": 9.5,
+    "production": 9.7
+  },
+  "publish_authorized": false
+}

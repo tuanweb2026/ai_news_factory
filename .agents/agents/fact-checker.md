@@ -3,7 +3,7 @@ name: fact-checker
 description: Evidence and provenance specialist. Verifies AI news claims, dates, numbers, quotes, and visual evidence before production.
 tools:
   - view_file
-  - create_file
+  - write_to_file
   - run_command
   - search_web
   - read_url_content

@@ -50,3 +50,30 @@ security:
   secrets_in_repo: false
   destructive_commands: false
   default_external_write_permission: ask
+
+audio:
+  tts:
+    backend: macos_say
+    english_voice: Samantha
+    vietnamese_voice: Linh
+  sample_rate: 48000
+  channels: 2
+  target_lufs: -16
+  ducking:
+    enabled: true
+    music_attenuation_db: -18
+    sfx_attenuation_db: -6
+
+render:
+  encoder: videotoolbox
+  fallback_encoder: libx264
+  crf: 18
+  preset: slow
+  max_words_per_card: 6
+  subtitles:
+    font_name: Inter
+    font_size: 42
+    primary_color: "&H00FAF7F3"
+    outline_color: "&H000F0A07"
+    outline_width: 3
+    margin_v: 240

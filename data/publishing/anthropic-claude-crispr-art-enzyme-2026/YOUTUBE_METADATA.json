@@ -1,0 +1,32 @@
+{
+  "story_id": "anthropic-claude-crispr-art-enzyme-2026",
+  "production_version": "release_candidate_short_02",
+  "status": "APPROVED_FOR_PUBLICATION",
+  "human_approval": true,
+  "approved_at": "2026-09-26T20:15:27+07:00",
+  "master_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/video/final_release_candidate.mp4",
+  "youtube_metadata": {
+    "title": "AI Discovers New CRISPR-Like Biology #shorts",
+    "title_options": [
+      "AI Discovers New CRISPR-Like Biology #shorts",
+      "Claude Just Found New Biology in Viruses #shorts",
+      "1,000 AI Agents Discover Novel Enzyme System #shorts"
+    ],
+    "description": "Anthropic deployed ~1,000 Claude agents to scan nearly 2 billion protein clusters. In about 21 hours, it discovered ART\u2014a novel enzyme system hidden inside viruses with CRISPR-like repeating arrays. Wet-lab validated in San Francisco. Not a human gene therapy, but a brand new biological architecture.\n\n#AI #Biology #CRISPR #Anthropic #Science #Shorts",
+    "category_id": "28",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI Discovery",
+      "CRISPR",
+      "Biology",
+      "ART Enzyme",
+      "Biotechnology",
+      "Science News",
+      "Artificial Intelligence"
+    ],
+    "privacy_status": "PUBLIC",
+    "made_for_kids": false,
+    "license": "youtube"
+  }
+}

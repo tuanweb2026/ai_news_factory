@@ -1,0 +1,324 @@
+{
+  "status": "VERIFIED",
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "verified_at": "2026-09-26T09:40:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-existence",
+      "claim": "Project Suncatcher exists as a legitimate Google research initiative exploring space-based AI computing.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "Google Research publicly unveiled 'Project Suncatcher', a research initiative exploring the physical and architectural feasibility of deploying machine learning accelerators in low Earth orbit.",
+      "notes": "Corroborated across primary Google announcements and multiple independent space and semiconductor industry publications."
+    },
+    {
+      "claim_id": "claim-02-research-nature",
+      "claim": "Project Suncatcher is an exploratory research and experimental project rather than a commercial product or operational data center.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "Project Suncatcher is a long-term research moonshot investigating hardware resilience, thermal constraints, and communication architectures in space; it is not a commercial service.",
+      "notes": "Must be characterized strictly as research / experimental prototyping, not a commercial rollout."
+    },
+    {
+      "claim_id": "claim-03-tpu-in-orbit",
+      "claim": "Google plans to test its proprietary Tensor Processing Unit (TPU) hardware in low Earth orbit.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "Google plans to operate datacenter-class TPUs in orbit to gather empirical data on microgravity, vacuum operation, and radiation tolerance during live AI inference.",
+      "notes": "Represents the first planned orbital operation of Google's custom Cloud TPU accelerators."
+    },
+    {
+      "claim_id": "claim-04-launch-vehicle",
+      "claim": "The prototype satellite is scheduled to launch aboard SpaceX Falcon 9 Transporter-18.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "The prototype satellite payload is integrated onto SpaceX's Transporter-18 dedicated rideshare mission lifting off from Vandenberg Space Force Base in California.",
+      "notes": "Mission manifest and rideshare designation confirmed as SpaceX Transporter-18."
+    },
+    {
+      "claim_id": "claim-05-launch-date",
+      "claim": "The prototype launch is scheduled for October 1, 2026 (the satellite has not yet launched).",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "The launch is targeted for October 1, 2026. As of today, September 26, 2026, the satellite remains on the ground undergoing pre-flight checkout.",
+      "notes": "MANDATORY TEMPORAL RULE: Satellite has NOT yet launched. Script and reporting must state 'scheduled to launch' or 'preparing for launch', never 'launched'."
+    },
+    {
+      "claim_id": "claim-06-planet-partnership",
+      "claim": "Earth-imaging company Planet Labs (Planet) is partnering with Google and built the prototype spacecraft.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.planet.com/pulse/google-project-suncatcher-mvp-spacecraft/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "Google partnered with Planet Labs, leveraging Planet's agile satellite bus architecture to manufacture and host the MVP prototype spacecraft.",
+      "notes": "Planet brings established low-Earth-orbit satellite design and constellation operations experience."
+    },
+    {
+      "claim_id": "claim-07-tpu-quantity",
+      "claim": "The prototype satellite carries four TPUs.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "The MVP satellite payload is equipped with four TPUs, structured analogously to a 4-chip compute block.",
+      "notes": "Verified exact count: 4 TPUs."
+    },
+    {
+      "claim_id": "claim-08-tpu-generation",
+      "claim": "The prototype satellite carries Google's sixth-generation Trillium TPUs (TPU v6e).",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "The chips installed in the MVP spacecraft are Google's latest sixth-generation Trillium TPUs (TPU v6e), built for energy-efficient matrix multiplication and ML inference.",
+      "notes": "Verified TPU generation is Trillium / TPU v6e."
+    },
+    {
+      "claim_id": "claim-09-solar-illumination",
+      "claim": "Dawn-dusk sun-synchronous orbit enables nearly continuous solar power generation.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "Satellites in a dawn-dusk sun-synchronous orbit travel along the terminator line, maintaining near-constant visibility of the Sun without entering Earth's shadow.",
+      "notes": "Orbital mechanics eliminate the day/night power fluctuation typical of terrestrial solar installations."
+    },
+    {
+      "claim_id": "claim-10-8x-solar-productivity",
+      "claim": "Space-based solar panels can yield up to 8x the annual energy productivity of terrestrial solar panels.",
+      "status": "SUPPORTED",
+      "confidence": 0.95,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "Google Research calculated that solar panels in a dawn-dusk sun-synchronous orbit generate up to 8x more electrical energy per year than identical panels at mid-latitudes on Earth.",
+      "notes": "EDITORIAL BOUNDARY: 'Up to 8x' refers to annual cumulative energy capture due to zero atmospheric absorption, zero clouds, and zero nighttime, NOT an 8x improvement in photovoltaic cell conversion efficiency."
+    },
+    {
+      "claim_id": "claim-11-radiation-testing",
+      "claim": "Google conducted extensive pre-launch radiation testing on Trillium TPUs at the Crocker Nuclear Laboratory.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123"
+      ],
+      "exact_supporting_context": "Engineers evaluated active Trillium TPUs using a cyclotron proton beam at UC Davis Crocker Nuclear Laboratory, validating survival past 15 krad(Si) against a 750 rad(Si) 5-year mission requirement.",
+      "notes": "Demonstrated total ionizing dose resilience for commercial off-the-shelf datacenter silicon in low Earth orbit."
+    },
+    {
+      "claim_id": "claim-12-bit-flip-risk",
+      "claim": "Cosmic radiation induces single-event bit-flips and silent data corruption in orbital TPUs.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123"
+      ],
+      "exact_supporting_context": "Beam experiments showed high-energy protons triggered Single-Event Upsets (SEUs) and occasional silent data corruption, with High Bandwidth Memory (HBM) proving most sensitive.",
+      "notes": "Quantifying in-orbit bit-flip frequency and software fault-recovery during active matrix math is a core scientific goal."
+    },
+    {
+      "claim_id": "claim-13-launch-vibration",
+      "claim": "TPU hardware was stress-tested against rocket launch vibration and acceleration forces between 50g and 100g.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "Google performed 3-axis vibration shaker table tests simulating rocket ascent, subjecting components to dynamic forces between 50g and 100g to ensure solder joints and wire bonds remain intact.",
+      "notes": "Hardware successfully passed mechanical shake qualification with zero structural failures."
+    },
+    {
+      "claim_id": "claim-14-vacuum-cooling-challenge",
+      "claim": "Operating compute accelerators in space faces severe vacuum thermal dissipation challenges.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "The vacuum of space eliminates convective airflow cooling, requiring all heat generated by high-power TPUs to be managed strictly through conduction and radiation.",
+      "notes": "Thermal dissipation in a vacuum represents the primary physical bottleneck for high-density space computation."
+    },
+    {
+      "claim_id": "claim-15-heat-pipes",
+      "claim": "The prototype satellite employs conductive heat pipes to move heat away from the TPUs.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "A network of sealed conductive heat pipes with thermal interface materials transfers heat from the TPU chip dies to the external spacecraft structure.",
+      "notes": "Passive heat pipes provide high thermal conductivity without moving mechanical parts."
+    },
+    {
+      "claim_id": "claim-16-radiators",
+      "claim": "External radiators reject thermal energy into deep space, constraining operations to 15-minute bursts.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "Exterior radiator surfaces radiate heat away as infrared radiation into space. Because radiative cooling is slow, the MVP runs AI workloads in ~15-minute bursts followed by cooling cycles.",
+      "notes": "Thermal limits dictate burst duty cycles rather than continuous 100% duty cycle compute."
+    },
+    {
+      "claim_id": "claim-17-laser-intersatellite",
+      "claim": "The long-term vision incorporates free-space optical (laser) inter-satellite links.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "Google's architecture envisions interconnected constellations communicating via high-bandwidth laser cross-links, forming a distributed orbital mesh network.",
+      "notes": "Laser links bypass terrestrial fiber constraints and provide high-bandwidth low-latency inter-satellite fabric."
+    },
+    {
+      "claim_id": "claim-18-2027-two-satellite-mission",
+      "claim": "Google plans a follow-up test mission in 2027 involving two satellites to validate optical cross-links.",
+      "status": "SUPPORTED",
+      "confidence": 0.95,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch"
+      ],
+      "exact_supporting_context": "Google has outlined plans for a second test mission in 2027 featuring two prototype satellites to demonstrate laser-based inter-satellite communication and synchronized workloads.",
+      "notes": "Targeted milestone representing Phase 2 of Google's orbital research roadmap."
+    },
+    {
+      "claim_id": "claim-19-operational-datacenter-refutation",
+      "claim": "Project Suncatcher is already an operational orbital AI data center.",
+      "status": "CONTRADICTED",
+      "confidence": 1.0,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu"
+      ],
+      "exact_supporting_context": "Project Suncatcher is an early-stage prototype testbed (MVP) scheduled for a first launch on October 1, 2026. It is not an operational data center, does not serve customer workloads, and consists of a single experimental test satellite.",
+      "notes": "CRITICAL EDITORIAL GUARDRAIL: Any characterization of Project Suncatcher as an existing or operational orbital data center is false and strictly prohibited. Must be termed an 'experimental prototype' or 'research mission'."
+    },
+    {
+      "claim_id": "claim-20-numerical-claims",
+      "claim": "All specific numerical claims in the candidate entry (1kW solar array, 4 TPUs, 8x efficiency, October 1 2026, 2027 mission, 50-100g, 15 krad, 15-minute bursts) are accurate.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "source_type": "PRIMARY_AND_INDEPENDENT",
+      "sources": [
+        "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+        "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu",
+        "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123"
+      ],
+      "exact_supporting_context": "Every numerical metric in the candidate record is verified: 1 kilowatt solar power, 4 Trillium TPUs, up to 8x orbital solar energy productivity, launch on October 1, 2026 on Transporter-18, 2027 planned follow-up dual-satellite launch, 50-100g vibration tolerance, 15 krad(Si) radiation endurance, and 15-minute operational compute bursts.",
+      "notes": "All numerical data points confirmed across primary technical releases and independent aerospace/silicon reporting."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+      "name": "Google Official Blog",
+      "published_at": "2026-09-24T14:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://www.planet.com/pulse/google-project-suncatcher-mvp-spacecraft/",
+      "name": "Planet Labs Official Announcement",
+      "published_at": "2026-09-24T14:30:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+      "name": "Space.com",
+      "published_at": "2026-09-24T16:00:00Z",
+      "role": "INDEPENDENT"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu",
+      "name": "Tom's Hardware",
+      "published_at": "2026-09-24T17:15:00Z",
+      "role": "INDEPENDENT"
+    },
+    {
+      "url": "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+      "name": "Gizmodo",
+      "published_at": "2026-09-24T18:00:00Z",
+      "role": "SECONDARY_REPEAT"
+    }
+  ],
+  "uncertainties": [
+    "Potential for rideshare launch schedule postponement beyond October 1, 2026 due to SpaceX Transporter-18 range integration or weather contingencies.",
+    "Actual in-orbit TPU degradation rate over a 1-year mission compared to simulated Crocker Nuclear Lab cyclotron results.",
+    "Long-term thermal cycling fatigue on heat pipe interfaces during orbital transitions between sunlight and brief eclipses.",
+    "Economic and bandwidth parity of optical laser downlinks versus direct terrestrial datacenter fiber."
+  ],
+  "editorial_cautions": [
+    "TEMPORAL RULE: Current date is September 26, 2026. The satellite has NOT yet launched. Narration and visuals must state 'scheduled to launch' or 'preparing for launch on October 1, 2026', NEVER 'launched'.",
+    "TERMINOLOGY RULE: Do NOT describe Project Suncatcher as an operational orbital AI data center. Use 'prototype', 'test satellite', 'experimental mission', 'research project', or 'exploring orbital AI infrastructure'.",
+    "METRIC ACCURACY: Clarify that 'up to 8x' refers to annual solar energy generation in dawn-dusk sun-synchronous orbit compared to terrestrial mid-latitude panels (no clouds, no night, no atmospheric absorption), NOT an 8x boost in solar cell conversion efficiency.",
+    "DUTY CYCLE CLARIFICATION: The prototype operates 4 TPUs for ~15-minute bursts due to vacuum heat dissipation constraints, followed by cooldown cycles, rather than continuous sustained datacenter compute."
+  ],
+  "visual_evidence_availability": {
+    "cleanroom_photos": "Available: Planet Labs released cleanroom photographs showing technicians inspecting the refrigerator-sized MVP satellite chassis and 1kW solar arrays.",
+    "hardware_schematics": "Available: Technical diagrams detailing the passive heat-pipe thermal loop, external radiator layout, and 4-TPU board integration.",
+    "orbital_renderings": "Available: Architectural concept renders illustrating dawn-dusk sun-synchronous orbital trajectory and future free-space laser cross-links.",
+    "b_roll_and_footage": "Available: SpaceX Falcon 9 Transporter-18 pad and launch vehicle b-roll from Vandenberg SFB, and cyclotron proton beam testing footage from UC Davis Crocker Nuclear Laboratory."
+  }
+}

@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Radial Depth Glow -->
+    <radialGradient id="bioDepthGlow" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2C" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#080E18" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Glowing Lines -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mintLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#54E39A" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#54E39A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#54E39A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB84D" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#FFB84D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFB84D" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Card Subtle Drop Shadow -->
+    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#bioDepthGlow)"/>
+
+  <!-- Technical Scientific Coordinate Grid -->
+  <g stroke="#141E2C" stroke-width="1" opacity="0.65">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="180" x2="1080" y2="180"/>
+    <line x1="0" y1="360" x2="1080" y2="360"/>
+    <line x1="0" y1="1280" x2="1080" y2="1280"/>
+    <line x1="0" y1="1650" x2="1080" y2="1650"/>
+  </g>
+
+  <!-- Top Header Banner (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      COMPUTATIONAL BIOLOGY • SHORT #2
+    </text>
+    <line x1="0" y1="20" x2="920" y2="20" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill (Y=240-290) -->
+  <g transform="translate(540, 260)">
+    <rect x="-310" y="-24" width="620" height="48" rx="24" fill="#0D121A" stroke="#9B7CFF" stroke-width="1.8"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="19" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-02 • COMPUTATIONAL THROUGHPUT
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1240) -->
+  <g id="main-visual-stage">
+    
+    <g transform="translate(0, 0)">
+      <!-- Top Scale Telemetry Cards -->
+      <g transform="translate(100, 360)">
+        <rect width="420" height="100" rx="12" fill="#0D121A" stroke="#4DEBFF" stroke-width="2"/>
+        <text x="30" y="40" font-family="'Space Grotesk', monospace" font-size="15" font-weight="700" fill="#4DEBFF">AUTONOMOUS AGENTS</text>
+        <text x="30" y="78" font-family="'Inter', sans-serif" font-size="34" font-weight="900" fill="#F3F7FA">~1,000 SESSIONS</text>
+      </g>
+      <g transform="translate(560, 360)">
+        <rect width="420" height="100" rx="12" fill="#0D121A" stroke="#9B7CFF" stroke-width="2"/>
+        <text x="30" y="40" font-family="'Space Grotesk', monospace" font-size="15" font-weight="700" fill="#9B7CFF">SEARCH SPACE</text>
+        <text x="30" y="78" font-family="'Inter', sans-serif" font-size="34" font-weight="900" fill="#F3F7FA">~1.9B CLUSTERS</text>
+      </g>
+
+      <!-- Multi-tiered Filtering Funnel Matrix -->
+      <!-- Tier 1: Massive Distributed Agent Nodes -->
+      <g transform="translate(140, 500)">
+        <text x="400" y="0" font-family="'Space Grotesk', monospace" font-size="15" font-weight="700" fill="#4DEBFF" text-anchor="middle" letter-spacing="2">
+          TIER 1: PARALLEL AGENT INFERENCE SESSIONS (~1,000 INSTANCES)
+        </text>
+        <!-- 10 Representative Agent Node Banks -->
+        <g transform="translate(0, 20)">
+          <!-- Node 1 to 10 -->
+          <circle cx="40" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="120" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="200" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="280" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="360" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="440" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="520" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="600" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="680" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+          <circle cx="760" cy="25" r="16" fill="#0E131F" stroke="#4DEBFF" stroke-width="2"/>
+
+          <!-- Core dots -->
+          <circle cx="40" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="120" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="200" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="280" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="360" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="440" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="520" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="600" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="680" cy="25" r="6" fill="#4DEBFF"/>
+          <circle cx="760" cy="25" r="6" fill="#4DEBFF"/>
+        </g>
+      </g>
+
+      <!-- Tier 2: Protein Cluster Point Cloud Funneling (1.9 Billion Representation) -->
+      <g transform="translate(100, 590)">
+        <!-- Funnel Boundary Vectors -->
+        <line x1="80" y1="20" x2="320" y2="340" stroke="#1E2A38" stroke-width="2" stroke-dasharray="8 8"/>
+        <line x1="800" y1="20" x2="560" y2="340" stroke="#1E2A38" stroke-width="2" stroke-dasharray="8 8"/>
+
+        <!-- Dense Data Point Cloud (Dot Matrix) -->
+        <g fill="#4DEBFF" opacity="0.75">
+          <circle cx="160" cy="40" r="3.5"/><circle cx="240" cy="50" r="2.5"/><circle cx="320" cy="35" r="3"/>
+          <circle cx="400" cy="45" r="4"/><circle cx="480" cy="38" r="2.5"/><circle cx="560" cy="52" r="3.5"/>
+          <circle cx="640" cy="42" r="3"/><circle cx="720" cy="48" r="2.5"/>
+          <circle cx="190" cy="90" r="3"/><circle cx="270" cy="100" r="3.5"/><circle cx="350" cy="85" r="2.5"/>
+          <circle cx="430" cy="95" r="4"/><circle cx="510" cy="88" r="3"/><circle cx="590" cy="102" r="2.5"/>
+          <circle cx="670" cy="92" r="3.5"/>
+          <circle cx="230" cy="140" r="3"/><circle cx="310" cy="150" r="3.5"/><circle cx="390" cy="135" r="4"/>
+          <circle cx="470" cy="145" r="3"/><circle cx="550" cy="138" r="3.5"/><circle cx="630" cy="148" r="3"/>
+        </g>
+        <g fill="#9B7CFF" opacity="0.8">
+          <circle cx="280" cy="190" r="4"/><circle cx="360" cy="200" r="3.5"/><circle cx="440" cy="185" r="4"/>
+          <circle cx="520" cy="195" r="4.5"/><circle cx="600" cy="190" r="3.5"/>
+          <circle cx="330" cy="240" r="4"/><circle cx="410" cy="250" r="4.5"/><circle cx="490" cy="235" r="5"/>
+          <circle cx="570" cy="245" r="4"/>
+        </g>
+        <g fill="#54E39A" opacity="0.9">
+          <circle cx="380" cy="290" r="5"/><circle cx="440" cy="300" r="6"/><circle cx="500" cy="295" r="5.5"/>
+        </g>
+      </g>
+
+      <!-- Tier 3: Convergence into Verified Candidate Systems -->
+      <g transform="translate(540, 1000)">
+        <rect x="-240" y="-35" width="480" height="70" rx="14" fill="#0D121A" stroke="#54E39A" stroke-width="2.5"/>
+        <circle cx="-190" cy="0" r="14" fill="#54E39A" opacity="0.3"/>
+        <circle cx="-190" cy="0" r="7" fill="#54E39A"/>
+        <text x="-150" y="-8" font-family="'Space Grotesk', monospace" font-size="13" font-weight="700" fill="#54E39A">CANDIDATE DISCOVERY</text>
+        <text x="-150" y="18" font-family="'Inter', sans-serif" font-size="20" font-weight="800" fill="#F3F7FA">ART TRIPARTITE LOCUS</text>
+      </g>
+
+      <!-- Runtime Benchmark Stamp (21.5 Hours) -->
+      <g transform="translate(540, 1140)">
+        <rect x="-260" y="-22" width="520" height="44" rx="22" fill="#101926" stroke="#4DEBFF" stroke-width="1.5"/>
+        <text x="0" y="1" font-family="'Space Grotesk', monospace" font-size="17" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+          WALL-CLOCK DISCOVERY TIME: ~21.5 HOURS
+        </text>
+      </g>
+    </g>
+    
+  </g>
+
+  
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1330-1560) -->
+  <g transform="translate(80, 1340)" filter="url(#cardGlow)">
+    <rect width="920" height="220" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 32 L 0 0 L 32 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 32 L 920 0 L 888 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 188 L 0 220 L 32 220" fill="none" stroke="#9B7CFF" stroke-width="3"/>
+    <path d="M 920 188 L 920 220 L 888 220" fill="none" stroke="#9B7CFF" stroke-width="3"/>
+
+    <!-- Primary Headline Card (Strictly <=6 words) -->
+    <text x="460" y="95" font-family="'Inter', sans-serif" font-size="44" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="2">
+      1,000 AGENTS • 1.9B CLUSTERS
+    </text>
+
+    <!-- Subtext Explainer -->
+    <line x1="160" y1="130" x2="760" y2="130" stroke="url(#cyanLine)" stroke-width="1.5"/>
+    <text x="460" y="172" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      PARALLEL AGENT SESSIONS FILTER MASSIVE BIOLOGICAL DATA
+    </text>
+  </g>
+
+  <!-- Bottom Mandatory Disclosure & Safety Bar (Y=1680-1760) -->
+  <g transform="translate(540, 1720)">
+    <rect x="-380" y="-20" width="760" height="40" rx="8" fill="#0A0F17" stroke="#1B283A" stroke-width="1.2"/>
+    <text x="0" y="1" font-family="'Space Grotesk', monospace" font-size="14" font-weight="600" fill="#8B98A7" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+      ORIGINAL SCIENTIFIC VECTOR DIAGRAM — SEARCH SCALE
+    </text>
+  </g>
+</svg>

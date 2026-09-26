@@ -3,7 +3,7 @@ name: news-hunter
 description: Research specialist that finds fresh, relevant AI news and creates source-backed candidate artifacts.
 tools:
   - view_file
-  - create_file
+  - write_to_file
   - run_command
   - search_web
   - read_url_content

@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Space Radial Glow -->
+    <radialGradient id="spaceGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Hairline Gradients -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldKapton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FF8008"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="thermalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C70"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFF275"/>
+    </linearGradient>
+    <linearGradient id="solarWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="50%" stop-color="#1f3160"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Deep Void -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#spaceGlow)"/>
+
+  <!-- Technical Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="200" x2="1080" y2="200"/>
+    <line x1="0" y1="440" x2="1080" y2="440"/>
+    <line x1="0" y1="1300" x2="1080" y2="1300"/>
+    <line x1="0" y1="1680" x2="1080" y2="1680"/>
+  </g>
+
+  <!-- Top Header Zone (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      PROJECT SUNCATCHER • ORBITAL TPU
+    </text>
+    <line x1="0" y1="22" x2="920" y2="22" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill -->
+  <g transform="translate(540, 260)">
+    <rect x="-300" y="-24" width="600" height="48" rx="24" fill="#0D121A" stroke="#4DEBFF" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-07 • THERMAL LOOP &amp; LAUNCH TARGET
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1280) -->
+  <g id="main-visual-stage">
+    
+    <!-- Thermal Dissipation + SpaceX Launch Preparation -->
+    <g transform="translate(100, 340)">
+      <!-- Stage 1: External Thermal Radiator Loop -->
+      <g transform="translate(0, 0)">
+        <rect width="880" height="340" rx="14" fill="#0D131F" stroke="#1E2A38" stroke-width="2"/>
+        <text x="40" y="40" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#C87533">
+          HEAT DISSIPATION LOOP: COPPER PIPES → RADIATOR FINS
+        </text>
+
+        <!-- Copper Heat Pipe Channels -->
+        <g transform="translate(80, 80)">
+          <!-- Heat source cold plate -->
+          <rect x="0" y="30" width="120" height="120" rx="6" fill="#1C1819" stroke="#FF5C70" stroke-width="2"/>
+          <text x="60" y="95" font-family="'Inter', sans-serif" font-size="15" font-weight="800" fill="#FF5C70" text-anchor="middle">
+            4-TPU CORE
+          </text>
+
+          <!-- Sealed Copper Capillary Heat Pipes -->
+          <path d="M 120 70 L 320 70 L 320 30 L 460 30" fill="none" stroke="#C87533" stroke-width="12" stroke-linecap="round"/>
+          <path d="M 120 110 L 320 110 L 320 150 L 460 150" fill="none" stroke="#C87533" stroke-width="12" stroke-linecap="round"/>
+
+          <!-- External Radiator Panel (0.8m x 0.6m) -->
+          <rect x="460" y="10" width="220" height="160" rx="6" fill="#121824" stroke="#4DEBFF" stroke-width="2"/>
+          <text x="570" y="95" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#4DEBFF" text-anchor="middle">
+            EXTERNAL RADIATOR
+          </text>
+
+          <!-- Infrared Radiation Waves into Space -->
+          <path d="M 695 50 Q 725 70 695 90" fill="none" stroke="#FF5C70" stroke-width="3" opacity="0.8"/>
+          <path d="M 715 40 Q 755 70 715 100" fill="none" stroke="#FF5C70" stroke-width="3" opacity="0.6"/>
+          <path d="M 735 30 Q 785 70 735 110" fill="none" stroke="#FF5C70" stroke-width="3" opacity="0.4"/>
+          <text x="750" y="150" font-family="'Space Grotesk', monospace" font-size="12" fill="#FF5C70">
+            IR EMISSION
+          </text>
+        </g>
+
+        <!-- 15-Minute Compute Burst Tag -->
+        <g transform="translate(40, 260)">
+          <rect width="800" height="50" rx="8" fill="#070A0F" stroke="#1E2A38" stroke-width="1"/>
+          <text x="400" y="32" font-family="'Space Grotesk', monospace" font-size="16" font-weight="700" fill="#FFB300" text-anchor="middle">
+            DUTY CYCLE: 15-MINUTE COMPUTE BURSTS → PASSIVE RADIATIVE RECOVERY
+          </text>
+        </g>
+      </g>
+
+      <!-- Stage 2: SpaceX Launch Target (Strict Future Tense) -->
+      <g transform="translate(0, 370)">
+        <rect width="880" height="340" rx="14" fill="#0B1524" stroke="#4DEBFF" stroke-width="2"/>
+
+        <g transform="translate(50, 45)">
+          <text x="0" y="0" font-family="'Space Grotesk', monospace" font-size="15" font-weight="700" fill="#4DEBFF">
+            UPCOMING LAUNCH TARGET
+          </text>
+          <text x="0" y="45" font-family="'Inter', sans-serif" font-size="40" font-weight="900" fill="#F3F7FA">
+            OCTOBER 1, 2026
+          </text>
+          <text x="0" y="85" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#54E39A">
+            SPACEX FALCON 9 • TRANSPORTER-18
+          </text>
+        </g>
+
+        <!-- Launch Details Grid -->
+        <g transform="translate(50, 165)">
+          <rect width="360" height="130" rx="8" fill="#070A0F" stroke="#1E2A38" stroke-width="1"/>
+          <text x="24" y="36" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">MISSION STATUS</text>
+          <text x="24" y="68" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#F3F7FA">Pre-Flight Integration</text>
+          <text x="24" y="100" font-family="'Space Grotesk', monospace" font-size="13" fill="#54E39A">● READY FOR LAUNCH</text>
+        </g>
+        <g transform="translate(450, 165)">
+          <rect width="360" height="130" rx="8" fill="#070A0F" stroke="#1E2A38" stroke-width="1"/>
+          <text x="24" y="36" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">ORBITAL DESTINATION</text>
+          <text x="24" y="68" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#F3F7FA">500 km Dawn-Dusk SSO</text>
+          <text x="24" y="100" font-family="'Space Grotesk', monospace" font-size="13" fill="#4DEBFF">Ride-share Deployment</text>
+        </g>
+      </g>
+    </g>
+    
+  </g>
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1320-1560) -->
+  <g transform="translate(80, 1340)">
+    <rect width="920" height="230" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 30 L 920 0 L 890 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 200 L 0 230 L 30 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 200 L 920 230 L 890 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(460, 42)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#070A0F" stroke="#4DEBFF" stroke-width="1"/>
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+        HYBRID • PRE-FLIGHT TIMELINE
+      </text>
+    </g>
+
+    <!-- Central Primary Card Text (Strictly max 6 words per card) -->
+    <text x="460" y="125" font-family="'Inter', sans-serif" font-size="50" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="1">
+      15-MIN BURSTS • LAUNCH OCT 1, 2026
+    </text>
+
+    <!-- Technical Subtext / Engineering Context -->
+    <text x="460" y="185" font-family="'Space Grotesk', monospace" font-size="22" font-weight="500" fill="#8B98A7" text-anchor="middle" letter-spacing="0.5">
+      HEAT PIPES &amp;amp; RADIATORS • SPACEX TRANSPORTER-18
+    </text>
+  </g>
+
+  <!-- Optional Watermark / Extra Guardrail Banner (Y=1600-1680) -->
+  
+
+  <!-- Channel Footer Stamp (Y=1780-1840) -->
+  <g transform="translate(540, 1820)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      AI TECH EXPLAINER • VERIFIED EVIDENCE FIRST
+    </text>
+  </g>
+</svg>

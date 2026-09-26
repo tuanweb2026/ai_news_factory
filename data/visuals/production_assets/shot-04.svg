@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Space Radial Glow -->
+    <radialGradient id="spaceGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Hairline Gradients -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldKapton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FF8008"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="thermalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C70"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFF275"/>
+    </linearGradient>
+    <linearGradient id="solarWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="50%" stop-color="#1f3160"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Deep Void -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#spaceGlow)"/>
+
+  <!-- Technical Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="200" x2="1080" y2="200"/>
+    <line x1="0" y1="440" x2="1080" y2="440"/>
+    <line x1="0" y1="1300" x2="1080" y2="1300"/>
+    <line x1="0" y1="1680" x2="1080" y2="1680"/>
+  </g>
+
+  <!-- Top Header Zone (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      PROJECT SUNCATCHER • ORBITAL TPU
+    </text>
+    <line x1="0" y1="22" x2="920" y2="22" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill -->
+  <g transform="translate(540, 260)">
+    <rect x="-300" y="-24" width="600" height="48" rx="24" fill="#0D121A" stroke="#4DEBFF" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-04 • SOLAR HARVEST MECHANICS
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1280) -->
+  <g id="main-visual-stage">
+    
+    <!-- Dawn-Dusk SSO Solar Harvest Mechanics -->
+    <g transform="translate(100, 360)">
+      <!-- Sun Source on Left -->
+      <g transform="translate(60, 260)">
+        <circle cx="0" cy="0" r="50" fill="#FFB300"/>
+        <circle cx="0" cy="0" r="75" fill="#FFB300" opacity="0.3"/>
+        <circle cx="0" cy="0" r="110" fill="#FFB300" opacity="0.12"/>
+        <!-- Sun Rays -->
+        <line x1="75" y1="0" x2="240" y2="0" stroke="#FFB300" stroke-width="3" stroke-dasharray="10 6"/>
+        <line x1="65" y1="-40" x2="230" y2="-40" stroke="#FFB300" stroke-width="2" stroke-dasharray="10 6"/>
+        <line x1="65" y1="40" x2="230" y2="40" stroke="#FFB300" stroke-width="2" stroke-dasharray="10 6"/>
+        <text x="0" y="8" font-family="'Inter', sans-serif" font-size="16" font-weight="900" fill="#070A0F" text-anchor="middle">SUN</text>
+      </g>
+
+      <!-- Earth with Day/Night Terminator Boundary -->
+      <g transform="translate(540, 260)">
+        <!-- Night Hemisphere -->
+        <path d="M 0 -180 A 180 180 0 0 1 0 180 Z" fill="#0A121F"/>
+        <!-- Day Hemisphere -->
+        <path d="M 0 -180 A 180 180 0 0 0 0 180 Z" fill="#183659"/>
+        <!-- Terminator Line (Boundary) -->
+        <line x1="0" y1="-190" x2="0" y2="190" stroke="#4DEBFF" stroke-width="3"/>
+
+        <!-- Dawn-Dusk Sun-Synchronous Orbit Ring -->
+        <ellipse cx="0" cy="0" rx="60" ry="240" fill="none" stroke="#4DEBFF" stroke-width="4" stroke-dasharray="12 8"/>
+        <!-- Satellite Tracker Icon -->
+        <circle cx="0" cy="-240" r="10" fill="#4DEBFF"/>
+        <rect x="-24" y="-246" width="48" height="12" fill="#FFB300"/>
+
+        <text x="0" y="270" font-family="'Space Grotesk', monospace" font-size="16" font-weight="700" fill="#4DEBFF" text-anchor="middle">
+          DAWN-DUSK ORBIT • HIGH SUNLIGHT AVAILABILITY
+        </text>
+      </g>
+
+      <!-- Comparative Annual Energy Yield Cards -->
+      <g transform="translate(40, 600)">
+        <!-- Orbital Capture Card (Up to 8x) -->
+        <g transform="translate(0, 0)">
+          <rect width="380" height="180" rx="12" fill="#0E242B" stroke="#4DEBFF" stroke-width="2"/>
+          <text x="30" y="40" font-family="'Space Grotesk', monospace" font-size="15" font-weight="700" fill="#4DEBFF">
+            ORBITAL DAWN-DUSK SSO
+          </text>
+          <text x="30" y="105" font-family="'Inter', sans-serif" font-size="52" font-weight="900" fill="#F3F7FA">
+            UP TO 8×
+          </text>
+          <text x="30" y="145" font-family="'Space Grotesk', monospace" font-size="14" fill="#8B98A7">
+            ANNUAL CUMULATIVE ENERGY
+          </text>
+        </g>
+
+        <!-- Terrestrial Mid-Latitude Baseline (1x) -->
+        <g transform="translate(420, 0)">
+          <rect width="380" height="180" rx="12" fill="#101622" stroke="#1E2A38" stroke-width="1.5"/>
+          <text x="30" y="40" font-family="'Space Grotesk', monospace" font-size="15" font-weight="700" fill="#8B98A7">
+            TERRESTRIAL MID-LATITUDE
+          </text>
+          <text x="30" y="105" font-family="'Inter', sans-serif" font-size="52" font-weight="900" fill="#8B98A7">
+            1× BASELINE
+          </text>
+          <text x="30" y="145" font-family="'Space Grotesk', monospace" font-size="14" fill="#8B98A7">
+            LIMITED BY NIGHT &amp; WEATHER
+          </text>
+        </g>
+      </g>
+
+      <!-- Scientific Disclaimer Footnote -->
+      <g transform="translate(40, 810)">
+        <text x="400" y="0" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#8B98A7" text-anchor="middle">
+          * Represents annual cumulative energy harvest in space vs Earth; not photovoltaic cell efficiency.
+        </text>
+      </g>
+    </g>
+    
+  </g>
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1320-1560) -->
+  <g transform="translate(80, 1340)">
+    <rect width="920" height="230" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 30 L 920 0 L 890 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 200 L 0 230 L 30 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 200 L 920 230 L 890 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(460, 42)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#070A0F" stroke="#4DEBFF" stroke-width="1"/>
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+        DIAGRAM • ORBITAL SOLAR PHYSICS
+      </text>
+    </g>
+
+    <!-- Central Primary Card Text (Strictly max 6 words per card) -->
+    <text x="460" y="125" font-family="'Inter', sans-serif" font-size="50" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="1">
+      UP TO 8× ANNUAL SOLAR HARVEST
+    </text>
+
+    <!-- Technical Subtext / Engineering Context -->
+    <text x="460" y="185" font-family="'Space Grotesk', monospace" font-size="22" font-weight="500" fill="#8B98A7" text-anchor="middle" letter-spacing="0.5">
+      ANNUAL CUMULATIVE ENERGY HARVEST • DAWN-DUSK SSO
+    </text>
+  </g>
+
+  <!-- Optional Watermark / Extra Guardrail Banner (Y=1600-1680) -->
+  
+
+  <!-- Channel Footer Stamp (Y=1780-1840) -->
+  <g transform="translate(540, 1820)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      AI TECH EXPLAINER • VERIFIED EVIDENCE FIRST
+    </text>
+  </g>
+</svg>

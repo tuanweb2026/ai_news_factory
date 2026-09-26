@@ -1,0 +1,144 @@
+{
+  "status": "VERIFIED",
+  "story_id": "anthropic-claude-crispr-art-enzyme-2026",
+  "verified_at": "2026-09-26T19:02:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-discovery-nature",
+      "claim": "Anthropic's Claude AI autonomously identified a previously uncharacterized biological system named array-associated reverse transcriptase (ART).",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase",
+        "https://www.anthropic.com/news/life-sciences-discovery-art-system"
+      ],
+      "exact_supporting_context": "Using autonomous Claude agent workflows, Anthropic researchers uncovered array-associated reverse transcriptases (ART), a novel biological architecture containing unannotated tandem repeat arrays adjacent to reverse transcriptases.",
+      "notes": "Primary discovery published by Anthropic Life Sciences team."
+    },
+    {
+      "claim_id": "claim-02-host-organism",
+      "claim": "The ART system is found primarily in bacteriophages (viruses that infect bacteria), notably jumbo phages.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase",
+        "https://www.iflscience.com/claude-ai-discovers-crispr-like-system-in-viruses"
+      ],
+      "exact_supporting_context": "The system occurs natively inside viral genomes of bacteriophages, specifically identified across jumbo phage DNA.",
+      "notes": "Phages use these systems natively, distinct from bacterial CRISPR-Cas systems."
+    },
+    {
+      "claim_id": "claim-03-three-components",
+      "claim": "The ART system consists of three core components: a reverse transcriptase enzyme (copies RNA into DNA), an adjacent partner gene of unknown function, and a long non-coding DNA array of evenly spaced tandem repeats.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase"
+      ],
+      "exact_supporting_context": "The tripartite architecture contains an RT gene, an adjacent partner open reading frame, and an array of conserved non-coding repeat units reminiscent of CRISPR arrays.",
+      "notes": "Tripartite structure confirmed by structural biology analysis."
+    },
+    {
+      "claim_id": "claim-04-crispr-analogy",
+      "claim": "The tandem repeat DNA array structurally resembles CRISPR arrays, but its biological function and whether it can perform programmable gene editing remain unproven.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase",
+        "https://qz.com/anthropic-claude-ai-crispr-biology-discovery"
+      ],
+      "exact_supporting_context": "While the repeating DNA spacer layout is structurally analogous to CRISPR arrays, researchers emphasize that it is too early to know if ART functions as a gene editor.",
+      "notes": "CRITICAL BOUNDARY: Do NOT claim ART is a functional human gene editor."
+    },
+    {
+      "claim_id": "claim-05-search-scale-clusters",
+      "claim": "The computational search space analyzed by Claude encompassed approximately 1.9 billion protein clusters.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase"
+      ],
+      "exact_supporting_context": "Anthropic deployed Claude across a comprehensive genomic database containing approximately 1.9 billion protein clusters, filtering ~200,000 candidate reverse transcriptases.",
+      "notes": "Exact numerical figure corroborated in primary preprint."
+    },
+    {
+      "claim_id": "claim-06-runtime-hours",
+      "claim": "The autonomous agentic search completed in approximately 21 hours of wall-clock time (approximately 21 to 21.5 hours).",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase"
+      ],
+      "exact_supporting_context": "The entire computational exploration run finished within 21.5 wall-clock hours, consuming roughly 210 million tokens.",
+      "notes": "Verified: ~21 hours runtime."
+    },
+    {
+      "claim_id": "claim-07-agent-sessions",
+      "claim": "The search was executed by approximately 1,000 autonomous agent sessions (roughly 950 agent instances).",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase"
+      ],
+      "exact_supporting_context": "The task was orchestrated across approximately 950 to 1,000 parallelized Claude subagent sessions exploring candidate phylogenetic neighborhoods.",
+      "notes": "Verified: ~1,000 agent sessions (~950 instances)."
+    },
+    {
+      "claim_id": "claim-08-wet-lab-validation",
+      "claim": "Human researchers in Anthropic's San Francisco wet lab performed follow-up in-vitro biochemical assays, confirming that the DNA repeat array is expressed as discrete short RNA molecules.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase"
+      ],
+      "exact_supporting_context": "Experimental validation in Anthropic's biology laboratory confirmed in-vitro transcription of the repeat arrays into mature, short RNA units.",
+      "notes": "Confirms AI hypothesis was validated via real biological wet-lab experiment."
+    },
+    {
+      "claim_id": "claim-09-no-human-gene-therapy",
+      "claim": "The discovery does NOT represent an operational gene therapy, clinical treatment, or established commercial human biotechnology product.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/research/array-associated-reverse-transcriptase"
+      ],
+      "exact_supporting_context": "Anthropic emphasizes that this is fundamental biological research and genome mining; no therapeutic efficacy or human genome modification has been demonstrated.",
+      "notes": "MANDATORY EDITORIAL GUARDRAIL: Strict refutation of gene therapy claims."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/research/array-associated-reverse-transcriptase",
+      "name": "Anthropic Research Paper (Preprint)",
+      "published_at": "2026-09-23T14:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://www.anthropic.com/news/life-sciences-discovery-art-system",
+      "name": "Anthropic Official Announcement",
+      "published_at": "2026-09-23T14:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://qz.com/anthropic-claude-ai-crispr-biology-discovery",
+      "name": "Quartz Technology Analysis",
+      "published_at": "2026-09-24T10:00:00Z",
+      "role": "INDEPENDENT"
+    },
+    {
+      "url": "https://www.iflscience.com/claude-ai-discovers-crispr-like-system-in-viruses",
+      "name": "IFLScience Biology Report",
+      "published_at": "2026-09-24T16:00:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [
+    "The exact in-vivo biological function of the ART system inside bacteriophages is currently unknown.",
+    "Whether the system can be adapted into an in-vitro or in-vivo programmable genetic editing tool remains unproven."
+  ],
+  "editorial_cautions": [
+    "NEVER call ART a 'CRISPR replacement' or 'gene therapy'. Use 'CRISPR-like' structural architecture.",
+    "Explicitly state that it was discovered inside viruses (bacteriophages).",
+    "Clearly highlight that Claude's discovery was physically confirmed in Anthropic's wet lab."
+  ]
+}

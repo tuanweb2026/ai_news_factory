@@ -1,0 +1,29 @@
+{
+  "story_id": "stanford-nvidia-clm-8b-agent-model-2026",
+  "production_version": "release_candidate_short_03",
+  "status": "READY_FOR_HUMAN_REVIEW",
+  "master_file": "data/rendered/stanford-nvidia-clm-8b-agent-model-2026/video/final_release_candidate.mp4",
+  "youtube_metadata": {
+    "title": "AI Agents Are Too Slow \u2014 Stanford & NVIDIA Just Fixed It #shorts",
+    "title_options": [
+      "AI Agents Are Too Slow \u2014 Stanford & NVIDIA Just Fixed It #shorts",
+      "CLM-8B: Why AI Agents Are Running 9x Faster #shorts",
+      "Stanford and NVIDIA Kill Token Generation for Agents #shorts"
+    ],
+    "description": "Stanford and NVIDIA researchers unveiled CLM-8B, an architecture running autonomous agents up to 9x faster. Instead of slowly generating code token by token, it scores actions in vector space using contrastive learning. Hitting 87.6% on terminal benchmarks. Not a chatbot\u2014an action engine.\n\n#AI #NVIDIA #Stanford #SoftwareEngineering #TechNews #Shorts",
+    "category_id": "28",
+    "tags": [
+      "NVIDIA",
+      "Stanford",
+      "CLM-8B",
+      "AI Agents",
+      "Autonomous AI",
+      "Computer Use",
+      "Coding Agent",
+      "Artificial Intelligence",
+      "Shorts"
+    ],
+    "privacy_status": "PUBLIC",
+    "made_for_kids": false
+  }
+}

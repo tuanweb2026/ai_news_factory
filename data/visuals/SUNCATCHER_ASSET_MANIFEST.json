@@ -1,0 +1,359 @@
+{
+  "status": "PASS",
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "style_bible_version": "v1.0",
+  "manifest_metadata": {
+    "manifest_version": "1.0",
+    "story_title": "Project Suncatcher: Google Orbital TPU Prototype",
+    "production_date": "2026-09-26",
+    "total_assets_cataloged": 9,
+    "classifications_used": [
+      "OFFICIAL_SOURCE",
+      "SCREENSHOT",
+      "GENERATED",
+      "DIAGRAM",
+      "HYBRID",
+      "ILLUSTRATIVE",
+      "FUTURE_CONCEPT"
+    ],
+    "verification_reference": "data/verified/VERIFIED_SUNCATCHER_20260926.json"
+  },
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 2.5,
+      "shot_type": "MACRO_TECH",
+      "visual_goal": "Establish immediate hook and information gap: start on a macro server rack on Earth, then pull back rapidly into low Earth orbit to visually introduce an AI test bed in space.",
+      "asset_plan": [
+        {
+          "asset_type": "GENERATED",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "prompt": "Macro server rack pulling back to low Earth orbit curved horizon with cyan atmospheric rim light",
+          "attribution": "Original procedural visual generated for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 2.5,
+      "end": 6.5,
+      "shot_type": "EVIDENCE_SCREEN",
+      "visual_goal": "Establish journalistic authority and prevent misinterpretation by presenting official Google Research announcement evidence card with 'RESEARCH PROTOTYPE' badge.",
+      "asset_plan": [
+        {
+          "asset_type": "HYBRID",
+          "source_url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+          "rights_status": "EDITORIAL_FAIR_USE",
+          "attribution": "Google Research Blog (Published Sep 24, 2026)",
+          "prompt": "Verified technical evidence card framing Google Research Project Suncatcher announcement with verified research prototype badge"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 6.5,
+      "end": 11.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Introduce satellite master design: compact Planet Labs bus, deployed 1kW photovoltaic arrays, and internal cutaway revealing 4x Trillium TPU v6e compute block.",
+      "visual_status": "ILLUSTRATIVE",
+      "asset_plan": [
+        {
+          "asset_id": "AST-04-SATELLITE-CAD-CUTAWAY",
+          "asset_type": "GENERATED",
+          "visual_status": "ILLUSTRATIVE",
+          "rights_status": "PROPRIETARY_GENERATED",
+          "prompt": "3D technical CAD cutaway of Planet Labs satellite bus showing 1kW solar arrays and internal 4-TPU Trillium block (proprietary synthetic CAD, illustrative not documentary)",
+          "attribution": "Proprietary 3D CAD visualization based on Planet Labs & Google specifications (Illustrative)"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 11.5,
+      "end": 16.5,
+      "shot_type": "DATA_FLOW",
+      "visual_goal": "Explain orbital solar mechanics: in a dawn-dusk orbit with high sunlight availability, the panels can capture up to eight times more solar energy annually than comparable terrestrial installations.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "source_url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "attribution": "AI News Factory technical diagram based on Google Research orbital calculations",
+          "prompt": "Orbital diagram of Earth showing dawn-dusk sun-synchronous orbit along terminator line with high sunlight availability and annual cumulative energy harvest comparison"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 16.5,
+      "end": 19.0,
+      "shot_type": "FAILURE_LOOP",
+      "visual_goal": "Illustrate the physical thermal challenge: in the vacuum of space, zero air molecules exist for convective cooling, trapping thermal energy inside the chip die (NO FANS possible).",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+          "prompt": "Thermodynamic cross-section simulation of TPU silicon die in vacuum showing zero convective heat transfer and heat buildup",
+          "attribution": "AI News Factory physics simulation"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 19.0,
+      "end": 21.5,
+      "shot_type": "FAILURE_LOOP",
+      "visual_goal": "Visualize space radiation risk: high-energy cosmic proton penetrating High Bandwidth Memory (HBM) die causing a single-event upset (0 -> 1 bit-flip), tested at Crocker Nuclear Lab.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "source_url": "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "attribution": "AI News Factory technical diagram based on UC Davis Crocker Nuclear Lab cyclotron test data",
+          "prompt": "Microscopic visualization of cosmic proton strike on HBM silicon lattice inducing single-event bit flip 0 to 1"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-07",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Show engineering solutions: conductive heat pipes transferring heat to external radiator panels (15-min burst mode), and display upcoming launch target on SpaceX Transporter-18 (Oct 1, 2026).",
+      "asset_plan": [
+        {
+          "asset_type": "HYBRID",
+          "source_url": "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "attribution": "AI News Factory 3D model with verified SpaceX Transporter-18 manifest data",
+          "prompt": "Exterior view of satellite thermal radiator loop emitting infrared radiation into space with SpaceX Falcon 9 Transporter-18 launch badge"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-08",
+      "start": 26.5,
+      "end": 31.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Deliver the macro conceptual vision: visually distinguish future concept from deployed infrastructure. Juxtapose Earth's congested, red-overloaded electrical power grids with a possible future orbital compute constellation linked by optical lasers, explicitly watermarked as a future concept.",
+      "visual_status": "FUTURE_CONCEPT",
+      "asset_plan": [
+        {
+          "asset_type": "GENERATED",
+          "visual_status": "FUTURE_CONCEPT",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "prompt": "Macro technical render of Earth at night with amber power grid overload transitioning to cyan conceptual orbital satellite network with FUTURE CONCEPT watermark",
+          "attribution": "Original conceptual visual generated for AI News Factory (Future Concept)"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-09",
+      "start": 31.5,
+      "end": 35.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Deliver brand lockup and high-retention call-to-action for verified technical breakdowns without hype or false urgency.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "PROPRIETARY_BRAND_ASSET",
+          "prompt": "AI News Factory brand lockup with dark technical canvas, cyan-violet accents and verified engineering badge",
+          "attribution": "AI News Factory Brand Identity System v1.0"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "AST-01-EARTH-ORBIT-PULLBACK",
+      "asset_name": "Earth Orbit Horizon Macro Pull-Back",
+      "asset_classification": "ILLUSTRATIVE",
+      "visual_status": "ILLUSTRATIVE",
+      "shots_used": [
+        "shot-01"
+      ],
+      "source_url": "INTERNAL://ai_news_factory/render/ast_01_orbit_pullback.mp4",
+      "publisher": "AI News Factory Synthetic Studio",
+      "publication_date": "2026-09-26",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": false,
+      "attribution_text": "Original procedural visual generated for AI News Factory",
+      "verification_claim_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature"
+      ],
+      "visual_fidelity_notes": "LEO altitude set to ~500 km; terminator line matches dawn-dusk sun-synchronous orbit geometry."
+    },
+    {
+      "asset_id": "AST-02-GOOGLE-RESEARCH-CARD",
+      "asset_name": "Google Research Announcement Verification Card",
+      "asset_classification": "HYBRID",
+      "shots_used": [
+        "shot-02"
+      ],
+      "source_url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+      "publisher": "Google Research",
+      "publication_date": "2026-09-24",
+      "rights_status": "EDITORIAL_FAIR_USE",
+      "license": "Editorial Fair Use (17 U.S.C. § 107)",
+      "attribution_required": true,
+      "attribution_text": "SOURCE • Google Research Blog • Sep 24, 2026",
+      "verification_claim_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-03-tpu-in-orbit",
+        "claim-19-operational-datacenter-refutation"
+      ],
+      "visual_fidelity_notes": "Displays authentic headline and excerpt; prominent 'RESEARCH PROTOTYPE' badge enforces anti-hype guardrail."
+    },
+    {
+      "asset_id": "AST-04-SATELLITE-CAD-CUTAWAY",
+      "asset_name": "AST-04 — PROPRIETARY SYNTHETIC 3D CAD",
+      "asset_classification": "ILLUSTRATIVE",
+      "visual_status": "ILLUSTRATIVE",
+      "shots_used": [
+        "shot-03"
+      ],
+      "source_url": "INTERNAL://ai_news_factory/models/suncatcher_mvp_cutaway.glb",
+      "publisher": "AI News Factory 3D Production Unit",
+      "publication_date": "2026-09-26",
+      "rights_status": "PROPRIETARY_GENERATED",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": false,
+      "attribution_text": "Proprietary synthetic 3D CAD visualization based on Planet Labs & Google specifications. Illustrative 3D model, not documentary photography.",
+      "verification_claim_ids": [
+        "claim-06-planet-partnership",
+        "claim-07-tpu-quantity",
+        "claim-08-tpu-generation",
+        "claim-20-numerical-claims"
+      ],
+      "visual_fidelity_notes": "Proprietary synthetic 3D CAD render. Not represented as documentary photography. Symmetrical 2x2 Trillium TPU v6e die placement on copper cold-plate; dual 1kW deployed solar array wings."
+    },
+    {
+      "asset_id": "AST-05-DAWN-DUSK-SSO-DIAGRAM",
+      "asset_name": "Dawn-Dusk SSO Orbital Mechanics & Annual Solar Harvest Diagram",
+      "asset_classification": "DIAGRAM",
+      "shots_used": [
+        "shot-04"
+      ],
+      "source_url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+      "publisher": "AI News Factory Technical Graphics Unit",
+      "publication_date": "2026-09-26",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": true,
+      "attribution_text": "Calculations based on Google Research Orbital Energy Study (2026)",
+      "verification_claim_ids": [
+        "claim-09-solar-illumination",
+        "claim-10-8x-solar-productivity",
+        "claim-20-numerical-claims"
+      ],
+      "visual_fidelity_notes": "Emphasizes 'DAWN-DUSK ORBIT • HIGH SUNLIGHT AVAILABILITY' and 'ANNUAL CUMULATIVE ENERGY HARVEST', comparing 'ORBITAL ANNUAL ENERGY: UP TO 8×' vs 'TERRESTRIAL ANNUAL ENERGY: BASELINE'. No physical 8x bar distortion, and no implication of permanent 100% illumination."
+    },
+    {
+      "asset_id": "AST-06-VACUUM-THERMAL-SIMULATION",
+      "asset_name": "Vacuum Thermal Dissipation FLIR Cross-Section",
+      "asset_classification": "DIAGRAM",
+      "shots_used": [
+        "shot-05"
+      ],
+      "source_url": "INTERNAL://ai_news_factory/diagrams/thermal_vacuum_flir.svg",
+      "publisher": "AI News Factory Technical Graphics Unit",
+      "publication_date": "2026-09-26",
+      "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": false,
+      "attribution_text": "Physics simulation illustrating zero convective heat transfer in vacuum",
+      "verification_claim_ids": [
+        "claim-14-vacuum-cooling-challenge"
+      ],
+      "visual_fidelity_notes": "NO FANS depicted. Highlights conduction-only heat spreading and vacuum thermal insulation boundary."
+    },
+    {
+      "asset_id": "AST-07-PROTON-BIT-FLIP-DIAGRAM",
+      "asset_name": "Cyclotron Proton Strike & HBM Bit-Flip Diagram",
+      "asset_classification": "DIAGRAM",
+      "shots_used": [
+        "shot-06"
+      ],
+      "source_url": "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+      "publisher": "AI News Factory Technical Graphics Unit",
+      "publication_date": "2026-09-26",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": true,
+      "attribution_text": "Simulation based on UC Davis Crocker Nuclear Lab cyclotron proton data",
+      "verification_claim_ids": [
+        "claim-11-radiation-testing",
+        "claim-12-bit-flip-risk"
+      ],
+      "visual_fidelity_notes": "Proton beam energy ionization track into HBM capacitor; exact binary transition from 0 to 1 shown. No explosions."
+    },
+    {
+      "asset_id": "AST-08-THERMAL-RADIATOR-LOOP",
+      "asset_name": "Passive Heat Pipe & Deep Space Radiator Loop with Launch Badge",
+      "asset_classification": "HYBRID",
+      "shots_used": [
+        "shot-07"
+      ],
+      "source_url": "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+      "publisher": "AI News Factory 3D Production Unit",
+      "publication_date": "2026-09-26",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": true,
+      "attribution_text": "SpaceX Transporter-18 manifest data courtesy Space.com & Spaceflight Now",
+      "verification_claim_ids": [
+        "claim-04-launch-vehicle",
+        "claim-05-launch-date",
+        "claim-15-heat-pipes",
+        "claim-16-radiators",
+        "claim-20-numerical-claims"
+      ],
+      "visual_fidelity_notes": "Accurate depiction of capillary copper heat pipes radiating infrared off external dark panels; Falcon 9 launch card stamps upcoming Oct 1, 2026 date."
+    },
+    {
+      "asset_id": "AST-09-GRID-VS-ORBIT-CONCEPT",
+      "asset_name": "Terrestrial Power Grid Overload vs Future Conceptual Orbital Constellation",
+      "asset_classification": "FUTURE_CONCEPT",
+      "visual_status": "FUTURE_CONCEPT",
+      "shots_used": [
+        "shot-08"
+      ],
+      "source_url": "INTERNAL://ai_news_factory/render/grid_vs_orbit_macro.mp4",
+      "publisher": "AI News Factory Synthetic Studio",
+      "publication_date": "2026-09-26",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": false,
+      "attribution_text": "Original conceptual visual generated for AI News Factory (Future Concept)",
+      "verification_claim_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-17-laser-intersatellite"
+      ],
+      "visual_fidelity_notes": "Macro contrast prominently watermarked with 'FUTURE CONCEPT / POSSIBLE FUTURE (NOT OPERATIONAL INFRASTRUCTURE)'. Red terrestrial grid transmission bottlenecks versus conceptual cyan optical laser inter-satellite mesh."
+    },
+    {
+      "asset_id": "AST-10-BRAND-CTA-LOCKUP",
+      "asset_name": "AI News Factory Verified Brand End Card",
+      "asset_classification": "DIAGRAM",
+      "shots_used": [
+        "shot-09"
+      ],
+      "source_url": "INTERNAL://ai_news_factory/branding/cta_lockup_v1.svg",
+      "publisher": "AI News Factory Core Brand Team",
+      "publication_date": "2026-09-26",
+      "rights_status": "PROPRIETARY_BRAND_ASSET",
+      "license": "Proprietary AI News Factory Production",
+      "attribution_required": false,
+      "attribution_text": "AI News Factory Brand Identity v1.0",
+      "verification_claim_ids": [
+        "claim-01-existence"
+      ],
+      "visual_fidelity_notes": "Adheres strictly to AI News Visual Style Bible v1.0 typography, hex palette (#070A0F, #4DEBFF, #9B7CFF, #54E39A), and safe zone padding."
+    }
+  ]
+}

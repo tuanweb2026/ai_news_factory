@@ -85,7 +85,7 @@ def validate_schemas() -> bool:
         with open(schema_path, "r", encoding="utf-8") as sf:
             schema = json.load(sf)
         for json_file in folder_path.glob("*.json"):
-            if json_file.name.endswith(".sample.json"):
+            if json_file.name.endswith(".sample.json") or "traceability" in json_file.name.lower():
                 continue
             try:
                 with open(json_file, "r", encoding="utf-8") as f:

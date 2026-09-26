@@ -57,3 +57,34 @@ After publishing, collect:
 - shares
 
 Use analytics to improve hooks and story structure, not to distort facts.
+
+## Phase 6 — Modular Production Rendering
+
+The production render engine (`src/render/`) transforms verified stories, scripts, visual storyboards, and asset manifests into final 1080x1920 30fps vertical Shorts.
+
+### Step 1: Execute Dry-Run Inspection
+Always verify safety gates and artifact resolution before rendering:
+```bash
+./.venv/bin/python3 -m src.render.render_pipeline \
+  --story-id google-project-suncatcher-orbital-tpu-2026 \
+  --dry-run
+```
+Expected output: `"safety_gates_status": "CLEARED"`, exit code 0.
+
+### Step 2: Execute Production Render
+Once safety gates are cleared and rendering is approved:
+```bash
+# English master (Samantha voice + Inter subtitles)
+./.venv/bin/python3 -m src.render.render_pipeline \
+  --story-id google-project-suncatcher-orbital-tpu-2026 \
+  --render
+
+# Vietnamese edition (Linh voice + Vietnamese subtitles)
+./.venv/bin/python3 -m src.render.render_pipeline \
+  --story-id google-project-suncatcher-orbital-tpu-2026 \
+  --render \
+  --lang vi
+```
+
+Output directory: `data/rendered/<story-id>/` containing `video/final.mp4`, `PRODUCTION_REPORT.md`, `qa/render_validation.json`, and audio/subtitle assets.
+

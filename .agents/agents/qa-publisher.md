@@ -3,7 +3,7 @@ name: qa-publisher
 description: Final red-team QA and controlled YouTube publishing gate. Checks facts, script, visuals, provenance, audio, captions and metadata; never bypasses failed gates.
 tools:
   - view_file
-  - create_file
+  - write_to_file
   - run_command
   - search_web
   - read_url_content

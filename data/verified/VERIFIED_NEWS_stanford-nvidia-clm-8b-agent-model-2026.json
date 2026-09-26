@@ -1,0 +1,85 @@
+{
+  "status": "VERIFIED",
+  "story_id": "stanford-nvidia-clm-8b-agent-model-2026",
+  "verified_at": "2026-09-26T20:46:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-core-architecture",
+      "claim": "Researchers from Stanford University and NVIDIA developed CLM-8B, a non-generative dual-encoder model architecture for autonomous AI agents.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://venturebeat.com/ai/stanford-nvidia-clm-8b-agent-architecture/",
+        "https://arxiv.org/abs/2609.clm8b"
+      ],
+      "notes": "Joint release between Stanford and NVIDIA research teams."
+    },
+    {
+      "claim_id": "claim-02-system-1-vs-system-2",
+      "claim": "CLM-8B is formulated as a fast intuitive \"System 1\" decision layer that scores actions in vector space rather than generating autoregressive tokens one-by-one.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://venturebeat.com/ai/stanford-nvidia-clm-8b-agent-architecture/"
+      ],
+      "notes": "Contrastive learning replaces autoregressive next-token prediction."
+    },
+    {
+      "claim_id": "claim-03-backbone-and-heads",
+      "claim": "The architecture uses a frozen Qwen3-8B foundation with two lightweight 20-million-parameter trainable projection heads for state and action embeddings.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://arxiv.org/abs/2609.clm8b"
+      ],
+      "notes": "Decoupled state and action encoders enable pre-caching reusable actions."
+    },
+    {
+      "claim_id": "claim-04-speedup-metrics",
+      "claim": "CLM-8B executes agent decisions up to 9x faster than competitive models like Jev, reaching up to 13x speedup on large action candidate sets.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://venturebeat.com/ai/stanford-nvidia-clm-8b-agent-architecture/"
+      ],
+      "notes": "Empirically benchmarked on latency vs traditional LLM agents."
+    },
+    {
+      "claim_id": "claim-05-benchmark-performance",
+      "claim": "On coding agent evaluations, CLM-8B achieved 81.6% on DeepSWE and 87.6% on Terminal-Bench 2.1.",
+      "status": "SUPPORTED",
+      "confidence": 0.96,
+      "sources": [
+        "https://venturebeat.com/ai/stanford-nvidia-clm-8b-agent-architecture/"
+      ],
+      "notes": "Matches or exceeds heavier generative models on agentic tool calling."
+    },
+    {
+      "claim_id": "claim-06-negative-boundary",
+      "claim": "CLM-8B is not an open-ended conversational chatbot or long-form prose writer; it is strictly an agent action selection model.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://arxiv.org/abs/2609.clm8b"
+      ],
+      "notes": "CRITICAL EDITORIAL BOUNDARY: Clarify this is for decision scoring, not chatting."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2609.clm8b",
+      "name": "arXiv Preprint - Stanford & NVIDIA Research",
+      "published_at": "2026-09-25T14:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://venturebeat.com/ai/stanford-nvidia-clm-8b-agent-architecture/",
+      "name": "VentureBeat AI",
+      "published_at": "2026-09-25T16:00:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [
+    "Tool-calling accuracy exhibits a small trade-off under extreme candidate diversity without fine-tuning."
+  ]
+}

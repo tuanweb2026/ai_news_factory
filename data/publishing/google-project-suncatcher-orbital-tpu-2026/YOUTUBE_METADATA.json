@@ -1,0 +1,146 @@
+{
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "phase": "PHASE_7_YOUTUBE_PUBLISHING_PACKAGE",
+  "generated_at": "2026-09-26T14:23:05+07:00",
+  "status": "APPROVED_FOR_MANUAL_UPLOAD",
+  "publishing_status": "NOT_PUBLISHED",
+  "youtube_upload_status": "NOT_STARTED",
+  "youtube_api_status": "NOT_USED",
+  "external_network_status": "NO_EXTERNAL_ACTION",
+  "human_controlled_release": true,
+  "video_asset": {
+    "relative_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/release_candidate_6D/final_release_candidate.mp4",
+    "file_size_bytes": 73045567,
+    "duration_seconds": 35.0,
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "fps": 30.0,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "integrated_lufs": -15.9,
+    "true_peak_dbfs": -1.5,
+    "corruption_errors": 0
+  },
+  "title_package": {
+    "recommended_title": "Google Project Suncatcher: Testing AI in Space #Shorts",
+    "recommended_title_length": 52,
+    "options": [
+      {
+        "id": "A",
+        "angle": "Curiosity / Hook",
+        "title": "Can AI Chips Actually Survive in Orbit? #Shorts",
+        "length": 46
+      },
+      {
+        "id": "B",
+        "angle": "Engineering / TPU",
+        "title": "Google's Plan to Test Trillium TPUs in Space #Shorts",
+        "length": 51
+      },
+      {
+        "id": "C",
+        "angle": "Space-Computing",
+        "title": "Space-Based AI Compute: Google's Orbital Test #Shorts",
+        "length": 52
+      },
+      {
+        "id": "D",
+        "angle": "Solar-Energy",
+        "title": "Why Orbit Offers 8× More Solar Energy for AI #Shorts",
+        "length": 51
+      },
+      {
+        "id": "E",
+        "angle": "Research-Prototype (Recommended)",
+        "title": "Google Project Suncatcher: Testing AI in Space #Shorts",
+        "length": 52
+      }
+    ]
+  },
+  "description": "Could the next frontier for AI computing be orbit? 🛰️⚡\n\nGoogle Research has unveiled \"Project Suncatcher\"—an experimental research prototype designed to test whether machine learning hardware can survive and operate in low Earth orbit.\n\nIn partnership with Planet Labs, Google has integrated four Trillium TPUs (TPU v6e) onto a prototype satellite equipped with a 1-kilowatt solar array.\n\nBy operating in a dawn-dusk Sun-Synchronous Orbit (SSO), solar panels can capture up to 8× more solar energy annually than comparable terrestrial installations on Earth.\n\nHowever, operating AI accelerators in space presents massive engineering challenges:\n• Vacuum Thermodynamics: With no atmosphere for convective airflow or cooling fans, chip heat must transfer via copper heat pipes to external radiators that radiate thermal energy into deep space, limiting initial compute to 15-minute bursts.\n• Cosmic Radiation: High-energy protons can induce single-event upsets (bit flips in memory) and permanent silicon damage.\n\nScheduled to launch aboard a SpaceX Falcon 9 (Transporter-18), this mission is strictly a research testbed—not an operational commercial data center. If the physics hold, future orbital compute constellations linked by optical lasers could one day relieve terrestrial power grids.\n\nLike, share, and subscribe to AI NEWS FACTORY for verified engineering breakdowns.\n\n---\nPRIMARY SOURCES & FACT VERIFICATION:\n• Google Research Announcement: https://blog.google/technology/ai/project-suncatcher-space-ai/\n• Mission Profile & SpaceX Manifest: Space.com / Tom's Hardware\n• Fact-checked & verified by AI News Factory Research Desk (Sept 2026)\n\n#AI #Google #TPU #SpaceTech #Engineering #Shorts",
+  "hashtags": {
+    "primary": [
+      "#Shorts",
+      "#AI",
+      "#Google",
+      "#TPU",
+      "#SpaceTech"
+    ],
+    "optional": [
+      "#SpaceComputing",
+      "#Engineering",
+      "#ArtificialIntelligence",
+      "#SpaceX",
+      "#CleanEnergy"
+    ]
+  },
+  "search_keywords": {
+    "comma_separated_string": "Project Suncatcher, Google Suncatcher, Google TPU, Trillium TPU, TPU v6e, AI in space, space computing, orbital computing, space data center research, AI hardware, space technology, SpaceX Transporter 18, Planet Labs, satellite AI, dawn dusk orbit, solar powered AI, AI infrastructure, computer engineering, thermal radiators, cosmic radiation bit flip",
+    "character_count": 442,
+    "tags_count": 20
+  },
+  "pinned_comments": [
+    {
+      "id": "comment-01",
+      "recommended": true,
+      "angle": "Engineering Trilemma",
+      "text": "What do you think is the biggest engineering barrier to space-based AI: vacuum heat dissipation, cosmic proton bit-flips, or orbital launch economics?\nDrop your thoughts below! If you found this breakdown useful, like and subscribe to AI News Factory for verified technical explainers."
+    },
+    {
+      "id": "comment-02",
+      "recommended": false,
+      "angle": "Thermal Reality Check",
+      "text": "While a dawn-dusk orbit offers up to 8× more annual solar capture than on Earth, chips in a vacuum can only run in 15-minute bursts without air cooling.\nCould orbital compute ever rival terrestrial data centers, or will thermal rejection always keep it niche?\nShare your perspective, and subscribe for weekly technical deep-dives!"
+    },
+    {
+      "id": "comment-03",
+      "recommended": false,
+      "angle": "Constellation Outlook",
+      "text": "Google's Project Suncatcher is an experimental testbed launching on SpaceX Transporter-18 to test 4 Trillium TPUs in orbit.\nDo you think orbital compute meshes will become a practical reality in the 2030s to bypass strained power grids, or is terrestrial nuclear/geothermal a better bet?\nLet us know in the comments, and don't forget to like and subscribe!"
+    }
+  ],
+  "thumbnail_spec": {
+    "text": "AI TPUs IN ORBIT?",
+    "word_count": 4,
+    "badge_text": "RESEARCH PROTOTYPE",
+    "recommended_frame_timecode": "00:00:09.500",
+    "aspect_ratio": "9:16 vertical (1080x1920) with 1:1 mobile safe zone"
+  },
+  "upload_settings": {
+    "format": "YouTube Shorts",
+    "category": "Science & Technology",
+    "category_id": "28",
+    "default_language": "en",
+    "audio_language": "en",
+    "caption_certification": "This content has never aired on television with captions in the U.S.",
+    "made_for_kids": false,
+    "age_restricted": false,
+    "license": "Standard YouTube License",
+    "initial_visibility": "Unlisted (recommended for checks), then Public by human",
+    "embeddable": true,
+    "comments_moderation": "Hold potentially inappropriate comments for review"
+  },
+  "sources": [
+    {
+      "name": "Google Research Official Blog",
+      "url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+      "role": "PRIMARY"
+    },
+    {
+      "name": "Space.com Mission Manifest Coverage",
+      "url": "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+      "role": "INDEPENDENT"
+    },
+    {
+      "name": "Tom's Hardware Semiconductor Analysis",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-project-suncatcher-space-tpu",
+      "role": "INDEPENDENT"
+    },
+    {
+      "name": "Gizmodo Hardware Report",
+      "url": "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+      "role": "SECONDARY_REPEAT"
+    }
+  ]
+}

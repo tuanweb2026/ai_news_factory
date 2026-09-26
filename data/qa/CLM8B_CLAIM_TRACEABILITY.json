@@ -1,0 +1,30 @@
+{
+  "story_id": "stanford-nvidia-clm-8b-agent-model-2026",
+  "status": "VERIFIED",
+  "mappings": [
+    {
+      "shot_id": "shot-01",
+      "fact_id": "claim-02-system-1-vs-system-2"
+    },
+    {
+      "shot_id": "shot-02",
+      "fact_id": "claim-01-core-architecture"
+    },
+    {
+      "shot_id": "shot-03",
+      "fact_id": "claim-03-backbone-and-heads"
+    },
+    {
+      "shot_id": "shot-04",
+      "fact_id": "claim-04-speedup-metrics, claim-05-benchmark-performance"
+    },
+    {
+      "shot_id": "shot-05",
+      "fact_id": "claim-06-negative-boundary"
+    },
+    {
+      "shot_id": "shot-06",
+      "fact_id": "claim-01-core-architecture"
+    }
+  ]
+}

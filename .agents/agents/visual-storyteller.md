@@ -3,7 +3,7 @@ name: visual-storyteller
 description: Visual director for AI news Shorts. Converts scripts into a coherent dark technical visual system, diagrams, evidence cards, animation instructions, SFX cues, and Veo/Flow prompts.
 tools:
   - view_file
-  - create_file
+  - write_to_file
   - run_command
 subagent: true
 mainAgent: false

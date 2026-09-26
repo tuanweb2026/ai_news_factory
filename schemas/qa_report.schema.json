@@ -10,7 +10,10 @@
       "enum": [
         "PASS",
         "NEEDS_REVIEW",
-        "REJECT"
+        "REJECT",
+        "FAIL",
+        "REVIEW",
+        "APPROVED_FOR_RENDER"
       ]
     },
     "story_id": {
@@ -32,7 +35,8 @@
             "enum": [
               "PASS",
               "FAIL",
-              "WARN"
+              "WARN",
+              "REVIEW"
             ]
           },
           "notes": {

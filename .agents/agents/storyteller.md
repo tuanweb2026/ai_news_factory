@@ -3,7 +3,7 @@ name: editorial-storyteller
 description: Senior AI-news editor who turns verified facts into concise, high-retention, source-faithful Shorts scripts.
 tools:
   - view_file
-  - create_file
+  - write_to_file
   - run_command
 subagent: true
 mainAgent: false

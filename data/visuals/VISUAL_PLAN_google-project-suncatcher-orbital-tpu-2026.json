@@ -1,0 +1,354 @@
+{
+  "status": "PASS",
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "style_bible_version": "v1.0",
+  "metadata": {
+    "title": "Project Suncatcher: Google's Orbital TPU AI Testbed",
+    "production_phase": "Phase 4 - Visual Storytelling & Technical Shot Planning",
+    "target_duration_seconds": 35.0,
+    "total_shots": 9,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "created_at": "2026-09-26T10:00:00+07:00",
+    "verified_claims_mapped": [
+      "claim-01-existence",
+      "claim-02-research-nature",
+      "claim-03-tpu-in-orbit",
+      "claim-04-launch-vehicle",
+      "claim-05-launch-date",
+      "claim-06-planet-partnership",
+      "claim-07-tpu-quantity",
+      "claim-08-tpu-generation",
+      "claim-09-solar-illumination",
+      "claim-10-8x-solar-productivity",
+      "claim-11-radiation-testing",
+      "claim-12-bit-flip-risk",
+      "claim-14-vacuum-cooling-challenge",
+      "claim-15-heat-pipes",
+      "claim-16-radiators",
+      "claim-17-laser-intersatellite",
+      "claim-19-operational-datacenter-refutation",
+      "claim-20-numerical-claims"
+    ]
+  },
+  "satellite_master_design": {
+    "design_id": "SUNCATCHER-MVP-BUS-v1",
+    "bus_manufacturer": "Planet Labs (Agile Bus Platform)",
+    "bus_dimensions": "1.2m (height) x 0.8m (width) x 0.8m (depth)",
+    "form_factor": "Compact refrigerator-sized satellite testbed",
+    "materials": {
+      "structural_frame": "Aerospace titanium alloy & carbon-fiber reinforced polymer (CFRP)",
+      "chassis_finish": "Matte charcoal non-reflective thermal coat (#12161F)",
+      "thermal_blankets": "Multi-layer insulation (MLI) gold/amber aluminized Kapton foil on non-radiating facades"
+    },
+    "solar_arrays": {
+      "wings": "Dual deployable rigid rectangular photovoltaic panels (port & starboard)",
+      "capacity": "1.0 kW peak electrical power",
+      "cells": "Space-grade triple-junction InGaP/InGaAs/Ge, specular deep indigo-blue finish",
+      "orientation": "Sun-tracking along dawn-dusk sun-synchronous orbital terminator"
+    },
+    "compute_block": {
+      "accelerators": "4x Google Trillium TPUs (TPU v6e sixth generation)",
+      "layout": "Symmetrical 2x2 coplanar grid on hermetic aluminum cold-plate interface",
+      "memory": "Integrated High Bandwidth Memory (HBM) stacks adjacent to each TPU die",
+      "interconnect": "High-bandwidth low-latency chip-to-chip copper interconnect fabric"
+    },
+    "thermal_rejection_system": {
+      "cooling_principle": "STRICTLY PASSIVE VACUUM THERMODYNAMICS (NO FANS / ZERO CONVECTION)",
+      "conduction": "Die-mounted copper heat spreaders bonded to sealed copper-water/ammonia capillary heat pipes",
+      "radiation": "Dual planar radiator panels (0.8m x 0.6m each) on shaded anti-sun flank",
+      "radiator_finish": "High-emissivity carbon-nanotube coating radiating in infrared spectrum (epsilon >= 0.92)",
+      "duty_cycle": "15-minute compute bursts followed by passive radiative cooling cycles"
+    },
+    "orbital_trajectory": {
+      "orbit_type": "Dawn-dusk sun-synchronous low Earth orbit (SSO)",
+      "altitude": "~500 km",
+      "inclination": "~97.5 degrees along Earth's terminator line",
+      "illumination": "Nearly continuous 100% solar visibility (zero clouds, zero night)"
+    }
+  },
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 2.5,
+      "shot_type": "MACRO_TECH",
+      "visual_goal": "Establish immediate hook and information gap: start on a macro server rack on Earth, then pull back rapidly into low Earth orbit to visually introduce an AI test bed in space.",
+      "visual_status": "ILLUSTRATIVE",
+      "fact_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature"
+      ],
+      "voiceover_segment": "Google's next AI test bed isn't on Earth.",
+      "text": "AI TEST BED IN ORBIT",
+      "camera": "Macro 85mm pulling back smoothly into wide 24mm orbital horizon view of Earth's terminator line.",
+      "lighting": "Deep spatial darkness (#070A0F) with stark solar rim lighting glancing off Earth's atmospheric limb and subtle electric cyan glow (#4DEBFF).",
+      "diagram_elements": "HUD coordinates and orbital altitude tag 'LEO ALT: ~500 KM' fading in at 1.8s.",
+      "animation": "Server LED optical traces blur as camera accelerates into space; Earth curvature snaps into crisp focal clarity; on-screen text slides down with fast ease-out (0.3s).",
+      "sfx": "Sub-bass impact drop (0.0s) + subtle high-frequency spatial whoosh (1.2s) as camera pulls out into vacuum.",
+      "veo_prompt": "Vertical 9:16 cinematic technology explainer. A premium dark technical environment, near-black background, subtle volumetric haze, restrained electric-cyan emissive accents, clean high-end documentary aesthetic. Macro view of dark titanium server rack with pulsating cyan fiber-optic traces suddenly pulling back smoothly into an orbital view of Earth's curved limb in the black vacuum of space, illuminated by a brilliant distant sun rim light. Visualize the concept clearly rather than creating a fake real-world news event. Camera: MACRO_TECH to wide orbital pull-back, smooth reverse dolly. Composition: central focal point pulling back to show lower-half curved Earth horizon, upper-half deep space with generous negative space for captions. Lighting: dramatic directional sunlight rimming Earth's atmosphere, high contrast, deep blacks. Motion: smooth high-speed pull-back ease-out. No logos unless supplied as a verified asset. No fake UI, no watermark, no visual clutter. Premium AI documentary / technical explainer aesthetic, coherent with the channel's dark-cyan-violet visual system.",
+      "image_prompt": "Vertical 9:16 high-end technical 3D render of low Earth orbit horizon meeting the vacuum of space, crisp cyan atmospheric glow on Earth curvature, deep black void above, minimal technical HUD line overlay indicating orbital testbed, photorealistic octane render, cinematic lighting, 8k resolution.",
+      "negative_prompt": "cartoon, oversaturated neon, fake news banners, text watermarks, explosions, messy cables, blurry, low resolution, cyberpunk clutter, amateur CGI.",
+      "asset_plan": [
+        {
+          "asset_type": "GENERATED",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "prompt": "Macro server rack pulling back to low Earth orbit curved horizon with cyan atmospheric rim light",
+          "attribution": "Original procedural visual generated for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 2.5,
+      "end": 6.5,
+      "shot_type": "EVIDENCE_SCREEN",
+      "visual_goal": "Establish journalistic authority and prevent misinterpretation by presenting official Google Research announcement evidence card with 'RESEARCH PROTOTYPE' badge.",
+      "visual_status": "HYBRID",
+      "fact_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-03-tpu-in-orbit",
+        "claim-19-operational-datacenter-refutation"
+      ],
+      "voiceover_segment": "Project Suncatcher is a research prototype testing if AI chips can run in orbit.",
+      "text": "RESEARCH PROTOTYPE • NOT DATA CENTER",
+      "camera": "Static orthographic locked camera with gentle 1.5-degree slow axial drift on the background satellite 3D wireframe.",
+      "lighting": "Dark glassmorphism card (#0D121A) with soft violet-cyan border rim light (#9B7CFF, #4DEBFF), spotlighting the official Google Research announcement header.",
+      "diagram_elements": "Document verification card with official source URL chip 'blog.google/technology/ai/project-suncatcher-space-ai/', highlighted text excerpt 'exploring physical feasibility... research testbed', and verified mint-green badge (#54E39A) reading 'STATUS: RESEARCH PROTOTYPE'.",
+      "animation": "Card scales and fades in with fast ease-out (2.5s-2.8s); green verified badge stamps down at 3.2s with micro-scale bounce; 3D wireframe satellite rotates slowly behind card.",
+      "sfx": "Soft digital paper slide-in whoosh (2.5s) + subtle mechanical confirmation click (3.2s) when verified badge locks.",
+      "veo_prompt": "Vertical 9:16 technical explainer. Dark studio environment, near-black matte background (#070A0F). An elegant floating frosted glass card displaying verified technical documentation from Google Research, with crisp typography and subtle cyan edge glow. In the background, a rotating faint wireframe 3D blueprint of a small prototype satellite. Camera: EVIDENCE_SCREEN, slow subtle push-in. Composition: upper-center document card, ample margins, strictly structured technical hierarchy. Lighting: soft controlled studio key light with electric cyan rim accent. Motion: smooth micro-drift. No fake news graphics, no watermark, no cluttered textures. Clean technical documentary aesthetic.",
+      "image_prompt": "Vertical 9:16 technical documentary evidence card floating on charcoal background, showing Google Research publication card with title 'Project Suncatcher: Orbital AI Research Testbed', official source tag, verification badge in restrained mint green, high precision typography, glassmorphism UI overlay.",
+      "negative_prompt": "fake clickbait headlines, low-res textures, exaggerated neon flares, unreadable text, broken layout, distorted logos, sensationalist breaking news banners.",
+      "asset_plan": [
+        {
+          "asset_type": "HYBRID",
+          "source_url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+          "rights_status": "EDITORIAL_FAIR_USE",
+          "attribution": "Google Research Blog (Published Sep 24, 2026)",
+          "prompt": "Verified technical evidence card framing Google Research Project Suncatcher announcement with verified research prototype badge"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 6.5,
+      "end": 11.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Introduce satellite master design: compact Planet Labs bus, deployed 1kW photovoltaic arrays, and internal cutaway revealing 4x Trillium TPU v6e compute block.",
+      "visual_status": "ILLUSTRATIVE",
+      "fact_ids": [
+        "claim-06-planet-partnership",
+        "claim-07-tpu-quantity",
+        "claim-08-tpu-generation",
+        "claim-20-numerical-claims"
+      ],
+      "voiceover_segment": "Built with Planet Labs, this compact satellite carries four Trillium TPUs and a one-kilowatt solar array.",
+      "text": "4 TRILLIUM TPUs • 1 kW ARRAY",
+      "camera": "3/4 isometric orbital view at 50mm, executing a smooth push-in that transitions at 9.0s into an exploded macro cutaway of the internal cold-plate.",
+      "lighting": "High-contrast solar key light striking the deep blue-indigo solar arrays, contrasting with internal violet diagnostic illumination (#9B7CFF) on the 4 TPU dies.",
+      "diagram_elements": "Technical leader lines: 'PLANET LABS COMPACT BUS (1.2m x 0.8m)', '1.0 kW DUAL SOLAR WINGS', and exploded callout bounding box identifying '4x GOOGLE TRILLIUM (TPU v6e) COLD-PLATE BLOCK'.",
+      "animation": "Satellite bus glides in from upper-left (6.5s); solar panel annotation unfolds; at 9.0s, outer composite panel ghost-dissolves, illuminating the 2x2 grid of four Trillium TPU dies with sequential cyan circuit pulses.",
+      "sfx": "Low mechanical servo glide (6.5s) + four rapid precision micro-relay clicks as the 4 TPUs illuminate (9.2s, 9.5s, 9.8s, 10.1s).",
+      "veo_prompt": "Vertical 9:16 cinematic aerospace render. A compact refrigerator-sized satellite floating silently in low Earth orbit against a deep black cosmic backdrop with Earth's blue horizon in the lower third. The satellite features a dark carbon-fiber chassis, gold multi-layer insulation foil accents, and deployed twin rectangular solar panel wings with dark blue specular solar cells. Camera smoothly pushes closer as the outer chassis fades semi-transparent to reveal four square silicon processor chips mounted on a central copper cold-plate heatsink. Camera: SYSTEM_WIDE transitioning to MACRO_TECH cutaway, smooth push-in. Composition: satellite centered at an angle, generous negative space at top. Lighting: harsh directional sun illumination with stark shadows, internal violet illumination on processors. Motion: serene zero-gravity orbital drift with mechanical reveal. No logos unless supplied as a verified asset, no thruster fire, no space debris, no clutter. Photorealistic satellite engineering CAD aesthetic.",
+      "image_prompt": "Vertical 9:16 high-fidelity 3D CAD cutaway render of Project Suncatcher satellite, compact rectangular chassis built by Planet Labs, gold thermal insulation foil, two deployed solar array wings, internal cross-section showing 4 Trillium TPU chips on cold plate, technical annotation lines, 8k octane render.",
+      "negative_prompt": "sci-fi weapons, fictional space station, giant solar sails, cartoon shading, fantasy thruster flames, text distortions, low polygon mesh.",
+      "asset_plan": [
+        {
+          "asset_type": "GENERATED",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "prompt": "3D technical CAD cutaway of Planet Labs satellite bus showing 1kW solar arrays and internal 4-TPU Trillium block",
+          "attribution": "Original 3D CAD visualization based on Planet Labs & Google Research specifications"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 11.5,
+      "end": 16.5,
+      "shot_type": "DATA_FLOW",
+      "visual_goal": "Explain orbital solar mechanics: in a dawn-dusk orbit with high sunlight availability, the panels can capture up to eight times more solar energy annually than comparable terrestrial installations.",
+      "visual_status": "DIAGRAM",
+      "fact_ids": [
+        "claim-09-solar-illumination",
+        "claim-10-8x-solar-productivity",
+        "claim-20-numerical-claims"
+      ],
+      "voiceover_segment": "In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.",
+      "text": "UP TO 8× ANNUAL SOLAR HARVEST",
+      "camera": "Wide spatial orbital camera tracking the terminator boundary of Earth with a smooth 15-degree orbital pan.",
+      "lighting": "Stark, photorealistic solar illumination dividing Earth into sunlit day hemisphere and shadow night hemisphere with city lights; cyan orbital vector line (#4DEBFF) glowing along the terminator.",
+      "diagram_elements": "Cyan orbital vector ring: 'DAWN-DUSK ORBIT • HIGH SUNLIGHT AVAILABILITY'; comparison card at 13.5s: 'ORBITAL ANNUAL ENERGY: UP TO 8×' vs 'TERRESTRIAL ANNUAL ENERGY: BASELINE'; explanatory label: 'ANNUAL CUMULATIVE ENERGY HARVEST (not solar-cell efficiency)'.",
+      "animation": "Cyan trajectory line traces the dawn-dusk orbital vector along the terminator line with high sunlight availability; at 13.5s, comparison card slides in from bottom displaying 'ORBITAL ANNUAL ENERGY: UP TO 8×' vs 'TERRESTRIAL ANNUAL ENERGY: BASELINE' with small explanatory tag 'ANNUAL CUMULATIVE ENERGY HARVEST'; no physical 8x bar distortion.",
+      "sfx": "Orbital ambient drone + rising frequency energy surge tone (13.5s - 14.5s) as 8x indicator fills.",
+      "veo_prompt": "Vertical 9:16 technical data visualization. A photorealistic 3D Earth floating in black space with the sharp day-night terminator boundary clearly visible. A sleek cyan glowing orbital trajectory ring traces the dawn-dusk sun-synchronous path along the terminator, showing high sunlight availability. A minimal technical comparison infographic appears, displaying: 'ORBITAL ANNUAL ENERGY: UP TO 8×' versus 'TERRESTRIAL ANNUAL ENERGY: BASELINE', annotated with 'ANNUAL CUMULATIVE ENERGY HARVEST'. Camera: DATA_FLOW, gentle orbital rotation. Composition: Earth centered slightly low, glowing orbital line drawing viewer focus, clean upper-middle graphic area. Lighting: dramatic solar backlighting, rich atmospheric glow. Motion: smooth planetary rotation and kinetic card entry. No fantasy sci-fi tropes, no text distortion, no chaotic particles.",
+      "image_prompt": "Vertical 9:16 technical scientific illustration showing planet Earth from space with dawn-dusk sun-synchronous orbit highlighted by a luminous electric cyan vector line along the terminator line ('DAWN-DUSK ORBIT • HIGH SUNLIGHT AVAILABILITY'), infographic card overlay comparing 'ORBITAL ANNUAL ENERGY: UP TO 8×' vs 'TERRESTRIAL ANNUAL ENERGY: BASELINE', labeled 'ANNUAL CUMULATIVE ENERGY HARVEST', clean dark UI, minimal flat aesthetic.",
+      "negative_prompt": "cartoon Earth, flat map projection, blinding neon explosion, inaccurate orbit trajectory, blurry text, comic style, exaggerated physical bars.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "source_url": "https://blog.google/technology/ai/project-suncatcher-space-ai/",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "attribution": "AI News Factory technical diagram based on Google Research orbital calculations",
+          "prompt": "Orbital diagram of Earth showing dawn-dusk sun-synchronous orbit along terminator line with high sunlight availability and annual cumulative energy harvest comparison"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 16.5,
+      "end": 19.0,
+      "shot_type": "FAILURE_LOOP",
+      "visual_goal": "Illustrate the physical thermal challenge: in the vacuum of space, zero air molecules exist for convective cooling, trapping thermal energy inside the chip die (NO FANS possible).",
+      "visual_status": "ILLUSTRATIVE",
+      "fact_ids": [
+        "claim-14-vacuum-cooling-challenge"
+      ],
+      "voiceover_segment": "The catch? A vacuum has no air for cooling,",
+      "text": "VACUUM HEAT TRAP • NO CONVECTION",
+      "camera": "Macro 100mm cross-section of TPU silicon package against the pitch-black vacuum void.",
+      "lighting": "Dark mechanical void contrasting with an intensifying thermal infrared color scale (#FF5C70) spreading across the processor die.",
+      "diagram_elements": "Technical schematic callout: 'CONVECTIVE AIRFLOW: 0.0 W/m²K (VACUUM VOID)', fan icon with bold red diagonal strikeout '[NO CONVECTIVE FANS]', thermal gradient meter: 'JUNCTION TEMP: ESCALATING'.",
+      "animation": "Heat gradient expands from the central micro-junction in deep crimson/amber; phantom airflow arrows attempt to emanate but instantly dissolve into void dust with red 'X' indicators.",
+      "sfx": "Low thermal resonance hum + subtle warning tone pulse (16.8s).",
+      "veo_prompt": "Vertical 9:16 scientific thermal simulation. Close-up technical cross-section of a high-performance computer processor die floating in the vacuum of space. The silicon die heats up rapidly, shifting from dark gray to glowing thermal infrared orange-red heat map colors. Microscopic heat particles are trapped within the solid die because the surrounding dark vacuum has zero air molecules for convective cooling. Camera: FAILURE_LOOP cross-section, slow tilt upward. Composition: centered chip cross-section, high technical diagram clarity. Lighting: thermal false-color emissive glow illuminating dark mechanical surroundings. Motion: slow expansion of thermal heat gradient. No fans, no smoke, no explosions, no cheesy flames. Precise thermodynamic physics simulation aesthetic.",
+      "image_prompt": "Vertical 9:16 thermodynamic simulation diagram of a silicon chip in vacuum, thermal false-color gradient showing intense heat concentration at core, dark empty vacuum surrounding, technical callout: 'ZERO CONVECTIVE COOLING', scientific FLIR color palette, dark technical background.",
+      "negative_prompt": "cooling fans, rotating fans, burning fire, smoke plumes, cyberpunk neon, liquid coolant splashes, cartoon flames.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+          "prompt": "Thermodynamic cross-section simulation of TPU silicon die in vacuum showing zero convective heat transfer and heat buildup",
+          "attribution": "AI News Factory physics simulation"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 19.0,
+      "end": 21.5,
+      "shot_type": "FAILURE_LOOP",
+      "visual_goal": "Visualize space radiation risk: high-energy cosmic proton penetrating High Bandwidth Memory (HBM) die causing a single-event upset (0 -> 1 bit-flip), tested at Crocker Nuclear Lab.",
+      "visual_status": "ILLUSTRATIVE",
+      "fact_ids": [
+        "claim-11-radiation-testing",
+        "claim-12-bit-flip-risk"
+      ],
+      "voiceover_segment": "and space radiation triggers memory bit-flips.",
+      "text": "RADIATION SINGLE-EVENT BIT-FLIP",
+      "camera": "Microscopic 3D view zooming directly into an HBM memory array lattice.",
+      "lighting": "Cold blue crystalline semiconductor micro-circuitry with a fast, razor-thin white-cyan proton beam streak producing a sharp, localized amber ionization flash (#FF5C70).",
+      "diagram_elements": "Particle trajectory: 'HIGH-ENERGY PROTON (CYCLOTRON SIMULATED)', target: 'HBM CELL [0x4F8A]', binary register box showing transition: 'DATA STATE: 0 -> 1 [SINGLE-EVENT UPSET]', sub-badge: 'UC DAVIS CROCKER NUCLEAR LAB'.",
+      "animation": "Proton particle streaks across frame at 19.2s; impacts memory cell; localized ionization ring blossoms (19.5s); on-screen digital byte display glitches: '0010[0]110' flips to bold red '0010[1]110'.",
+      "sfx": "High-speed particle beam ionization zap + sharp digital glitch tick (19.5s) as bit flips.",
+      "veo_prompt": "Vertical 9:16 microscopic semiconductor visualization. Inside the crystalline microscopic lattice of high-bandwidth memory (HBM), an energetic subatomic proton particle streaks in at high velocity, striking a microscopic transistor capacitor. The collision creates a brief, sharp ionization flash. A digital binary overlay indicates a bit transition from binary 0 to binary 1, representing a single-event upset. Camera: FAILURE_LOOP, ultra-close microscopic perspective. Composition: memory lattice with focal point on the impacted bit cell. Lighting: dark crystalline blue backdrop, sharp localized particle flash. Motion: rapid particle impact, instantaneous binary flip. No nuclear mushroom clouds, no physical destruction, no shattered glass. Accurate semiconductor physics visualization.",
+      "image_prompt": "Vertical 9:16 scientific illustration of a high-energy proton striking a 3D stacked HBM memory silicon die, microscopic transistor gate ionization track, digital data readout showing bit flip '0 -> 1', cyclotron radiation test graphic, deep blue and amber accents, clean dark aesthetic.",
+      "negative_prompt": "giant explosions, shattered chips, burning flames, comic book radiation symbols, neon gore, low detail, fantasy lasers.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "source_url": "https://gizmodo.com/google-testing-tpu-chips-space-satellite-suncatcher-2000502123",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "attribution": "AI News Factory technical diagram based on UC Davis Crocker Nuclear Lab cyclotron test data",
+          "prompt": "Microscopic visualization of cosmic proton strike on HBM silicon lattice inducing single-event bit flip 0 to 1"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-07",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Show engineering solutions: conductive heat pipes transferring heat to external radiator panels (15-min burst mode), and display upcoming launch target on SpaceX Transporter-18 (Oct 1, 2026).",
+      "visual_status": "HYBRID",
+      "fact_ids": [
+        "claim-04-launch-vehicle",
+        "claim-05-launch-date",
+        "claim-15-heat-pipes",
+        "claim-16-radiators",
+        "claim-20-numerical-claims"
+      ],
+      "voiceover_segment": "Using heat pipes and radiators, it runs fifteen-minute bursts, preparing to launch October first on SpaceX.",
+      "text": "15-MIN BURSTS • LAUNCH OCT 1",
+      "camera": "Slow orbital pan around the satellite's shaded anti-sun flank to highlight the dark external radiator panels, settling with an informational lower-third badge overlay.",
+      "lighting": "Deep space contrast with subtle false-color thermal infrared glow (warm magenta-pink) radiating outward from the black radiator fins into deep space; cold solar rim on bus edges.",
+      "diagram_elements": "Thermal conduit overlay: 'TPU DIES -> COPPER HEAT PIPES -> RADIATOR FINS -> IR RADIATION TO DEEP SPACE', burst cycle clock: 'DUTY CYCLE: 15-MIN BURSTS', verified launch card: 'LAUNCH TARGET: OCT 1, 2026 | VEHICLE: SPACEX FALCON 9 (TRANSPORTER-18) | STATUS: PRE-FLIGHT CHECKOUT'.",
+      "animation": "Thermal energy flows along copper heat pipes to exterior radiator fins; soft infrared radiation waves ripple into space (21.5s - 23.5s); at 23.8s, launch info card slides into lower-third with verified green border.",
+      "sfx": "Gentle fluidic thermal heat pipe transfer tone + solid mechanical lock sound when launch badge snaps into frame (23.8s).",
+      "veo_prompt": "Vertical 9:16 cinematic aerospace visualization. Exterior view of the satellite showing copper heat pipes channeling thermal energy from internal components out to large dark planar radiator panels mounted on the shaded side. The radiator panels emit subtle, beautiful infrared thermal waves into the freezing void of deep space. In the lower third, an elegant technical launch information badge displays SpaceX Falcon 9 Transporter-18 mission details and launch date October 1, 2026. Camera: SYSTEM_WIDE, slow clockwise orbital arc. Composition: satellite radiator fins prominent in mid-ground, launch badge in safe lower-third. Lighting: deep space blackness, gentle infrared emissive glow from radiators, crisp rim lighting on solar edges. Motion: smooth orbital rotation. No fictional hyperdrives, no rocket exhaust in orbit, no clutter. Clean aerospace engineering aesthetic.",
+      "image_prompt": "Vertical 9:16 aerospace technical diagram of Project Suncatcher satellite showing thermal rejection system, copper heat pipes leading to external radiator panels emitting infrared radiation into space, technical badge '15-MIN BURST CYCLE | LAUNCH: OCT 1, 2026 SPACEX TRANSPORTER-18', photorealistic 3D render.",
+      "negative_prompt": "spinning cooling fans, fiery exhausts, launched rocket in deep space, sci-fi warp effects, distorted text, fake badges, blurred renders.",
+      "asset_plan": [
+        {
+          "asset_type": "HYBRID",
+          "source_url": "https://www.space.com/google-project-suncatcher-tpu-satellite-launch",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "attribution": "AI News Factory 3D model with verified SpaceX Transporter-18 manifest data",
+          "prompt": "Exterior view of satellite thermal radiator loop emitting infrared radiation into space with SpaceX Falcon 9 Transporter-18 launch badge"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-08",
+      "start": 26.5,
+      "end": 31.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Deliver the macro conceptual vision: visually distinguish future concept from deployed infrastructure. Juxtapose Earth's congested, red-overloaded electrical power grids with a possible future orbital compute constellation linked by optical lasers, explicitly watermarked as a future concept.",
+      "visual_status": "FUTURE_CONCEPT",
+      "fact_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-17-laser-intersatellite"
+      ],
+      "voiceover_segment": "If proven, orbital compute could eventually bypass Earth's strained power grids.",
+      "text": "FUTURE CONCEPT • ORBITAL MESH",
+      "camera": "Wide orbital perspective tilting slowly upward from congested nocturnal continental power grids to an orbital constellation linked by luminous cyan laser vectors.",
+      "lighting": "Terrestrial surface glows in strained amber-red (#FF5C70) depicting power grid saturation, contrasting with the serene electric cyan (#4DEBFF) and violet (#9B7CFF) light of orbital nodes.",
+      "diagram_elements": "Watermark badge in corner: 'FUTURE CONCEPT / POSSIBLE FUTURE (NOT OPERATIONAL INFRASTRUCTURE)'; ground overlay: 'TERRESTRIAL GRID: GIGAWATT BOTTLENECK [CONGESTED]'; orbital overlay: 'CONCEPTUAL ORBITAL MESH: SOLAR HARVEST + OPTICAL INTER-SATELLITE LINKS'.",
+      "animation": "Red ground grid pulses with overload strain; camera tilts upward into orbital space where a prominent 'FUTURE CONCEPT' badge illuminates; clean cyan optical link lines connect conceptual satellite nodes across low Earth orbit, explicitly framing the mesh as a theoretical long-term vision rather than current deployment.",
+      "sfx": "Low terrestrial electrical grid hum transitioning into high-fidelity crystal-clear orbital harmonic chord (28.5s).",
+      "veo_prompt": "Vertical 9:16 cinematic conceptual technology explainer. Macro view of planet Earth at night. Terrestrial power grids across major continents glow with dense, strained amber-red transmission network lines. Camera tilts upward smoothly toward the orbital sphere where conceptual satellite nodes float peacefully, interconnected by crisp electric-cyan optical laser communication lines against the dark starry cosmos. Prominent minimal watermark text reads: 'FUTURE CONCEPT • NOT DEPLOYED INFRASTRUCTURE'. Camera: SYSTEM_WIDE, slow upward tilt and drift. Composition: lower third shows curved nighttime Earth with amber grid lines, upper two-thirds show deep black space with clean cyan conceptual orbital network. Lighting: high contrast between grounded warm amber and celestial electric cyan. Motion: fluid tilt and elegant laser mesh connection. No cheesy neon cities, no cartoon lasers, no chaotic flying saucers. Elegant technical macro visualization.",
+      "image_prompt": "Vertical 9:16 macro conceptual render of Earth at night with strained amber-red power grid lines below, transitioning to conceptual orbital constellation linked with electric cyan optical laser links above in black space, prominent watermark badge 'FUTURE CONCEPT / POSSIBLE FUTURE', clean technical aesthetic, photorealistic, 8k octane render.",
+      "negative_prompt": "cyberpunk cities, flying cars, alien spaceships, cartoon explosions, blinding neon lens flares, blurry continents, operational logo badges.",
+      "asset_plan": [
+        {
+          "asset_type": "GENERATED",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "prompt": "Macro technical render of Earth at night with amber power grid overload transitioning to cyan conceptual orbital satellite network with FUTURE CONCEPT watermark",
+          "attribution": "Original conceptual visual generated for AI News Factory (Future Concept)"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-09",
+      "start": 31.5,
+      "end": 35.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Deliver brand lockup and high-retention call-to-action for verified technical breakdowns without hype or false urgency.",
+      "visual_status": "ILLUSTRATIVE",
+      "fact_ids": [
+        "claim-01-existence"
+      ],
+      "voiceover_segment": "If you found this useful, like, share, and subscribe.",
+      "text": "LIKE • SHARE • SUBSCRIBE",
+      "camera": "Static orthographic branded composition with subtle 2D kinetic typography and ambient pulse.",
+      "lighting": "Near-black canvas (#070A0F) with refined electric cyan (#4DEBFF) and violet (#9B7CFF) geometric frame accents.",
+      "diagram_elements": "AI NEWS FACTORY master brand lockup, verified badge checkmark (#54E39A), subtext: 'VERIFIED • EXPLAINED • VISUALIZED', animated follow button indicator.",
+      "animation": "Brand title 'AI NEWS FACTORY' reveals with crisp kerning expansion; kinetic subtitle and CTA button snap into lockup with subtle micro-scale bounce; border accent lines draw from center to corners.",
+      "sfx": "Signature channel branded audio logo chime + soft tactile confirmation click (32.0s).",
+      "veo_prompt": "Vertical 9:16 brand lockup. Dark technical canvas (#070A0F) with subtle dark carbon paneling and geometric accent lines in restrained electric cyan (#4DEBFF) and violet (#9B7CFF). Center typography displays AI NEWS FACTORY with crisp modern sans-serif letterforms and verified checkmark emblem in mint green. Below, an elegant follow prompt pill button. Camera: CTA_LOCKUP, static locked off. Composition: perfectly centered brand lockup in upper-middle safe area, generous negative space. Lighting: soft controlled rim glow, clean emissive accents. Motion: elegant typography entrance with micro-bounce. No watermarks, no chaotic confetti, no flashing banners.",
+      "image_prompt": "Vertical 9:16 branded end card for AI News Factory, dark charcoal background, electric cyan and violet geometric accent lines, mint green verified badge, modern typography: 'FOLLOW FOR VERIFIED AI ENGINEERING BREAKDOWNS', minimalist high-tech aesthetic.",
+      "negative_prompt": "cheesy subscribe arrows, spinning 3D logos, youtube red play buttons, generic social icons, chaotic glitter, low resolution.",
+      "asset_plan": [
+        {
+          "asset_type": "DIAGRAM",
+          "rights_status": "PROPRIETARY_BRAND_ASSET",
+          "prompt": "AI News Factory brand lockup with dark technical canvas, cyan-violet accents and verified engineering badge",
+          "attribution": "AI News Factory Brand Identity System v1.0"
+        }
+      ]
+    }
+  ]
+}

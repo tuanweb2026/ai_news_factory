@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "story_id": "stanford-nvidia-clm-8b-agent-model-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "AI agents are too slow because they talk when they should act.",
+  "spoken_script": "AI agents are too slow because they talk when they should act. Stanford and NVIDIA just released CLM-8B, a new System One model architecture. Instead of slowly generating code token by token, it scores actions instantly in vector space. That makes agent decisions up to nine times faster, while hitting eighty-seven percent on terminal benchmarks. It is not a chatbot\u2014it is an action engine. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "purpose": "THE_HOOK",
+      "voice": "AI agents are too slow because they talk when they should act.",
+      "on_screen_text": "WHY ARE AI AGENTS SO SLOW?",
+      "visual_intent": "Cognitive bottleneck visualization: sluggish autoregressive token stream choking computer terminal."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "purpose": "THE_ANNOUNCEMENT",
+      "voice": "Stanford and NVIDIA just released CLM-8B, a new System One model architecture.",
+      "on_screen_text": "STANFORD + NVIDIA \u2022 CLM-8B",
+      "visual_intent": "Stanford and NVIDIA research badge lockup over high-tech dual neural network schematic."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "purpose": "THE_MECHANISM",
+      "voice": "Instead of slowly generating code token by token, it scores actions instantly in vector space.",
+      "on_screen_text": "VECTOR SCORING \u2022 NO TOKENS",
+      "visual_intent": "Split comparison: Autoregressive token drip vs. Dual-encoder instant state-action vector alignment."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "purpose": "SPEED_AND_BENCHMARKS",
+      "voice": "That makes agent decisions up to nine times faster, while hitting eighty-seven percent on terminal benchmarks.",
+      "on_screen_text": "9x FASTER \u2022 87.6% BENCHMARK",
+      "visual_intent": "Telemetry dashboard: 9x latency reduction telemetry graph and Terminal-Bench 87.6% gauge."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "purpose": "NEGATIVE_BOUNDARY",
+      "voice": "It is not a chatbot\u2014it is an action engine.",
+      "on_screen_text": "NOT A CHATBOT \u2022 ACTION ENGINE",
+      "visual_intent": "Strict architectural boundary card: Cross out chat speech bubble, illuminate autonomous terminal control gear."
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "AI NEWS FACTORY master brand lockup with dark technical aesthetic and verified badge."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-crispr-art-enzyme-2026",
+  "style_bible_version": "v1.0",
+  "manifest_metadata": {
+    "manifest_version": "1.0",
+    "story_title": "Anthropic Claude Discovers ART Enzyme System",
+    "production_date": "2026-09-26",
+    "total_assets_cataloged": 6,
+    "classifications_used": [
+      "GENERATED",
+      "DIAGRAM",
+      "HYBRID",
+      "PROPRIETARY_BRAND_ASSET"
+    ],
+    "verification_reference": "data/verified/VERIFIED_ANTHROPIC_ART_20260926.json"
+  },
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 3.0,
+      "shot_type": "MACRO_TECH",
+      "visual_goal": "Deliver maximum first-2-second retention hook: transition from abstract computational code into an ultra-sharp 3D bacteriophage virus landing on a bacterial membrane with luminous cyan protein traces.",
+      "visual_status": "CONCEPTUAL",
+      "asset_plan": [
+        {
+          "asset_id": "AST-01-PHAGE-LANDING",
+          "asset_type": "GENERATED",
+          "visual_truth_mode": "CONCEPTUAL",
+          "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+          "conceptual_disclosure": "CONCEPTUAL SCIENTIFIC VISUALIZATION",
+          "prompt": "Photorealistic 3D bacteriophage virus landing on cell wall with cyan fluorescent protein traces on dark technical canvas",
+          "attribution": "Original procedural visual generated for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 3.0,
+      "end": 8.0,
+      "shot_type": "DATA_FLOW",
+      "visual_goal": "Convey the colossal scale and computational throughput of the search: parallel network diagram showing 1,000 Claude agents screening 1.9 billion protein clusters.",
+      "visual_status": "DIAGRAM",
+      "asset_plan": [
+        {
+          "asset_id": "AST-02-AGENT-CLUSTER-MATRIX",
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "prompt": "Technical diagram showing 1,000 AI agents filtering 1.9 billion protein clusters into refined candidate biological systems",
+          "attribution": "Original scientific vector diagram designed for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 8.0,
+      "end": 15.0,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Reveal the core discovery (ART architecture): high-precision molecular blueprint showing the Reverse Transcriptase enzyme, the partner gene, and the CRISPR-like repeating tandem DNA array.",
+      "visual_status": "DIAGRAM",
+      "asset_plan": [
+        {
+          "asset_id": "AST-03-ART-MOLECULAR-BLUEPRINT",
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "prompt": "Molecular diagram of Array-associated Reverse Transcriptase (ART) system showing RT enzyme, partner gene, and CRISPR-like repeating arrays",
+          "attribution": "Original biological system diagram designed for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 15.0,
+      "end": 21.0,
+      "shot_type": "EVIDENCE_SCREEN",
+      "visual_goal": "Present empirical experimental validation: human biologists in Anthropic's San Francisco wet lab verifying that the repeat arrays transcribe into discrete short RNA molecules.",
+      "visual_status": "RECONSTRUCTED",
+      "asset_plan": [
+        {
+          "asset_id": "AST-04-WETLAB-GEL-EVIDENCE",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "visual_truth_mode": "RECONSTRUCTED",
+          "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+          "source_name": "Original AI News Factory Scientific Simulation",
+          "source_url": "proprietary://ai_news_factory/render/art/shot-04",
+          "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+          "conceptual_disclosure": "ORIGINAL SCIENTIFIC SIMULATION — NOT ORIGINAL EXPERIMENTAL DATA",
+          "attribution": "Original procedural scientific simulation designed for AI News Factory",
+          "prompt": "Procedural vector diagram reconstructing a polyacrylamide gel assay: dark charcoal slab, distinct lanes with fluorescent amber-gold bands representing short RNA transcription products, and clean technical measurement grid. Explicitly presented as an original conceptual scientific reconstruction."
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.0,
+      "end": 26.5,
+      "shot_type": "SYSTEM_WIDE",
+      "visual_goal": "Enforce strict scientific boundary: clearly communicate that ART is fundamental biological architecture, NOT a human gene therapy or clinical editing tool.",
+      "visual_status": "DIAGRAM",
+      "asset_plan": [
+        {
+          "asset_id": "AST-05-BOUNDARY-LATTICE",
+          "asset_type": "DIAGRAM",
+          "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+          "prompt": "Scientific boundary graphic establishing ART as fundamental biological discovery rather than clinical human gene therapy",
+          "attribution": "Original boundary diagram designed for AI News Factory"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Deliver clean AI News Factory brand lockup and call to action for verified AI engineering and biology explainers.",
+      "visual_status": "DIAGRAM",
+      "asset_plan": [
+        {
+          "asset_id": "AST-06-BRAND-CTA-LOCKUP",
+          "asset_type": "DIAGRAM",
+          "rights_status": "PROPRIETARY_BRAND_ASSET",
+          "prompt": "AI News Factory brand lockup with dark technical canvas, cyan-violet accents and verified engineering badge",
+          "attribution": "AI News Factory Brand Identity System v1.0"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "AST-01-PHAGE-LANDING",
+      "shot_id": "shot-01",
+      "classification": "GENERATED",
+      "visual_status": "CONCEPTUAL",
+      "visual_truth_mode": "CONCEPTUAL",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+      "conceptual_disclosure": "CONCEPTUAL SCIENTIFIC VISUALIZATION",
+      "master_file": "data/visuals/production_assets_art/shot-01.svg",
+      "raster_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/assets/generated/shot-01.png",
+      "claim_ids": ["claim-01-discovery-nature", "claim-02-host-organism"],
+      "source_name": "Original AI News Factory 3D Procedural Generator",
+      "source_url": "proprietary://ai_news_factory/render/art/shot-01",
+      "usage_reason": "High-retention macro visual hook illustrating natural viral host without sensationalism."
+    },
+    {
+      "asset_id": "AST-02-AGENT-CLUSTER-MATRIX",
+      "shot_id": "shot-02",
+      "classification": "DIAGRAM",
+      "visual_status": "DIAGRAM",
+      "visual_truth_mode": "DIAGRAM",
+      "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+      "conceptual_disclosure": "ORIGINAL SCIENTIFIC VECTOR DIAGRAM — SEARCH SCALE",
+      "master_file": "data/visuals/production_assets_art/shot-02.svg",
+      "raster_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/assets/generated/shot-02.png",
+      "claim_ids": ["claim-05-search-scale-clusters", "claim-06-runtime-hours", "claim-07-agent-sessions"],
+      "source_name": "Original AI News Factory Vector Engine",
+      "source_url": "proprietary://ai_news_factory/render/art/shot-02",
+      "usage_reason": "Abstract technical representation of parallel AI search through 1.9 billion protein clusters."
+    },
+    {
+      "asset_id": "AST-03-ART-MOLECULAR-BLUEPRINT",
+      "shot_id": "shot-03",
+      "classification": "DIAGRAM",
+      "visual_status": "DIAGRAM",
+      "visual_truth_mode": "DIAGRAM",
+      "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+      "conceptual_disclosure": "ORIGINAL SCIENTIFIC DIAGRAM — MOLECULAR BLUEPRINT",
+      "master_file": "data/visuals/production_assets_art/shot-03.svg",
+      "raster_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/assets/generated/shot-03.png",
+      "claim_ids": ["claim-01-discovery-nature", "claim-02-host-organism", "claim-03-three-components", "claim-04-crispr-analogy", "claim-06-runtime-hours"],
+      "source_name": "Original AI News Factory Molecular Diagram",
+      "source_url": "proprietary://ai_news_factory/render/art/shot-03",
+      "usage_reason": "Direct architectural visualization of ART tripartite components and CRISPR-like repeat arrays."
+    },
+    {
+      "asset_id": "AST-04-WETLAB-GEL-EVIDENCE",
+      "shot_id": "shot-04",
+      "classification": "DIAGRAM",
+      "visual_status": "RECONSTRUCTED",
+      "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+      "visual_truth_mode": "RECONSTRUCTED",
+      "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+      "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+      "conceptual_disclosure": "ORIGINAL SCIENTIFIC SIMULATION — NOT ORIGINAL EXPERIMENTAL DATA",
+      "master_file": "data/visuals/production_assets_art/shot-04.svg",
+      "raster_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/assets/generated/shot-04.png",
+      "claim_ids": ["claim-08-wet-lab-validation"],
+      "source_name": "Original AI News Factory Scientific Simulation",
+      "source_url": "proprietary://ai_news_factory/render/art/shot-04",
+      "usage_reason": "Original conceptual vector reconstruction of polyacrylamide gel assay illustrating short RNA transcript validation."
+    },
+    {
+      "asset_id": "AST-05-BOUNDARY-LATTICE",
+      "shot_id": "shot-05",
+      "classification": "DIAGRAM",
+      "visual_status": "DIAGRAM",
+      "visual_truth_mode": "DIAGRAM",
+      "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+      "conceptual_disclosure": "SCIENTIFIC BOUNDARY DIAGRAM — BASIC SCIENCE ONLY",
+      "master_file": "data/visuals/production_assets_art/shot-05.svg",
+      "raster_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/assets/generated/shot-05.png",
+      "claim_ids": ["claim-04-crispr-analogy", "claim-09-no-human-gene-therapy"],
+      "source_name": "Original AI News Factory Boundary Diagram",
+      "source_url": "proprietary://ai_news_factory/render/art/shot-05",
+      "usage_reason": "Critical negative boundary graphic refuting human gene-editing claims."
+    },
+    {
+      "asset_id": "AST-06-BRAND-CTA-LOCKUP",
+      "shot_id": "shot-06",
+      "classification": "DIAGRAM",
+      "visual_status": "DIAGRAM",
+      "visual_truth_mode": "DIAGRAM",
+      "asset_type": "DIAGRAM",
+      "rights_status": "PROPRIETARY_BRAND_ASSET",
+      "source_type": "ORIGINAL_AI_NEWS_FACTORY_ASSET",
+      "conceptual_disclosure": "AI NEWS FACTORY • PROPRIETARY BRAND IDENTITY",
+      "master_file": "data/visuals/production_assets_art/shot-06.svg",
+      "raster_file": "data/rendered/anthropic-claude-crispr-art-enzyme-2026/assets/generated/shot-06.png",
+      "claim_ids": ["claim-01-discovery-nature"],
+      "source_name": "AI News Factory Brand Identity System v1.0",
+      "source_url": "proprietary://ai_news_factory/branding",
+      "usage_reason": "Master brand CTA lockup."
+    }
+  ]
+}

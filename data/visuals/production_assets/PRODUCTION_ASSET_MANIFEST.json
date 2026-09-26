@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "style_bible_version": "v1.0",
+  "asset_production_status": "READY",
+  "generated_at": "2026-09-26T13:42:15.337070",
+  "total_assets": 9,
+  "total_placeholders_remaining": 0,
+  "satellite_master_design_preserved": true,
+  "assets": [
+    {
+      "asset_id": "AST-01-EARTH-ORBIT-PULLBACK",
+      "shot_id": "shot-01",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "ILLUSTRATIVE",
+      "visual_status": "ILLUSTRATIVE",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "claim_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-01.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-01.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 1024124,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-02-GOOGLE-RESEARCH-CARD",
+      "shot_id": "shot-02",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "HYBRID",
+      "visual_status": "HYBRID",
+      "rights_status": "EDITORIAL_FAIR_USE",
+      "claim_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-03-tpu-in-orbit",
+        "claim-19-operational-datacenter-refutation"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-02.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-02.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 860520,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-04-SATELLITE-CAD-CUTAWAY",
+      "shot_id": "shot-03",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "ILLUSTRATIVE",
+      "visual_status": "ILLUSTRATIVE",
+      "rights_status": "PROPRIETARY_GENERATED",
+      "claim_ids": [
+        "claim-06-planet-partnership",
+        "claim-07-tpu-quantity",
+        "claim-08-tpu-generation",
+        "claim-20-numerical-claims"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-03.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-03.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 1097085,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-05-DAWN-DUSK-SSO-DIAGRAM",
+      "shot_id": "shot-04",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "DIAGRAM",
+      "visual_status": "DIAGRAM",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "claim_ids": [
+        "claim-09-solar-illumination",
+        "claim-10-8x-solar-productivity",
+        "claim-20-numerical-claims"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-04.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-04.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 1150656,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-06-VACUUM-THERMAL-SIMULATION",
+      "shot_id": "shot-05",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "DIAGRAM",
+      "visual_status": "ILLUSTRATIVE",
+      "rights_status": "ORIGINAL_SCIENTIFIC_SIMULATION",
+      "claim_ids": [
+        "claim-14-vacuum-cooling-challenge"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-05.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-05.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 910351,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-07-PROTON-BIT-FLIP-DIAGRAM",
+      "shot_id": "shot-06",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "DIAGRAM",
+      "visual_status": "ILLUSTRATIVE",
+      "rights_status": "ORIGINAL_VECTOR_DIAGRAM",
+      "claim_ids": [
+        "claim-11-radiation-testing",
+        "claim-12-bit-flip-risk"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-06.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-06.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 941569,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-08-THERMAL-RADIATOR-LOOP",
+      "shot_id": "shot-07",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "HYBRID",
+      "visual_status": "HYBRID",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "claim_ids": [
+        "claim-04-launch-vehicle",
+        "claim-05-launch-date",
+        "claim-15-heat-pipes",
+        "claim-16-radiators",
+        "claim-20-numerical-claims"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-07.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-07.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 912940,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-09-GRID-VS-ORBIT-CONCEPT",
+      "shot_id": "shot-08",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "FUTURE_CONCEPT",
+      "visual_status": "FUTURE_CONCEPT",
+      "rights_status": "ORIGINAL_AI_SYNTHESIZED",
+      "claim_ids": [
+        "claim-01-existence",
+        "claim-02-research-nature",
+        "claim-17-laser-intersatellite"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-08.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-08.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 844025,
+      "created_at": "2026-09-26T13:42:15.337070"
+    },
+    {
+      "asset_id": "AST-10-BRAND-CTA-LOCKUP",
+      "shot_id": "shot-09",
+      "story_id": "google-project-suncatcher-orbital-tpu-2026",
+      "classification": "DIAGRAM",
+      "visual_status": "DIAGRAM",
+      "rights_status": "PROPRIETARY_BRAND_ASSET",
+      "claim_ids": [
+        "claim-01-existence"
+      ],
+      "generation_method": "NATIVE_PROCEDURAL_VECTOR_SIPS_RASTER",
+      "source": "data/visuals/production_assets/shot-09.svg",
+      "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-09.png",
+      "dimensions": "1080x1920 (9:16 vertical)",
+      "file_size_bytes": 866906,
+      "created_at": "2026-09-26T13:42:15.337070"
+    }
+  ]
+}

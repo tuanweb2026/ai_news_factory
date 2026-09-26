@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Space Radial Glow -->
+    <radialGradient id="spaceGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Hairline Gradients -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldKapton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FF8008"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="thermalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C70"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFF275"/>
+    </linearGradient>
+    <linearGradient id="solarWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="50%" stop-color="#1f3160"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Deep Void -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#spaceGlow)"/>
+
+  <!-- Technical Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="200" x2="1080" y2="200"/>
+    <line x1="0" y1="440" x2="1080" y2="440"/>
+    <line x1="0" y1="1300" x2="1080" y2="1300"/>
+    <line x1="0" y1="1680" x2="1080" y2="1680"/>
+  </g>
+
+  <!-- Top Header Zone (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      PROJECT SUNCATCHER • ORBITAL TPU
+    </text>
+    <line x1="0" y1="22" x2="920" y2="22" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill -->
+  <g transform="translate(540, 260)">
+    <rect x="-300" y="-24" width="600" height="48" rx="24" fill="#0D121A" stroke="#4DEBFF" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-01 • ORBITAL OPENING
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1280) -->
+  <g id="main-visual-stage">
+    
+    <!-- Earth Curvature Limb in Lower View -->
+    <g transform="translate(0, 0)">
+      <!-- Outer Space Stars -->
+      <circle cx="200" cy="480" r="2" fill="#FFFFFF" opacity="0.6"/>
+      <circle cx="750" cy="420" r="1.5" fill="#4DEBFF" opacity="0.7"/>
+      <circle cx="880" cy="550" r="2" fill="#FFFFFF" opacity="0.5"/>
+      <circle cx="340" cy="620" r="1" fill="#FFFFFF" opacity="0.4"/>
+      <circle cx="160" cy="750" r="2.5" fill="#4DEBFF" opacity="0.8"/>
+
+      <!-- Earth Horizon Curve -->
+      <path d="M -100 1150 Q 540 860 1180 1150 L 1180 1320 L -100 1320 Z" fill="#0A1526"/>
+      <path d="M -100 1150 Q 540 860 1180 1150" fill="none" stroke="#4DEBFF" stroke-width="8" opacity="0.9"/>
+      <path d="M -100 1150 Q 540 860 1180 1150" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+
+      <!-- Atmospheric Volumetric Glow -->
+      <path d="M -100 1150 Q 540 840 1180 1150" fill="none" stroke="#4DEBFF" stroke-width="32" opacity="0.25"/>
+      <path d="M -100 1150 Q 540 820 1180 1150" fill="none" stroke="#9B7CFF" stroke-width="60" opacity="0.15"/>
+
+      <!-- Terrestrial Server Silhouette Dissolving into Orbit -->
+      <g transform="translate(420, 520)" opacity="0.85">
+        <rect x="0" y="0" width="240" height="280" rx="8" fill="#0D121A" stroke="#4DEBFF" stroke-width="2"/>
+        <line x1="20" y1="40" x2="220" y2="40" stroke="#1E2A38" stroke-width="2"/>
+        <line x1="20" y1="90" x2="220" y2="90" stroke="#1E2A38" stroke-width="2"/>
+        <line x1="20" y1="140" x2="220" y2="140" stroke="#1E2A38" stroke-width="2"/>
+        <line x1="20" y1="190" x2="220" y2="190" stroke="#1E2A38" stroke-width="2"/>
+        <line x1="20" y1="240" x2="220" y2="240" stroke="#1E2A38" stroke-width="2"/>
+
+        <!-- Server LED Blinks -->
+        <circle cx="40" cy="65" r="4" fill="#4DEBFF"/>
+        <circle cx="55" cy="65" r="4" fill="#54E39A"/>
+        <circle cx="40" cy="115" r="4" fill="#4DEBFF"/>
+        <circle cx="55" cy="115" r="4" fill="#4DEBFF"/>
+        <circle cx="40" cy="165" r="4" fill="#9B7CFF"/>
+        <circle cx="40" cy="215" r="4" fill="#4DEBFF"/>
+
+        <!-- Server Label -->
+        <text x="120" y="270" font-family="'Space Grotesk', monospace" font-size="14" fill="#8B98A7" text-anchor="middle">
+          EARTH DATACENTER RACK
+        </text>
+      </g>
+
+      <!-- Orbital Ascension Vector Beam -->
+      <line x1="540" y1="800" x2="540" y2="960" stroke="#4DEBFF" stroke-width="2" stroke-dasharray="8 8"/>
+      <polygon points="540,790 534,810 546,810" fill="#4DEBFF"/>
+
+      <!-- Telemetry Tags -->
+      <g transform="translate(140, 480)">
+        <rect width="200" height="70" rx="6" fill="#0D121A" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="20" y="28" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#4DEBFF">ORBIT ALTITUDE</text>
+        <text x="20" y="52" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F3F7FA">~500 KM (LEO)</text>
+      </g>
+      <g transform="translate(740, 480)">
+        <rect width="200" height="70" rx="6" fill="#0D121A" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="20" y="28" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#9B7CFF">INCLINATION</text>
+        <text x="20" y="52" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#F3F7FA">97.5° SUN-SYNC</text>
+      </g>
+    </g>
+    
+  </g>
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1320-1560) -->
+  <g transform="translate(80, 1340)">
+    <rect width="920" height="230" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 30 L 920 0 L 890 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 200 L 0 230 L 30 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 200 L 920 230 L 890 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(460, 42)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#070A0F" stroke="#4DEBFF" stroke-width="1"/>
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+        ILLUSTRATIVE • RESEARCH CONCEPT
+      </text>
+    </g>
+
+    <!-- Central Primary Card Text (Strictly max 6 words per card) -->
+    <text x="460" y="125" font-family="'Inter', sans-serif" font-size="50" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="1">
+      AI TEST BED IN ORBIT
+    </text>
+
+    <!-- Technical Subtext / Engineering Context -->
+    <text x="460" y="185" font-family="'Space Grotesk', monospace" font-size="22" font-weight="500" fill="#8B98A7" text-anchor="middle" letter-spacing="0.5">
+      TERRESTRIAL SERVER RACKS → LOW EARTH ORBIT TESTBED
+    </text>
+  </g>
+
+  <!-- Optional Watermark / Extra Guardrail Banner (Y=1600-1680) -->
+  
+
+  <!-- Channel Footer Stamp (Y=1780-1840) -->
+  <g transform="translate(540, 1820)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      AI TECH EXPLAINER • VERIFIED EVIDENCE FIRST
+    </text>
+  </g>
+</svg>

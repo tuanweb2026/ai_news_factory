@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Space Radial Glow -->
+    <radialGradient id="spaceGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Hairline Gradients -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldKapton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FF8008"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="thermalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C70"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFF275"/>
+    </linearGradient>
+    <linearGradient id="solarWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="50%" stop-color="#1f3160"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Deep Void -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#spaceGlow)"/>
+
+  <!-- Technical Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="200" x2="1080" y2="200"/>
+    <line x1="0" y1="440" x2="1080" y2="440"/>
+    <line x1="0" y1="1300" x2="1080" y2="1300"/>
+    <line x1="0" y1="1680" x2="1080" y2="1680"/>
+  </g>
+
+  <!-- Top Header Zone (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      PROJECT SUNCATCHER • ORBITAL TPU
+    </text>
+    <line x1="0" y1="22" x2="920" y2="22" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill -->
+  <g transform="translate(540, 260)">
+    <rect x="-300" y="-24" width="600" height="48" rx="24" fill="#0D121A" stroke="#54E39A" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-02 • EVIDENCE REFERENCE
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1280) -->
+  <g id="main-visual-stage">
+    
+    <!-- Official Document Evidence Window -->
+    <g transform="translate(120, 360)">
+      <!-- Outer Frosted Window -->
+      <rect width="840" height="880" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+      <!-- Window Title Bar -->
+      <rect width="840" height="60" rx="16" fill="#131B26"/>
+      <circle cx="36" cy="30" r="7" fill="#FF5C70"/>
+      <circle cx="60" cy="30" r="7" fill="#FFB300"/>
+      <circle cx="84" cy="30" r="7" fill="#54E39A"/>
+
+      <!-- Official Source Reference Chip -->
+      <rect x="220" y="14" width="400" height="32" rx="16" fill="#070A0F" stroke="#4DEBFF" stroke-width="1"/>
+      <text x="420" y="30" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central">
+        OFFICIAL SOURCE REFERENCE
+      </text>
+
+      <!-- URL Bar -->
+      <g transform="translate(40, 90)">
+        <rect width="760" height="44" rx="8" fill="#070A0F" stroke="#1E2A38" stroke-width="1"/>
+        <text x="24" y="27" font-family="'Space Grotesk', monospace" font-size="15" fill="#8B98A7">
+          https://blog.google/technology/ai/project-suncatcher-space-ai/
+        </text>
+      </g>
+
+      <!-- Document Title -->
+      <g transform="translate(40, 180)">
+        <text x="0" y="30" font-family="'Inter', sans-serif" font-size="32" font-weight="800" fill="#F3F7FA">
+          Project Suncatcher: Space AI Testbed
+        </text>
+        <text x="0" y="65" font-family="'Space Grotesk', monospace" font-size="18" font-weight="500" fill="#8B98A7">
+          Published by Google Research • September 24, 2026
+        </text>
+      </g>
+
+      <!-- Verified Research Prototype Stamp -->
+      <g transform="translate(40, 290)">
+        <rect width="760" height="90" rx="10" fill="#0E2218" stroke="#54E39A" stroke-width="2"/>
+        <circle cx="50" cy="45" r="22" fill="#54E39A" opacity="0.2"/>
+        <path d="M 40 45 L 47 52 L 60 38" fill="none" stroke="#54E39A" stroke-width="4" stroke-linecap="round"/>
+        <text x="90" y="38" font-family="'Inter', sans-serif" font-size="20" font-weight="800" fill="#54E39A">
+          STATUS: RESEARCH PROTOTYPE
+        </text>
+        <text x="90" y="66" font-family="'Space Grotesk', monospace" font-size="16" font-weight="600" fill="#F3F7FA">
+          NOT AN OPERATIONAL ORBITAL DATA CENTER
+        </text>
+      </g>
+
+      <!-- Excerpt Highlight Block -->
+      <g transform="translate(40, 420)">
+        <rect width="760" height="200" rx="10" fill="#070A0F" stroke="#9B7CFF" stroke-width="1.5"/>
+        <line x1="0" y1="0" x2="0" y2="200" stroke="#9B7CFF" stroke-width="8"/>
+        <text x="30" y="45" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#4DEBFF">
+          PRIMARY RESEARCH OBJECTIVE:
+        </text>
+        <text x="30" y="85" font-family="'Inter', sans-serif" font-size="20" font-weight="500" fill="#F3F7FA">
+          "Testing physical feasibility of running TPU accelerators
+        </text>
+        <text x="30" y="120" font-family="'Inter', sans-serif" font-size="20" font-weight="500" fill="#F3F7FA">
+          in low Earth orbit... evaluating vacuum thermal limits,
+        </text>
+        <text x="30" y="155" font-family="'Inter', sans-serif" font-size="20" font-weight="500" fill="#F3F7FA">
+          solar yield in dawn-dusk SSO, and proton radiation bit-flips."
+        </text>
+      </g>
+
+      <!-- Partnership & Specs Tags -->
+      <g transform="translate(40, 660)">
+        <rect width="360" height="70" rx="8" fill="#131B26" stroke="#1E2A38" stroke-width="1"/>
+        <text x="20" y="28" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">SPACECRAFT PARTNER</text>
+        <text x="20" y="52" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#F3F7FA">Planet Labs (Agile Bus)</text>
+      </g>
+      <g transform="translate(440, 660)">
+        <rect width="360" height="70" rx="8" fill="#131B26" stroke="#1E2A38" stroke-width="1"/>
+        <text x="20" y="28" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">HARDWARE ACCELERATOR</text>
+        <text x="20" y="52" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#4DEBFF">Google Trillium (TPU v6e)</text>
+      </g>
+    </g>
+    
+  </g>
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1320-1560) -->
+  <g transform="translate(80, 1340)">
+    <rect width="920" height="230" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 30 L 920 0 L 890 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 200 L 0 230 L 30 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 200 L 920 230 L 890 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(460, 42)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#070A0F" stroke="#54E39A" stroke-width="1"/>
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#54E39A" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+        HYBRID • OFFICIAL SOURCE REFERENCE
+      </text>
+    </g>
+
+    <!-- Central Primary Card Text (Strictly max 6 words per card) -->
+    <text x="460" y="125" font-family="'Inter', sans-serif" font-size="50" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="1">
+      PROJECT SUNCATCHER • RESEARCH PROTOTYPE
+    </text>
+
+    <!-- Technical Subtext / Engineering Context -->
+    <text x="460" y="185" font-family="'Space Grotesk', monospace" font-size="22" font-weight="500" fill="#8B98A7" text-anchor="middle" letter-spacing="0.5">
+      GOOGLE RESEARCH ANNOUNCEMENT • SEPTEMBER 24, 2026
+    </text>
+  </g>
+
+  <!-- Optional Watermark / Extra Guardrail Banner (Y=1600-1680) -->
+  
+
+  <!-- Channel Footer Stamp (Y=1780-1840) -->
+  <g transform="translate(540, 1820)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      AI TECH EXPLAINER • VERIFIED EVIDENCE FIRST
+    </text>
+  </g>
+</svg>

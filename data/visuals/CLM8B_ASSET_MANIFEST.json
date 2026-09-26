@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "story_id": "stanford-nvidia-clm-8b-agent-model-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Hook: Visual latency comparison showing autoregressive LLM waiting on token stream.",
+      "text": "WHY ARE AI AGENTS SO SLOW?",
+      "animation": "Subtle camera zoom into sluggish terminal cursor.",
+      "sfx": "Digital glitch and hum.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "shot_type": "ENTITY_ANNOUNCEMENT",
+      "visual_goal": "Stanford and NVIDIA badge over CLM-8B System One neural architecture schematic.",
+      "text": "STANFORD + NVIDIA \u2022 CLM-8B",
+      "animation": "Dual encoder projection heads lighting up in cyan and violet.",
+      "sfx": "Data pulse swell.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "shot_type": "TECHNICAL_MECHANISM",
+      "visual_goal": "Dual-encoder vector scoring: State embedding and Action candidate vectors clustering instantly.",
+      "text": "VECTOR SCORING \u2022 NO TOKENS",
+      "animation": "Vector alignment beam firing from State to highest-scoring Action.",
+      "sfx": "Laser lock-on chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "shot_type": "DATA_TELEMETRY",
+      "visual_goal": "9x speedup telemetry bar chart and 87.6% Terminal-Bench circular gauge.",
+      "text": "9x FASTER \u2022 87.6% BENCHMARK",
+      "animation": "Counter rolls up from 1x to 9x speed.",
+      "sfx": "High speed data sweep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "CONCEPTUAL_BOUNDARY",
+      "visual_goal": "Negative boundary: Crossed-out chat balloon with illuminated terminal action pipeline.",
+      "text": "NOT A CHATBOT \u2022 ACTION ENGINE",
+      "animation": "Warning barrier fades in with glowing action core.",
+      "sfx": "Subtle low bass thud.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "BRAND_CTA",
+      "visual_goal": "AI NEWS FACTORY verified end-card with dark technical aesthetic.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Brand badge pulse lockup.",
+      "sfx": "Closing sonic identity chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

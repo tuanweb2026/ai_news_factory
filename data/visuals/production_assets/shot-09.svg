@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Space Radial Glow -->
+    <radialGradient id="spaceGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Hairline Gradients -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldKapton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FF8008"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="thermalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C70"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFF275"/>
+    </linearGradient>
+    <linearGradient id="solarWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="50%" stop-color="#1f3160"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Deep Void -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#spaceGlow)"/>
+
+  <!-- Technical Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="200" x2="1080" y2="200"/>
+    <line x1="0" y1="440" x2="1080" y2="440"/>
+    <line x1="0" y1="1300" x2="1080" y2="1300"/>
+    <line x1="0" y1="1680" x2="1080" y2="1680"/>
+  </g>
+
+  <!-- Top Header Zone (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      PROJECT SUNCATCHER • ORBITAL TPU
+    </text>
+    <line x1="0" y1="22" x2="920" y2="22" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill -->
+  <g transform="translate(540, 260)">
+    <rect x="-300" y="-24" width="600" height="48" rx="24" fill="#0D121A" stroke="#4DEBFF" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-09 • CALL TO ACTION
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1280) -->
+  <g id="main-visual-stage">
+    
+    <!-- AI NEWS FACTORY Official Brand Lockup -->
+    <g transform="translate(100, 360)">
+      <!-- Main Brand Card -->
+      <rect width="880" height="720" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+      <!-- Corner Reticles -->
+      <path d="M 30 70 L 30 30 L 70 30" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+      <path d="M 850 70 L 850 30 L 810 30" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+      <path d="M 30 650 L 30 690 L 70 690" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+      <path d="M 850 650 L 850 690 L 810 690" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+      <!-- Central Channel Seal -->
+      <g transform="translate(440, 240)">
+        <circle cx="0" cy="0" r="100" fill="#0A1422" stroke="#4DEBFF" stroke-width="3"/>
+        <circle cx="0" cy="0" r="80" fill="none" stroke="#9B7CFF" stroke-width="1.5" stroke-dasharray="10 6"/>
+
+        <!-- Stylized AI Chip Node Icon -->
+        <rect x="-35" y="-35" width="70" height="70" rx="10" fill="#132338" stroke="#4DEBFF" stroke-width="2"/>
+        <text x="0" y="8" font-family="'Inter', sans-serif" font-size="28" font-weight="900" fill="#4DEBFF" text-anchor="middle">
+          AI
+        </text>
+
+        <!-- Radiating Connection Pins -->
+        <line x1="-50" y1="0" x2="-35" y2="0" stroke="#4DEBFF" stroke-width="3"/>
+        <line x1="35" y1="0" x2="50" y2="0" stroke="#4DEBFF" stroke-width="3"/>
+        <line x1="0" y1="-50" x2="0" y2="-35" stroke="#4DEBFF" stroke-width="3"/>
+        <line x1="0" y1="35" x2="0" y2="50" stroke="#4DEBFF" stroke-width="3"/>
+      </g>
+
+      <!-- Brand Name -->
+      <g transform="translate(440, 410)">
+        <text x="0" y="0" font-family="'Inter', sans-serif" font-size="44" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="4">
+          AI NEWS FACTORY
+        </text>
+        <text x="0" y="40" font-family="'Space Grotesk', monospace" font-size="18" font-weight="700" fill="#4DEBFF" text-anchor="middle" letter-spacing="2">
+          ENGINEERING FIRST • ZERO HYPE
+        </text>
+      </g>
+
+      <!-- Verification Badge Ribbon -->
+      <g transform="translate(190, 520)">
+        <rect width="500" height="60" rx="30" fill="#0E241B" stroke="#54E39A" stroke-width="2"/>
+        <circle cx="40" cy="30" r="16" fill="#54E39A"/>
+        <path d="M 32 30 L 38 36 L 48 24" fill="none" stroke="#070A0F" stroke-width="3.5" stroke-linecap="round"/>
+        <text x="75" y="37" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#54E39A">
+          VERIFIED PRIMARY SOURCES ONLY
+        </text>
+      </g>
+
+      <!-- CTA Prompt -->
+      <g transform="translate(440, 640)">
+        <text x="0" y="0" font-family="'Inter', sans-serif" font-size="22" font-weight="700" fill="#F3F7FA" text-anchor="middle">
+          LIKE • SHARE • SUBSCRIBE
+        </text>
+      </g>
+    </g>
+    
+  </g>
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1320-1560) -->
+  <g transform="translate(80, 1340)">
+    <rect width="920" height="230" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 30 L 920 0 L 890 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 200 L 0 230 L 30 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 200 L 920 230 L 890 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(460, 42)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#070A0F" stroke="#4DEBFF" stroke-width="1"/>
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+        PROPRIETARY BRAND IDENTITY
+      </text>
+    </g>
+
+    <!-- Central Primary Card Text (Strictly max 6 words per card) -->
+    <text x="460" y="125" font-family="'Inter', sans-serif" font-size="50" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="1">
+      LIKE • SHARE • SUBSCRIBE
+    </text>
+
+    <!-- Technical Subtext / Engineering Context -->
+    <text x="460" y="185" font-family="'Space Grotesk', monospace" font-size="22" font-weight="500" fill="#8B98A7" text-anchor="middle" letter-spacing="0.5">
+      IF YOU FOUND THIS USEFUL • FOLLOW AI NEWS FACTORY
+    </text>
+  </g>
+
+  <!-- Optional Watermark / Extra Guardrail Banner (Y=1600-1680) -->
+  
+
+  <!-- Channel Footer Stamp (Y=1780-1840) -->
+  <g transform="translate(540, 1820)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      AI TECH EXPLAINER • VERIFIED EVIDENCE FIRST
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-crispr-art-enzyme-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "AI didn't just write code—it just discovered new biology.",
+  "spoken_script": "AI didn't just write code—it just discovered new biology. Anthropic deployed about one thousand Claude agents to scan nearly two billion protein clusters. In just about twenty-one hours, Claude discovered ART: a novel enzyme system hidden inside viruses with repeating arrays that resemble CRISPR. Human scientists verified it in their San Francisco wet lab, confirming the array produces short RNA molecules. This is not a gene therapy or a human gene-editing tool. It's a new biological architecture. If you found this useful, like, share, and subscribe.",
+  "cta": "If you found this useful, like, share, and subscribe.",
+  "hook_options": [
+    {
+      "id": "hook-01",
+      "text": "AI didn't just write code—it just discovered new biology.",
+      "word_count": 9,
+      "angle": "Paradigm Shift / Contrast",
+      "rationale": "SELECTED. Instant 1.5-second retention hook contrasting familiar AI software capabilities with profound physical biological discovery."
+    },
+    {
+      "id": "hook-02",
+      "text": "Claude just discovered a CRISPR-like system inside viruses.",
+      "word_count": 8,
+      "angle": "Entity / Mechanism",
+      "rationale": "Direct and factual, but slightly more niche for audiences unfamiliar with bacteriophages."
+    },
+    {
+      "id": "hook-03",
+      "text": "Can an AI model discover brand new biological enzymes?",
+      "word_count": 9,
+      "angle": "Curiosity Question",
+      "rationale": "Good question hook, but declarative surprise holds higher short-form retention."
+    }
+  ],
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "purpose": "THE_HOOK",
+      "voice": "AI didn't just write code—it just discovered new biology.",
+      "on_screen_text": "AI DISCOVERS NEW BIOLOGY",
+      "visual_intent": "3D geometric bacteriophage virus landing on bacterial surface, cyan protein traces lighting up.",
+      "fact_id": "claim-01-discovery-nature"
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "purpose": "THE_SCALE_AND_RUNTIME",
+      "voice": "Anthropic deployed about one thousand Claude agents to scan nearly two billion protein clusters.",
+      "on_screen_text": "1,000 AGENTS • 1.9B CLUSTERS",
+      "visual_intent": "Parallel agent workflow network diagram rapidly filtering massive 1.9 billion protein matrix.",
+      "fact_id": "claim-05-search-scale-clusters, claim-07-agent-sessions"
+    },
+    {
+      "start": 8.0,
+      "end": 15.0,
+      "purpose": "THE_DISCOVERY_ART",
+      "voice": "In just about twenty-one hours, Claude discovered ART: a novel enzyme system hidden inside viruses with repeating arrays that resemble CRISPR.",
+      "on_screen_text": "ART • CRISPR-LIKE REPEATS",
+      "visual_intent": "High-precision molecular schematic of ART: Reverse Transcriptase + Partner Gene + repeating CRISPR-like spacer array.",
+      "fact_id": "claim-02-host-organism, claim-03-three-components, claim-04-crispr-analogy, claim-06-runtime-hours"
+    },
+    {
+      "start": 15.0,
+      "end": 21.0,
+      "purpose": "WET_LAB_VALIDATION",
+      "voice": "Human scientists verified it in their San Francisco wet lab, confirming the array produces short RNA molecules.",
+      "on_screen_text": "WET-LAB VERIFIED • SHORT RNA",
+      "visual_intent": "San Francisco wet-lab verification card: gel electrophoresis assay confirming in-vitro transcription of short RNA molecules.",
+      "fact_id": "claim-08-wet-lab-validation"
+    },
+    {
+      "start": 21.0,
+      "end": 26.5,
+      "purpose": "FACTUAL_BOUNDARY_AND_IMPACT",
+      "voice": "This is not a gene therapy or a human gene-editing tool. It's a new biological architecture.",
+      "on_screen_text": "NOT GENE THERAPY • NEW BIOLOGY",
+      "visual_intent": "Conceptual watermark badge: 'FUNDAMENTAL BIOLOGY (NOT CLINICAL GENE THERAPY)'. Futuristic DNA ribbon glowing in cyan.",
+      "fact_id": "claim-04-crispr-analogy, claim-09-no-human-gene-therapy"
+    },
+    {
+      "start": 26.5,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "If you found this useful, like, share, and subscribe.",
+      "on_screen_text": "LIKE • SHARE • SUBSCRIBE",
+      "visual_intent": "AI NEWS FACTORY master brand lockup with dark technical aesthetic and verified badge.",
+      "fact_id": "claim-01-discovery-nature"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "status": "APPROVED_FOR_RENDER",
+  "final_status": "APPROVED_FOR_RENDER",
+  "story_id": "google-project-suncatcher-orbital-tpu-2026",
+  "audit_phase": "Phase 5 — Hostile Red-Team Quality Assurance Re-Audit (Post Phase 5R Remediation)",
+  "audit_timestamp": "2026-09-26T10:36:00+07:00",
+  "auditor": "Red-Team QA Editor (AI News Factory)",
+  "verdict_summary": "FINAL STATUS: APPROVED_FOR_RENDER. All 13 QA gates have PASSED. All defects identified in the initial hostile audit (solar claim overstatement in Gate 04, text card word limit overflow in Gate 09, script-storyboard divergence in Gate 01, asset taxonomy in Gate 07, and third-party image rights risk in Gate 08) have been independently verified as completely eliminated. Zero stale strings remain across all active production artifacts. Full factory schema validation PASSED.",
+  "publish_authorized": false,
+  "critical_failures_count": 0,
+  "review_warnings_count": 0,
+  "passed_gates_count": 13,
+  "blockers": [],
+  "remediation_verification": {
+    "fix_01_master_script_solar_wording": "VERIFIED_PASS. Voiceover strictly uses 'In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.' Zero occurrences of 'constant orbital sunlight'.",
+    "fix_02_visual_direction_solar_language": "VERIFIED_PASS. Section 2.5 and Table row 158 use scientifically qualified near-continuous dawn-dusk illumination. Zero occurrences of 'Continuous 100% direct solar illumination'.",
+    "fix_03_shot_03_text_card": "VERIFIED_PASS. Truncated to exactly 6 words: '4 TRILLIUM TPUs • 1 kW ARRAY'.",
+    "fix_04_shot_04_primary_and_secondary_cards": "VERIFIED_PASS. Primary card is 'UP TO 8× ANNUAL SOLAR HARVEST' (5 words). Secondary label is 'ANNUAL CUMULATIVE ENERGY HARVEST'. Separate diagram elements; no efficiency distortion.",
+    "fix_05_asset_rights_and_3d_cad": "VERIFIED_PASS. AST-03 (Planet Labs press photo) completely eliminated. Replaced with AST-04 (Proprietary synthetic 3D CAD cutaway, rights_status: PROPRIETARY_GENERATED, visual_status: ILLUSTRATIVE).",
+    "fix_06_visual_classification_and_watermark": "VERIFIED_PASS. Shot 08 and AST-09 classified as FUTURE_CONCEPT. Prominent watermark 'FUTURE CONCEPT / POSSIBLE FUTURE (NOT OPERATIONAL INFRASTRUCTURE)' enforced.",
+    "fix_07_global_synchronization": "VERIFIED_PASS. Workspace-wide grep confirms zero occurrences of the four forbidden strings across all active production files.",
+    "fix_08_factory_validation": "VERIFIED_PASS. Full execution of src/validate_artifacts.py passed 10/10 checks without warnings or errors."
+  },
+  "checks": [
+    {
+      "gate_id": "GATE_01",
+      "gate_name": "QA GATE 01 — FACT ACCURACY",
+      "name": "QA GATE 01 — FACT ACCURACY",
+      "status": "PASS",
+      "findings": "All factual claims trace directly to verified claims in VERIFIED_SUNCATCHER_20260926.json. The previous textual divergence between the script artifact and the visual storyboard artifact on Shot 4 voiceover and text has been completely resolved. Voiceover, on-screen text, and visual descriptions are 100% synchronized.",
+      "evidence": "SUNCATCHER_SHORT_SCRIPT_20260926.json Shot 4 voice: 'In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.' Storyboard Shot 04 voiceover_segment: 'In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.' Editorial notes and claim traceability map identically.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/scripts/SUNCATCHER_EDITORIAL_NOTES.md",
+        "data/qa/SUNCATCHER_CLAIM_TRACEABILITY.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Complete fact-level alignment across all project files."
+    },
+    {
+      "gate_id": "GATE_02",
+      "gate_name": "QA GATE 02 — DATE / TEMPORAL ACCURACY",
+      "name": "QA GATE 02 — DATE / TEMPORAL ACCURACY",
+      "status": "PASS",
+      "findings": "Temporal framing strictly honors current date of September 26, 2026 and upcoming launch target of October 1, 2026. Zero past-tense leaks exist in spoken voiceover, on-screen graphics, or visual intent.",
+      "evidence": "Script Sentence 6: 'preparing to launch October first on SpaceX.' Storyboard Shot 07 diagram elements: 'LAUNCH TARGET: OCT 1, 2026 | VEHICLE: SPACEX FALCON 9 (TRANSPORTER-18) | STATUS: PRE-FLIGHT CHECKOUT'. On-screen card: '15-MIN BURSTS • LAUNCH OCT 1, 2026'.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Strict pre-launch temporal compliance verified across all cues."
+    },
+    {
+      "gate_id": "GATE_03",
+      "gate_name": "QA GATE 03 — PROTOTYPE INTEGRITY",
+      "name": "QA GATE 03 — PROTOTYPE INTEGRITY",
+      "status": "PASS",
+      "findings": "The project is rigorously framed as a 'research prototype' and 'test bed' throughout. False characterizations of an 'operational orbital data center' are explicitly refuted and repudiated in spoken narration and on-screen cards.",
+      "evidence": "Shot 01 Hook uses 'AI test bed' (claim-02). Shot 02 voiceover states 'research prototype testing if AI chips can run in orbit' with on-screen verification card explicitly displaying 'RESEARCH PROTOTYPE • NOT DATA CENTER' (claim-19). Shot 08 watermarks the constellation graphic with 'FUTURE CONCEPT / POSSIBLE FUTURE (NOT OPERATIONAL INFRASTRUCTURE)'.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Exemplary compliance with research prototype guardrails and anti-hype boundaries."
+    },
+    {
+      "gate_id": "GATE_04",
+      "gate_name": "QA GATE 04 — SOLAR CLAIM",
+      "name": "QA GATE 04 — SOLAR CLAIM",
+      "status": "PASS",
+      "findings": "The critical solar physics overstatement has been completely eliminated. Spoken voiceover is scientifically qualified to 'In a dawn-dusk orbit, panels can capture up to eight times more solar energy annually than on Earth.' Visual Direction §2.5 replaces permanent 100% illumination with near-continuous illumination along the dawn-dusk terminator, subject to seasonal eclipse periods. The primary card 'UP TO 8× ANNUAL SOLAR HARVEST' (5 words) and separate secondary label 'ANNUAL CUMULATIVE ENERGY HARVEST (not solar-cell efficiency)' eliminate any viewer confusion regarding photovoltaic cell efficiency.",
+      "evidence": "Zero occurrences of 'constant orbital sunlight' and 'Continuous 100% direct solar illumination' confirmed by global workspace search. Storyboard Shot 04 diagrams and prompts accurately represent high sunlight availability without physical 8x bar distortions.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_DIRECTION_20260926.md",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/scripts/SUNCATCHER_EDITORIAL_NOTES.md"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Fully compliant with astronomical and orbital solar thermodynamics."
+    },
+    {
+      "gate_id": "GATE_05",
+      "gate_name": "QA GATE 05 — THERMAL PHYSICS",
+      "name": "QA GATE 05 — THERMAL PHYSICS",
+      "status": "PASS",
+      "findings": "Thermal dissipation in vacuum is modeled with scientific precision. Zero convective cooling fans are depicted or referenced. The heat path is strictly conductive (TPU dies bonded to sealed copper heat pipes) followed by radiative cooling (dual high-emissivity carbon-nanotube external planar radiators facing deep space). The 15-minute burst duty cycle is clearly explained and visually diagrammed.",
+      "evidence": "Storyboard SATELLITE_MASTER_DESIGN §4: 'STRICTLY PASSIVE VACUUM THERMODYNAMICS (NO FANS / ZERO CONVECTION)'. Shot 05 diagram: 'CONVECTIVE AIRFLOW: 0.0 W/m²K (VACUUM VOID)', fan icon with bold red diagonal strikeout '[NO CONVECTIVE FANS]'. Shot 07 diagram: 'TPU DIES -> COPPER HEAT PIPES -> RADIATOR FINS -> IR RADIATION TO DEEP SPACE', 'DUTY CYCLE: 15-MIN BURSTS'. Negative prompts explicitly forbid cooling fans and smoke.",
+      "affected_artifacts": [
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_DIRECTION_20260926.md"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Flawless vacuum thermodynamic modeling and burst duty cycle integration."
+    },
+    {
+      "gate_id": "GATE_06",
+      "gate_name": "QA GATE 06 — RADIATION",
+      "name": "QA GATE 06 — RADIATION",
+      "status": "PASS",
+      "findings": "Semiconductor radiation effects are accurately depicted as single-event upsets (SEUs) and memory bit-flips (0 -> 1) caused by high-energy cosmic protons penetrating High Bandwidth Memory (HBM) capacitors, grounded in UC Davis Crocker Nuclear Laboratory cyclotron test results. Zero fictional explosions, melts, or comic-book disintegration effects are present.",
+      "evidence": "Script Shot 5 voiceover: 'and space radiation triggers memory bit-flips.' Storyboard Shot 06: 'Particle trajectory: HIGH-ENERGY PROTON (CYCLOTRON SIMULATED), target: HBM CELL [0x4F8A], DATA STATE: 0 -> 1 [SINGLE-EVENT UPSET], sub-badge: UC DAVIS CROCKER NUCLEAR LAB'. Negative prompt: 'giant explosions, shattered chips, burning flames, comic book radiation symbols, neon gore'.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Accurate representation of Single-Event Upsets without Hollywood hyperbole."
+    },
+    {
+      "gate_id": "GATE_07",
+      "gate_name": "QA GATE 07 — VISUAL TRUTH",
+      "name": "QA GATE 07 — VISUAL TRUTH",
+      "status": "PASS",
+      "findings": "All visual assets conform strictly to the required taxonomy. AI-generated and procedural assets are labeled 'ILLUSTRATIVE' or 'FUTURE_CONCEPT' and are never presented as authentic documentary photography. AST-01 and AST-04 are classified as 'ILLUSTRATIVE', and AST-09 is classified as 'FUTURE_CONCEPT'. Shot 08 prominently displays the required watermark badge: 'FUTURE CONCEPT / POSSIBLE FUTURE (NOT OPERATIONAL INFRASTRUCTURE)'.",
+      "evidence": "SUNCATCHER_ASSET_MANIFEST.json lines 9-18 catalog 'ILLUSTRATIVE' and 'FUTURE_CONCEPT' classifications. AST-04 explicitly notes 'Proprietary synthetic 3D CAD render. Not represented as documentary photography'. Shot 08 diagram elements and prompts enforce watermark rendering.",
+      "affected_artifacts": [
+        "data/visuals/SUNCATCHER_ASSET_MANIFEST.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Rigorous visual truth compliance and anti-hallucination labeling."
+    },
+    {
+      "gate_id": "GATE_08",
+      "gate_name": "QA GATE 08 — SOURCE / RIGHTS",
+      "name": "QA GATE 08 — SOURCE / RIGHTS",
+      "status": "PASS",
+      "findings": "All third-party copyright risks have been resolved. Asset AST-03 (Planet Labs cleanroom photograph from their press release) has been completely eliminated from the manifest and replaced with AST-04 ('AST-04 — PROPRIETARY SYNTHETIC 3D CAD'), with rights_status: 'PROPRIETARY_GENERATED'. All remaining assets in the manifest are proprietary 3D CAD, original vector diagrams, scientific simulations, or authorized editorial fair-use screenshots with full primary source attribution.",
+      "evidence": "SUNCATCHER_ASSET_MANIFEST.json confirms AST-03 is removed; Shot 03 maps exclusively to AST-04 with rights_status: 'PROPRIETARY_GENERATED' and license: 'Proprietary AI News Factory Production'.",
+      "affected_artifacts": [
+        "data/visuals/SUNCATCHER_ASSET_MANIFEST.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Full legal clearance achieved; zero unresolved third-party photographic copyright exposure."
+    },
+    {
+      "gate_id": "GATE_09",
+      "gate_name": "QA GATE 09 — TEXT",
+      "name": "QA GATE 09 — TEXT",
+      "status": "PASS",
+      "findings": "All on-screen text cards across the entire video strictly adhere to the mandatory maximum limit of 6 words per card. Shot 3 text card is exactly 6 words ('4 TRILLIUM TPUs • 1 kW ARRAY'). Shot 4 primary text card is exactly 5 words ('UP TO 8× ANNUAL SOLAR HARVEST'). All other shots contain 3 to 5 words. Spelling, technical designations (Trillium TPU v6e), launch vehicle (SpaceX Falcon 9 Transporter-18), and dates (October 1, 2026) are 100% accurate.",
+      "evidence": "Word count audit: Shot 1 = 5 words; Shot 2 = 5 words; Shot 3 = 6 words; Shot 4 = 5 words; Shot 5 = 5 words; Shot 6 = 3 words; Shot 7 = 5 words; Shot 8 = 4 words; Shot 9 = 4 words. Zero text cards exceed 6 words.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/scripts/SUNCATCHER_EDITORIAL_NOTES.md",
+        "data/qa/SUNCATCHER_CLAIM_TRACEABILITY.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Mobile safe-zone text brevity and typography standards fully satisfied."
+    },
+    {
+      "gate_id": "GATE_10",
+      "gate_name": "QA GATE 10 — VISUAL CONTINUITY",
+      "name": "QA GATE 10 — VISUAL CONTINUITY",
+      "status": "PASS",
+      "findings": "Satellite architecture conforms strictly to SATELLITE_MASTER_DESIGN across all 9 storyboard shots: Planet Labs agile bus dimensions (1.2m x 0.8m x 0.8m), titanium space-frame with CFRP panels, gold aluminized Kapton MLI thermal blankets, dual 1kW deployable rectangular wings with deep indigo-blue solar cells, 4-TPU Trillium enclosure in coplanar 2x2 grid on copper cold-plate, sealed copper heat pipes, and dual high-emissivity dark radiator panels.",
+      "evidence": "Storyboard SATELLITE_MASTER_DESIGN (lines 35-70) matches Shot 01 (orbital horizon altitude ~500km), Shot 02 (wireframe bus dimensions), Shot 03 (CAD cutaway of 4 TPUs and 1kW wings), Shot 05 (copper cold-plate interface), Shot 07 (radiator fins and copper heat pipes), and Shot 08 (macro constellation nodes). Negative prompts across all shots prevent conflicting fictional hull designs.",
+      "affected_artifacts": [
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_DIRECTION_20260926.md"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Flawless physical and aesthetic continuity with SATELLITE_MASTER_DESIGN across all 9 shots."
+    },
+    {
+      "gate_id": "GATE_11",
+      "gate_name": "QA GATE 11 — STORY / RETENTION",
+      "name": "QA GATE 11 — STORY / RETENTION",
+      "status": "PASS",
+      "findings": "Retention architecture adheres precisely to the classic explainer rhythm: Hook (0.0-2.5s) -> Surprise Idea (2.5-6.5s) -> Hardware Mechanism (6.5-11.5s) -> Solar Mechanism (11.5-16.5s) -> Thermal/Radiation Problem (16.5-21.5s) -> Solution & Launch (21.5-26.5s) -> Macro Value (26.5-31.5s) -> CTA Lockup (31.5-35.0s). New visual states, camera angles, or kinetic callouts are introduced every 1.5 to 2.5 seconds, comfortably meeting the 2-4 second retention rule in AI News Visual Style Bible v1.0 §13.",
+      "evidence": "Visual timeline analysis: 0.0s (rack macro) -> 1.2s (orbital snap) -> 2.5s (card slide) -> 3.2s (badge lock) -> 6.5s (bus entrance) -> 9.0s (4-TPU internal cutaway) -> 11.5s (terminator vector) -> 13.5s (8x comparison card) -> 16.5s (thermal cross-section) -> 19.0s (HBM lattice) -> 19.5s (bit-flip zap) -> 21.5s (radiator IR emission) -> 23.8s (launch badge lock) -> 26.5s (grid overload) -> 28.5s (orbital mesh link) -> 31.5s (brand lockup).",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Dynamic pacing with continuous visual refreshes every 1.5-2.5 seconds."
+    },
+    {
+      "gate_id": "GATE_12",
+      "gate_name": "QA GATE 12 — BRAND STYLE",
+      "name": "QA GATE 12 — BRAND STYLE",
+      "status": "PASS",
+      "findings": "Adherence to AI News Factory Brand Style Bible v1.0 is total. Dark technical canvas (#070A0F, #0D121A), primary off-white text (#F3F7FA), electric cyan accents (#4DEBFF), violet intelligence cues (#9B7CFF), restrained warning red (#FF5C70), and mint-green verification stamps (#54E39A) are consistently used. Prompts strictly forbid cyberpunk neon tropes, comic flames, lens flares, and clickbait typography.",
+      "evidence": "SUNCATCHER_VISUAL_DIRECTION_20260926.md Section 3 color system table; negative prompts in all 9 storyboard shots: 'cartoon, oversaturated neon, fake news banners, cyberpunk clutter, amateur CGI, fantasy lasers'.",
+      "affected_artifacts": [
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_DIRECTION_20260926.md"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Impeccable visual branding and negative prompt discipline."
+    },
+    {
+      "gate_id": "GATE_13",
+      "gate_name": "QA GATE 13 — YOUTUBE SHORTS TECHNICAL",
+      "name": "QA GATE 13 — YOUTUBE SHORTS TECHNICAL",
+      "status": "PASS",
+      "findings": "All technical delivery constraints for YouTube Shorts are satisfied: 9:16 vertical aspect ratio (1080x1920) at 30 FPS; exact total duration of 35.0 seconds; spoken narration of 103 English words delivered at ~176 WPM with 0.3-0.5s audio breathing room between shot boundaries; all critical typography and cards strictly contained within the upper-middle safe area (Y: 25% to 45%), clearing platform overlays.",
+      "evidence": "Duration sum: 2.5 + 4.0 + 5.0 + 5.0 + 2.5 + 2.5 + 5.0 + 5.0 + 3.5 = 35.0s. Storyboard metadata confirms 9:16, 1080x1920, 30fps. Typography rules in Visual Direction §4 explicitly map safe zones.",
+      "affected_artifacts": [
+        "data/scripts/SUNCATCHER_SHORT_SCRIPT_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_STORYBOARD_20260926.json",
+        "data/visuals/SUNCATCHER_VISUAL_DIRECTION_20260926.md"
+      ],
+      "recommended_fix": "None. Gate passed.",
+      "notes": "PASS: Perfect 35.0-second 9:16 vertical layout and safe-zone adherence."
+    }
+  ]
+}

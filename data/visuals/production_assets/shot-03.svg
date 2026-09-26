@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Space Radial Glow -->
+    <radialGradient id="spaceGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0E1B2A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#070A0F" stop-opacity="1"/>
+    </radialGradient>
+
+    <!-- Hairline Gradients -->
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DEBFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4DEBFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4DEBFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="violetLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7CFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9B7CFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9B7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldKapton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="50%" stop-color="#FF8008"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="thermalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C70"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FFF275"/>
+    </linearGradient>
+    <linearGradient id="solarWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="50%" stop-color="#1f3160"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Deep Void -->
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <rect width="1080" height="1920" fill="url(#spaceGlow)"/>
+
+  <!-- Technical Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+    <line x1="0" y1="200" x2="1080" y2="200"/>
+    <line x1="0" y1="440" x2="1080" y2="440"/>
+    <line x1="0" y1="1300" x2="1080" y2="1300"/>
+    <line x1="0" y1="1680" x2="1080" y2="1680"/>
+  </g>
+
+  <!-- Top Header Zone (Safe Margin: Y=140-200) -->
+  <g transform="translate(80, 160)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#4DEBFF" letter-spacing="3">
+      AI NEWS FACTORY
+    </text>
+    <text x="920" y="0" font-family="'Space Grotesk', monospace" font-size="20" font-weight="600" fill="#8B98A7" text-anchor="end" letter-spacing="1">
+      PROJECT SUNCATCHER • ORBITAL TPU
+    </text>
+    <line x1="0" y1="22" x2="920" y2="22" stroke="url(#cyanLine)" stroke-width="2"/>
+  </g>
+
+  <!-- Shot Identification & Visual Status Pill -->
+  <g transform="translate(540, 260)">
+    <rect x="-300" y="-24" width="600" height="48" rx="24" fill="#0D121A" stroke="#4DEBFF" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#F3F7FA" text-anchor="middle" dominant-baseline="central" letter-spacing="2">
+      SHOT-03 • HARDWARE ARCHITECTURE
+    </text>
+  </g>
+
+  <!-- MAIN VISUAL STAGE (Y=320 to Y=1280) -->
+  <g id="main-visual-stage">
+    
+    <!-- 3D Technical CAD Cutaway Presentation -->
+    <g transform="translate(100, 360)">
+      <!-- Left Deployable Solar Wing (1.0 kW Starboard) -->
+      <g transform="translate(20, 240)">
+        <rect width="240" height="340" rx="4" fill="url(#solarWingGrad)" stroke="#4DEBFF" stroke-width="2"/>
+        <!-- Photovoltaic Grid Lines -->
+        <line x1="60" y1="0" x2="60" y2="340" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="120" y1="0" x2="120" y2="340" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="180" y1="0" x2="180" y2="340" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="0" y1="85" x2="240" y2="85" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="0" y1="170" x2="240" y2="170" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="0" y1="255" x2="240" y2="255" stroke="#2B4673" stroke-width="1.5"/>
+        <!-- Hinge Bracket -->
+        <rect x="235" y="145" width="20" height="50" rx="4" fill="#5A6B82"/>
+        <text x="120" y="375" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#4DEBFF" text-anchor="middle">
+          SOLAR WING (PORT)
+        </text>
+      </g>
+
+      <!-- Right Deployable Solar Wing (1.0 kW Port) -->
+      <g transform="translate(620, 240)">
+        <rect width="240" height="340" rx="4" fill="url(#solarWingGrad)" stroke="#4DEBFF" stroke-width="2"/>
+        <!-- Photovoltaic Grid Lines -->
+        <line x1="60" y1="0" x2="60" y2="340" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="120" y1="0" x2="120" y2="340" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="180" y1="0" x2="180" y2="340" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="0" y1="85" x2="240" y2="85" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="0" y1="170" x2="240" y2="170" stroke="#2B4673" stroke-width="1.5"/>
+        <line x1="0" y1="255" x2="240" y2="255" stroke="#2B4673" stroke-width="1.5"/>
+        <!-- Hinge Bracket -->
+        <rect x="-15" y="145" width="20" height="50" rx="4" fill="#5A6B82"/>
+        <text x="120" y="375" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#4DEBFF" text-anchor="middle">
+          SOLAR WING (STBD)
+        </text>
+      </g>
+
+      <!-- Central Planet Labs Satellite Bus Chassis (1.2m x 0.8m x 0.8m) -->
+      <g transform="translate(280, 160)">
+        <!-- Bus Outer Frame (Titanium & CFRP) -->
+        <rect width="320" height="500" rx="12" fill="#101622" stroke="#1E2A38" stroke-width="3"/>
+
+        <!-- Gold Kapton Multi-Layer Insulation (MLI) Facets -->
+        <rect x="15" y="15" width="290" height="70" rx="6" fill="url(#goldKapton)" opacity="0.9"/>
+        <text x="160" y="55" font-family="'Space Grotesk', monospace" font-size="13" font-weight="700" fill="#070A0F" text-anchor="middle">
+          GOLD KAPTON MLI BLANKET
+        </text>
+
+        <!-- Internal Cutaway Cold Plate Chamber -->
+        <g transform="translate(20, 110)">
+          <rect width="280" height="350" rx="8" fill="#070A0F" stroke="#9B7CFF" stroke-width="2"/>
+          <text x="140" y="30" font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#9B7CFF" text-anchor="middle">
+            ALUMINUM COLD-PLATE INTERFACE
+          </text>
+
+          <!-- 4x Trillium TPU Dies (Symmetrical 2x2 Grid) -->
+          <!-- TPU 1 -->
+          <g transform="translate(30, 60)">
+            <rect width="95" height="95" rx="6" fill="#171D2B" stroke="#4DEBFF" stroke-width="2"/>
+            <rect x="25" y="25" width="45" height="45" rx="3" fill="#202A3D"/>
+            <text x="47" y="52" font-family="'Inter', sans-serif" font-size="14" font-weight="800" fill="#4DEBFF" text-anchor="middle">TPU 1</text>
+            <text x="47" y="80" font-family="'Space Grotesk', monospace" font-size="10" fill="#8B98A7" text-anchor="middle">HBM 1</text>
+          </g>
+          <!-- TPU 2 -->
+          <g transform="translate(155, 60)">
+            <rect width="95" height="95" rx="6" fill="#171D2B" stroke="#4DEBFF" stroke-width="2"/>
+            <rect x="25" y="25" width="45" height="45" rx="3" fill="#202A3D"/>
+            <text x="47" y="52" font-family="'Inter', sans-serif" font-size="14" font-weight="800" fill="#4DEBFF" text-anchor="middle">TPU 2</text>
+            <text x="47" y="80" font-family="'Space Grotesk', monospace" font-size="10" fill="#8B98A7" text-anchor="middle">HBM 2</text>
+          </g>
+          <!-- TPU 3 -->
+          <g transform="translate(30, 180)">
+            <rect width="95" height="95" rx="6" fill="#171D2B" stroke="#4DEBFF" stroke-width="2"/>
+            <rect x="25" y="25" width="45" height="45" rx="3" fill="#202A3D"/>
+            <text x="47" y="52" font-family="'Inter', sans-serif" font-size="14" font-weight="800" fill="#4DEBFF" text-anchor="middle">TPU 3</text>
+            <text x="47" y="80" font-family="'Space Grotesk', monospace" font-size="10" fill="#8B98A7" text-anchor="middle">HBM 3</text>
+          </g>
+          <!-- TPU 4 -->
+          <g transform="translate(155, 180)">
+            <rect width="95" height="95" rx="6" fill="#171D2B" stroke="#4DEBFF" stroke-width="2"/>
+            <rect x="25" y="25" width="45" height="45" rx="3" fill="#202A3D"/>
+            <text x="47" y="52" font-family="'Inter', sans-serif" font-size="14" font-weight="800" fill="#4DEBFF" text-anchor="middle">TPU 4</text>
+            <text x="47" y="80" font-family="'Space Grotesk', monospace" font-size="10" fill="#8B98A7" text-anchor="middle">HBM 4</text>
+          </g>
+
+          <!-- Interconnect Fabric -->
+          <line x1="125" y1="107" x2="155" y2="107" stroke="#4DEBFF" stroke-width="3"/>
+          <line x1="125" y1="227" x2="155" y2="227" stroke="#4DEBFF" stroke-width="3"/>
+          <line x1="77" y1="155" x2="77" y2="180" stroke="#4DEBFF" stroke-width="3"/>
+          <line x1="202" y1="155" x2="202" y2="180" stroke="#4DEBFF" stroke-width="3"/>
+
+          <text x="140" y="315" font-family="'Space Grotesk', monospace" font-size="13" font-weight="700" fill="#4DEBFF" text-anchor="middle">
+            4x GOOGLE TRILLIUM (TPU v6e)
+          </text>
+        </g>
+      </g>
+
+      <!-- Technical Callout Badges -->
+      <g transform="translate(0, 720)">
+        <rect width="260" height="60" rx="8" fill="#0D121A" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="20" y="26" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">SPACECRAFT BUS</text>
+        <text x="20" y="48" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#F3F7FA">1.2m x 0.8m Agile Bus</text>
+      </g>
+      <g transform="translate(310, 720)">
+        <rect width="260" height="60" rx="8" fill="#0D121A" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="20" y="26" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">POWER GENERATION</text>
+        <text x="20" y="48" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#FFB300">1.0 kW Solar Array</text>
+      </g>
+      <g transform="translate(620, 720)">
+        <rect width="260" height="60" rx="8" fill="#0D121A" stroke="#1E2A38" stroke-width="1.5"/>
+        <text x="20" y="26" font-family="'Space Grotesk', monospace" font-size="13" fill="#8B98A7">CHIP ARCHITECTURE</text>
+        <text x="20" y="48" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#4DEBFF">4x Trillium TPU v6e</text>
+      </g>
+    </g>
+    
+  </g>
+
+  <!-- PRIMARY TEXT CARD (Safe Upper-Middle Zone: Y=1320-1560) -->
+  <g transform="translate(80, 1340)">
+    <rect width="920" height="230" rx="16" fill="#0D121A" stroke="#1E2A38" stroke-width="2"/>
+
+    <!-- Accent Corner Brackets -->
+    <path d="M 0 30 L 0 0 L 30 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 30 L 920 0 L 890 0" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 0 200 L 0 230 L 30 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+    <path d="M 920 200 L 920 230 L 890 230" fill="none" stroke="#4DEBFF" stroke-width="3"/>
+
+    <!-- Status Sub-pill -->
+    <g transform="translate(460, 42)">
+      <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#070A0F" stroke="#4DEBFF" stroke-width="1"/>
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#4DEBFF" text-anchor="middle" dominant-baseline="central" letter-spacing="1.5">
+        ILLUSTRATIVE • PROPRIETARY 3D CAD
+      </text>
+    </g>
+
+    <!-- Central Primary Card Text (Strictly max 6 words per card) -->
+    <text x="460" y="125" font-family="'Inter', sans-serif" font-size="50" font-weight="900" fill="#F3F7FA" text-anchor="middle" letter-spacing="1">
+      4 TRILLIUM TPUs • 1 kW ARRAY
+    </text>
+
+    <!-- Technical Subtext / Engineering Context -->
+    <text x="460" y="185" font-family="'Space Grotesk', monospace" font-size="22" font-weight="500" fill="#8B98A7" text-anchor="middle" letter-spacing="0.5">
+      PLANET LABS COMPACT BUS • 2x2 COPLANAR DIE CONFIGURATION
+    </text>
+  </g>
+
+  <!-- Optional Watermark / Extra Guardrail Banner (Y=1600-1680) -->
+  
+
+  <!-- Channel Footer Stamp (Y=1780-1840) -->
+  <g transform="translate(540, 1820)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#8B98A7" text-anchor="middle" letter-spacing="2">
+      AI TECH EXPLAINER • VERIFIED EVIDENCE FIRST
+    </text>
+  </g>
+</svg>
