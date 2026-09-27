@@ -21,10 +21,14 @@ A production-grade, multi-agent autonomous studio designed for Google Antigravit
 - **1080x1920 Vertical Render Engine**:
   - Procedural vector rendering (Apple CoreGraphics / SVG).
   - Subtle Ken Burns motion keyframing ($1.00 \times \rightarrow 1.06 \times$).
-  - Dual-track sound design: calibrated TTS voiceover (Samantha / Linh) + ducked ambient tech drone bed (-24 dB).
+  - Dual-track sound design: calibrated Neural TTS voiceover (Microsoft Azure Speech `en-US-AriaNeural`, 165 WPM, `newscast-formal`) + ducked ambient tech drone bed (-24 dB).
   - Broadcast-compliant audio normalization: integrated loudness **-16.0 LUFS** (EBU R128), true peak **$\le -1.5$ dBTP**.
   - Embedded container timed subtitles (`mov_text` track) + external SRT/ASS tracks.
 - **Resumable YouTube Data API v3**: Multi-chunk (8MB) upload bridge with channel identity verification and automatic transport retry (up to 3 attempts).
+- **Latest Autonomous Publications**:
+  - [Google DeepMind Gemini 3.8 Live (Published 2026-09-27)](https://www.youtube.com/shorts/df2eOl6tPDk)
+  - [Stanford & NVIDIA CLM-8B Architecture (Published 2026-09-26)](https://www.youtube.com/shorts/3i_b7XpC-gM)
+  - [Google Project Suncatcher Orbital TPU (Published 2026-09-26)](https://www.youtube.com/shorts/uG-c06_c6Z0)
 
 ---
 

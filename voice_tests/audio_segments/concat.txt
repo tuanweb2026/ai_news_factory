@@ -1,0 +1,4 @@
+file 'candidate-a_15s.wav'
+file 'candidate-b_15s.wav'
+file 'candidate-c_15s.wav'
+file 'candidate-d_15s.wav'

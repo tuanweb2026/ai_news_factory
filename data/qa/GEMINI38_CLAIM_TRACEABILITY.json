@@ -1,0 +1,30 @@
+{
+  "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
+  "status": "VERIFIED",
+  "mappings": [
+    {
+      "shot_id": "shot-01",
+      "fact_id": "claim-03-avatar-synthesis"
+    },
+    {
+      "shot_id": "shot-02",
+      "fact_id": "claim-01-model-announcement"
+    },
+    {
+      "shot_id": "shot-03",
+      "fact_id": "claim-01-model-announcement, claim-02-extended-thinking"
+    },
+    {
+      "shot_id": "shot-04",
+      "fact_id": "claim-03-avatar-synthesis, claim-04-efficiency-and-latency"
+    },
+    {
+      "shot_id": "shot-05",
+      "fact_id": "claim-05-negative-boundary"
+    },
+    {
+      "shot_id": "shot-06",
+      "fact_id": "claim-01-model-announcement"
+    }
+  ]
+}

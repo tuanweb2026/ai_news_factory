@@ -139,7 +139,7 @@ def test_factory_config_audio_and_render():
         cfg = yaml.safe_load(f)
 
     assert "audio" in cfg
-    assert cfg["audio"]["tts"]["backend"] in ("macos_say", "edge_tts", "elevenlabs")
+    assert cfg["audio"]["tts"]["backend"] in ("microsoft_azure_speech", "macos_say", "edge_tts", "elevenlabs")
     assert cfg["audio"]["sample_rate"] == 48000
     assert cfg["audio"]["channels"] == 2
     assert cfg["audio"]["target_lufs"] == -16
@@ -180,7 +180,7 @@ def test_audio_engine_vietnamese_voice(sample_script):
     assert len(shots_vi) == 2
     assert "Mô hình AI" in shots_vi[0]["voice_text"]
     assert engine.get_voice_name("vi") == "Linh"
-    assert engine.get_voice_name("en") == "Samantha"
+    assert engine.get_voice_name("en") in ("en-US-AriaNeural", "Samantha")
 
 
 def test_subtitle_engine_formatting_and_word_counts(sample_script):

@@ -1,0 +1,42 @@
+[
+  {
+    "candidate_id": "candidate-a",
+    "duration_seconds": 26.352,
+    "integrated_loudness_lufs": -16.54,
+    "true_peak_dbtp": -4.51,
+    "lra": 2.0,
+    "silence_duration_seconds": 4.79,
+    "silence_ratio": 0.18,
+    "pause_count": 5
+  },
+  {
+    "candidate_id": "candidate-b",
+    "duration_seconds": 26.04,
+    "integrated_loudness_lufs": -16.85,
+    "true_peak_dbtp": -4.51,
+    "lra": 2.3,
+    "silence_duration_seconds": 2.87,
+    "silence_ratio": 0.11,
+    "pause_count": 7
+  },
+  {
+    "candidate_id": "candidate-c",
+    "duration_seconds": 27.48,
+    "integrated_loudness_lufs": -16.44,
+    "true_peak_dbtp": -4.5,
+    "lra": 2.6,
+    "silence_duration_seconds": 5.05,
+    "silence_ratio": 0.18,
+    "pause_count": 6
+  },
+  {
+    "candidate_id": "candidate-d",
+    "duration_seconds": 27.552,
+    "integrated_loudness_lufs": -16.58,
+    "true_peak_dbtp": -4.51,
+    "lra": 2.1,
+    "silence_duration_seconds": 5.48,
+    "silence_ratio": 0.2,
+    "pause_count": 7
+  }
+]

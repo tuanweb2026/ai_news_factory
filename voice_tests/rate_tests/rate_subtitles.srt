@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:04,800
+[ARIA / 165 WPM | Cadence: Natural Explainer • +26% Rate]
+Artificial intelligence is moving faster than most teams can track.
+
+2
+00:00:04,800 --> 00:00:09,600
+[ARIA / 165 WPM | Cadence: Natural Explainer • +26% Rate]
+Every week brings new models, benchmarks, and autonomous agents.
+
+3
+00:00:09,600 --> 00:00:14,700
+[ARIA / 165 WPM | Cadence: Natural Explainer • +26% Rate]
+The real bottleneck is no longer raw compute.
+
+4
+00:00:15,000 --> 00:00:19,800
+[ARIA / 170 WPM | Cadence: Broadcast Pace • +30% Rate]
+Artificial intelligence is moving faster than most teams can track.
+
+5
+00:00:19,800 --> 00:00:24,600
+[ARIA / 170 WPM | Cadence: Broadcast Pace • +30% Rate]
+Every week brings new models, benchmarks, and autonomous agents.
+
+6
+00:00:24,600 --> 00:00:29,700
+[ARIA / 170 WPM | Cadence: Broadcast Pace • +30% Rate]
+The real bottleneck is no longer raw compute.
+
+7
+00:00:30,000 --> 00:00:34,800
+[ARIA / 175 WPM | Cadence: Rapid Energy • +34% Rate]
+Artificial intelligence is moving faster than most teams can track.
+
+8
+00:00:34,800 --> 00:00:39,600
+[ARIA / 175 WPM | Cadence: Rapid Energy • +34% Rate]
+Every week brings new models, benchmarks, and autonomous agents.
+
+9
+00:00:39,600 --> 00:00:44,700
+[ARIA / 175 WPM | Cadence: Rapid Energy • +34% Rate]
+The real bottleneck is no longer raw compute.

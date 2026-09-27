@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:05,000
+[VOICE A: en-GB-RyanNeural | British Neural • Technology News]
+Artificial intelligence is moving faster than most teams can track.
+
+2
+00:00:05,000 --> 00:00:10,000
+[VOICE A: en-GB-RyanNeural | British Neural • Technology News]
+Every week brings new models, benchmarks, and autonomous agents.
+
+3
+00:00:10,000 --> 00:00:14,700
+[VOICE A: en-GB-RyanNeural | British Neural • Technology News]
+The real bottleneck is no longer raw compute.
+
+4
+00:00:15,000 --> 00:00:20,000
+[VOICE B: en-GB-SoniaNeural | British Neural • Broadcast Explainer]
+Artificial intelligence is moving faster than most teams can track.
+
+5
+00:00:20,000 --> 00:00:25,000
+[VOICE B: en-GB-SoniaNeural | British Neural • Broadcast Explainer]
+Every week brings new models, benchmarks, and autonomous agents.
+
+6
+00:00:25,000 --> 00:00:29,700
+[VOICE B: en-GB-SoniaNeural | British Neural • Broadcast Explainer]
+The real bottleneck is no longer raw compute.
+
+7
+00:00:30,000 --> 00:00:35,000
+[VOICE C: en-US-AriaNeural | US Neural • Newscast Professional]
+Artificial intelligence is moving faster than most teams can track.
+
+8
+00:00:35,000 --> 00:00:40,000
+[VOICE C: en-US-AriaNeural | US Neural • Newscast Professional]
+Every week brings new models, benchmarks, and autonomous agents.
+
+9
+00:00:40,000 --> 00:00:44,700
+[VOICE C: en-US-AriaNeural | US Neural • Newscast Professional]
+The real bottleneck is no longer raw compute.
+
+10
+00:00:45,000 --> 00:00:50,000
+[VOICE D: en-US-ChristopherNeural | US Neural • Broadcast Authority]
+Artificial intelligence is moving faster than most teams can track.
+
+11
+00:00:50,000 --> 00:00:55,000
+[VOICE D: en-US-ChristopherNeural | US Neural • Broadcast Authority]
+Every week brings new models, benchmarks, and autonomous agents.
+
+12
+00:00:55,000 --> 00:00:59,700
+[VOICE D: en-US-ChristopherNeural | US Neural • Broadcast Authority]
+The real bottleneck is no longer raw compute.

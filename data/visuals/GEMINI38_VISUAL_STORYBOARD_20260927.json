@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Voice wave transforming into a glowing technical mesh representing digital face persona.",
+      "text": "AI VOICE GETS A FACE",
+      "animation": "Vector waveform smoothly interpolates into neural face nodes.",
+      "sfx": "Audio chirp and digital harmonic sweep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "shot_type": "ENTITY_ANNOUNCEMENT",
+      "visual_goal": "DeepMind badge lockup over Gemini 3.8 multi-modal architecture.",
+      "text": "GOOGLE DEEPMIND \u2022 GEMINI 3.8",
+      "animation": "Cyan neural core pulses with violet accent nodes.",
+      "sfx": "Deep energy pulse.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "shot_type": "TECHNICAL_MECHANISM",
+      "visual_goal": "Sub-150ms bidirectional audio pipeline parallel to Extended Thinking reasoning loop.",
+      "text": "SUB-150ms \u2022 EXTENDED THINKING",
+      "animation": "High speed data packets traversing loop in under 150 milliseconds.",
+      "sfx": "Fast sequential digital blips.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "shot_type": "DATA_TELEMETRY",
+      "visual_goal": "Telemetry view of synced audio stream and video avatar generation.",
+      "text": "SYNCED LIVE AVATAR",
+      "animation": "Audio frequency bars lock into visual frame markers.",
+      "sfx": "Sync lock frequency hum.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "CONCEPTUAL_BOUNDARY",
+      "visual_goal": "Negative boundary card: Distinguish live streaming from offline video generation.",
+      "text": "NOT PRE-RENDERED \u2022 PURE STREAMING",
+      "animation": "Pre-rendered badge grayed out; streaming core bursts with green active glow.",
+      "sfx": "Low impact bass hit.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "BRAND_CTA",
+      "visual_goal": "AI NEWS FACTORY verified end-card with dark technical aesthetic.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified shield pulse lockup.",
+      "sfx": "Closing sonic identity chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

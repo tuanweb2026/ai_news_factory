@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <rect width="1080" height="1920" fill="#070A0F"/>
+  <!-- Background Grid -->
+  <g stroke="#131B26" stroke-width="1" opacity="0.5">
+    <line x1="80" y1="0" x2="80" y2="1920"/>
+    <line x1="540" y1="0" x2="540" y2="1920"/>
+    <line x1="1000" y1="0" x2="1000" y2="1920"/>
+  </g>
+  <!-- Card Header -->
+  <rect x="80" y="160" width="920" height="60" rx="12" fill="#0D121A" stroke="#1E2A38"/>
+  <text x="120" y="200" font-family="sans-serif" font-size="24" font-weight="bold" fill="#4DEBFF" letter-spacing="2">AI NEWS FACTORY • VOICE BENCHMARK</text>
+  <!-- Central Diagram: AI Computation -->
+  <rect x="100" y="500" width="880" height="720" rx="24" fill="#0D121A" stroke="#26354A" stroke-width="2"/>
+  <circle cx="540" cy="820" r="160" fill="none" stroke="#4DEBFF" stroke-width="4" stroke-dasharray="12 8" opacity="0.8"/>
+  <circle cx="540" cy="820" r="80" fill="#162030" stroke="#9B7CFF" stroke-width="3"/>
+  <text x="540" y="830" font-family="sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">NEURAL CORE</text>
+  <text x="540" y="1060" font-family="sans-serif" font-size="26" fill="#8B98A7" text-anchor="middle">Continuous Inference Stream</text>
+  <!-- On Screen Text -->
+  <rect x="120" y="1300" width="840" height="110" rx="16" fill="#0D121A" stroke="#4DEBFF" stroke-width="2"/>
+  <text x="540" y="1370" font-family="sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">AI IS MOVING FASTER</text>
+</svg>

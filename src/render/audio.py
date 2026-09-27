@@ -68,7 +68,7 @@ class AudioEngine:
         """Returns the configured voice name for the requested language."""
         if lang.lower().startswith("vi"):
             return self.tts_config.get("vietnamese_voice", "Linh")
-        return self.tts_config.get("english_voice", "Samantha")
+        return self.tts_config.get("english_voice", "en-US-AriaNeural")
 
     def extract_shots(self, script_data: dict[str, Any], lang: str = "en") -> list[dict[str, Any]]:
         """Extracts shot voice segments and exact timestamps from script JSON."""
@@ -121,7 +121,47 @@ class AudioEngine:
         voice = self.get_voice_name(lang)
         backend = self.tts_config.get("backend", "macos_say")
 
-        if backend == "macos_say":
+        if backend in ("microsoft_azure_speech", "edge_tts"):
+            # Use Microsoft Azure Speech Neural via edge-tts or configured CLI
+            edge_tts_bin = (
+                shutil.which("edge-tts")
+                or str(Path(__file__).resolve().parents[2] / ".venv" / "bin" / "edge-tts")
+            )
+            rate_val = self.tts_config.get("rate", "+26%")
+            pitch_val = self.tts_config.get("pitch", "+0Hz")
+            
+            with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmp_mp3:
+                tmp_mp3_path = Path(tmp_mp3.name)
+
+            try:
+                cmd_tts = [
+                    edge_tts_bin,
+                    "--voice", voice,
+                    "--rate", str(rate_val),
+                    "--pitch", str(pitch_val),
+                    "--text", text,
+                    "--write-media", str(tmp_mp3_path),
+                ]
+                subprocess.run(cmd_tts, capture_output=True, text=True, check=True)
+
+                # Convert to target WAV specifications
+                ffmpeg_bin = shutil.which("ffmpeg") or "/usr/local/bin/ffmpeg"
+                cmd_ffmpeg = [
+                    ffmpeg_bin,
+                    "-y",
+                    "-i", str(tmp_mp3_path),
+                    "-ar", str(self.sample_rate),
+                    "-ac", str(self.channels),
+                    str(output_wav),
+                ]
+                subprocess.run(cmd_ffmpeg, capture_output=True, text=True, check=True)
+            finally:
+                if tmp_mp3_path.exists():
+                    tmp_mp3_path.unlink()
+
+            return output_wav
+
+        elif backend == "macos_say":
             with tempfile.NamedTemporaryFile(suffix=".aiff", delete=False) as tmp_aiff:
                 tmp_aiff_path = Path(tmp_aiff.name)
 
@@ -151,7 +191,7 @@ class AudioEngine:
 
             return output_wav
         else:
-            raise NotImplementedError(f"TTS backend '{backend}' not implemented. Use 'macos_say'.")
+            raise NotImplementedError(f"TTS backend '{backend}' not implemented. Supported: 'microsoft_azure_speech', 'edge_tts', 'macos_say'.")
 
     def _generate_silence(self, output_wav: Path, duration: float) -> Path:
         """Generates silent WAV audio of specified duration."""

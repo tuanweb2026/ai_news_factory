@@ -1,0 +1,75 @@
+{
+  "status": "VERIFIED",
+  "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
+  "verified_at": "2026-09-27T12:31:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-model-announcement",
+      "claim": "Google DeepMind announced Gemini 3.8 Flash Live, featuring sub-150ms speech-to-speech latency and dynamic live avatar synthesis.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://blog.google/technology/ai/gemini-3-8-live-thinking-avatar/",
+        "https://deepmind.google/technologies/gemini-3-8/"
+      ],
+      "notes": "Direct primary release from Google DeepMind."
+    },
+    {
+      "claim_id": "claim-02-extended-thinking",
+      "claim": "Gemini 3.8 Flash Live integrates real-time Extended Thinking, enabling multi-step problem solving during live voice interactions.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://blog.google/technology/ai/gemini-3-8-live-thinking-avatar/"
+      ],
+      "notes": "Allows real-time reasoning without dropping conversational fluidity."
+    },
+    {
+      "claim_id": "claim-03-avatar-synthesis",
+      "claim": "The system introduces synchronized live photorealistic visual avatar generation driven directly by the model's audio output stream.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://deepmind.google/technologies/gemini-3-8/"
+      ],
+      "notes": "End-to-end multi-modal streaming without separate lip-sync post-processing."
+    },
+    {
+      "claim_id": "claim-04-efficiency-and-latency",
+      "claim": "Inference operates with 4x reduced memory footprint using speculative stream decoding to maintain low latency.",
+      "status": "SUPPORTED",
+      "confidence": 0.95,
+      "sources": [
+        "https://blog.google/technology/ai/gemini-3-8-live-thinking-avatar/"
+      ],
+      "notes": "Hardware optimized across Google TPU v5e/v6e pods."
+    },
+    {
+      "claim_id": "claim-05-negative-boundary",
+      "claim": "Gemini 3.8 Flash Live is an interactive conversational system; it does not replace batch video rendering models or offline foundation trainers.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://deepmind.google/technologies/gemini-3-8/"
+      ],
+      "notes": "CRITICAL BOUNDARY: Distinguish live conversational avatar from offline video generators."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://blog.google/technology/ai/gemini-3-8-live-thinking-avatar/",
+      "name": "Google Official Blog",
+      "published_at": "2026-09-23T15:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://deepmind.google/technologies/gemini-3-8/",
+      "name": "Google DeepMind Technologies",
+      "published_at": "2026-09-23T15:00:00Z",
+      "role": "PRIMARY"
+    }
+  ],
+  "uncertainties": [
+    "High-speed avatar generation requires sustained 5G or broadband connection for 60fps streaming."
+  ]
+}

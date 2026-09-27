@@ -1,0 +1,96 @@
+{
+  "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
+  "status": "PASS",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Hook: Voice wave transforming into a glowing face mesh.",
+      "asset_plan": [
+        {
+          "asset_id": "AST-SHOT-01",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "source_url": "internal://assets/shot-01"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "shot_type": "ENTITY_ANNOUNCEMENT",
+      "visual_goal": "DeepMind Gemini 3.8 architecture.",
+      "asset_plan": [
+        {
+          "asset_id": "AST-SHOT-02",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "source_url": "internal://assets/shot-02"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "shot_type": "TECHNICAL_MECHANISM",
+      "visual_goal": "Sub-150ms latency loop and Extended Thinking.",
+      "asset_plan": [
+        {
+          "asset_id": "AST-SHOT-03",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "source_url": "internal://assets/shot-03"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "shot_type": "DATA_TELEMETRY",
+      "visual_goal": "Synced live avatar telemetry.",
+      "asset_plan": [
+        {
+          "asset_id": "AST-SHOT-04",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "source_url": "internal://assets/shot-04"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "CONCEPTUAL_BOUNDARY",
+      "visual_goal": "Streaming vs pre-rendered negative boundary.",
+      "asset_plan": [
+        {
+          "asset_id": "AST-SHOT-05",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "source_url": "internal://assets/shot-05"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "BRAND_CTA",
+      "visual_goal": "AI News Factory verified badge.",
+      "asset_plan": [
+        {
+          "asset_id": "AST-SHOT-06",
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "source_url": "internal://assets/shot-06"
+        }
+      ]
+    }
+  ]
+}

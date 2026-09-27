@@ -1,0 +1,16 @@
+{
+  "voice_file": "voice_tests/VOICE_PRODUCTION_165_SMOKE_TEST.wav",
+  "voice_name": "en-US-AriaNeural",
+  "style": "newscast-formal",
+  "locale": "en-US",
+  "target_wpm": 165,
+  "actual_wpm": 164.91,
+  "duration_seconds": 18.192,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "integrated_loudness_lufs": -16.6,
+  "true_peak_dbtp": -4.5,
+  "lra": 2.7,
+  "clipping_detected": false,
+  "synthesis_errors": null
+}

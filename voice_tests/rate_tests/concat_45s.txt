@@ -1,0 +1,3 @@
+file 'final_variants/aria_165wpm_15s.wav'
+file 'final_variants/aria_170wpm_15s.wav'
+file 'final_variants/aria_175wpm_15s.wav'

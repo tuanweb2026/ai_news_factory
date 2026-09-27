@@ -57,12 +57,26 @@ security:
 
 audio:
   tts:
-    backend: macos_say
-    english_voice: Samantha
+    backend: microsoft_azure_speech
+    provider: microsoft_azure_speech
+    english_voice: en-US-AriaNeural
+    english_locale: en-US
+    english_style: newscast-formal
+    target_wpm: 165
+    rate: "+26%"
+    pitch: "+0Hz"
+    delivery: "professional broadcast technology news"
+    tone:
+      - calm
+      - authoritative
+      - natural
+      - engaging
+    pause_policy: controlled conversational pauses
     vietnamese_voice: Linh
   sample_rate: 48000
   channels: 2
   target_lufs: -16
+  true_peak_max: -1.5
   ducking:
     enabled: true
     music_attenuation_db: -18

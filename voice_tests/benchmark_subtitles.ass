@@ -1,0 +1,32 @@
+[Script Info]
+Title: AI News Factory Voice Benchmark
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: VoiceTag,Arial,42,&H004DEBFF,&H000000FF,&H00070A0F,&H80000000,-1,0,0,0,100,100,1,0,1,3,0,8,60,60,250,1
+Style: SubtitleText,Arial,48,&H00FFFFFF,&H000000FF,&H00070A0F,&H80000000,-1,0,0,0,100,100,1,0,1,3,0,2,80,80,340,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:14.80,VoiceTag,,0,0,0,,\b1[VOICE A: en-GB-RyanNeural]\b0\NBritish Neural • Technology News
+Dialogue: 0,0:00:00.00,0:00:05.00,SubtitleText,,0,0,0,,Artificial intelligence is moving faster than most teams can track.
+Dialogue: 0,0:00:05.00,0:00:10.00,SubtitleText,,0,0,0,,Every week brings new models, benchmarks, and autonomous agents.
+Dialogue: 0,0:00:10.00,0:00:14.70,SubtitleText,,0,0,0,,The real bottleneck is no longer raw compute.
+Dialogue: 0,0:00:15.00,0:00:29.80,VoiceTag,,0,0,0,,\b1[VOICE B: en-GB-SoniaNeural]\b0\NBritish Neural • Broadcast Explainer
+Dialogue: 0,0:00:15.00,0:00:20.00,SubtitleText,,0,0,0,,Artificial intelligence is moving faster than most teams can track.
+Dialogue: 0,0:00:20.00,0:00:25.00,SubtitleText,,0,0,0,,Every week brings new models, benchmarks, and autonomous agents.
+Dialogue: 0,0:00:25.00,0:00:29.70,SubtitleText,,0,0,0,,The real bottleneck is no longer raw compute.
+Dialogue: 0,0:00:30.00,0:00:44.80,VoiceTag,,0,0,0,,\b1[VOICE C: en-US-AriaNeural]\b0\NUS Neural • Newscast Professional
+Dialogue: 0,0:00:30.00,0:00:35.00,SubtitleText,,0,0,0,,Artificial intelligence is moving faster than most teams can track.
+Dialogue: 0,0:00:35.00,0:00:40.00,SubtitleText,,0,0,0,,Every week brings new models, benchmarks, and autonomous agents.
+Dialogue: 0,0:00:40.00,0:00:44.70,SubtitleText,,0,0,0,,The real bottleneck is no longer raw compute.
+Dialogue: 0,0:00:45.00,0:00:59.80,VoiceTag,,0,0,0,,\b1[VOICE D: en-US-ChristopherNeural]\b0\NUS Neural • Broadcast Authority
+Dialogue: 0,0:00:45.00,0:00:50.00,SubtitleText,,0,0,0,,Artificial intelligence is moving faster than most teams can track.
+Dialogue: 0,0:00:50.00,0:00:55.00,SubtitleText,,0,0,0,,Every week brings new models, benchmarks, and autonomous agents.
+Dialogue: 0,0:00:55.00,0:00:59.70,SubtitleText,,0,0,0,,The real bottleneck is no longer raw compute.

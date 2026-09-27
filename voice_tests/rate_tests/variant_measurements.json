@@ -1,0 +1,44 @@
+[
+  {
+    "variant": "variant-a",
+    "label": "ARIA / 165 WPM",
+    "wpm_target": 165,
+    "wpm_actual": 164.91,
+    "rate_param": "+26%",
+    "full_duration_s": 18.192,
+    "integrated_loudness_lufs": -16.3,
+    "true_peak_dbtp": null,
+    "lra": 2.5,
+    "section_15s_loudness_lufs": -16.2,
+    "full_wav": "voice_tests/rate_tests/final_variants/aria_165wpm_norm.wav",
+    "section_wav": "voice_tests/rate_tests/final_variants/aria_165wpm_15s.wav"
+  },
+  {
+    "variant": "variant-b",
+    "label": "ARIA / 170 WPM",
+    "wpm_target": 170,
+    "wpm_actual": 170.07,
+    "rate_param": "+30%",
+    "full_duration_s": 17.64,
+    "integrated_loudness_lufs": -16.2,
+    "true_peak_dbtp": null,
+    "lra": 2.4,
+    "section_15s_loudness_lufs": -16.1,
+    "full_wav": "voice_tests/rate_tests/final_variants/aria_170wpm_norm.wav",
+    "section_wav": "voice_tests/rate_tests/final_variants/aria_170wpm_15s.wav"
+  },
+  {
+    "variant": "variant-c",
+    "label": "ARIA / 175 WPM",
+    "wpm_target": 175,
+    "wpm_actual": 175.32,
+    "rate_param": "+34%",
+    "full_duration_s": 17.112,
+    "integrated_loudness_lufs": -16.2,
+    "true_peak_dbtp": null,
+    "lra": 2.4,
+    "section_15s_loudness_lufs": -16.2,
+    "full_wav": "voice_tests/rate_tests/final_variants/aria_175wpm_norm.wav",
+    "section_wav": "voice_tests/rate_tests/final_variants/aria_175wpm_15s.wav"
+  }
+]

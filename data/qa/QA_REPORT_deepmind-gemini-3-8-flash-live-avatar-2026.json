@@ -1,0 +1,43 @@
+{
+  "status": "APPROVED_FOR_RENDER",
+  "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
+  "checks": [
+    {
+      "name": "Factual Accuracy & Numerical Precision",
+      "status": "PASS",
+      "notes": "Verified against Google DeepMind official announcements: sub-150ms latency, Extended Thinking, live synchronized avatar generation."
+    },
+    {
+      "name": "Negative Boundary Check",
+      "status": "PASS",
+      "notes": "Shot 05 explicitly states: 'It is not pre-rendered video—it is pure live generative multi-modal streaming.' Card: NOT PRE-RENDERED • PURE STREAMING."
+    },
+    {
+      "name": "Rights and Licensing Clearance",
+      "status": "PASS",
+      "notes": "100% original vector diagrams designed in-house. All assets classified as CLEARED."
+    },
+    {
+      "name": "Mobile Safe Zones and Typographic Density",
+      "status": "PASS",
+      "notes": "On-screen text cards strictly <= 6 words per card."
+    },
+    {
+      "name": "Timeline & Audio Synchronization",
+      "status": "PASS",
+      "notes": "Total duration target 30.0s. All shot durations match script and visual plan."
+    },
+    {
+      "name": "Production Voice Profile Gate",
+      "status": "PASS",
+      "notes": "Locked voice profile en-US-AriaNeural at 165 WPM (+26% rate) applied."
+    }
+  ],
+  "scores": {
+    "factual": 9.8,
+    "visual": 9.7,
+    "editorial": 9.6,
+    "production": 9.8
+  },
+  "publish_authorized": false
+}

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "AI voice assistants just got a real-time human face.",
+  "spoken_script": "AI voice assistants just got a real-time human face. Google DeepMind just unveiled Gemini 3.8 Flash Live. It combines sub-one-hundred-and-fifty millisecond voice response with real-time Extended Thinking. But the biggest leap is a live avatar that speaks and gestures in perfect sync with the audio stream. It is not pre-rendered video\u2014it is pure live generative multi-modal streaming. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "purpose": "THE_HOOK",
+      "voice": "AI voice assistants just got a real-time human face.",
+      "on_screen_text": "AI VOICE GETS A FACE",
+      "visual_intent": "Voice wave waveform morphing seamlessly into high-definition digital face mesh."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "purpose": "THE_ANNOUNCEMENT",
+      "voice": "Google DeepMind just unveiled Gemini 3.8 Flash Live.",
+      "on_screen_text": "GOOGLE DEEPMIND \u2022 GEMINI 3.8",
+      "visual_intent": "DeepMind technical branding with glowing Gemini 3.8 multi-modal core."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "purpose": "LATENCY_AND_THINKING",
+      "voice": "It combines sub-one-hundred-and-fifty millisecond voice response with real-time Extended Thinking.",
+      "on_screen_text": "SUB-150ms \u2022 EXTENDED THINKING",
+      "visual_intent": "Bidirectional stream architecture showing instant speech-to-speech loop and parallel reasoning engine."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "purpose": "AVATAR_SYNTHESIS",
+      "voice": "But the biggest leap is a live avatar that speaks and gestures in perfect sync with the audio stream.",
+      "on_screen_text": "SYNCED LIVE AVATAR",
+      "visual_intent": "Dual-panel telemetry: Audio spectrogram aligning precisely with neural avatar lip motion."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "purpose": "NEGATIVE_BOUNDARY",
+      "voice": "It is not pre-rendered video\u2014it is pure live generative multi-modal streaming.",
+      "on_screen_text": "NOT PRE-RENDERED \u2022 PURE STREAMING",
+      "visual_intent": "Cross out offline render queue, illuminate 60fps real-time neural streaming pipeline."
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "AI NEWS FACTORY brand end-card with dark technical badge and subscribe cue."
+    }
+  ]
+}
