@@ -1,7 +1,7 @@
 """Orchestrator and Autopilot Policy Engine for AI NEWS FACTORY v2.
 
-Implements SUPERVISED_AUTOPILOT state transitions:
-DISCOVERY -> CANDIDATE_SELECTION_AUTONOMOUS -> CANDIDATE_SELECTED -> FACT_CHECK -> EDITORIAL -> VISUAL -> QA -> ASSETS -> ASSET_QA -> AUDIO -> AUDIO_QA -> RENDER -> RENDER_QA -> FINAL_RED_TEAM -> READY_FOR_HUMAN_REVIEW
+Implements SUPERVISED_AUTOPILOT and SCHEDULED_AUTOPILOT state transitions:
+DISCOVERY -> CANDIDATE_SELECTION_AUTONOMOUS -> CANDIDATE_SELECTED -> FACT_CHECK -> EDITORIAL -> VISUAL -> QA -> ASSETS -> ASSET_QA -> AUDIO -> AUDIO_QA -> RENDER -> RENDER_QA -> FINAL_RED_TEAM -> PUBLISH (or READY_FOR_HUMAN_REVIEW)
 
 Explicit precedence:
 AUTOPILOT_POLICY > LEGACY_PHASE_APPROVAL_GATES
@@ -14,7 +14,7 @@ import logging
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 logger = logging.getLogger("ai_news_factory.orchestrator")
 
@@ -42,9 +42,11 @@ class PipelineState(str, Enum):
     RENDER_QA_RUNNING = "RENDER_QA_RUNNING"
     RENDER_QA_COMPLETE = "RENDER_QA_COMPLETE"
     FINAL_RED_TEAM_RUNNING = "FINAL_RED_TEAM_RUNNING"
+    PUBLISH_RUNNING = "PUBLISH_RUNNING"
     READY_FOR_HUMAN_REVIEW = "READY_FOR_HUMAN_REVIEW"
     PUBLISHED = "PUBLISHED"
     BLOCKED = "BLOCKED"
+    HUMAN_REVIEW_REQUIRED = "HUMAN_REVIEW_REQUIRED"
     WAITING_FOR_HUMAN_CANDIDATE_SELECTION = "WAITING_FOR_HUMAN_CANDIDATE_SELECTION"
 
 
@@ -131,7 +133,7 @@ class AutopilotPolicy:
 
 
 class SupervisedAutopilotOrchestrator:
-    """State-machine orchestrator enforcing v2 autonomous progress."""
+    """State-machine orchestrator enforcing v2 autonomous progress and scheduled publishing."""
 
     def __init__(self, mode: str = "SUPERVISED_AUTOPILOT", root_dir: Path | None = None) -> None:
         self.mode = mode
@@ -215,7 +217,7 @@ class SupervisedAutopilotOrchestrator:
             },
         )
 
-        # In SUPERVISED_AUTOPILOT: AUTOPILOT_POLICY > LEGACY_PHASE_APPROVAL_GATES
+        # In AUTOPILOT: AUTOPILOT_POLICY > LEGACY_PHASE_APPROVAL_GATES
         # Advance immediately to FACT_CHECK_RUNNING
         self.state = PipelineState.FACT_CHECK_RUNNING
         self.log_transition(
@@ -225,3 +227,76 @@ class SupervisedAutopilotOrchestrator:
         )
 
         return best_candidate
+
+    def handle_post_render_red_team_pass(
+        self,
+        story_id: str,
+        job_id: str,
+        video_path: Path,
+        metadata_path: Path,
+        qa_report_path: Path,
+        final_red_team_path: Path | None = None,
+        publisher: Any | None = None,
+        upload_handler: Callable[[str, Path, dict[str, Any]], dict[str, Any]] | None = None,
+    ) -> dict[str, Any]:
+        """Handles post final-red-team state transition depending on operating mode."""
+        self.state = PipelineState.FINAL_RED_TEAM_RUNNING
+        self.log_transition(
+            PipelineState.RENDER_QA_COMPLETE,
+            PipelineState.FINAL_RED_TEAM_RUNNING,
+            {"story_id": story_id, "job_id": job_id},
+        )
+
+        if self.mode == "SCHEDULED_AUTOPILOT":
+            # Scheduled job trigger authorizes automated publishing after all gates pass
+            from .publisher import AutonomousPublisher, ScheduledJobResult
+
+            pub = publisher or AutonomousPublisher(root_dir=self.root, mode="SCHEDULED_AUTOPILOT")
+            self.state = PipelineState.PUBLISH_RUNNING
+            self.log_transition(
+                PipelineState.FINAL_RED_TEAM_RUNNING,
+                PipelineState.PUBLISH_RUNNING,
+                {"story_id": story_id, "mode": "SCHEDULED_AUTOPILOT"},
+            )
+
+            pub_report = pub.publish_scheduled_job(
+                story_id=story_id,
+                job_id=job_id,
+                video_path=video_path,
+                metadata_path=metadata_path,
+                qa_report_path=qa_report_path,
+                final_red_team_path=final_red_team_path,
+                upload_handler=upload_handler,
+            )
+
+            if pub_report.get("result") == ScheduledJobResult.PUBLISHED.value:
+                self.state = PipelineState.PUBLISHED
+                self.log_transition(
+                    PipelineState.PUBLISH_RUNNING,
+                    PipelineState.PUBLISHED,
+                    {"video_id": pub_report.get("youtube_video_id"), "url": pub_report.get("youtube_url")},
+                )
+            else:
+                self.state = PipelineState.HUMAN_REVIEW_REQUIRED
+                self.log_transition(
+                    PipelineState.PUBLISH_RUNNING,
+                    PipelineState.HUMAN_REVIEW_REQUIRED,
+                    {"reason": pub_report.get("result"), "blockers": pub_report.get("blockers")},
+                )
+
+            return pub_report
+
+        else:
+            # SUPERVISED_AUTOPILOT: Stop at READY_FOR_HUMAN_REVIEW
+            self.state = PipelineState.READY_FOR_HUMAN_REVIEW
+            self.log_transition(
+                PipelineState.FINAL_RED_TEAM_RUNNING,
+                PipelineState.READY_FOR_HUMAN_REVIEW,
+                {"story_id": story_id, "mode": self.mode},
+            )
+            return {
+                "job_id": job_id,
+                "story_id": story_id,
+                "result": "READY_FOR_HUMAN_REVIEW",
+                "state": self.state.value,
+            }

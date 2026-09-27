@@ -1,8 +1,8 @@
 factory:
   name: AI NEWS FACTORY
-  version: "1.0"
+  version: "2.0"
   timezone: Asia/Ho_Chi_Minh
-  mode: dry_run
+  mode: SCHEDULED_AUTOPILOT
 
 research:
   freshness_hours: 24
@@ -42,9 +42,13 @@ scoring:
   material_claim_min_confidence: 0.85
 
 publishing:
-  enabled: false
+  enabled: true
+  mode: SCHEDULED_AUTOPILOT
+  privacy_status: public
+  fail_closed: true
+  max_retries: 3
   require_qa_pass: true
-  require_explicit_job_authorization: true
+  require_all_13_gates: true
 
 security:
   secrets_in_repo: false

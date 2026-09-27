@@ -1,26 +1,30 @@
-# AI NEWS FACTORY v2 — Supervised Autopilot
+# AI NEWS FACTORY v2 — Scheduled & Supervised Autopilot
 
 A production-grade, multi-agent autonomous studio designed for Google Antigravity 2.0 to discover, triangulate, script, visualize, render, and publish high-retention technical AI news Shorts (1080x1920 @ 30fps) with strict factual verification.
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Factory Status](https://img.shields.io/badge/Factory-SUPERVISED__AUTOPILOT-cyan.svg)](RUNBOOK.md)
+[![Factory Status](https://img.shields.io/badge/Factory-SCHEDULED__AUTOPILOT-cyan.svg)](RUNBOOK.md)
 [![QA Gates](https://img.shields.io/badge/13--Gate%20Red--Team-PASSED-brightgreen.svg)](schemas/qa_report.schema.json)
+[![Publishing](https://img.shields.io/badge/Publishing-FAIL--CLOSED-orange.svg)](src/publisher.py)
 
 ---
 
 ## ⚡ Key Highlights & Core Capabilities
 
 - **Zero-Hallucination Triangulation**: Primary-source validation against official tech press and whitepapers. Never converts speculation or benchmarks into established fact.
-- **Supervised Autopilot v2**: Fully automated pipeline transition:
-  $$\text{Discovery} \rightarrow \text{Deduplication} \rightarrow \text{Candidate Selection} \rightarrow \text{Fact Check} \rightarrow \text{Scripting} \rightarrow \text{Visuals} \rightarrow \text{Audio} \rightarrow \text{Render} \rightarrow \text{Red-Team QA} \rightarrow \text{Human Review}$$
+- **Dual Autopilot Operating Modes**:
+  - `SUPERVISED_AUTOPILOT`: Autonomous production from Discovery through Final Red-Team QA, stopping at `READY_FOR_HUMAN_REVIEW` awaiting explicit `APPROVE & CLOSE`.
+  - `SCHEDULED_AUTOPILOT`: End-to-end scheduled autonomous publishing triggered by cron/tasks, publishing **only** when all 13 QA gates, validation checks, and YouTube authentication pass.
+- **Fail-Closed Safety Policy**: If any mandatory gate is `FAIL`, `UNKNOWN`, `MISSING`, `UNRESOLVED`, or `EXPIRED`, the job reverts immediately to `HUMAN_REVIEW_REQUIRED` without publishing.
+- **Multi-Factor Duplicate Prevention**: Blocks duplicate uploads via exact `story_id`, headline fuzzy similarity ($\ge 0.75$), and active repository registry audit.
 - **1080x1920 Vertical Render Engine**:
   - Procedural vector rendering (Apple CoreGraphics / SVG).
   - Subtle Ken Burns motion keyframing ($1.00 \times \rightarrow 1.06 \times$).
   - Dual-track sound design: calibrated TTS voiceover (Samantha / Linh) + ducked ambient tech drone bed (-24 dB).
   - Broadcast-compliant audio normalization: integrated loudness **-16.0 LUFS** (EBU R128), true peak **$\le -1.5$ dBTP**.
   - Embedded container timed subtitles (`mov_text` track) + external SRT/ASS tracks.
-- **Resumable YouTube Data API v3**: Multi-chunk (8MB) upload bridge with channel identity verification and zero duplicate posting.
+- **Resumable YouTube Data API v3**: Multi-chunk (8MB) upload bridge with channel identity verification and automatic transport retry (up to 3 attempts).
 
 ---
 

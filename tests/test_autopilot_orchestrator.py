@@ -117,8 +117,12 @@ def test_autopilot_candidate_selection_filters_duplicates_and_stale(sample_candi
     assert any("Freshness" in r for r in stale_eval.rejection_reasons)
 
 
-def test_orchestrator_autonomous_state_transition(sample_candidates_file: Path) -> None:
-    orchestrator = SupervisedAutopilotOrchestrator(mode="SUPERVISED_AUTOPILOT")
+def test_orchestrator_autonomous_state_transition(sample_candidates_file: Path, tmp_path: Path) -> None:
+    # Use isolated root_dir with existing duplicate story so stanford-nvidia-clm-8b is selected
+    iso_root = tmp_path / "iso_root"
+    dup_dir = iso_root / "data" / "rendered" / "google-project-suncatcher-orbital-tpu-2026"
+    dup_dir.mkdir(parents=True, exist_ok=True)
+    orchestrator = SupervisedAutopilotOrchestrator(mode="SUPERVISED_AUTOPILOT", root_dir=iso_root)
 
     selected = orchestrator.execute_autonomous_candidate_selection(sample_candidates_file)
 

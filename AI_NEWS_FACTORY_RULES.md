@@ -24,18 +24,23 @@
 20. Keep secrets out of repository files.
 21. Never grant agents unrestricted filesystem or browser permissions merely for convenience.
 22. External publishing is a separate permission boundary.
-23. Default mode is DRY_RUN until human approval is explicitly enabled.
-24. The system must prefer a skipped video over a low-quality video.
+23. Default mode is DRY_RUN until human approval or SCHEDULED_AUTOPILOT is explicitly configured.
+24. The system must prefer a skipped video over a low-quality video (Fail-Closed).
 25. The final authority is evidence, not the confidence of any model.
 
 ## Human approval gates
 
-Required before enabling:
+In manual or SUPERVISED_AUTOPILOT mode, required before enabling:
 - YouTube publishing;
 - public posting;
 - destructive filesystem actions;
 - credential changes;
 - new MCP servers with write capability.
+
+In SCHEDULED_AUTOPILOT mode:
+- The scheduled task launch constitutes explicit automation authorization.
+- Automated YouTube publishing is authorized ONLY if ALL 13 QA/red-team gates pass, video and metadata are valid, YouTube authentication succeeds, and duplicate checks clear.
+- Any gate failure, ambiguity, missing asset, or credential expiration immediately reverts the job to HUMAN_REVIEW_REQUIRED without publishing (Fail-Closed).
 
 ## Agent contract
 
