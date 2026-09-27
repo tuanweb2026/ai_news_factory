@@ -1,0 +1,76 @@
+{
+  "status": "VERIFIED",
+  "story_id": "anthropic-akamai-11b-cloud-infrastructure-deal-2026",
+  "verified_at": "2026-09-27T18:30:30+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-agreement-value-and-term",
+      "claim": "Anthropic signed a landmark $11.6 billion, 7-year strategic cloud infrastructure agreement with Akamai Technologies.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.akamai.com/newsroom/press-release/anthropic-strategic-infrastructure-deal",
+        "https://www.reuters.com/technology/anthropic-akamai-11b-deal-2026-09-24/"
+      ],
+      "notes": "Announced via joint press release and verified across Reuters."
+    },
+    {
+      "claim_id": "claim-02-cpu-edge-workloads",
+      "claim": "The partnership focuses on enterprise CPU edge computing for autonomous agent execution, tool-calling routing, and local data residency.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.akamai.com/newsroom/press-release/anthropic-strategic-infrastructure-deal"
+      ],
+      "notes": "Highlights expansion beyond centralized GPU clusters into distributed edge execution."
+    },
+    {
+      "claim_id": "claim-03-latency-and-sovereignty",
+      "claim": "Akamai's distributed network spans over 4,000 global locations, providing sub-15ms edge inference routing and strict jurisdictional data isolation.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://www.akamai.com/newsroom/press-release/anthropic-strategic-infrastructure-deal",
+        "https://www.reuters.com/technology/anthropic-akamai-11b-deal-2026-09-24/"
+      ],
+      "notes": "Addresses compliance under EU and Asian data sovereignty regulations."
+    },
+    {
+      "claim_id": "claim-04-hybrid-inference-model",
+      "claim": "Under this architecture, heavy reasoning runs on core GPU clusters, while agent memory, state management, and API tool interactions execute at the edge on Akamai CPUs.",
+      "status": "SUPPORTED",
+      "confidence": 0.96,
+      "sources": [
+        "https://www.reuters.com/technology/anthropic-akamai-11b-deal-2026-09-24/"
+      ],
+      "notes": "Hybrid GPU-core and CPU-edge workload split."
+    },
+    {
+      "claim_id": "claim-05-negative-boundary",
+      "claim": "This infrastructure agreement does not replace Anthropic's primary foundation training partnerships with AWS or Google Cloud; it serves inference and edge agent execution.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.reuters.com/technology/anthropic-akamai-11b-deal-2026-09-24/"
+      ],
+      "notes": "CRITICAL BOUNDARY: Clarify Akamai provides edge inference and agent execution, not primary pre-training clusters."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.akamai.com/newsroom/press-release/anthropic-strategic-infrastructure-deal",
+      "name": "Akamai Press Room",
+      "published_at": "2026-09-24T12:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://www.reuters.com/technology/anthropic-akamai-11b-deal-2026-09-24/",
+      "name": "Reuters Technology",
+      "published_at": "2026-09-24T14:30:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [
+    "Phased rollout timeline begins in North America and Western Europe before global Asia-Pacific deployment."
+  ]
+}

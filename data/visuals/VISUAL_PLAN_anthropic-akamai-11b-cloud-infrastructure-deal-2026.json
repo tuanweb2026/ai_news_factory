@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-akamai-11b-cloud-infrastructure-deal-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Global network map showing explosive fanning out of agent nodes to edge data centers.",
+      "text": "WHY $11.6B ON EDGE CPUs?",
+      "animation": "Pulsing fiber optic grid connects global edge nodes.",
+      "sfx": "Network whoosh and pulse sound.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "shot_type": "ENTITY_ANNOUNCEMENT",
+      "visual_goal": "Anthropic and Akamai partnership badge lockup with 11.6 billion dollar investment metric.",
+      "text": "ANTHROPIC + AKAMAI \u2022 $11.6B",
+      "animation": "Clean technical contract lockup with glowing security perimeter.",
+      "sfx": "Digital chime and lock-on pulse.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "shot_type": "TECHNICAL_MECHANISM",
+      "visual_goal": "Distributed edge grid: 4,000 global locations hosting autonomous agent execution nodes.",
+      "text": "4,000+ EDGE LOCATIONS",
+      "animation": "Node counter rolls from 100 to 4,000 with geographic pin drops.",
+      "sfx": "Rapid ping sequence.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "shot_type": "DATA_TELEMETRY",
+      "visual_goal": "Hybrid compute architecture: Core GPU clusters linked via sub-15ms channels to CPU edge pools.",
+      "text": "GPU REASONING \u2022 CPU EDGE",
+      "animation": "Sub-15ms latency telemetry line glowing in vivid green.",
+      "sfx": "Data transmission high frequency sweep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "CONCEPTUAL_BOUNDARY",
+      "visual_goal": "Negative boundary card: Clarify AWS and GCP training partnerships remain intact while edge agents activate.",
+      "text": "NOT REPLACING AWS \u2022 AGENT SWARMS",
+      "animation": "Cloud foundation locked on left, agent swarm expands outward on right.",
+      "sfx": "Low impact bass hit.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "BRAND_CTA",
+      "visual_goal": "AI NEWS FACTORY verified end-card with dark technical aesthetic.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Brand shield pulse lockup.",
+      "sfx": "Closing sonic identity chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

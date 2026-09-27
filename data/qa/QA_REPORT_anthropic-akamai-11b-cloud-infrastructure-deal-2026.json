@@ -1,0 +1,43 @@
+{
+  "status": "APPROVED_FOR_RENDER",
+  "story_id": "anthropic-akamai-11b-cloud-infrastructure-deal-2026",
+  "checks": [
+    {
+      "name": "Factual Accuracy & Numerical Precision",
+      "status": "PASS",
+      "notes": "Verified against Akamai official press release and Reuters: $11.6B deal, 7-year term, 4,000+ edge locations, sub-15ms edge routing, CPU agent execution."
+    },
+    {
+      "name": "Negative Boundary Check",
+      "status": "PASS",
+      "notes": "Shot 05 explicitly states: 'It is not replacing AWS or Google Cloud—it is powering distributed agent swarms.' Card: NOT REPLACING AWS • AGENT SWARMS."
+    },
+    {
+      "name": "Rights and Licensing Clearance",
+      "status": "PASS",
+      "notes": "100% original vector diagrams designed in-house. All assets classified as CLEARED."
+    },
+    {
+      "name": "Mobile Safe Zones and Typographic Density",
+      "status": "PASS",
+      "notes": "On-screen text cards strictly <= 6 words per card."
+    },
+    {
+      "name": "Timeline & Audio Synchronization",
+      "status": "PASS",
+      "notes": "Total duration target 30.0s. All shot durations match script and visual plan."
+    },
+    {
+      "name": "Production Voice Profile Gate",
+      "status": "PASS",
+      "notes": "Locked voice profile en-US-AriaNeural at 165 WPM (+26% rate) applied."
+    }
+  ],
+  "scores": {
+    "factual": 9.8,
+    "visual": 9.6,
+    "editorial": 9.5,
+    "production": 9.7
+  },
+  "publish_authorized": false
+}

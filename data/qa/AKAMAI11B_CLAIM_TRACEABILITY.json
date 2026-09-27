@@ -1,0 +1,30 @@
+{
+  "story_id": "anthropic-akamai-11b-cloud-infrastructure-deal-2026",
+  "status": "VERIFIED",
+  "mappings": [
+    {
+      "shot_id": "shot-01",
+      "fact_id": "claim-01-agreement-value-and-term, claim-02-cpu-edge-workloads"
+    },
+    {
+      "shot_id": "shot-02",
+      "fact_id": "claim-01-agreement-value-and-term"
+    },
+    {
+      "shot_id": "shot-03",
+      "fact_id": "claim-02-cpu-edge-workloads, claim-03-latency-and-sovereignty"
+    },
+    {
+      "shot_id": "shot-04",
+      "fact_id": "claim-03-latency-and-sovereignty, claim-04-hybrid-inference-model"
+    },
+    {
+      "shot_id": "shot-05",
+      "fact_id": "claim-05-negative-boundary"
+    },
+    {
+      "shot_id": "shot-06",
+      "fact_id": "claim-01-agreement-value-and-term"
+    }
+  ]
+}

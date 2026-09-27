@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-akamai-11b-cloud-infrastructure-deal-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Why did Anthropic just spend eleven billion dollars on edge CPUs?",
+  "spoken_script": "Why did Anthropic just spend eleven billion dollars on edge CPUs? Anthropic signed an eleven-point-six billion dollar agreement with Akamai. Instead of relying solely on massive GPU data centers, they are deploying autonomous agents across four thousand edge locations. Heavy reasoning stays on GPUs, but agent memory and tool calls run locally under fifteen milliseconds. It is not replacing AWS or Google Cloud\u2014it is powering distributed agent swarms. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "purpose": "THE_HOOK",
+      "voice": "Why did Anthropic just spend eleven billion dollars on edge CPUs?",
+      "on_screen_text": "WHY $11.6B ON EDGE CPUs?",
+      "visual_intent": "Global data topology map flashing from centralized hubs to thousands of glowing edge nodes."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "purpose": "THE_ANNOUNCEMENT",
+      "voice": "Anthropic signed an eleven-point-six billion dollar agreement with Akamai.",
+      "on_screen_text": "ANTHROPIC + AKAMAI \u2022 $11.6B",
+      "visual_intent": "Anthropic and Akamai partnership badge over secure 7-year infrastructure contract graphic."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "purpose": "THE_DISTRIBUTED_ARCHITECTURE",
+      "voice": "Instead of relying solely on massive GPU data centers, they are deploying autonomous agents across four thousand edge locations.",
+      "on_screen_text": "4,000+ EDGE LOCATIONS",
+      "visual_intent": "Distributed edge grid: Agent workloads fanning out to local regional points of presence."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "purpose": "HYBRID_WORKLOAD_SPLIT",
+      "voice": "Heavy reasoning stays on GPUs, but agent memory and tool calls run locally under fifteen milliseconds.",
+      "on_screen_text": "GPU REASONING \u2022 CPU EDGE",
+      "visual_intent": "Split telemetry dashboard: Core GPU neural clusters linked via sub-15ms fiber to edge CPU memory pools."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "purpose": "NEGATIVE_BOUNDARY",
+      "voice": "It is not replacing AWS or Google Cloud\u2014it is powering distributed agent swarms.",
+      "on_screen_text": "NOT REPLACING AWS \u2022 AGENT SWARMS",
+      "visual_intent": "Boundary card: Core cloud training remains intact, edge agent swarm execution activates."
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "AI NEWS FACTORY brand end-card with dark technical badge and subscribe cue."
+    }
+  ]
+}
