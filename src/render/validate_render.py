@@ -71,8 +71,8 @@ class RenderValidator:
                 ffmpeg_bin,
                 "-y",
                 "-i", str(media_path),
-                "-vf", "select='eq(n\\,60)+eq(n\\,300)+eq(n\\,600)'",
-                "-vsync", "vfr",
+                "-vf", "fps=1/8",
+                "-vframes", "3",
                 frame_pattern,
             ]
             try:
