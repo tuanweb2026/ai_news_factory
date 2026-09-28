@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "nvidia-pair-personal-ai-router-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "NVIDIA just turned your home devices into a distributed AI cluster.",
+  "spoken_script": "NVIDIA just open-sourced PAIR, turning your home computers into a distributed AI cluster. PAIR auto-discovers local RTX GPUs, DGX Sparks, and Apple Silicon Macs via mDNS. Instead of choking one GPU, it load-balances agent requests across Ollama and LM Studio. Crucially, PAIR routes separate queries without pooling VRAM. All data stays strictly private on LAN. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 5.5,
+      "purpose": "THE_HOOK",
+      "voice": "NVIDIA just open-sourced PAIR, turning your home computers into a distributed AI cluster.",
+      "on_screen_text": "NVIDIA PAIR \u2022 DISTRIBUTED AI",
+      "visual_intent": "Central developer workstation linking outward to multiple local devices over encrypted LAN lines."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 5.5,
+      "end": 12.2,
+      "purpose": "AUTO_DISCOVERY_HARDWARE",
+      "voice": "PAIR auto-discovers local RTX GPUs, DGX Sparks, and Apple Silicon Macs via mDNS.",
+      "on_screen_text": "RTX & APPLE SILICON",
+      "visual_intent": "Three-way network cluster identifying desktop RTX 4090, DGX Spark, and M4 Mac Studio."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 12.2,
+      "end": 18.2,
+      "purpose": "LOAD_BALANCING_MECHANISM",
+      "voice": "Instead of choking one GPU, it load-balances agent requests across Ollama and LM Studio.",
+      "on_screen_text": "SMART LOAD BALANCER",
+      "visual_intent": "Multi-agent task stream intelligently routed across three balanced GPU compute nodes without queue latency."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.2,
+      "end": 25.0,
+      "purpose": "NEGATIVE_BOUNDARY_AND_PRIVACY",
+      "voice": "Crucially, PAIR routes separate queries without pooling VRAM. All data stays strictly private on LAN.",
+      "on_screen_text": "100% LOCAL \u2022 ZERO CLOUD",
+      "visual_intent": "Hardware boundary diagram showing discrete full model instances with zero cloud outbound packets and green local shield."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.0,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory badge with verified shield icon and subscribe notification pulse."
+    }
+  ]
+}
