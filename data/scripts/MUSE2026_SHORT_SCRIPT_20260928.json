@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "meta-connect-2026-muse-spark-and-ai-glasses",
+  "duration_target_seconds": 30.0,
+  "hook": "Meta is putting full autonomous AI agents inside your glasses.",
+  "spoken_script": "Meta is putting full autonomous AI agents inside your glasses. At Connect 2026, Meta unveiled Muse, powered by the new Muse Spark 1.3 model with a one million token context window. Muse does not just answer questions—it books travel, manages schedules, and runs real-time voice translation across fourteen languages. Meta also introduced Ray-Ban Meta Audio and previewed one-hundred-gram spatial glasses. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "Meta is putting full autonomous AI agents inside your glasses.",
+      "on_screen_text": "AI AGENTS IN GLASSES",
+      "visual_intent": "Futuristic smart glasses silhouette glowing with dynamic HUD telemetry lines and AI voice wave."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 10.5,
+      "purpose": "THE_ANNOUNCEMENT",
+      "voice": "At Connect 2026, Meta unveiled Muse, powered by the new Muse Spark 1.3 model with a one million token context window.",
+      "on_screen_text": "META MUSE \u2022 SPARK 1.3",
+      "visual_intent": "Meta Connect stage graphic transitioning to Muse neural core with 1M token context buffer indicator."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 10.5,
+      "end": 18.0,
+      "purpose": "AGENTIC_EXECUTION_AND_TRANSLATION",
+      "voice": "Muse does not just answer questions—it books travel, manages schedules, and runs real-time voice translation across fourteen languages.",
+      "on_screen_text": "AUTONOMOUS EXECUTION",
+      "visual_intent": "Action card showing automated booking flow, calendar synchronization, and 14-language audio waveforms."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.0,
+      "end": 25.0,
+      "purpose": "HARDWARE_LINEUP_EXPANSION",
+      "voice": "Meta also introduced Ray-Ban Meta Audio and previewed one-hundred-gram spatial glasses.",
+      "on_screen_text": "RAY-BAN AUDIO \u2022 100G VR",
+      "visual_intent": "Split view showcasing sleek camera-free Ray-Ban Meta Audio alongside ultralight 100-gram headset design."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.0,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory badge with verified shield icon and subscribe notification pulse."
+    }
+  ]
+}

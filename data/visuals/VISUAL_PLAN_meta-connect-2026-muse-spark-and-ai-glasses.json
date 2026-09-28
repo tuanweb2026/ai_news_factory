@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "meta-connect-2026-muse-spark-and-ai-glasses",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Hook: Smart glasses silhouette glowing with dynamic HUD lines and audio telemetry.",
+      "text": "AI AGENTS IN GLASSES",
+      "animation": "HUD rings expand outward around smart frame outline.",
+      "sfx": "Subtle futuristic power-up hum.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 10.5,
+      "shot_type": "ENTITY_ANNOUNCEMENT",
+      "visual_goal": "Meta Connect lockup revealing Muse Spark 1.3 model architecture.",
+      "text": "META MUSE \u2022 SPARK 1.3",
+      "animation": "Neural lattice glowing with 1,000,000 token buffer meter.",
+      "sfx": "Harmonic energy sweep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 10.5,
+      "end": 18.0,
+      "shot_type": "TECHNICAL_MECHANISM",
+      "visual_goal": "Multi-agent action card executing booking, calendar scheduling, and 14-language audio.",
+      "text": "AUTONOMOUS EXECUTION",
+      "animation": "Three parallel tasks check off smoothly with green verification badges.",
+      "sfx": "Clean digital confirmation chimes.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.0,
+      "end": 25.0,
+      "shot_type": "HARDWARE_SHOWCASE",
+      "visual_goal": "Camera-free Ray-Ban Meta Audio and 100g spatial VR glasses.",
+      "text": "RAY-BAN AUDIO \u2022 100G VR",
+      "animation": "Split hardware render with 100+ style variants counter.",
+      "sfx": "Subtle mechanical latch sound.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.0,
+      "end": 30.0,
+      "shot_type": "CTA_BRAND_LOCKUP",
+      "visual_goal": "Verified news shield and subscription bell badge.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Shield badge pulses with deep cyan glow.",
+      "sfx": "Final broadcast chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}
