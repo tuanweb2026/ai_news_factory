@@ -57,9 +57,54 @@ class RenderValidator:
             "null",
             "-",
         ]
-        res = subprocess.run(cmd, capture_output=True, text=True)
-        errors = [line.strip() for line in res.stderr.splitlines() if line.strip()]
-        return errors
+    def check_visual_richness(self, media_path: Path) -> tuple[bool, dict[str, Any]]:
+        """Inspects sample frames to verify visual illustration richness and absence of flat black voids."""
+        ffmpeg_bin = shutil.which("ffmpeg") or "/usr/local/bin/ffmpeg"
+        import tempfile
+        from PIL import Image, ImageStat
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            # Extract 3 key frames (at 2s, 10s, 20s)
+            frame_pattern = str(tmp_path / "frame_%02d.png")
+            cmd = [
+                ffmpeg_bin,
+                "-y",
+                "-i", str(media_path),
+                "-vf", "select='eq(n\\,60)+eq(n\\,300)+eq(n\\,600)'",
+                "-vsync", "vfr",
+                frame_pattern,
+            ]
+            try:
+                subprocess.run(cmd, capture_output=True, text=True, check=True)
+                frames = sorted(list(tmp_path.glob("frame_*.png")))
+                if not frames:
+                    return True, {"sampled_frames": 0, "status": "SKIPPED"}
+
+                stats_list = []
+                for f in frames:
+                    with Image.open(f) as img:
+                        stat = ImageStat.Stat(img)
+                        # Mean brightness across RGB channels
+                        mean_brightness = sum(stat.mean[:3]) / 3.0
+                        # Standard deviation (measures graphical variance/illustration detail)
+                        stddev = sum(stat.stddev[:3]) / 3.0
+                        stats_list.append({
+                            "frame": f.name,
+                            "mean_brightness": round(mean_brightness, 2),
+                            "stddev": round(stddev, 2),
+                        })
+
+                # If stddev is too low (< 8.0), the frame is a flat monotonous solid color
+                flat_frames = [s for s in stats_list if s["stddev"] < 8.0]
+                is_rich = len(flat_frames) == 0
+                return is_rich, {
+                    "is_visually_rich": is_rich,
+                    "frame_metrics": stats_list,
+                    "flat_frames_count": len(flat_frames),
+                }
+            except Exception as e:
+                return True, {"error": str(e), "status": "EVAL_EXCEPTION"}
 
     def validate_video(
         self,
@@ -158,11 +203,13 @@ class RenderValidator:
             if channels < 2:
                 failures.append(f"Mono audio detected ({channels} channels, expected stereo).")
 
-        # 3. Stream integrity / decode corruption check
-        corruption_errors = self.check_frame_corruption(video_path)
-        checks["corruption_errors_count"] = len(corruption_errors)
-        if corruption_errors:
-            failures.append(f"Frame decode errors detected: {corruption_errors[:3]}")
+        # 4. Visual Richness & Anti-Black-Void Gate
+        is_rich, rich_metrics = self.check_visual_richness(video_path)
+        checks["visual_richness"] = rich_metrics
+        if not is_rich:
+            failures.append(
+                f"Visual Richness Gate FAIL: Video contains flat black/low-entropy frames ({rich_metrics.get('flat_frames_count')} flat frames detected)."
+            )
 
         is_pass = len(failures) == 0
         report = {

@@ -164,18 +164,21 @@ Rules:
 
 ---
 
-# 4. COLOR SYSTEM
+# 4. COLOR SYSTEM & BACKGROUND CANVAS
 
 Base:
-- Background: near-black / charcoal
-- Primary text: off-white
-- Accent A: electric cyan
-- Accent B: violet
-- Warning: restrained red
-- Success: restrained green
+- Background: deep obsidian navy / technical charcoal (NEVER flat pitch-black)
+- Radial Depth Glow: Ambient illumination (`#0E1B2C` cyan or `#16132A` violet radial glow)
+- Grid: Technical coordinate lines (`#141E2C` at 60% opacity)
+- Primary text: off-white (`#F3F7FA`)
+- Accent A: electric cyan (`#4DEBFF`)
+- Accent B: violet (`#9B7CFF`)
+- Warning: restrained red (`#FF5C70`)
+- Success: restrained mint green (`#54E39A`)
+- Hardware/Thermal: vivid amber (`#FF8008` / `#FFB84D`)
 
 Suggested palette:
-- BG: #070A0F
+- BG: #070A0F with radial glow to #0E1B2C / #16132A
 - PANEL: #0D121A
 - TEXT: #F3F7FA
 - MUTED: #8B98A7
@@ -184,12 +187,11 @@ Suggested palette:
 - RED: #FF5C70
 - GREEN: #54E39A
 
-Do not flood the entire video with neon. Neon is a semantic signal.
-
-CYAN = technology / active flow
-VIOLET = AI / intelligence
-RED = error / risk / contradiction
-GREEN = verified / completed
+### CRITICAL ANTI-BLACK-VOID RULE:
+1. **Never use `#000000` or a flat `#070A0F` background without radial depth glow and technical coordinates.** Plain flat dark backgrounds look unrendered, boring, and repel viewer engagement.
+2. **Every shot must contain rich illustrative graphics occupying 40–60% of the screen:**
+   - Detailed circuit traces, chip topologies, glowing waveguides, neural graph clusters, or 3D vector hardware perspectives.
+   - Text boxes alone do NOT qualify as visuals. Text must accompany high-density graphical explanations.
 
 ---
 
