@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-opus-5-5-launch-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Hook: Speed acceleration gauge jumping from 1.0x to 1.3x speed.",
+      "text": "30% FASTER REASONING",
+      "animation": "Speedometer needle sweeps right, glowing in vivid cyan.",
+      "sfx": "High speed turbine acceleration.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "shot_type": "ENTITY_ANNOUNCEMENT",
+      "visual_goal": "Anthropic badge lockup over Claude Opus 5.5 neural architecture.",
+      "text": "ANTHROPIC \u2022 OPUS 5.5",
+      "animation": "Warm violet and cyan pulses radiating from central model node.",
+      "sfx": "Harmonic energy pulse.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "shot_type": "TECHNICAL_MECHANISM",
+      "visual_goal": "Adaptive Thinking dynamic token budgeting diagram.",
+      "text": "ADAPTIVE THINKING CORE",
+      "animation": "Token flow branches dynamically according to problem complexity.",
+      "sfx": "Sequential data chimes.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "shot_type": "DATA_TELEMETRY",
+      "visual_goal": "1 Million token context gauge alongside 40% cost reduction bar.",
+      "text": "1M CONTEXT \u2022 40% LESS COST",
+      "animation": "Context bar expands to 1M; cost index drops 40%.",
+      "sfx": "Data calibration sweep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "shot_type": "CONCEPTUAL_BOUNDARY",
+      "visual_goal": "Negative boundary: Distinguish long-horizon coding agent from casual chatbot.",
+      "text": "NOT A CHATBOT \u2022 CODING AGENT",
+      "animation": "Chat balloon grayed out; terminal action engine illuminates.",
+      "sfx": "Low impact bass hit.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "shot_type": "BRAND_CTA",
+      "visual_goal": "AI NEWS FACTORY verified end-card with dark technical aesthetic.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Brand shield pulse lockup.",
+      "sfx": "Closing sonic identity chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

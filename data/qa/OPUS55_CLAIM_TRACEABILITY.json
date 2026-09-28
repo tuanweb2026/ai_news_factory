@@ -1,0 +1,30 @@
+{
+  "story_id": "anthropic-claude-opus-5-5-launch-2026",
+  "status": "VERIFIED",
+  "mappings": [
+    {
+      "shot_id": "shot-01",
+      "fact_id": "claim-02-adaptive-thinking-and-speed"
+    },
+    {
+      "shot_id": "shot-02",
+      "fact_id": "claim-01-model-release"
+    },
+    {
+      "shot_id": "shot-03",
+      "fact_id": "claim-02-adaptive-thinking-and-speed"
+    },
+    {
+      "shot_id": "shot-04",
+      "fact_id": "claim-03-one-million-context"
+    },
+    {
+      "shot_id": "shot-05",
+      "fact_id": "claim-04-coding-evaluations, claim-05-negative-boundary"
+    },
+    {
+      "shot_id": "shot-06",
+      "fact_id": "claim-01-model-release"
+    }
+  ]
+}

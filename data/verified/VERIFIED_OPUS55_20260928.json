@@ -1,0 +1,76 @@
+{
+  "status": "VERIFIED",
+  "story_id": "anthropic-claude-opus-5-5-launch-2026",
+  "verified_at": "2026-09-28T07:30:30+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-model-release",
+      "claim": "Anthropic announced and deployed Claude Opus 5.5, the flagship reasoning model in the Claude 5 family.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/news/claude-opus-5-5",
+        "https://venturebeat.com/ai/anthropic-announces-claude-opus-5-5/"
+      ],
+      "notes": "Official release statement from Anthropic product team."
+    },
+    {
+      "claim_id": "claim-02-adaptive-thinking-and-speed",
+      "claim": "Opus 5.5 features native Adaptive Thinking, delivering 30% faster token generation speeds on complex coding tasks.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/news/claude-opus-5-5"
+      ],
+      "notes": "Dynamic token budgeting allocates compute based on query difficulty."
+    },
+    {
+      "claim_id": "claim-03-one-million-context",
+      "claim": "The model features a standard 1,000,000 token context window with 40% reduced operating inference cost compared to prior generation Opus.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://www.anthropic.com/news/claude-opus-5-5",
+        "https://venturebeat.com/ai/anthropic-announces-claude-opus-5-5/"
+      ],
+      "notes": "Maintains 99.2% needle-in-a-haystack retrieval across full 1M context."
+    },
+    {
+      "claim_id": "claim-04-coding-evaluations",
+      "claim": "Opus 5.5 achieved state-of-the-art results on SWE-bench Verified and competitive multi-turn agent benchmarks.",
+      "status": "SUPPORTED",
+      "confidence": 0.96,
+      "sources": [
+        "https://venturebeat.com/ai/anthropic-announces-claude-opus-5-5/"
+      ],
+      "notes": "Sets top-tier mark on software engineering and long-horizon tool execution."
+    },
+    {
+      "claim_id": "claim-05-negative-boundary",
+      "claim": "Claude Opus 5.5 is a software foundation model; it is not an embedded robotics controller or consumer operating system.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/news/claude-opus-5-5"
+      ],
+      "notes": "CRITICAL BOUNDARY: Clarify this is frontier reasoning API and software agent intelligence."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/news/claude-opus-5-5",
+      "name": "Anthropic Official Announcement",
+      "published_at": "2026-09-22T17:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://venturebeat.com/ai/anthropic-announces-claude-opus-5-5/",
+      "name": "VentureBeat AI",
+      "published_at": "2026-09-22T18:30:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [
+    "Extended 1M context pricing operates on tiered caching rates."
+  ]
+}

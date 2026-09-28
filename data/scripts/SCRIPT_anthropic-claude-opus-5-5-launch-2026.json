@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-opus-5-5-launch-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Frontier AI reasoning just got thirty percent faster.",
+  "spoken_script": "Frontier AI reasoning just got thirty percent faster. Anthropic just released Claude Opus 5.5. It introduces native Adaptive Thinking, budgeting internal reasoning tokens on the fly. The context window now hits a full one million tokens, while cutting operating costs by forty percent. It is not an ungrounded chatbot\u2014it is built for long-horizon software engineering agents. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.0,
+      "purpose": "THE_HOOK",
+      "voice": "Frontier AI reasoning just got thirty percent faster.",
+      "on_screen_text": "30% FASTER REASONING",
+      "visual_intent": "Vivid glowing telemetry metric accelerating from 1.0x to 1.3x speed."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.0,
+      "end": 9.0,
+      "purpose": "THE_ANNOUNCEMENT",
+      "voice": "Anthropic just released Claude Opus 5.5.",
+      "on_screen_text": "ANTHROPIC \u2022 OPUS 5.5",
+      "visual_intent": "Anthropic brand lockup over glowing neural core representing Claude Opus 5.5."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 9.0,
+      "end": 16.0,
+      "purpose": "ADAPTIVE_THINKING_MECHANISM",
+      "voice": "It introduces native Adaptive Thinking, budgeting internal reasoning tokens on the fly.",
+      "on_screen_text": "ADAPTIVE THINKING CORE",
+      "visual_intent": "Dynamic token budgeting diagram: Simple queries pass instantly, complex logic expands thinking tokens."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 16.0,
+      "end": 21.5,
+      "purpose": "CONTEXT_AND_EFFICIENCY",
+      "voice": "The context window now hits a full one million tokens, while cutting operating costs by forty percent.",
+      "on_screen_text": "1M CONTEXT \u2022 40% LESS COST",
+      "visual_intent": "Dual metric dashboard: 1,000,000 token context buffer gauge and 40% cost reduction graph."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 21.5,
+      "end": 26.5,
+      "purpose": "NEGATIVE_BOUNDARY",
+      "voice": "It is not an ungrounded chatbot\u2014it is built for long-horizon software engineering agents.",
+      "on_screen_text": "NOT A CHATBOT \u2022 CODING AGENT",
+      "visual_intent": "Boundary graphic: Cross out casual chat balloon, illuminate autonomous multi-file coding terminal."
+    },
+    {
+      "shot_id": "shot-06",
+      "start": 26.5,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "AI NEWS FACTORY master brand lockup with dark technical aesthetic and verified badge."
+    }
+  ]
+}
