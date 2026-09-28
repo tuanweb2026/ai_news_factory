@@ -1,0 +1,94 @@
+{
+  "status": "VERIFIED",
+  "story_id": "nvidia-pair-personal-ai-router-2026",
+  "verified_at": "2026-09-28T18:35:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-open-source-release",
+      "claim": "NVIDIA released the Personal AI Router (PAIR) as an open-source software project under the Apache 2.0 license on GitHub.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://github.com/NVIDIA/Personal-AI-Router",
+        "https://nvidianews.nvidia.com/news/nvidia-personal-ai-router-launch"
+      ],
+      "notes": "Verified open-source release under Apache 2.0."
+    },
+    {
+      "claim_id": "claim-02-core-mechanism",
+      "claim": "PAIR functions as a local inference router and load balancer that automatically discovers available computing nodes across a local network using mDNS.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://github.com/NVIDIA/Personal-AI-Router",
+        "https://marktechpost.com/nvidia-pair-local-ai-router"
+      ],
+      "notes": "Routes multi-agent inference requests across LAN nodes."
+    },
+    {
+      "claim_id": "claim-03-hardware-support",
+      "claim": "PAIR supports NVIDIA GeForce RTX 20-series GPUs and newer, NVIDIA RTX PRO workstation GPUs, DGX Spark, and Apple Silicon M4+ devices.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://github.com/NVIDIA/Personal-AI-Router"
+      ],
+      "notes": "Broad hardware coverage across Windows, Linux, and macOS."
+    },
+    {
+      "claim_id": "claim-04-runtime-compatibility",
+      "claim": "PAIR integrates with Ollama and LM Studio by providing OpenAI-compatible and Ollama-compatible proxy endpoints.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://github.com/NVIDIA/Personal-AI-Router"
+      ],
+      "notes": "Enables existing multi-agent frameworks to plug in without modifications."
+    },
+    {
+      "claim_id": "claim-05-negative-boundary-no-vram-pooling",
+      "claim": "PAIR does not pool VRAM, combine GPUs into a single virtual accelerator, or shard single models; it routes independent, discrete inference requests.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://github.com/NVIDIA/Personal-AI-Router"
+      ],
+      "notes": "CRITICAL BOUNDARY: Clarify that PAIR is a query load balancer, not a tensor-parallel model sharding system."
+    },
+    {
+      "claim_id": "claim-06-privacy-data-sovereignty",
+      "claim": "All model execution and agent communications routed through PAIR remain entirely on the local area network with zero data sent to external cloud servers.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://github.com/NVIDIA/Personal-AI-Router"
+      ],
+      "notes": "Total local data privacy."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/NVIDIA/Personal-AI-Router",
+      "name": "NVIDIA Personal AI Router GitHub Repository",
+      "published_at": "2026-09-24T15:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-personal-ai-router-launch",
+      "name": "NVIDIA Newsroom",
+      "published_at": "2026-09-24T15:30:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://marktechpost.com/nvidia-pair-local-ai-router",
+      "name": "MarkTechPost",
+      "published_at": "2026-09-25T09:00:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Emphasize that PAIR routes individual discrete requests and does NOT merge GPU VRAM or split single models across nodes.",
+    "Highlight cross-platform support including Apple Silicon alongside RTX hardware."
+  ]
+}

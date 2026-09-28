@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "nvidia-pair-personal-ai-router-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 5.5,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Central developer workstation linking outward to multiple local devices over encrypted LAN lines.",
+      "text": "NVIDIA PAIR \u2022 DISTRIBUTED AI",
+      "animation": "Network topology glows as pulse packets route from primary terminal to nodes.",
+      "sfx": "Digital network initialization ping.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 5.5,
+      "end": 12.2,
+      "shot_type": "HARDWARE_DISCOVERY",
+      "visual_goal": "Auto-discovery diagram highlighting RTX 4090, DGX Spark, and Apple M4 Mac Studio.",
+      "text": "RTX & APPLE SILICON",
+      "animation": "mDNS radar waves sweep across hardware cards, displaying detected compute profiles.",
+      "sfx": "Hardware recognition chirp.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 12.2,
+      "end": 18.2,
+      "shot_type": "TECHNICAL_LOAD_BALANCER",
+      "visual_goal": "Multi-agent task stream intelligently routed across three balanced GPU compute nodes without queue latency.",
+      "text": "SMART LOAD BALANCER",
+      "animation": "Agent requests split smoothly into Ollama/LM Studio workers with balanced load bars.",
+      "sfx": "Dynamic scheduling clicks.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.2,
+      "end": 25.0,
+      "shot_type": "PRIVACY_AND_BOUNDARY",
+      "visual_goal": "Hardware boundary diagram showing discrete full model instances with zero cloud outbound packets and green local shield.",
+      "text": "100% LOCAL \u2022 ZERO CLOUD",
+      "animation": "Cloud outbound blocked with local encrypted perimeter and green privacy shield.",
+      "sfx": "Secure lock chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.0,
+      "end": 30.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Official AI News Factory badge with verified shield icon and subscribe notification pulse.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified checkmark pulses with clean technical glowing border.",
+      "sfx": "Brand signature tone.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}
