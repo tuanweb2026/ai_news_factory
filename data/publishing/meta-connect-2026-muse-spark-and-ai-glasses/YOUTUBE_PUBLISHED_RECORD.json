@@ -1,13 +1,12 @@
 {
-  "job_id": "scheduled-job-20260928-1230",
   "story_id": "meta-connect-2026-muse-spark-and-ai-glasses",
   "status": "PUBLISHED",
-  "video_id": "FFW-l2xcJ9k",
-  "video_url": "https://www.youtube.com/watch?v=FFW-l2xcJ9k",
-  "shorts_url": "https://www.youtube.com/shorts/FFW-l2xcJ9k",
+  "video_id": "uT7wAFH1LjA",
+  "video_url": "https://www.youtube.com/watch?v=uT7wAFH1LjA",
+  "shorts_url": "https://www.youtube.com/shorts/uT7wAFH1LjA",
   "privacy_status": "public",
   "title": "Meta Connect 2026: Muse AI Agent in Smart Glasses #Shorts",
-  "production_version": "release_candidate",
+  "production_version": "rich_visual_v2",
   "master_file": "data/rendered/meta-connect-2026-muse-spark-and-ai-glasses/video/MUSE2026_SHORT.mp4",
-  "uploaded_at": "2026-09-28T12:36:03+0700"
+  "uploaded_at": "2026-09-28T18:13:00+07:00"
 }

@@ -1,13 +1,12 @@
 {
-  "job_id": "scheduled-job-20260927-1830",
   "story_id": "anthropic-akamai-11b-cloud-infrastructure-deal-2026",
   "status": "PUBLISHED",
-  "video_id": "JST3AyaOMjw",
-  "video_url": "https://www.youtube.com/watch?v=JST3AyaOMjw",
-  "shorts_url": "https://www.youtube.com/shorts/JST3AyaOMjw",
+  "video_id": "IIcQFIgNYVs",
+  "video_url": "https://www.youtube.com/watch?v=IIcQFIgNYVs",
+  "shorts_url": "https://www.youtube.com/shorts/IIcQFIgNYVs",
   "privacy_status": "public",
-  "title": "Anthropic .6B Akamai Deal: Why AI Agents Are Moving to Edge CPUs #Shorts",
-  "production_version": "release_candidate",
+  "title": "Anthropic $11.6B Akamai Deal: Why AI Agents Are Moving to Edge CPUs #Shorts",
+  "production_version": "rich_visual_v2",
   "master_file": "data/rendered/anthropic-akamai-11b-cloud-infrastructure-deal-2026/video/AKAMAI11B_SHORT.mp4",
-  "uploaded_at": "2026-09-28T12:25:45+0700"
+  "uploaded_at": "2026-09-28T18:13:00+07:00"
 }

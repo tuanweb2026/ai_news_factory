@@ -1,13 +1,12 @@
 {
-  "job_id": "scheduled-job-20260927-1230",
   "story_id": "deepmind-gemini-3-8-flash-live-avatar-2026",
   "status": "PUBLISHED",
-  "video_id": "df2eOl6tPDk",
-  "video_url": "https://www.youtube.com/watch?v=df2eOl6tPDk",
-  "shorts_url": "https://www.youtube.com/shorts/df2eOl6tPDk",
+  "video_id": "X6hdjfkKlv0",
+  "video_url": "https://www.youtube.com/watch?v=X6hdjfkKlv0",
+  "shorts_url": "https://www.youtube.com/shorts/X6hdjfkKlv0",
   "privacy_status": "public",
   "title": "Google DeepMind Gemini 3.8 Live: Real-Time Synced Avatar #Shorts",
-  "production_version": "release_candidate",
+  "production_version": "rich_visual_v2",
   "master_file": "data/rendered/deepmind-gemini-3-8-flash-live-avatar-2026/video/GEMINI38_SHORT.mp4",
-  "uploaded_at": "2026-09-27T12:34:54+0700"
+  "uploaded_at": "2026-09-28T18:13:00+07:00"
 }

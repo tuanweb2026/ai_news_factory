@@ -1,13 +1,12 @@
 {
-  "job_id": "scheduled-job-20260928-0730",
   "story_id": "anthropic-claude-opus-5-5-launch-2026",
   "status": "PUBLISHED",
-  "video_id": "LtdGsKTHcXQ",
-  "video_url": "https://www.youtube.com/watch?v=LtdGsKTHcXQ",
-  "shorts_url": "https://www.youtube.com/shorts/LtdGsKTHcXQ",
+  "video_id": "mJ7MqIYi0c4",
+  "video_url": "https://www.youtube.com/watch?v=mJ7MqIYi0c4",
+  "shorts_url": "https://www.youtube.com/shorts/mJ7MqIYi0c4",
   "privacy_status": "public",
   "title": "Anthropic Claude Opus 5.5: 30% Faster with Adaptive Thinking #Shorts",
-  "production_version": "release_candidate",
+  "production_version": "rich_visual_v2",
   "master_file": "data/rendered/anthropic-claude-opus-5-5-launch-2026/video/OPUS55_SHORT.mp4",
-  "uploaded_at": "2026-09-28T12:26:02+0700"
+  "uploaded_at": "2026-09-28T18:13:00+07:00"
 }
