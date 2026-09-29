@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "nvidia-open-agent-safety-platform-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 3.8,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Security perimeter alarm: AI agent node attempting unauthorized bash command / socket connection.",
+      "text": "CONTAINING ROGUE AGENTS",
+      "animation": "Red breach alert rings pulse outward around isolated agent node.",
+      "sfx": "Cybersecurity anomaly alert ping.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 3.8,
+      "end": 10.6,
+      "shot_type": "INDUSTRY_COALITION",
+      "visual_goal": "NVIDIA platform lockup supported by Anthropic, Microsoft, Cisco, SAP, and SpaceX.",
+      "text": "OPEN AGENT SAFETY",
+      "animation": "Enterprise partner nodes connect to central safety shield.",
+      "sfx": "Harmonic multi-node link chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 10.6,
+      "end": 18.8,
+      "shot_type": "FULL_STACK_ARCHITECTURE",
+      "visual_goal": "Two-tier defense diagram showing OpenShell software sandbox monitored by Sentry hardware DPU.",
+      "text": "OPENSHELL & BLUEFIELD DPU",
+      "animation": "Layer 1 (OpenShell runtime) links to Layer 2 (BlueField DPU hardware monitor).",
+      "sfx": "Hardware telemetry sweep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.8,
+      "end": 25.6,
+      "shot_type": "HARDWARE_QUARANTINE",
+      "visual_goal": "Out-of-band kill switch: DPU isolates compromised agent process in under 5 milliseconds.",
+      "text": "OUT-OF-BAND QUARANTINE",
+      "animation": "Physical network trace severed by DPU while host CPU remains protected.",
+      "sfx": "High-voltage interlock trip sound.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.6,
+      "end": 30.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Official AI News Factory badge with verified shield icon and subscribe notification pulse.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified checkmark pulses with clean technical glowing border.",
+      "sfx": "Brand signature tone.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

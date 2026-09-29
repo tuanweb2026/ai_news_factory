@@ -1,0 +1,85 @@
+{
+  "status": "VERIFIED",
+  "story_id": "nvidia-open-agent-safety-platform-2026",
+  "verified_at": "2026-09-29T12:31:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-platform-launch",
+      "claim": "On September 28, 2026, NVIDIA launched the Open Agent Safety Platform, combining software sandboxing with hardware-level DPU monitoring to contain autonomous AI agents.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-open-agent-safety-platform-launch",
+        "https://bloomberg.com/news/articles/2026-09-28/nvidia-agent-security-defense"
+      ],
+      "notes": "Verified primary launch on September 28, 2026."
+    },
+    {
+      "claim_id": "claim-02-openshell-runtime",
+      "claim": "The platform introduces OpenShell, an open-source sealed runtime environment that sandboxes agent workspaces and enforces operational security boundaries.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-open-agent-safety-platform-launch",
+        "https://techwireasia.com/2026/09/nvidia-openshell-agent-sandbox"
+      ],
+      "notes": "Open-source software layer compatible across compute platforms."
+    },
+    {
+      "claim_id": "claim-03-sentry-bluefield-dpu",
+      "claim": "The Sentry hardware monitoring system operates out-of-band on NVIDIA BlueField-4 DPUs, capable of quarantining rogue agents within milliseconds independent of the host CPU/GPU.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-open-agent-safety-platform-launch"
+      ],
+      "notes": "Out-of-band monitoring ensures agents cannot disable their own supervisors."
+    },
+    {
+      "claim_id": "claim-04-industry-backing",
+      "claim": "The platform is backed by Microsoft, Anthropic, Cisco, SAP, JPMorganChase, and SpaceX.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-open-agent-safety-platform-launch",
+        "https://pbs.org/newshour/economy/nvidia-unveils-ai-agent-safety-coalition"
+      ],
+      "notes": "Broad coalition; OpenAI not part of the initial launch group."
+    },
+    {
+      "claim_id": "claim-05-jensen-containment-philosophy",
+      "claim": "NVIDIA CEO Jensen Huang characterized AI safety as an engineering and datacenter infrastructure challenge solved through automated containment rather than halting progress.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-open-agent-safety-platform-launch"
+      ],
+      "notes": "Focuses on architectural isolation and DPU-enforced firewalls."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-open-agent-safety-platform-launch",
+      "name": "NVIDIA Newsroom",
+      "published_at": "2026-09-28T15:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://bloomberg.com/news/articles/2026-09-28/nvidia-agent-security-defense",
+      "name": "Bloomberg",
+      "published_at": "2026-09-28T15:30:00Z",
+      "role": "INDEPENDENT"
+    },
+    {
+      "url": "https://techwireasia.com/2026/09/nvidia-openshell-agent-sandbox",
+      "name": "Tech Wire Asia",
+      "published_at": "2026-09-28T17:00:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Distinguish between OpenShell (software sandbox) and Sentry (hardware DPU out-of-band monitoring).",
+    "Highlight that out-of-band DPU execution prevents rogue agents from tampering with the supervisor."
+  ]
+}
