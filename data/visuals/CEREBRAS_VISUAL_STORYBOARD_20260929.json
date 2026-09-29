@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "cerebras-gimlet-3000-tokens-per-second-inference-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.2,
+      "shot_type": "INFOGRAPHIC_HOOK",
+      "visual_goal": "Speed benchmark telemetry showing 3,000 tok/s surge vs standard GPU 100 tok/s.",
+      "text": "3,000 TOKENS / SEC",
+      "animation": "Speed dial accelerates into cyan overdrive with electric particle trails.",
+      "sfx": "High-frequency turbine power-up whine.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.2,
+      "end": 11.6,
+      "shot_type": "INFRASTRUCTURE_DEAL",
+      "visual_goal": "100MW infrastructure contract lockup connecting Cerebras silicon roadmap to Gimlet Cloud datacenters.",
+      "text": "CEREBRAS \u2022 GIMLET LABS",
+      "animation": "Power grid lines activate with 100MW capacity counter.",
+      "sfx": "Deep industrial power relay click.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.6,
+      "end": 18.0,
+      "shot_type": "HARDWARE_BLUEPRINT",
+      "visual_goal": "Comparison blueprint showing massive dinner-plate-sized Wafer Scale Engine alongside tiny conventional GPU die.",
+      "text": "CEREBRAS CS-4 WAFER",
+      "animation": "Silicon wafer wireframe rotates showing 44GB on-chip SRAM layout.",
+      "sfx": "Precision servo hum.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.0,
+      "end": 25.3,
+      "shot_type": "DISAGGREGATED_ARCHITECTURE",
+      "visual_goal": "Split compute pipeline routing prompt prefill to GPU cluster and token decode stream to Wafer Scale Engine.",
+      "text": "DISAGGREGATED COMPUTE",
+      "animation": "Dual-channel data stream splits smoothly into Prefill (GPU) and Decode (WSE).",
+      "sfx": "Digital data stream pulses.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.3,
+      "end": 30.0,
+      "shot_type": "CTA_LOCKUP",
+      "visual_goal": "Official AI News Factory badge with verified shield icon and subscribe notification pulse.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified checkmark pulses with clean technical glowing border.",
+      "sfx": "Brand signature tone.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

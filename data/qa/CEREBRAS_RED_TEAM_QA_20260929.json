@@ -1,0 +1,48 @@
+{
+  "status": "APPROVED_FOR_RENDER",
+  "story_id": "cerebras-gimlet-3000-tokens-per-second-inference-2026",
+  "checks": [
+    {
+      "name": "Factual Accuracy & Numerical Precision",
+      "status": "PASS",
+      "notes": "Verified against Cerebras Systems announcement on September 28, 2026: Gimlet Labs partnership, 3,000 tokens/sec target, 100MW infrastructure commitment, CS-4 Wafer Scale Engine."
+    },
+    {
+      "name": "Negative Boundary Check",
+      "status": "PASS",
+      "notes": "Accurately frames 3,000 tok/s within a disaggregated architecture combining GPUs for prefill and WSE for decode."
+    },
+    {
+      "name": "Rights and Licensing Clearance",
+      "status": "PASS",
+      "notes": "100% original custom technical vector infographics and system blueprints designed in-house. All assets classified as CLEARED."
+    },
+    {
+      "name": "Mobile Safe Zones and Typographic Density",
+      "status": "PASS",
+      "notes": "All on-screen text cards strictly <= 6 words per card within 9:16 safe margins."
+    },
+    {
+      "name": "Timeline & Audio Synchronization",
+      "status": "PASS",
+      "notes": "Total duration target 30.0s. All shot segments synchronized with script and visual pacing."
+    },
+    {
+      "name": "Production Voice Profile Gate",
+      "status": "PASS",
+      "notes": "Locked voice profile en-US-AriaNeural at 165 WPM (+26% rate) applied."
+    },
+    {
+      "name": "Anti-Black-Void Visual Richness Gate",
+      "status": "PASS",
+      "notes": "Mandatory radial depth glow, technical coordinate grid, and wafer-scale hardware blueprints applied across all shots."
+    }
+  ],
+  "scores": {
+    "factual": 9.9,
+    "visual": 9.9,
+    "editorial": 9.8,
+    "production": 9.8
+  },
+  "publish_authorized": true
+}

@@ -1,0 +1,86 @@
+{
+  "status": "VERIFIED",
+  "story_id": "cerebras-gimlet-3000-tokens-per-second-inference-2026",
+  "verified_at": "2026-09-29T07:30:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-partnership-announcement",
+      "claim": "On September 28, 2026, Cerebras Systems and cloud infrastructure startup Gimlet Labs announced a strategic partnership to deliver ultrafast AI inference.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://cerebras.ai/press-releases/cerebras-gimlet-labs-strategic-partnership",
+        "https://globenewswire.com/news-release/2026/09/28/cerebras-gimlet-cloud-inference"
+      ],
+      "notes": "Verified primary press release issued September 28, 2026."
+    },
+    {
+      "claim_id": "claim-02-inference-speed-target",
+      "claim": "The partnership targets inference speeds of up to 3,000 tokens per second for real-time agentic and conversational AI workloads.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://cerebras.ai/press-releases/cerebras-gimlet-labs-strategic-partnership",
+        "https://qz.com/cerebras-gimlet-inference-deal-2026"
+      ],
+      "notes": "Targeted specifically at latency-sensitive voice, video, and agentic workflows."
+    },
+    {
+      "claim_id": "claim-03-wse-cs4-hardware",
+      "claim": "Gimlet Cloud is integrating Cerebras CS-4 systems powered by dinner-plate-sized Wafer Scale Engine processors.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://cerebras.ai/press-releases/cerebras-gimlet-labs-strategic-partnership"
+      ],
+      "notes": "CS-4 systems provide massive on-chip SRAM memory bandwidth."
+    },
+    {
+      "claim_id": "claim-04-disaggregated-architecture",
+      "claim": "Gimlet Labs utilizes a disaggregated inference architecture separating the prefill stage on GPUs from the high-throughput decode phase on Cerebras wafer-scale chips.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://qz.com/cerebras-gimlet-inference-deal-2026",
+        "https://cerebras.ai/press-releases/cerebras-gimlet-labs-strategic-partnership"
+      ],
+      "notes": "Optimizes hardware allocation across inference phases."
+    },
+    {
+      "claim_id": "claim-05-power-and-timeline",
+      "claim": "Cerebras plans to deploy up to 100 megawatts of compute capacity with Gimlet Labs, with the first datacenter operational in late 2026 and broad availability in 2027.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://cerebras.ai/press-releases/cerebras-gimlet-labs-strategic-partnership",
+        "https://globenewswire.com/news-release/2026/09/28/cerebras-gimlet-cloud-inference"
+      ],
+      "notes": "Multi-phase 100MW rollout starting late 2026."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://cerebras.ai/press-releases/cerebras-gimlet-labs-strategic-partnership",
+      "name": "Cerebras Systems Press Room",
+      "published_at": "2026-09-28T14:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://globenewswire.com/news-release/2026/09/28/cerebras-gimlet-cloud-inference",
+      "name": "GlobeNewswire",
+      "published_at": "2026-09-28T14:30:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://qz.com/cerebras-gimlet-inference-deal-2026",
+      "name": "Quartz",
+      "published_at": "2026-09-28T16:00:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Clarify that 3,000 tokens/sec is the target for high-throughput decode on wafer-scale chips in a disaggregated setup.",
+    "Mention that first datacenter goes live in late 2026, with broader platform access in 2027."
+  ]
+}

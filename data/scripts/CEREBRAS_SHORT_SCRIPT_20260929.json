@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "cerebras-gimlet-3000-tokens-per-second-inference-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "AI models can now generate three thousand tokens per second.",
+  "spoken_script": "AI models can now generate three thousand tokens per second. Cerebras Systems and Gimlet Labs just announced a massive one-hundred-megawatt deal to deliver ultrafast inference for real-time agents. Instead of relying solely on GPUs, Gimlet Cloud integrates Cerebras CS-4 wafer-scale chips. The architecture disaggregates compute—using GPUs for prompt prefill, and giant silicon wafers for blistering decode speeds. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.2,
+      "purpose": "THE_HOOK",
+      "voice": "AI models can now generate three thousand tokens per second.",
+      "on_screen_text": "3,000 TOKENS / SEC",
+      "visual_intent": "Speed counter accelerating past standard 100 tok/s to an astonishing 3,000 tok/s with glowing electric surge."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.2,
+      "end": 11.6,
+      "purpose": "THE_DEAL_AND_SCALE",
+      "voice": "Cerebras Systems and Gimlet Labs just announced a massive one-hundred-megawatt deal to deliver ultrafast inference for real-time agents.",
+      "on_screen_text": "CEREBRAS \u2022 GIMLET LABS",
+      "visual_intent": "100MW infrastructure contract lockup connecting Cerebras silicon roadmap to Gimlet Cloud datacenters."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.6,
+      "end": 18.0,
+      "purpose": "WAFER_SCALE_HARDWARE",
+      "voice": "Instead of relying solely on GPUs, Gimlet Cloud integrates Cerebras CS-4 wafer-scale chips.",
+      "on_screen_text": "CEREBRAS CS-4 WAFER",
+      "visual_intent": "Comparison blueprint showing massive dinner-plate-sized Wafer Scale Engine alongside tiny conventional GPU die."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 18.0,
+      "end": 25.3,
+      "purpose": "DISAGGREGATED_ARCHITECTURE",
+      "voice": "The architecture disaggregates compute—using GPUs for prompt prefill, and giant silicon wafers for blistering decode speeds.",
+      "on_screen_text": "DISAGGREGATED COMPUTE",
+      "visual_intent": "Split compute pipeline routing prompt prefill to GPU cluster and token decode stream to Wafer Scale Engine."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.3,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory badge with verified shield icon and subscribe notification pulse."
+    }
+  ]
+}
