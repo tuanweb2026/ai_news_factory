@@ -1,0 +1,13 @@
+{
+  "job_id": "job_scheduled_morning_20260929_0730",
+  "story_id": "cerebras-gimlet-3000-tokens-per-second-inference-2026",
+  "status": "PUBLISHED",
+  "video_id": "C8g_7Gcslp8",
+  "video_url": "https://www.youtube.com/watch?v=C8g_7Gcslp8",
+  "shorts_url": "https://www.youtube.com/shorts/C8g_7Gcslp8",
+  "privacy_status": "public",
+  "title": "Cerebras & Gimlet Labs: 3,000 Tokens/Sec AI Inference #Shorts",
+  "production_version": "rich_visual_v1",
+  "master_file": "data/rendered/cerebras-gimlet-3000-tokens-per-second-inference-2026/video/CEREBRAS_SHORT.mp4",
+  "uploaded_at": "2026-09-29T07:32:54+0700"
+}
