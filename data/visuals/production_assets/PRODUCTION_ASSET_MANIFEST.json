@@ -3,7 +3,7 @@
   "story_id": "google-project-suncatcher-orbital-tpu-2026",
   "style_bible_version": "v1.0",
   "asset_production_status": "READY",
-  "generated_at": "2026-09-26T13:42:15.337070",
+  "generated_at": "2026-09-30T12:30:35.403827",
   "total_assets": 9,
   "total_placeholders_remaining": 0,
   "satellite_master_design_preserved": true,
@@ -24,7 +24,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-01.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 1024124,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-02-GOOGLE-RESEARCH-CARD",
@@ -44,7 +44,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-02.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 860520,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-04-SATELLITE-CAD-CUTAWAY",
@@ -64,7 +64,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-03.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 1097085,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-05-DAWN-DUSK-SSO-DIAGRAM",
@@ -83,7 +83,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-04.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 1150656,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-06-VACUUM-THERMAL-SIMULATION",
@@ -100,7 +100,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-05.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 910351,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-07-PROTON-BIT-FLIP-DIAGRAM",
@@ -118,7 +118,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-06.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 941569,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-08-THERMAL-RADIATOR-LOOP",
@@ -139,7 +139,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-07.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 912940,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-09-GRID-VS-ORBIT-CONCEPT",
@@ -158,7 +158,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-08.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 844025,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     },
     {
       "asset_id": "AST-10-BRAND-CTA-LOCKUP",
@@ -175,7 +175,7 @@
       "file_path": "data/rendered/google-project-suncatcher-orbital-tpu-2026/assets/generated/shot-09.png",
       "dimensions": "1080x1920 (9:16 vertical)",
       "file_size_bytes": 866906,
-      "created_at": "2026-09-26T13:42:15.337070"
+      "created_at": "2026-09-30T12:30:35.403827"
     }
   ]
 }
