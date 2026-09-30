@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "openai-devday-dots-persistent-agents-gpt61-sol-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "EVOLUTION_INFOGRAPHIC",
+      "visual_goal": "Timeline infographic showing transition from reactive single-prompt chat windows to persistent autonomous agent hubs.",
+      "text": "CHATBOTS TO AUTONOMOUS AGENTS",
+      "animation": "Static prompt box transforms into pulsing dynamic autonomous agent core node.",
+      "sfx": "Digital evolution pulse chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "KEYNOTE_SYSTEM_ANNOUNCEMENT",
+      "visual_goal": "OpenAI DevDay technical stage banner revealing customizable Dot agent running 24/7 in an isolated cloud sandbox.",
+      "text": "OPENAI DOTS \u2022 24/7 AGENTS",
+      "animation": "Dot avatar glows cyan with 24/7 background telemetry activity loops.",
+      "sfx": "Interface boot sound.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "MULTI_TOOL_WORKFLOW",
+      "visual_goal": "Multi-window agent control dashboard automating Slack messages, GitHub PRs, and sandbox code execution simultaneously.",
+      "text": "PERSISTENT WORKFLOWS",
+      "animation": "Interconnected data streams routing tasks between Slack, IDE terminal, and cloud sandbox.",
+      "sfx": "Multi-stream packet processing click.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "EFFICIENCY_BENCHMARK",
+      "visual_goal": "Technical comparison card displaying GPT-6.1 Sol reasoning parity with Astra at an 80% inference cost reduction alongside verified safety sandboxes.",
+      "text": "GPT-6.1 SOL \u2022 80% CHEAPER",
+      "animation": "Cost bar drops by 80% while reasoning benchmark meter matches Astra frontier level.",
+      "sfx": "Benchmark confirmation tone.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CHANNEL_CTA_LOCKUP",
+      "visual_goal": "AI News Factory verified badge with daily technical intelligence subscriber pulse.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified seal locks in place with glowing ring pulse.",
+      "sfx": "Brand audio logo chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

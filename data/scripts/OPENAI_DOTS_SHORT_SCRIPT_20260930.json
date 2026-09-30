@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "openai-devday-dots-persistent-agents-gpt61-sol-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "OpenAI is replacing chatbots with always-on autonomous agents.",
+  "spoken_script": "OpenAI is replacing chatbots with always-on autonomous agents. At DevDay 2026, OpenAI unveiled Dots—personal AI agents running twenty-four-seven in the background. Dots manage complex projects, automate Slack workflows, and write code across cloud sandboxes. They are powered by GPT-6.1 Sol, delivering Astra-level reasoning at eighty percent lower cost with strict safety guardrails. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "OpenAI is replacing chatbots with always-on autonomous agents.",
+      "on_screen_text": "CHATBOTS TO AUTONOMOUS AGENTS",
+      "visual_intent": "Evolution timeline transitioning from standard single-prompt chat window into persistent autonomous agent node."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "MEET_DOTS_ANNOUNCEMENT",
+      "voice": "At DevDay 2026, OpenAI unveiled Dots—personal AI agents running twenty-four-seven in the background.",
+      "on_screen_text": "OPENAI DOTS \u2022 24/7 AGENTS",
+      "visual_intent": "OpenAI DevDay stage graphic revealing customizable Dot agent avatar operating inside isolated cloud sandboxes."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "PERSISTENT_TOOL_EXECUTION",
+      "voice": "Dots manage complex projects, automate Slack workflows, and write code across cloud sandboxes.",
+      "on_screen_text": "PERSISTENT WORKFLOWS",
+      "visual_intent": "Multi-window agent control panel showing simultaneous task automation across Slack, Git, and calendar tools."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "GPT61_SOL_EFFICIENCY",
+      "voice": "They are powered by GPT-6.1 Sol, delivering Astra-level reasoning at eighty percent lower cost with strict safety guardrails.",
+      "on_screen_text": "GPT-6.1 SOL \u2022 80% CHEAPER",
+      "visual_intent": "Model benchmark and pricing card showing GPT-6.1 Sol matching Astra performance with locked permission boundaries."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory badge with verified shield icon and subscribe notification pulse."
+    }
+  ]
+}
