@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "microsoft-copilot-autopilot-redesign-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Microsoft Copilot is evolving from an assistant into an autonomous worker.",
+  "spoken_script": "Microsoft Copilot is evolving from an assistant into an autonomous worker. Microsoft unveiled Autopilot agents—autonomous background systems that build apps, balance budgets, and resolve IT tickets across Office 365. Rather than waiting for prompts, Autopilot orchestrates entire workflows inside sandboxed Azure containers. Enterprise controls enforce strict human approvals before high-stakes database writes. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "Microsoft Copilot is evolving from an assistant into an autonomous worker.",
+      "on_screen_text": "ASSISTANT TO AUTONOMOUS WORKER",
+      "visual_intent": "Evolution infographic showing Copilot sidebar prompt transforming into a dynamic autonomous background agent hub."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "AUTOPILOT_ANNOUNCEMENT",
+      "voice": "Microsoft unveiled Autopilot agents—autonomous background systems that build apps, balance budgets, and resolve IT tickets across Office 365.",
+      "on_screen_text": "MICROSOFT AUTOPILOT \u2022 24/7 AGENTS",
+      "visual_intent": "Microsoft enterprise architecture card displaying Autopilot agent core coordinating Office 365 productivity suites."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "ORCHESTRATED_CONTAINERS",
+      "voice": "Rather than waiting for prompts, Autopilot orchestrates entire workflows inside sandboxed Azure containers.",
+      "on_screen_text": "SANDBOXED AZURE WORKFLOWS",
+      "visual_intent": "Multi-window agent control dashboard linking Excel telemetry, Teams alerts, and cloud code containers simultaneously."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "ENTERPRISE_GOVERNANCE",
+      "voice": "Enterprise controls enforce strict human approvals before high-stakes database writes.",
+      "on_screen_text": "ENTERPRISE GOVERNANCE \u2022 AUDIT GATES",
+      "visual_intent": "Security policy blueprint showing permission boundary firewall with explicit human-in-the-loop sign-off checkpoint."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}

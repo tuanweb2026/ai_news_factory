@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED",
+  "story_id": "microsoft-copilot-autopilot-redesign-2026",
+  "verified_at": "2026-09-30T18:31:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-copilot-autopilot-launch",
+      "claim": "Microsoft introduced a major redesign of Microsoft Copilot featuring persistent background 'Autopilot' agents that execute multi-step enterprise projects without human supervision.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://blogs.microsoft.com/blog/2026/09/25/copilot-autopilot-next-generation/",
+        "https://venturebeat.com/ai/microsoft-copilot-redesign-autopilot-agents/"
+      ],
+      "notes": "Primary announcement from Microsoft detailing transformation of Copilot from passive sidebar assistant to autonomous enterprise agent."
+    },
+    {
+      "claim_id": "claim-02-autonomous-capabilities",
+      "claim": "Autopilot agents can generate full applications, compile quarterly financial audits, resolve IT support tickets, and synchronize across Excel, Teams, and Azure sandboxes.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://blogs.microsoft.com/blog/2026/09/25/copilot-autopilot-next-generation/"
+      ],
+      "notes": "Empirical demonstration of multi-app orchestration across Office 365 and Azure environments."
+    },
+    {
+      "claim_id": "claim-03-enterprise-governance-guardrails",
+      "claim": "Microsoft integrated cryptographic agent permission boundaries and human-in-the-loop approval thresholds for high-stakes enterprise actions.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://blogs.microsoft.com/blog/2026/09/25/copilot-autopilot-next-generation/",
+        "https://venturebeat.com/ai/microsoft-copilot-redesign-autopilot-agents/"
+      ],
+      "notes": "Addresses enterprise compliance, audit logging, and authorization containment."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/copilot-autopilot-next-generation/",
+      "name": "Microsoft Official Blog",
+      "published_at": "2026-09-25T16:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://venturebeat.com/ai/microsoft-copilot-redesign-autopilot-agents/",
+      "name": "VentureBeat",
+      "published_at": "2026-09-25T16:30:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Ensure clear distinction between traditional reactive Copilot chat and the newly announced autonomous background Autopilot agents.",
+    "Highlight enterprise security controls and sandbox containment boundaries."
+  ]
+}

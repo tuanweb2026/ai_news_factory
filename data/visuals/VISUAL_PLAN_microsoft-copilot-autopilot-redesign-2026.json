@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "microsoft-copilot-autopilot-redesign-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "EVOLUTION_INFOGRAPHIC",
+      "visual_goal": "Infographic showing the evolution from prompt-based Copilot chat window to persistent background autonomous agent.",
+      "text": "ASSISTANT TO AUTONOMOUS WORKER",
+      "animation": "Static sidebar prompt transforms into an active multi-stream agent daemon.",
+      "sfx": "Digital transition pulse tone.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "KEYNOTE_SYSTEM_ANNOUNCEMENT",
+      "visual_goal": "Microsoft Autopilot architecture blueprint showing multi-app orchestration across Word, Excel, Teams, and Power Apps.",
+      "text": "MICROSOFT AUTOPILOT \u2022 24/7 AGENTS",
+      "animation": "Autopilot agent core coordinates concurrent data threads between enterprise apps.",
+      "sfx": "System boot chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "MULTI_TOOL_WORKFLOW",
+      "visual_goal": "Multi-window agent dashboard depicting background project automation inside isolated Azure containers.",
+      "text": "SANDBOXED AZURE WORKFLOWS",
+      "animation": "Continuous code generation, audit compilation, and IT ticket resolution loops.",
+      "sfx": "Data packet flow clicks.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "SECURITY_GOVERNANCE",
+      "visual_goal": "Enterprise governance firewall showing policy enforcement gates and required human-in-the-loop approvals for sensitive database updates.",
+      "text": "ENTERPRISE GOVERNANCE \u2022 AUDIT GATES",
+      "animation": "High-stakes database modification triggers interactive human authorization check.",
+      "sfx": "Security gate authorization chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CHANNEL_CTA_LOCKUP",
+      "visual_goal": "AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified shield locks in place with glowing cyan ring pulse.",
+      "sfx": "Brand audio logo chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}
