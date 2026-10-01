@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "deepmind-weathernext-3-satellite-ai-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "EVOLUTION_INFOGRAPHIC",
+      "visual_goal": "Timeline infographic showing transition from traditional physics-based supercomputer models to direct neural satellite forecasting.",
+      "text": "SUPERCOMPUTERS TO NEURAL WEATHER",
+      "animation": "Massive supercomputer cluster dissolves into a luminous planetary neural network stream.",
+      "sfx": "Digital atmospheric surge chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "KEYNOTE_SYSTEM_ANNOUNCEMENT",
+      "visual_goal": "DeepMind WeatherNext 3 architecture card showing geostationary satellite sensor data feeding into neural diffusion weather grids.",
+      "text": "WEATHERNEXT 3 \u2022 SATELLITE AI",
+      "animation": "Orbital satellite beam connects directly to Earth's atmospheric model without intermediate physics solvers.",
+      "sfx": "Satellite downlink telemetry sound.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "SPEED_COMPARISON",
+      "visual_goal": "Technical comparison timer displaying traditional 6-hour supercomputer simulation time vs WeatherNext 3 under 60 seconds.",
+      "text": "PHYSICS SIMS TAKE 6 HOURS",
+      "animation": "Traditional simulation clock runs slowly while WeatherNext 3 counter flashes to completion in under a minute.",
+      "sfx": "Countdown timer ping.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "PRECISION_RADAR",
+      "visual_goal": "High-resolution 5km atmospheric grid showing hurricane trajectory tracking with 24% reduced cone of uncertainty.",
+      "text": "5KM RESOLUTION \u2022 60 SECONDS",
+      "animation": "Hurricane spiral tightens into predicted trajectory corridor with precision accuracy tag.",
+      "sfx": "Radar scan beep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CHANNEL_CTA_LOCKUP",
+      "visual_goal": "AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified seal locks in place with glowing cyan ring pulse.",
+      "sfx": "Brand audio logo chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

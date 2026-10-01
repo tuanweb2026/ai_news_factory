@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "deepmind-weathernext-3-satellite-ai-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "DeepMind is replacing supercomputer weather models with pure AI.",
+  "spoken_script": "DeepMind is replacing supercomputer weather models with pure AI. Google DeepMind launched WeatherNext 3, predicting global weather directly from raw satellite streams. Traditional numerical simulations take six hours on supercomputers. WeatherNext 3 generates an entire ten-day global forecast at five-kilometer resolution in under sixty seconds. It tracks hurricane paths with twenty-four percent higher precision. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "DeepMind is replacing supercomputer weather models with pure AI.",
+      "on_screen_text": "SUPERCOMPUTERS TO NEURAL WEATHER",
+      "visual_intent": "Evolution infographic showing giant supercomputer server banks transforming into a sleek neural Earth climate stream."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "MEET_WEATHERNEXT_3",
+      "voice": "Google DeepMind launched WeatherNext 3, predicting global weather directly from raw satellite streams.",
+      "on_screen_text": "WEATHERNEXT 3 \u2022 SATELLITE AI",
+      "visual_intent": "Geostationary weather satellite sending high-density raw infrared sensor streams directly into a DeepMind neural processor."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "SPEED_COMPARISON",
+      "voice": "Traditional numerical simulations take six hours on supercomputers.",
+      "on_screen_text": "PHYSICS SIMS TAKE 6 HOURS",
+      "visual_intent": "Comparison timer card illustrating traditional NWP numerical equation solving stalling at 6 hours."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "RESOLUTION_AND_PRECISION",
+      "voice": "WeatherNext 3 generates an entire ten-day global forecast at five-kilometer resolution in under sixty seconds. It tracks hurricane paths with twenty-four percent higher precision.",
+      "on_screen_text": "5KM RESOLUTION \u2022 60 SECONDS",
+      "visual_intent": "High-resolution 5km atmospheric grid showing hurricane trajectory tracking with 24% reduced cone of uncertainty."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}

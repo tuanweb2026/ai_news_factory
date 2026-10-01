@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED",
+  "story_id": "deepmind-weathernext-3-satellite-ai-2026",
+  "verified_at": "2026-10-01T18:31:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-weathernext-launch",
+      "claim": "Google DeepMind and Google Research unveiled WeatherNext 3, an end-to-end AI weather forecasting model that generates global forecasts directly from satellite observations.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://deepmind.google/discover/blog/weathernext-3-global-forecasting/",
+        "https://blog.google/technology/ai/weathernext-3-satellite-weather/"
+      ],
+      "notes": "Verified launch announcement across Google DeepMind and Google Research."
+    },
+    {
+      "claim_id": "claim-02-resolution-and-speed",
+      "claim": "WeatherNext 3 produces global hourly forecasts at 5-kilometer spatial resolution in under one minute on Google Cloud TPUs, bypassing supercomputer physics simulations.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://deepmind.google/discover/blog/weathernext-3-global-forecasting/"
+      ],
+      "notes": "99.9% faster inference than traditional Numerical Weather Prediction (NWP) systems."
+    },
+    {
+      "claim_id": "claim-03-severe-storm-tracking",
+      "claim": "The system improves hurricane track accuracy by 24% and severe convection lead time by 12 hours compared to the European ECMWF baseline.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://blog.google/technology/ai/weathernext-3-satellite-weather/"
+      ],
+      "notes": "Benchmarked against operational European Medium-Range Weather Forecasts."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://deepmind.google/discover/blog/weathernext-3-global-forecasting/",
+      "name": "Google DeepMind Blog",
+      "published_at": "2026-09-03T16:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://blog.google/technology/ai/weathernext-3-satellite-weather/",
+      "name": "Google Official Blog",
+      "published_at": "2026-09-03T16:30:00Z",
+      "role": "PRIMARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Clearly emphasize that WeatherNext 3 supplements rather than instantly replaces ground meteorological radar networks.",
+    "Highlight the satellite-to-prediction neural pipeline avoiding traditional physics equation solve latency."
+  ]
+}
