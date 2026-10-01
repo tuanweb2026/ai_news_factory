@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "frontier-ai-safety-authority-safa-alliance-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "ALLIANCE_LOCKUP",
+      "visual_goal": "Frontier AI lab heraldic crest uniting OpenAI, Anthropic, Google DeepMind, and Microsoft under a central verified shield.",
+      "text": "UNIFIED FRONTIER AI SAFETY PACT",
+      "animation": "Four company logo vectors converge to form a glowing cyan-violet alliance shield.",
+      "sfx": "Convergence impact chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "CHARTER_DOCUMENT",
+      "visual_goal": "SAFA governance charter card outlining unified safety standards, pre-deployment inspection protocols, and multi-lab audit rules.",
+      "text": "SAFA \u2022 STANDARDS AUTHORITY",
+      "animation": "Charter parameters unfold with glowing green verification checkmarks.",
+      "sfx": "Interface boot sound.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "EVAL_TELEMETRY_RADAR",
+      "visual_goal": "Radar telemetry graph monitoring agent containment, deception scoring, and unauthorized replication thresholds.",
+      "text": "MANDATORY RED-TEAM GATES",
+      "animation": "Radar sweep highlights safety boundaries and containment thresholds in green, yellow, and red.",
+      "sfx": "Telemetry scan beep.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "NETWORK_TOPOLOGY",
+      "visual_goal": "Interconnected encrypted network routing anonymous vulnerability reports across frontier AI research labs in real time.",
+      "text": "REAL-TIME VULNERABILITY MESH",
+      "animation": "Encrypted packet streams route between lab nodes over a secure mesh overlay.",
+      "sfx": "Secure packet routing clicks.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CHANNEL_CTA_LOCKUP",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "animation": "Verified seal locks in place with glowing cyan ring pulse.",
+      "sfx": "Brand audio logo chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

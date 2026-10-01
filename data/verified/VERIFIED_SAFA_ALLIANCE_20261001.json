@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED",
+  "story_id": "frontier-ai-safety-authority-safa-alliance-2026",
+  "verified_at": "2026-10-01T12:30:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-safa-alliance-formation",
+      "claim": "Frontier AI leaders OpenAI, Anthropic, Google DeepMind, and Microsoft officially established the Standards Authority for Frontier AI (SAFA) to standardize pre-deployment safety evaluations.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://techrepublic.com/article/frontier-ai-labs-form-safa-alliance-2026/",
+        "https://www.theguardian.com/technology/2026/sep/24/ai-safety-coalition-openai-google-anthropic"
+      ],
+      "notes": "Landmark multilateral safety framework uniting leading frontier AI labs."
+    },
+    {
+      "claim_id": "claim-02-unified-red-team-thresholds",
+      "claim": "SAFA establishes binding red-team testing thresholds for autonomous agent containment, deception detection, and unauthorized self-replication before public API release.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://techrepublic.com/article/frontier-ai-labs-form-safa-alliance-2026/"
+      ],
+      "notes": "Directly institutionalizes lessons from recent safety halts and agent containment evals."
+    },
+    {
+      "claim_id": "claim-03-cross-lab-incident-sharing",
+      "claim": "The agreement includes an automated early-warning telemetry protocol allowing labs to anonymously share emergent model vulnerabilities and containment anomalies.",
+      "status": "SUPPORTED",
+      "confidence": 0.98,
+      "sources": [
+        "https://www.theguardian.com/technology/2026/sep/24/ai-safety-coalition-openai-google-anthropic"
+      ],
+      "notes": "Coordinated vulnerability disclosure across frontier developers."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://techrepublic.com/article/frontier-ai-labs-form-safa-alliance-2026/",
+      "name": "TechRepublic",
+      "published_at": "2026-09-24T09:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2026/sep/24/ai-safety-coalition-openai-google-anthropic",
+      "name": "The Guardian",
+      "published_at": "2026-09-24T09:30:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Highlight that SAFA represents industry self-regulation and voluntary binding standards among the labs.",
+    "Clearly frame the unified safety benchmarks as preventative gates against autonomous agent scope breaches."
+  ]
+}

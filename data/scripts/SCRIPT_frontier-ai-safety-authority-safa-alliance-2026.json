@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "frontier-ai-safety-authority-safa-alliance-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Frontier AI labs just signed their first unified safety pact.",
+  "spoken_script": "Frontier AI labs just signed their first unified safety pact. OpenAI, Anthropic, Google DeepMind, and Microsoft formed SAFA—the Standards Authority for Frontier AI. SAFA establishes mandatory pre-deployment testing for autonomous agents, setting binding thresholds on deception and unauthorized replication. Labs will also share real-time telemetry on emergent vulnerabilities before public rollout. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "Frontier AI labs just signed their first unified safety pact.",
+      "on_screen_text": "UNIFIED FRONTIER AI SAFETY PACT",
+      "visual_intent": "Multi-lab alliance seal displaying OpenAI, Anthropic, DeepMind, and Microsoft locked into a central safety shield."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "MEET_SAFA_ANNOUNCEMENT",
+      "voice": "OpenAI, Anthropic, Google DeepMind, and Microsoft formed SAFA—the Standards Authority for Frontier AI.",
+      "on_screen_text": "SAFA \u2022 STANDARDS AUTHORITY",
+      "visual_intent": "Official SAFA charter card outlining multilateral safety governance and unified pre-deployment audit rules."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "BINDING_TESTING_THRESHOLDS",
+      "voice": "SAFA establishes mandatory pre-deployment testing for autonomous agents, setting binding thresholds on deception and unauthorized replication.",
+      "on_screen_text": "MANDATORY RED-TEAM GATES",
+      "visual_intent": "Telemetry evaluation radar measuring agent containment, deception scoring, and strict scope boundary barriers."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "VULNERABILITY_SHARING_NETWORK",
+      "voice": "Labs will also share real-time telemetry on emergent vulnerabilities before public rollout.",
+      "on_screen_text": "REAL-TIME VULNERABILITY MESH",
+      "visual_intent": "Secure interconnected network topology routing anonymous vulnerability reports across frontier research labs."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY \u2022 VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence subscriber pulse ring."
+    }
+  ]
+}
