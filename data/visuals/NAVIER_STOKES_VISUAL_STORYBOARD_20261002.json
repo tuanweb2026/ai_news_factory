@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "openai-navier-stokes-millennium-problem-proof-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "MILLENNIUM_PROBLEM_HOOK",
+      "visual_goal": "Fluid turbulence vector field with dramatic glowing Navier-Stokes mathematical equation.",
+      "text": "MILLENNIUM PROBLEM PROOF FOUND?",
+      "animation": "Fluid particles accelerate into high-contrast singularity point with mathematical notation overlays.",
+      "sfx": "Deep resonant digital bass swell.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "SWARM_COMPUTE_CLUSTER",
+      "visual_goal": "Distributed agent swarm architecture diagram showing 10,000 reasoning nodes working across 88 hours.",
+      "text": "10,000 AGENTS • 88 HOURS",
+      "animation": "Network topology illuminating as 10,000 agents divide proof hypotheses and search paths.",
+      "sfx": "Cluster computing telemetry hum.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "SINGULARITY_DIAGRAM",
+      "visual_goal": "3D fluid vorticity diagram demonstrating finite-time blowup and velocity gradient divergence.",
+      "text": "3D FLUID BLOWUP PROOF",
+      "animation": "Vorticity vectors compress and peak exponentially toward infinity at finite time T*.",
+      "sfx": "Energy surge ping.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "FORMAL_LEAN4_VERIFICATION",
+      "visual_goal": "Interactive theorem prover interface card showing Lean 4 verified code and global mathematician peer review status.",
+      "text": "LEAN 4 MACHINE-CHECKED",
+      "animation": "Lean 4 syntax tree passes interactive theorem checks alongside Clay Mathematics Institute audit badge.",
+      "sfx": "Code compilation success chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CTA_OUTRO",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY • VERIFIED",
+      "animation": "Cyan/violet pulsing brand radar with subscribe callout.",
+      "sfx": "Subtle branded audio riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

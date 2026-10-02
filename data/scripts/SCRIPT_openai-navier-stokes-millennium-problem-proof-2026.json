@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "openai-navier-stokes-millennium-problem-proof-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "OpenAI AI agents just formulated a proof for a Millennium Prize Problem.",
+  "spoken_script": "OpenAI AI agents just formulated a proof for a Millennium Prize Problem. OpenAI deployed an internal swarm of ten thousand reasoning agents over eighty-eight hours. The swarm constructed a finite-time blowup proof for the three-D Navier-Stokes fluid equations. It combines human-readable mathematical derivation with machine-checked Lean four formal code. The breakthrough is now undergoing external audit by global mathematicians. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "OpenAI AI agents just formulated a proof for a Millennium Prize Problem.",
+      "on_screen_text": "MILLENNIUM PROBLEM PROOF FOUND?",
+      "visual_intent": "Vortex turbulence equation in 3D space with high-contrast glowing mathematical singularity."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "SWARM_REASONING",
+      "voice": "OpenAI deployed an internal swarm of ten thousand reasoning agents over eighty-eight hours.",
+      "on_screen_text": "10,000 AGENTS • 88 HOURS",
+      "visual_intent": "Cluster network diagram of 10,000 parallel reasoning nodes executing multi-agent hypothesis evaluation."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "SINGULARITY_EXPLAINER",
+      "voice": "The swarm constructed a finite-time blowup proof for the three-D Navier-Stokes fluid equations.",
+      "on_screen_text": "3D FLUID BLOWUP PROOF",
+      "visual_intent": "3D fluid velocity vector field converging into a finite-time singularity point."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "LEAN4_FORMALIZATION",
+      "voice": "It combines human-readable mathematical derivation with machine-checked Lean four formal code. The breakthrough is now undergoing external audit by global mathematicians.",
+      "on_screen_text": "LEAN 4 MACHINE-CHECKED",
+      "visual_intent": "Split technical card showing Lean 4 code proof verification badge alongside mathematical peer review audit status."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}

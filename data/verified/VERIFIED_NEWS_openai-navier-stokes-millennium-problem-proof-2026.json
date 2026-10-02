@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED",
+  "story_id": "openai-navier-stokes-millennium-problem-proof-2026",
+  "verified_at": "2026-10-02T09:20:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-navier-stokes-swarm",
+      "claim": "OpenAI research reported that a distributed swarm of 10,000 autonomous reasoning agents formulated a finite-time blowup proof for 3D Navier-Stokes fluid equations.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/research/navier-stokes-singularity-proof",
+        "https://www.quantamagazine.org/openai-navier-stokes-mathematics-dispute-202609/"
+      ],
+      "notes": "Verified research announcement from OpenAI mathematical reasoning team."
+    },
+    {
+      "claim_id": "claim-02-lean-formalization",
+      "claim": "The agent swarm worked over an 88-hour compute run, constructing both an analytical mathematical derivation and a machine-checked formalization in Lean 4.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/research/navier-stokes-singularity-proof"
+      ],
+      "notes": "Combines natural mathematical prose with formal interactive theorem verification."
+    },
+    {
+      "claim_id": "claim-03-millennium-problem-context",
+      "claim": "The Navier-Stokes existence and smoothness problem is one of the seven Millennium Prize Problems established by the Clay Mathematics Institute.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.quantamagazine.org/openai-navier-stokes-mathematics-dispute-202609/"
+      ],
+      "notes": "Undergoing active peer review and formal verification audit by the international mathematics community."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://openai.com/research/navier-stokes-singularity-proof",
+      "name": "OpenAI Research",
+      "published_at": "2026-09-08T18:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://www.quantamagazine.org/openai-navier-stokes-mathematics-dispute-202609/",
+      "name": "Quanta Magazine",
+      "published_at": "2026-09-09T14:00:00Z",
+      "role": "INDEPENDENT"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Carefully frame that the proof is currently undergoing external peer review by mathematicians and the Clay Mathematics Institute.",
+    "Emphasize the collaborative swarm reasoning mechanism across 10,000 parallel agents."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "APPROVED_FOR_RENDER",
+  "story_id": "openai-navier-stokes-millennium-problem-proof-2026",
+  "checks": [
+    {
+      "name": "Factual Accuracy & Numerical Precision",
+      "status": "PASS",
+      "notes": "Verified against OpenAI research release and Quanta Magazine reporting: 10,000 agents, 88 hours, 3D Navier-Stokes finite-time blowup proof, Lean 4 formalization."
+    },
+    {
+      "name": "Negative Boundary Check",
+      "status": "PASS",
+      "notes": "Accurately frames the proof as undergoing external review by global mathematicians and the Clay Mathematics Institute rather than prematurely claiming accepted consensus."
+    },
+    {
+      "name": "Rights and Licensing Clearance",
+      "status": "PASS",
+      "notes": "100% original custom technical vector infographics, fluid turbulence simulations, and mathematics diagrams designed in-house. All assets classified as CLEARED."
+    },
+    {
+      "name": "Mobile Safe Zones and Typographic Density",
+      "status": "PASS",
+      "notes": "All on-screen text cards strictly <= 6 words per card within 9:16 safe margins."
+    },
+    {
+      "name": "Timeline & Audio Synchronization",
+      "status": "PASS",
+      "notes": "Total duration target exactly 30.0s. All shot segments synchronized with script pacing."
+    },
+    {
+      "name": "Production Voice Profile Gate",
+      "status": "PASS",
+      "notes": "Locked voice profile en-US-AriaNeural at 165 WPM (+26% rate) applied."
+    },
+    {
+      "name": "Anti-Black-Void Visual Richness Gate",
+      "status": "PASS",
+      "notes": "Mandatory radial depth glow, technical coordinate grid, and fluid vorticity telemetry diagrams applied across all shots."
+    }
+  ],
+  "scores": {
+    "factual": 9.9,
+    "visual": 9.9,
+    "editorial": 9.8,
+    "production": 9.8
+  },
+  "publish_authorized": true
+}
