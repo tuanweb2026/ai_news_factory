@@ -82,16 +82,16 @@ def main():
     # Sort records by published_at if available
     records.sort(key=lambda r: r["published_at"], reverse=True)
 
-    print(f"\n\033[1;32mTotal Videos Published on @lidoailab:\033[0m \033[1m{len(records)}\033[0m\n")
-    print(f"{'#':<3} | {'Status':<18} | {'Video ID':<13} | {'Published Date':<20} | {'Title'}")
-    print("-" * 105)
+    print(f"\n\033[1;32mTổng số Video đã phát hành trên @lidoailab:\033[0m \033[1m{len(records)}\033[0m\n")
+    print(f"{'STT':<4} | {'Trạng Thái':<18} | {'Video ID':<13} | {'Ngày Phát Hành':<20} | {'Tiêu Đề Video'}")
+    print("-" * 110)
     
     for idx, r in enumerate(records, 1):
         status = get_status_badge(r["privacy"])
         pub_time = r["published_at"][:19].replace("T", " ") if r["published_at"] != "N/A" else "N/A"
         title = r["title"][:50] + "..." if len(r["title"]) > 53 else r["title"]
-        print(f"{idx:<3} | {status:<27} | {r['video_id']:<13} | {pub_time:<20} | {title}")
-        print(f"    \033[90m↳ Shorts Link:\033[0m \033[4;34m{r['shorts_url']}\033[0m")
+        print(f"{idx:<4} | {status:<27} | {r['video_id']:<13} | {pub_time:<20} | {title}")
+        print(f"     \033[90m↳ Link Shorts:\033[0m \033[4;34m{r['shorts_url']}\033[0m")
         print()
 
     print("=" * 95)
