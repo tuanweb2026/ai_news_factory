@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "nvidia-acquires-hugging-face-12-9b-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "NVIDIA is acquiring Hugging Face for nearly thirteen billion dollars.",
+  "spoken_script": "NVIDIA is acquiring Hugging Face for nearly thirteen billion dollars. In a massive open-source AI consolidation, NVIDIA agreed to buy Hugging Face for twelve point nine billion dollars. Hugging Face currently hosts over one point five million open models and three hundred thousand datasets. NVIDIA committed to preserving compute neutrality, pledging continuous open support for AMD, Intel, and Apple Silicon. The home of open-source AI now joins the undisputed king of AI hardware. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "NVIDIA is acquiring Hugging Face for nearly thirteen billion dollars.",
+      "on_screen_text": "NVIDIA BUYS HUGGING FACE: $12.9B",
+      "visual_intent": "Massive merger graphic pairing NVIDIA green silicon typography with the iconic Hugging Face logo."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "COMMUNITY_SCALE",
+      "voice": "In a massive open-source AI consolidation, NVIDIA agreed to buy Hugging Face for twelve point nine billion dollars. Hugging Face currently hosts over one point five million open models and three hundred thousand datasets.",
+      "on_screen_text": "1.5M MODELS • 300K DATASETS",
+      "visual_intent": "Repository infographic showing 1.5M model repositories and open weights distributed across developers globally."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "NEUTRALITY_PLEDGE",
+      "voice": "NVIDIA committed to preserving compute neutrality, pledging continuous open support for AMD, Intel, and Apple Silicon.",
+      "on_screen_text": "COMPUTE NEUTRALITY PLEDGED",
+      "visual_intent": "Hardware neutrality shield illustrating open execution support across NVIDIA, AMD ROCm, Intel, and Apple chips."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "STRATEGIC_IMPACT",
+      "voice": "The home of open-source AI now joins the undisputed king of AI hardware.",
+      "on_screen_text": "SILICON MEETS OPEN WEIGHTS",
+      "visual_intent": "Full stack architecture schematic connecting silicon compute fabrics directly to open-source model distribution."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}

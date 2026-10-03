@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED",
+  "story_id": "nvidia-acquires-hugging-face-12-9b-2026",
+  "verified_at": "2026-10-04T06:55:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-nvidia-huggingface-deal",
+      "claim": "NVIDIA announced a definitive agreement to acquire Hugging Face for $12.9 billion in a major open-source AI infrastructure consolidation.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-hugging-face-acquisition-agreement",
+        "https://techcrunch.com/2026/09/03/nvidia-acquires-hugging-face-12-9-billion/"
+      ],
+      "notes": "Landmark acquisition bringing the primary open-source AI model hub under NVIDIA."
+    },
+    {
+      "claim_id": "claim-02-compute-neutrality-pledge",
+      "claim": "NVIDIA and Hugging Face leadership publicly committed to maintaining compute neutrality, preserving open support for AMD, Intel, Apple Silicon, and TPU hardware.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-hugging-face-acquisition-agreement"
+      ],
+      "notes": "Guarantees open-source developers continue using diverse compute backends."
+    },
+    {
+      "claim_id": "claim-03-community-scale",
+      "claim": "Hugging Face hosts over 1.5 million open models, 300,000 datasets, and serves tens of millions of developers worldwide.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://techcrunch.com/2026/09/03/nvidia-acquires-hugging-face-12-9-billion/"
+      ],
+      "notes": "Underscores strategic gravity for open-source AI deployment."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-hugging-face-acquisition-agreement",
+      "name": "NVIDIA Newsroom",
+      "published_at": "2026-09-03T13:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/03/nvidia-acquires-hugging-face-12-9-billion/",
+      "name": "TechCrunch",
+      "published_at": "2026-09-03T14:30:00Z",
+      "role": "SECONDARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Focus on the compute neutrality commitment and what this means for open-source AI community.",
+    "Present both developer opportunities and ecosystem consolidation debates."
+  ]
+}

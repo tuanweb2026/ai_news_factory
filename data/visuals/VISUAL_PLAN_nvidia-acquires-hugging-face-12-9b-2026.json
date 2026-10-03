@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "nvidia-acquires-hugging-face-12-9b-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "ACQUISITION_HEADLINE_HERO",
+      "visual_goal": "Hero merger card pairing NVIDIA green silicon typography with Hugging Face yellow branding.",
+      "text": "NVIDIA BUYS HUGGING FACE: $12.9B",
+      "animation": "NVIDIA silicon die texture seamlessly meshes with the open-source community emblem.",
+      "sfx": "Deep digital brass hit.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "REPOSITORY_METRICS",
+      "visual_goal": "Telemetry cards showing 1.5M models, 300K datasets, and tens of millions of developers.",
+      "text": "1.5M MODELS • 300K DATASETS",
+      "animation": "Global open model distribution nodes illuminating across a planetary network.",
+      "sfx": "Data telemetry stream audio.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "COMPUTE_NEUTRALITY_SHIELD",
+      "visual_goal": "Neutrality matrix diagram displaying open execution across AMD ROCm, Intel, Apple Silicon, and NVIDIA CUDA.",
+      "text": "COMPUTE NEUTRALITY PLEDGED",
+      "animation": "Multi-hardware compatibility shield locking into place with green verified indicators.",
+      "sfx": "Hardware lock confirm chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "FULL_STACK_INTEGRATION",
+      "visual_goal": "Full-stack architectural pyramid: Silicon GPUs -> CUDA / TensorRT -> Hugging Face Models -> Enterprise Agents.",
+      "text": "SILICON MEETS OPEN WEIGHTS",
+      "animation": "Stack layers illuminate sequentially from bare metal silicon to open model weights.",
+      "sfx": "Ascending power frequency chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CTA_OUTRO",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY • VERIFIED",
+      "animation": "Cyan/violet pulsing brand radar with subscribe callout.",
+      "sfx": "Branded audio riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}
