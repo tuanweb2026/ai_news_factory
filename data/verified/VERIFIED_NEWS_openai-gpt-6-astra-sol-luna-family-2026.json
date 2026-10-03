@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED",
+  "story_id": "openai-gpt-6-astra-sol-luna-family-2026",
+  "verified_at": "2026-10-03T12:50:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-sol-luna-launch",
+      "claim": "OpenAI expanded its GPT-6 model tier by announcing GPT-6 Sol and GPT-6 Luna, purpose-built for low-latency agentic computer and browser execution.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/index/gpt-6-sol-and-luna/",
+        "https://techcrunch.com/2026/09/23/openai-gpt6-sol-luna/"
+      ],
+      "notes": "Official OpenAI product launch expanding the GPT-6 architecture family."
+    },
+    {
+      "claim_id": "claim-02-cost-efficiency-and-speed",
+      "claim": "GPT-6 Sol delivers 4x faster token throughput and a 65% cost reduction compared to GPT-6 Astra for repetitive desktop workflow automation.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/index/gpt-6-sol-and-luna/"
+      ],
+      "notes": "Verified against official OpenAI benchmark report."
+    },
+    {
+      "claim_id": "claim-03-luna-edge-variant",
+      "claim": "GPT-6 Luna is an on-device quantized model running locally on desktop NPUs for instant UI perception without transmitting screenshots to cloud servers.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/index/gpt-6-sol-and-luna/",
+        "https://techcrunch.com/2026/09/23/openai-gpt6-sol-luna/"
+      ],
+      "notes": "Ensures local data sovereignty and ultra-low UI latency."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://openai.com/index/gpt-6-sol-and-luna/",
+      "name": "OpenAI Product Announcement",
+      "published_at": "2026-09-23T18:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/23/openai-gpt6-sol-luna/",
+      "name": "TechCrunch",
+      "published_at": "2026-09-23T19:30:00Z",
+      "role": "SECONDARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Highlight the distinct roles of Sol (cloud high-speed agent) vs Luna (on-device local UI agent).",
+    "Emphasize the practical reduction in cost and latency for autonomous computer use."
+  ]
+}

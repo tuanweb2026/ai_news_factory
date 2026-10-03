@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "openai-gpt-6-astra-sol-luna-family-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "OpenAI just expanded GPT-6 with two specialized agent models.",
+  "spoken_script": "OpenAI just expanded GPT-6 with two specialized agent models. Meet GPT-6 Sol and Luna, designed specifically for autonomous computer use. Sol delivers four times faster token speed with sixty-five percent lower cost for enterprise workflows. Meanwhile, Luna runs locally on desktop NPUs, parsing computer screens in real time without sending private data to cloud servers. Autonomous agents just got faster, cheaper, and private. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "OpenAI just expanded GPT-6 with two specialized agent models.",
+      "on_screen_text": "GPT-6 SOL & LUNA UNVEILED",
+      "visual_intent": "Futuristic dual model card showing the glowing architectural family expansion of OpenAI GPT-6."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "MEET_SOL_AND_LUNA",
+      "voice": "Meet GPT-6 Sol and Luna, designed specifically for autonomous computer use.",
+      "on_screen_text": "PURPOSE-BUILT FOR AGENTS",
+      "visual_intent": "Computer-use UI diagram illustrating autonomous browser navigation and OS control loops."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "SOL_EFFICIENCY_BENCHMARK",
+      "voice": "Sol delivers four times faster token speed with sixty-five percent lower cost for enterprise workflows.",
+      "on_screen_text": "4X FASTER • 65% CHEAPER",
+      "visual_intent": "Side-by-side benchmark comparison cards highlighting throughput velocity and cost reduction."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "LUNA_ON_DEVICE_PRIVACY",
+      "voice": "Meanwhile, Luna runs locally on desktop NPUs, parsing computer screens in real time without sending private data to cloud servers. Autonomous agents just got faster, cheaper, and private.",
+      "on_screen_text": "ON-DEVICE NPU • ZERO DATA LEAK",
+      "visual_intent": "Chip architecture schematic showing local desktop NPU vision processing isolated from cloud networks."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}

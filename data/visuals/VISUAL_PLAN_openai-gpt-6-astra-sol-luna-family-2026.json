@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "openai-gpt-6-astra-sol-luna-family-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "FAMILY_EXPANSION_HERO",
+      "visual_goal": "Hero card showing the GPT-6 architecture branching into Sol and Luna models.",
+      "text": "GPT-6 SOL & LUNA UNVEILED",
+      "animation": "GPT-6 core neural hub radiates dual energy beams into Sol (speed) and Luna (local NPU).",
+      "sfx": "Digital energy pulse riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "COMPUTER_USE_INTERFACE",
+      "visual_goal": "Desktop OS control frame showing autonomous mouse pointer, browser DOM actions, and terminal tasks.",
+      "text": "PURPOSE-BUILT FOR AGENTS",
+      "animation": "Action vector tracks clicking buttons and submitting forms at high speed.",
+      "sfx": "Subtle UI interaction clicks.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "SPEED_COST_BENCHMARK",
+      "visual_goal": "Bar graphs comparing token throughput (4x) and API inference cost (-65%) against GPT-6 Astra.",
+      "text": "4X FASTER • 65% CHEAPER",
+      "animation": "Performance telemetry bar leaps to 400% while cost meter drops down to 35%.",
+      "sfx": "Benchmark meter ding.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "ON_DEVICE_NPU_PRIVACY",
+      "visual_goal": "Diagram showing silicon NPU die processing screen pixels locally with encrypted air-gap shield.",
+      "text": "ON-DEVICE NPU • ZERO DATA LEAK",
+      "animation": "Screen frames feed into local NPU chip while cloud outbound network remains 100% blocked.",
+      "sfx": "Hardware lock confirm chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CTA_OUTRO",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY • VERIFIED",
+      "animation": "Cyan/violet pulsing brand radar with subscribe callout.",
+      "sfx": "Branded audio riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}
