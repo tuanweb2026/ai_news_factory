@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED",
+  "story_id": "google-gemini-4-argon-1m-token-output-cybersecurity-2026",
+  "verified_at": "2026-10-05T15:34:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-gemini-4-argon-announcement",
+      "claim": "Google announced Gemini 4 Argon, a frontier reasoning AI model tailored for complex long-horizon software engineering and defensive cybersecurity.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://blog.google/technology/ai/gemini-4-argon-release/",
+        "https://engadget.com/ai/google-gemini-4-argon-cybersecurity-1m-output/"
+      ],
+      "notes": "Official Google DeepMind / Google AI frontier model announcement."
+    },
+    {
+      "claim_id": "claim-02-1m-token-output-limit",
+      "claim": "Gemini 4 Argon expands the single-response output generation ceiling to 1,000,000 tokens, a massive leap from the previous 64,000-token industry limit.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://blog.google/technology/ai/gemini-4-argon-release/"
+      ],
+      "notes": "Enables uninterrupted autonomous multi-step execution across large codebases without prompt fragmentation."
+    },
+    {
+      "claim_id": "claim-03-fairwind-cybersecurity-deployment",
+      "claim": "The model is deployed to trusted infrastructure defenders and government partners via Google's Fairwind Program to autonomously find, validate, and patch critical zero-day software vulnerabilities.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://engadget.com/ai/google-gemini-4-argon-cybersecurity-1m-output/"
+      ],
+      "notes": "High-impact defensive cyber capability under controlled partnership access."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://blog.google/technology/ai/gemini-4-argon-release/",
+      "name": "Google Official Blog",
+      "published_at": "2026-09-30T17:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://engadget.com/ai/google-gemini-4-argon-cybersecurity-1m-output/",
+      "name": "Engadget",
+      "published_at": "2026-09-30T18:00:00Z",
+      "role": "SECONDARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Clarify that 1M tokens refers to maximum single OUTPUT generation capacity, not just input context window.",
+    "Highlight its defensive focus in Google's Fairwind Program."
+  ]
+}

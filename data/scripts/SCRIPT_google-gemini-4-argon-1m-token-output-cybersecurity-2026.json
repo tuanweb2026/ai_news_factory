@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "google-gemini-4-argon-1m-token-output-cybersecurity-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Google just broke the output limit of artificial intelligence.",
+  "spoken_script": "Google just broke the output limit of artificial intelligence. Google officially launched Gemini 4 Argon, featuring an unprecedented one-million-token output limit. Instead of stopping at sixty-four thousand tokens, Argon can write entire operating systems and refactor enterprise codebases in a single continuous response. Deployed in the Fairwind Program, it autonomously discovers and patches zero-day vulnerabilities in critical infrastructure. The bottleneck on long-horizon reasoning has vanished. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "Google just broke the output limit of artificial intelligence.",
+      "on_screen_text": "1,000,000 TOKEN OUTPUT UNLOCKED",
+      "visual_intent": "Explosive technical telemetry card revealing Gemini 4 Argon breaking through the 64k token barrier into 1M tokens."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "MEET_GEMINI_4_ARGON",
+      "voice": "Google officially launched Gemini 4 Argon, featuring an unprecedented one-million-token output limit.",
+      "on_screen_text": "GEMINI 4 ARGON LAUNCHED",
+      "visual_intent": "Google DeepMind blue and cyan neural architecture card showing continuous long-horizon generative streams."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "OUTPUT_SCALE_COMPARISON",
+      "voice": "Instead of stopping at sixty-four thousand tokens, Argon can write entire operating systems and refactor enterprise codebases in a single continuous response.",
+      "on_screen_text": "64K vs 1,000,000 TOKENS",
+      "visual_intent": "Comparison diagram showing legacy 64k token cutoff vs endless 1M token code generation."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "FAIRWIND_CYBER_DEFENSE",
+      "voice": "Deployed in the Fairwind Program, it autonomously discovers and patches zero-day vulnerabilities in critical infrastructure. The bottleneck on long-horizon reasoning has vanished.",
+      "on_screen_text": "FAIRWIND CYBER DEFENSE",
+      "visual_intent": "Cybersecurity radar scanning source code and executing automated zero-day vulnerability patch loops."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}
