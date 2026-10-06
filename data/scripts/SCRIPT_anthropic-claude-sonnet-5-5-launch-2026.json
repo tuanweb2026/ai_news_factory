@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-sonnet-5-5-launch-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Anthropic just made Claude Sonnet faster, smarter, and cheaper.",
+  "spoken_script": "Anthropic just made Claude Sonnet faster, smarter, and cheaper. Anthropic launched Claude Sonnet 5.5, the new frontier daily workhorse for developers. It features a massive one-million-token context window, one-hundred-twenty-eight-k output tokens, and thirty percent faster generation. On Terminal-Bench four-point-zero, it scored seventy point six percent, outperforming prior models on agentic coding while keeping pricing at two dollars per million tokens. The developer daily driver just got supercharged. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "Anthropic just made Claude Sonnet faster, smarter, and cheaper.",
+      "on_screen_text": "CLAUDE SONNET 5.5 UNVEILED",
+      "visual_intent": "Luminous Anthropic terra-cotta branding card revealing the Claude Sonnet 5.5 release."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "SPEED_AND_SPECS",
+      "voice": "Anthropic launched Claude Sonnet 5.5, the new frontier daily workhorse for developers. It features a massive one-million-token context window, one-hundred-twenty-eight-k output tokens, and thirty percent faster generation.",
+      "on_screen_text": "1M CONTEXT • +30% SPEED",
+      "visual_intent": "Architecture telemetry card showing 1M context memory buffer and high-speed token generation stream."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "BENCHMARK_RECORD",
+      "voice": "On Terminal-Bench four-point-zero, it scored seventy point six percent, outperforming prior models on agentic coding while keeping pricing at two dollars per million tokens.",
+      "on_screen_text": "70.6% TERMINAL-BENCH RECORD",
+      "visual_intent": "Comparison bar chart highlighting 70.6% on Terminal-Bench 4.0 and 80.1% on OSWorld 2.1 computer use."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "DEVELOPER_IMPACT",
+      "voice": "The developer daily driver just got supercharged.",
+      "on_screen_text": "THE ULTIMATE AGENT DRIVER",
+      "visual_intent": "Multi-IDE code agent executing automated terminal shell commands, git commits, and bug fixes."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}

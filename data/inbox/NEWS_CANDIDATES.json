@@ -287,6 +287,32 @@
         "source_quality": 9.9
       },
       "why_it_matters": "Increases output generation limit from 64k to 1M tokens in a single response, enabling end-to-end autonomous vulnerability patching and massive software refactoring."
+    },
+    {
+      "story_id": "anthropic-claude-sonnet-5-5-launch-2026",
+      "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench with 1M Context",
+      "summary": "Anthropic announced Claude Sonnet 5.5, introducing 30% faster generation speeds, 128k output tokens, 1M context window, and hitting a record 70.6% score on Terminal-Bench 4.0 for agentic software engineering.",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/claude-sonnet-5-5",
+          "name": "Anthropic Official Announcement",
+          "type": "primary"
+        },
+        {
+          "url": "https://venturebeat.com/ai/anthropic-unveils-claude-sonnet-5-5-agentic-benchmarks/",
+          "name": "VentureBeat",
+          "type": "secondary"
+        }
+      ],
+      "published_at": "2026-09-28T16:00:00Z",
+      "scores": {
+        "freshness": 9.7,
+        "importance": 9.6,
+        "novelty": 9.4,
+        "visual_explainability": 9.5,
+        "source_quality": 9.9
+      },
+      "why_it_matters": "Outperforms prior models on agentic terminal coding (70.6% on Terminal-Bench 4.0) at $2/1M input price point, making frontier agent workflows highly affordable."
     }
   ]
 }

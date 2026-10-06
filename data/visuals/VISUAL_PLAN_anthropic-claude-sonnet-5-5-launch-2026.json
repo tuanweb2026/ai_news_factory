@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "anthropic-claude-sonnet-5-5-launch-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "ANTHROPIC_HERO_ANNOUNCEMENT",
+      "visual_goal": "Anthropic Claude Sonnet 5.5 hero card with warm coral/terra-cotta accents and sleek dark backdrop.",
+      "text": "CLAUDE SONNET 5.5 UNVEILED",
+      "animation": "Claude badge illuminates with expanding neural ripples.",
+      "sfx": "Digital energy surge chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "SPEC_TELEMETRY_CARD",
+      "visual_goal": "Telemetry cards highlighting 1,000,000 context tokens, 128k output tokens, and 30% speed boost.",
+      "text": "1M CONTEXT • +30% SPEED",
+      "animation": "Speed meter dials accelerate to +30% while memory buffer expands to 1M.",
+      "sfx": "Telemetry stream audio.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "BENCHMARK_CHART",
+      "visual_goal": "Bar graph showcasing 70.6% on Terminal-Bench 4.0 and 80.1% on OSWorld 2.1.",
+      "text": "70.6% TERMINAL-BENCH RECORD",
+      "animation": "Benchmark bars surge to the top of the chart with green verified checkmarks.",
+      "sfx": "Benchmark meter ding.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "AGENTIC_CODING_ENVIRONMENT",
+      "visual_goal": "Code editor split-screen showing automated terminal shell execution and instant pull request creation.",
+      "text": "THE ULTIMATE AGENT DRIVER",
+      "animation": "Terminal commands run at rapid speeds with zero errors.",
+      "sfx": "Terminal keystroke burst.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CTA_OUTRO",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY • VERIFIED",
+      "animation": "Cyan/violet pulsing brand radar with subscribe callout.",
+      "sfx": "Branded audio riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

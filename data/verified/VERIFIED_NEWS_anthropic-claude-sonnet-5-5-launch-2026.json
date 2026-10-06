@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED",
+  "story_id": "anthropic-claude-sonnet-5-5-launch-2026",
+  "verified_at": "2026-10-06T11:37:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-sonnet-5-5-release",
+      "claim": "Anthropic officially launched Claude Sonnet 5.5, engineered as a high-speed frontier workhorse with a 1-million-token context window and 128,000-token max output limit.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/news/claude-sonnet-5-5",
+        "https://venturebeat.com/ai/anthropic-unveils-claude-sonnet-5-5-agentic-benchmarks/"
+      ],
+      "notes": "Official release across Anthropic API, Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Azure."
+    },
+    {
+      "claim_id": "claim-02-terminal-bench-record",
+      "claim": "Claude Sonnet 5.5 achieved a record 70.6% on Terminal-Bench 4.0 for agentic coding and 80.1% on OSWorld 2.1 for autonomous computer use.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/news/claude-sonnet-5-5"
+      ],
+      "notes": "Significant generational leap over previous Sonnet models in autonomous execution."
+    },
+    {
+      "claim_id": "claim-03-speed-and-pricing",
+      "claim": "The model generates output over 30% faster than Sonnet 5 while preserving pricing at $2 per million input tokens and $10 per million output tokens.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://www.anthropic.com/news/claude-sonnet-5-5"
+      ],
+      "notes": "Provides top-tier agentic capability at accessible mid-tier API cost."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/news/claude-sonnet-5-5",
+      "name": "Anthropic Official Announcement",
+      "published_at": "2026-09-28T16:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://venturebeat.com/ai/anthropic-unveils-claude-sonnet-5-5-agentic-benchmarks/",
+      "name": "VentureBeat",
+      "published_at": "2026-09-28T17:30:00Z",
+      "role": "SECONDARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Differentiate Sonnet 5.5 (high-speed daily driver agent) from flagship Opus 5.5 (complex multi-agent orchestration).",
+    "Highlight the 70.6% Terminal-Bench 4.0 score and 128k output limit."
+  ]
+}
