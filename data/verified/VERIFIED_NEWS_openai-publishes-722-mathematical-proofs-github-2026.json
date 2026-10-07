@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED",
+  "story_id": "openai-publishes-722-mathematical-proofs-github-2026",
+  "verified_at": "2026-10-07T22:04:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-722-manuscripts-released",
+      "claim": "OpenAI officially published 722 AI-generated mathematical research manuscripts on public GitHub repository (openai/math), organized into 372 distinct families of results.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/research/722-mathematical-manuscripts",
+        "https://unite.ai/openai-722-mathematical-proofs-github/"
+      ],
+      "notes": "Covers number theory, algebraic geometry, theoretical computer science, and mathematical physics."
+    },
+    {
+      "claim_id": "claim-02-lean-formalization",
+      "claim": "The release includes computer-verified Lean code formalizations for many manuscripts, allowing mathematical kernels to independently verify proofs.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/research/722-mathematical-manuscripts"
+      ],
+      "notes": "Consulted with Institute for Advanced Study mathematics advisory group."
+    },
+    {
+      "claim_id": "claim-03-compute-and-altman-quote",
+      "claim": "OpenAI stated each result required roughly 3 hours of frontier model reasoning compute, prompting CEO Sam Altman to declare the dawn of a new era of scientific discovery.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://openai.com/research/722-mathematical-manuscripts",
+        "https://unite.ai/openai-722-mathematical-proofs-github/"
+      ],
+      "notes": "Represents mass-scale autonomous research exploration."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://openai.com/research/722-mathematical-manuscripts",
+      "name": "OpenAI Research",
+      "published_at": "2026-10-06T18:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://unite.ai/openai-722-mathematical-proofs-github/",
+      "name": "Unite.AI",
+      "published_at": "2026-10-06T19:30:00Z",
+      "role": "SECONDARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Note that manuscripts are in varying stages of peer review and formal Lean check.",
+    "Highlight the immense volume: 722 manuscripts across 372 mathematical families."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "openai-publishes-722-mathematical-proofs-github-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "GITHUB_RELEASE_HERO",
+      "visual_goal": "Hero card showing the openai/math public GitHub repository releasing 722 AI-generated manuscripts.",
+      "text": "722 AI MATH DISCOVERIES DROPPED",
+      "animation": "GitHub commit graph lights up with hundreds of verified manuscript trees.",
+      "sfx": "Digital energy pulse riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "DISCIPLINE_TAXONOMY",
+      "visual_goal": "Mathematical tree diagram showing 372 families across Number Theory, Geometry, and Physics.",
+      "text": "372 MATHEMATICAL FAMILIES",
+      "animation": "Network topology nodes expand across disciplines with glowing equations.",
+      "sfx": "Data telemetry stream audio.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "REASONING_AND_LEAN_CARD",
+      "visual_goal": "Split card: 3-hour reasoning compute meter vs Lean 4 interactive theorem prover checking syntax.",
+      "text": "3 HRS REASONING • LEAN VERIFIED",
+      "animation": "Compute dials peak at 3.0h while Lean compiler checks complete with green pass symbols.",
+      "sfx": "Theorem verified chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "SCIENTIFIC_FRONTIER_VISION",
+      "visual_goal": "Vision card representing autonomous AI accelerating human scientific discovery by decades.",
+      "text": "NEW ERA OF DISCOVERY",
+      "animation": "Abstract mathematical manifolds evolve dynamically in multi-dimensional space.",
+      "sfx": "Deep resonant scientific riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CTA_OUTRO",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY • VERIFIED",
+      "animation": "Cyan/violet pulsing brand radar with subscribe callout.",
+      "sfx": "Branded audio riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

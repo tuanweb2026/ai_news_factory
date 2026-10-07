@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "openai-publishes-722-mathematical-proofs-github-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "OpenAI just dropped seven hundred mathematical discoveries on GitHub.",
+  "spoken_script": "OpenAI just dropped seven hundred mathematical discoveries on GitHub. In an unprecedented move, OpenAI published seven hundred twenty-two AI-generated research manuscripts across three hundred seventy-two mathematical families. An unreleased internal reasoning model solved open problems across number theory, geometry, and physics, using three hours of reasoning compute per proof. Many proofs are paired with machine-verified Lean code. Sam Altman called it a new era of discovery. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "OpenAI just dropped seven hundred mathematical discoveries on GitHub.",
+      "on_screen_text": "722 AI MATH DISCOVERIES DROPPED",
+      "visual_intent": "Hero visual showing GitHub repository openai/math overflowing with 722 glowing mathematical manuscripts."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "MASSIVE_VOLUME",
+      "voice": "In an unprecedented move, OpenAI published seven hundred twenty-two AI-generated research manuscripts across three hundred seventy-two mathematical families.",
+      "on_screen_text": "372 MATHEMATICAL FAMILIES",
+      "visual_intent": "Infographic breaking down disciplines: Number Theory, Algebraic Geometry, Topology, and Theoretical Physics."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "COMPUTE_AND_LEAN_VERIFICATION",
+      "voice": "An unreleased internal reasoning model solved open problems across number theory, geometry, and physics, using three hours of reasoning compute per proof. Many proofs are paired with machine-verified Lean code.",
+      "on_screen_text": "3 HRS REASONING • LEAN VERIFIED",
+      "visual_intent": "Split telemetry card displaying 3 hours of test-time compute alongside interactive Lean kernel code checking."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "SCIENTIFIC_ERA",
+      "voice": "Sam Altman called it a new era of discovery.",
+      "on_screen_text": "NEW ERA OF DISCOVERY",
+      "visual_intent": "Scientific timeline transitioning from human mathematician chalkboards to autonomous AI research clusters."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}
