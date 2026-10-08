@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "story_id": "meta-sierra-personal-agent-protocol-2026",
+  "style_bible_version": "1.0",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "shot_type": "PROTOCOL_LAUNCH_HERO",
+      "visual_goal": "Hero card revealing the Personal Agent Protocol with stylized cryptographic key handshake.",
+      "text": "PERSONAL AGENT PROTOCOL LAUNCHED",
+      "animation": "Meta blue and Sierra purple gradients converge with an OAuth security lock icon.",
+      "sfx": "Digital energy surge chime.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "shot_type": "HANDSHAKE_ARCHITECTURE",
+      "visual_goal": "Technical workflow comparing fragile DOM web scraping vs structured OAuth JSON-RPC protocol.",
+      "text": "OAUTH HANDSHAKE • NO SCRAPING",
+      "animation": "Red scraping error symbols cross out, replaced by green authenticated token streams.",
+      "sfx": "Authentication success ping.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "shot_type": "SCOPE_CONTROL_MATRIX",
+      "visual_goal": "Permission scope cards: Read-only inventory browsing vs Write-enabled instant checkout.",
+      "text": "GRANULAR ACCESS CONTROLS",
+      "animation": "Permission scope toggles slide into place with cryptographic user authorization stamps.",
+      "sfx": "UI switch clicks.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "shot_type": "COMMERCE_ECOSYSTEM_GRID",
+      "visual_goal": "Commerce coalition map connecting Walmart retail, Shopify storefronts, and Stripe payment rails.",
+      "text": "WALMART • SHOPIFY • STRIPE",
+      "animation": "Protocol conduits connect enterprise logos into a unified commercial agent web.",
+      "sfx": "Network link telemetry hum.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "shot_type": "CTA_OUTRO",
+      "visual_goal": "Official AI News Factory verified badge with daily technical intelligence pulse ring.",
+      "text": "AI NEWS FACTORY • VERIFIED",
+      "animation": "Cyan/violet pulsing brand radar with subscribe callout.",
+      "sfx": "Branded audio riser.",
+      "asset_plan": [
+        {
+          "asset_type": "ORIGINAL_VECTOR_DIAGRAM",
+          "rights_status": "CLEARED",
+          "attribution": "AI News Factory Original"
+        }
+      ]
+    }
+  ]
+}

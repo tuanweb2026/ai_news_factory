@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED",
+  "story_id": "meta-sierra-personal-agent-protocol-2026",
+  "verified_at": "2026-10-08T19:55:00+07:00",
+  "claims": [
+    {
+      "claim_id": "claim-01-pap-protocol-announcement",
+      "claim": "Meta and Sierra announced the Personal Agent Protocol (PAP), an open authorization standard designed to govern how autonomous personal AI agents interact with online businesses.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://about.fb.com/news/2026/10/personal-agent-protocol-announcement/",
+        "https://techcrunch.com/2026/10/06/meta-sierra-personal-agent-protocol-standard/"
+      ],
+      "notes": "Solves chaotic web scraping by establishing structured agent-to-business handshakes."
+    },
+    {
+      "claim_id": "claim-02-oauth-technical-foundation",
+      "claim": "The protocol is built on open OAuth standards, enabling granular user permission levels from read-only product queries to authorized write actions like commerce transactions.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://techcrunch.com/2026/10/06/meta-sierra-personal-agent-protocol-standard/"
+      ],
+      "notes": "Provides session-based secure cryptographic authorization."
+    },
+    {
+      "claim_id": "claim-03-founding-industry-partners",
+      "claim": "The founding coalition includes global retail and commerce giants Walmart, Shopify, and Stripe, alongside enterprise platforms Genesys and Decagon.",
+      "status": "SUPPORTED",
+      "confidence": 1.0,
+      "sources": [
+        "https://about.fb.com/news/2026/10/personal-agent-protocol-announcement/",
+        "https://techcrunch.com/2026/10/06/meta-sierra-personal-agent-protocol-standard/"
+      ],
+      "notes": "Ensures massive commercial adoption across payment gateways and online storefronts."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://about.fb.com/news/2026/10/personal-agent-protocol-announcement/",
+      "name": "Meta Newsroom",
+      "published_at": "2026-10-06T14:00:00Z",
+      "role": "PRIMARY"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/06/meta-sierra-personal-agent-protocol-standard/",
+      "name": "TechCrunch",
+      "published_at": "2026-10-06T15:30:00Z",
+      "role": "SECONDARY"
+    }
+  ],
+  "uncertainties": [],
+  "editorial_cautions": [
+    "Clarify that PAP v0.1 focuses on identity & authentication before full payment orchestration rollout.",
+    "Highlight the backing of major commerce titans: Walmart, Shopify, and Stripe."
+  ]
+}

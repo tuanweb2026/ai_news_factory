@@ -339,6 +339,32 @@
         "source_quality": 9.9
       },
       "why_it_matters": "Marks an unprecedented wave of autonomous mathematical discoveries across number theory, geometry, and physics, paired with machine-checked Lean formal proofs."
+    },
+    {
+      "story_id": "meta-sierra-personal-agent-protocol-2026",
+      "title": "Meta and Sierra Unveil Personal Agent Protocol: Open Standard for Autonomous Agents",
+      "summary": "Meta and enterprise AI platform Sierra launched the Personal Agent Protocol (PAP) built on OAuth, creating an open authentication handshake for autonomous personal agents with partners including Walmart, Shopify, and Stripe.",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2026/10/personal-agent-protocol-announcement/",
+          "name": "Meta Newsroom",
+          "type": "primary"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/06/meta-sierra-personal-agent-protocol-standard/",
+          "name": "TechCrunch",
+          "type": "secondary"
+        }
+      ],
+      "published_at": "2026-10-06T14:00:00Z",
+      "scores": {
+        "freshness": 9.8,
+        "importance": 9.7,
+        "novelty": 9.6,
+        "visual_explainability": 9.5,
+        "source_quality": 9.8
+      },
+      "why_it_matters": "Establishes the foundational internet protocol for AI agents to securely authenticate with businesses and make purchases, backed by Walmart, Shopify, and Stripe."
     }
   ]
 }

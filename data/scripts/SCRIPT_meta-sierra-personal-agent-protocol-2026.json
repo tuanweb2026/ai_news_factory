@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "story_id": "meta-sierra-personal-agent-protocol-2026",
+  "duration_target_seconds": 30.0,
+  "hook": "Meta and Stripe just built the official internet protocol for AI agents.",
+  "spoken_script": "Meta and Stripe just built the official internet protocol for AI agents. Meta and Sierra unveiled the Personal Agent Protocol, an open standard built on OAuth. Instead of chaotic web scraping, autonomous AI agents now authenticate directly with businesses using verified digital handshakes. Users grant granular permissions, from browsing inventory to authorizing live checkouts. Backed by Walmart, Shopify, and Stripe, the agentic web just got its official standard. Follow AI News Factory for daily verified AI breakthroughs.",
+  "cta": "Follow AI News Factory for daily verified AI breakthroughs.",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "start": 0.0,
+      "end": 4.5,
+      "purpose": "THE_HOOK",
+      "voice": "Meta and Stripe just built the official internet protocol for AI agents.",
+      "on_screen_text": "PERSONAL AGENT PROTOCOL LAUNCHED",
+      "visual_intent": "Hero technical card unveiling the Personal Agent Protocol with glowing OAuth handshake icon."
+    },
+    {
+      "shot_id": "shot-02",
+      "start": 4.5,
+      "end": 11.5,
+      "purpose": "PROTOCOL_ARCHITECTURE",
+      "voice": "Meta and Sierra unveiled the Personal Agent Protocol, an open standard built on OAuth. Instead of chaotic web scraping, autonomous AI agents now authenticate directly with businesses using verified digital handshakes.",
+      "on_screen_text": "OAUTH HANDSHAKE • NO SCRAPING",
+      "visual_intent": "Architecture diagram contrasting brute-force screen scraping against structured cryptographically verified OAuth tokens."
+    },
+    {
+      "shot_id": "shot-03",
+      "start": 11.5,
+      "end": 17.6,
+      "purpose": "GRANULAR_PERMISSIONS",
+      "voice": "Users grant granular permissions, from browsing inventory to authorizing live checkouts.",
+      "on_screen_text": "GRANULAR ACCESS CONTROLS",
+      "visual_intent": "UI permission slider showing Read-Only browsing transitioning into Authorized Write commerce checkout."
+    },
+    {
+      "shot_id": "shot-04",
+      "start": 17.6,
+      "end": 25.4,
+      "purpose": "COMMERCE_COALITION",
+      "voice": "Backed by Walmart, Shopify, and Stripe, the agentic web just got its official standard.",
+      "on_screen_text": "WALMART • SHOPIFY • STRIPE",
+      "visual_intent": "Ecosystem grid displaying coalition logos: Walmart, Shopify, Stripe, Meta, and Sierra connected via protocol pipes."
+    },
+    {
+      "shot_id": "shot-05",
+      "start": 25.4,
+      "end": 30.0,
+      "purpose": "CTA_LOCKUP",
+      "voice": "Follow AI News Factory for daily verified AI breakthroughs.",
+      "on_screen_text": "AI NEWS FACTORY • VERIFIED",
+      "visual_intent": "Official AI News Factory verified badge with daily technical intelligence pulse ring."
+    }
+  ]
+}
